@@ -1,0 +1,129 @@
+{
+  "source": "https://spaceeye.si-imaging.com/search",
+  "retrieved": "2026-11-23",
+  "bounds_wgs84_west_south_east_north": [
+    31.12,
+    29.96,
+    31.15,
+    29.99
+  ],
+  "products": [
+    {
+      "scene_id": "K5_20240109034504_012122_57009_A_ES04_HH_L1A",
+      "mode": "ES",
+      "level": "L1A",
+      "acquisition_start": "2024-01-09T03:45:04Z",
+      "acquisition_end": "2024-01-09T03:45:45Z",
+      "footprint_wkt": "POLYGON ((30.95147 30.17681, 31.01387 29.90466, 31.34702 29.95926, 31.28485 30.23131, 30.95147 30.17681))",
+      "browse_url": "https://ksatdb.kari.re.kr/catalog/KOMPSAT5/Browse/57000/57009/K5_20240109034504_012122_57009_A_ES04_HH_SCS_B_L1A_br.jpg"
+    },
+    {
+      "scene_id": "K5_20220722035605_008106_48950_A_ES15_HH_L1A",
+      "mode": "ES",
+      "level": "L1A",
+      "acquisition_start": "2022-07-22T03:56:05Z",
+      "acquisition_end": "2022-07-22T03:56:18Z",
+      "footprint_wkt": "POLYGON ((30.83456 29.92757, 30.88533 29.65402, 31.19496 29.69764, 31.1443 29.97101, 30.83456 29.92757))",
+      "browse_url": "https://ksatdb.kari.re.kr/catalog/KOMPSAT5/Browse/48900/48950/K5_20220722035605_008106_48950_A_ES15_HH_SCS_B_L1A_br.jpg"
+    },
+    {
+      "scene_id": "K5_20200506033457_000010_36816_A_ES01_HH_L1A",
+      "mode": "ES",
+      "level": "L1A",
+      "acquisition_start": "2020-05-06T03:34:57Z",
+      "acquisition_end": "2020-05-06T03:35:18Z",
+      "footprint_wkt": "POLYGON ((31.06799 30.0939, 31.13297 29.82214, 31.47158 29.87971, 31.40352 30.15084, 31.06799 30.0939))",
+      "browse_url": "https://ksatdb.kari.re.kr/catalog/KOMPSAT5/Browse/36800/36816/K5_20200506033457_000010_36816_A_ES01_HH_SCS_B_L1A_br.jpg"
+    },
+    {
+      "scene_id": "K5_20190111035115_004054_29584_A_ES16_HH_L1A",
+      "mode": "ES",
+      "level": "L1A",
+      "acquisition_start": "2019-01-11T03:51:15Z",
+      "acquisition_end": "2019-01-11T03:51:32Z",
+      "footprint_wkt": "POLYGON ((31.0349 30.0668, 31.08591 29.79329, 31.39641 29.8362, 31.34599 30.10958, 31.0349 30.0668))",
+      "browse_url": "https://ksatdb.kari.re.kr/catalog/KOMPSAT5/Browse/29500/29584/K5_20190111035115_004054_29584_A_ES16_HH_SCS_B_L1A_br.jpg"
+    },
+    {
+      "scene_id": "K5_20170509033855_008080_20382_A_ES03_VV_L1A",
+      "mode": "ES",
+      "level": "L1A",
+      "acquisition_start": "2017-05-09T03:38:55Z",
+      "acquisition_end": "2017-05-09T03:39:35Z",
+      "footprint_wkt": "POLYGON ((30.81628 29.98472, 30.87688 29.71224, 31.19645 29.76522, 31.13591 30.03757, 30.81628 29.98472))",
+      "browse_url": "https://ksatdb.kari.re.kr/catalog/KOMPSAT5/Browse/20300/20382/K5_20170509033855_008080_20382_A_ES03_VV_SCS_B_L1A_br.jpg"
+    },
+    {
+      "scene_id": "K5_20170508034210_016170_20367_A_ES06_VV_L1A",
+      "mode": "ES",
+      "level": "L1A",
+      "acquisition_start": "2017-05-08T03:42:10Z",
+      "acquisition_end": "2017-05-08T03:42:58Z",
+      "footprint_wkt": "POLYGON ((30.78712 29.97386, 30.84477 29.70101, 31.18945 29.75599, 31.13105 30.02856, 30.78712 29.97386))",
+      "browse_url": "https://ksatdb.kari.re.kr/catalog/KOMPSAT5/Browse/20300/20367/K5_20170508034210_016170_20367_A_ES06_VV_SCS_B_L1A_br.jpg"
+    },
+    {
+      "scene_id": "K5_20170410034220_016172_19946_A_ES07_VV_L1A",
+      "mode": "ES",
+      "level": "L1A",
+      "acquisition_start": "2017-04-10T03:42:20Z",
+      "acquisition_end": "2017-04-10T03:43:09Z",
+      "footprint_wkt": "POLYGON ((31.09695 30.02, 31.15548 29.7473, 31.49021 29.79984, 31.43288 30.07256, 31.09695 30.02))",
+      "browse_url": "https://ksatdb.kari.re.kr/catalog/KOMPSAT5/Browse/19900/19946/K5_20170410034220_016172_19946_A_ES07_VV_SCS_B_L1A_br.jpg"
+    },
+    {
+      "scene_id": "K5_20151027034229_000010_11962_A_ES04_HH_L1A",
+      "mode": "ES",
+      "level": "L1A",
+      "acquisition_start": "2015-10-27T03:42:29Z",
+      "acquisition_end": "2015-10-27T03:43:02Z",
+      "footprint_wkt": "POLYGON ((31.0138 30.00436, 31.07389 29.73183, 31.40499 29.78609, 31.34635 30.05871, 31.0138 30.00436))",
+      "browse_url": "https://ksatdb.kari.re.kr/catalog/KOMPSAT5/Browse/11900/11962/K5_20151027034229_000010_11962_A_ES04_HH_SCS_B_L1A_br.jpg"
+    },
+    {
+      "scene_id": "K5_20150217034930_020223_08173_A_ST08_HH_L1B",
+      "mode": "ST",
+      "level": "L1B",
+      "acquisition_start": "2015-02-17T03:49:30Z",
+      "acquisition_end": "2015-02-17T03:50:23Z",
+      "footprint_wkt": "POLYGON ((30.88359 30.03032, 30.94049 29.75674, 31.25229 29.80492, 31.19632 30.07847, 30.88359 30.03032))",
+      "browse_url": "https://ksatdb.kari.re.kr/catalog/KOMPSAT5/Browse/8100/8173/K5_20150217034930_020223_08173_A_ST08_HH_DGM_B_L1B_br.jpg"
+    },
+    {
+      "scene_id": "K5_20150211155227_028339_08090_D_ST07_HH_L1B",
+      "mode": "ST",
+      "level": "L1B",
+      "acquisition_start": "2015-02-11T15:52:27Z",
+      "acquisition_end": "2015-02-11T15:53:28Z",
+      "footprint_wkt": "POLYGON ((31.14967 30.0806, 31.09313 29.80694, 31.42685 29.75465, 31.48437 30.02834, 31.14967 30.0806))",
+      "browse_url": "https://ksatdb.kari.re.kr/catalog/KOMPSAT5/Browse/8000/8090/K5_20150211155227_028339_08090_D_ST07_HH_DGM_B_L1B_br.jpg"
+    },
+    {
+      "scene_id": "K5_20141121034942_028350_06850_A_ST08_HH_L1B",
+      "mode": "ST",
+      "level": "L1B",
+      "acquisition_start": "2014-11-21T03:49:42Z",
+      "acquisition_end": "2014-11-21T03:50:43Z",
+      "footprint_wkt": "POLYGON ((31.02369 30.15154, 31.08041 29.878, 31.39256 29.92608, 31.33676 30.1996, 31.02369 30.15154))",
+      "browse_url": "https://ksatdb.kari.re.kr/catalog/KOMPSAT5/Browse/6800/6850/K5_20141121034942_028350_06850_A_ST08_HH_DGM_B_L1B_br.jpg"
+    },
+    {
+      "scene_id": "K5_20140221035009_000000_02745_A_HR10_HH_L1B",
+      "mode": "HR",
+      "level": "L1B",
+      "acquisition_start": "2014-02-21T03:50:09Z",
+      "acquisition_end": "2014-02-21T03:50:12Z",
+      "footprint_wkt": "POLYGON ((31.10673 30.00428, 31.11633 29.9586, 31.17379 29.9677, 31.16422 30.01338, 31.10673 30.00428))",
+      "browse_url": "https://ksatdb.kari.re.kr/catalog/KOMPSAT5/Browse/2700/2745/K5_20140221035009_000000_02745_A_HR10_HH_DGM_B_L1B_br.jpg"
+    },
+    {
+      "scene_id": "K5_20140221035009_000000_02745_A_HR10_HH_L1A",
+      "mode": "HR",
+      "level": "L1A",
+      "acquisition_start": "2014-02-21T03:50:09Z",
+      "acquisition_end": "2014-02-21T03:50:12Z",
+      "footprint_wkt": "POLYGON ((31.10874 30.00411, 31.11932 29.95901, 31.17288 29.9675, 31.16333 30.01275, 31.10874 30.00411))",
+      "browse_url": "https://ksatdb.kari.re.kr/catalog/KOMPSAT5/Browse/2700/2745/K5_20140221035009_000000_02745_A_HR10_HH_SCS_B_L1A_br.jpg"
+    }
+  ]
+}
