@@ -1,6 +1,6 @@
 # Giza Radar Check
 
-Can satellite radar locate a known chamber inside a pyramid on two different dates?
+This is a desktop test of a radar technique using existing satellite data and survey records. Can it locate known chambers and surveyed tunnels on unseen acquisitions? If it passes, we will test the claim of eight shafts beneath Khafre, then look for other tunnel candidates. The count stays open, including zero. Excavation, drilling and field surveys are outside the project.
 
 **[Read the illustrated project brief](https://kravtsovd.github.io/giza-radar-check/)**
 
