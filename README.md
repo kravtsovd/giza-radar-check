@@ -4,6 +4,8 @@ Can satellite radar locate a known chamber inside a pyramid on two different dat
 
 **[Read the illustrated project brief](https://kravtsovd.github.io/giza-radar-check/)**
 
+[Watch the one-minute film on YouTube Shorts](https://www.youtube.com/shorts/ntOvITR3Ux4) · [Download the video](assets/giza-radar-check.mp4) · [English captions](assets/en.vtt)
+
 Two free Capella observations of Giza are available. We verified the files and recomputed the scores from Pietro Canini’s independent reconstruction. In the finer-resolution test, the Queen’s Chamber beat 23 of 24 nearby positions on one date and 6 of 24 on the other. Its contrast changed sign. The deep structures reported under Khafre remain unverified.
 
 | Start here | What you get |
