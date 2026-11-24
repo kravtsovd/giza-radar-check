@@ -1,0 +1,38 @@
+[
+  {
+    "date": "2024-09-16",
+    "scene_id": "CAPELLA_C13_SP_SLC_HH_20240916215711_20240916215743",
+    "files": [
+      {
+        "name": "CAPELLA_C13_SP_SLC_HH_20240916215711_20240916215743.tif",
+        "url": "https://capella-open-data.s3.us-west-2.amazonaws.com/data/2024/9/16/CAPELLA_C13_SP_SLC_HH_20240916215711_20240916215743/CAPELLA_C13_SP_SLC_HH_20240916215711_20240916215743.tif",
+        "bytes": 3127416409,
+        "sha256": "b000b40004e63fee4239bfbe2393d811c4bab5a3f72518dcb89e2853e4b92851"
+      },
+      {
+        "name": "CAPELLA_C13_SP_SLC_HH_20240916215711_20240916215743_extended.json",
+        "url": "https://capella-open-data.s3.us-west-2.amazonaws.com/data/2024/9/16/CAPELLA_C13_SP_SLC_HH_20240916215711_20240916215743/CAPELLA_C13_SP_SLC_HH_20240916215711_20240916215743_extended.json",
+        "bytes": 166814,
+        "sha256": "1826640092384b7980e03f5fa30fe0d352517b7c655a0907f2e98ec7688d4a37"
+      }
+    ]
+  },
+  {
+    "date": "2024-10-04",
+    "scene_id": "CAPELLA_C13_SP_SLC_HH_20241004001939_20241004002012",
+    "files": [
+      {
+        "name": "CAPELLA_C13_SP_SLC_HH_20241004001939_20241004002012.tif",
+        "url": "https://capella-open-data.s3.us-west-2.amazonaws.com/data/2024/10/4/CAPELLA_C13_SP_SLC_HH_20241004001939_20241004002012/CAPELLA_C13_SP_SLC_HH_20241004001939_20241004002012.tif",
+        "bytes": 3644348054,
+        "sha256": "9059f85c581ff9466a164c5f72894aa7fa840f334a7549abf139428d07fa1e88"
+      },
+      {
+        "name": "CAPELLA_C13_SP_SLC_HH_20241004001939_20241004002012_extended.json",
+        "url": "https://capella-open-data.s3.us-west-2.amazonaws.com/data/2024/10/4/CAPELLA_C13_SP_SLC_HH_20241004001939_20241004002012/CAPELLA_C13_SP_SLC_HH_20241004001939_20241004002012_extended.json",
+        "bytes": 170763,
+        "sha256": "a878a0c1a23f6a4148d6fe64c365c8e470487c53b24bfe6023685876568f3598"
+      }
+    ]
+  }
+]
