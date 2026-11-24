@@ -1,6 +1,14 @@
 # Giza Radar Check
 
-This is a desktop test of a radar technique using existing satellite data and survey records. Can it locate known chambers and surveyed tunnels on unseen acquisitions? If it passes, we will test the claim of eight shafts beneath Khafre, then look for other tunnel candidates. The count stays open, including zero. Excavation, drilling and field surveys are outside the project.
+Can satellite radar find a known chamber on a second pass? We are testing that question with open data before applying the method to a larger claim beneath the pyramid of Khafre.
+
+| Eight proposed shafts beneath Khafre | A spiral around one proposed shaft |
+| :---: | :---: |
+| [![Khafre Project rendering of two rows of cylinders wrapped in yellow spirals](https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-03-15-at-3.30.06-PM-2.png)](https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-03-15-at-3.30.06-PM-2.png) | [![Khafre Project close-up of a yellow helix around a dark cylinder](https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-03-16-at-12.52.06-AM-2-1024x574.png)](https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-03-16-at-12.52.06-AM-2-1024x574.png) |
+
+*Both images are 3D models presented by the Khafre Project in March 2025. The team inferred this geometry from radar. The shafts and spiral paths remain unverified.* [Original presentation gallery](https://opusmagnum.org/khafre-project-gallery/)
+
+We start with existing satellite passes over known rooms and surveyed tunnels. If the method passes a blind test, we will look beneath Khafre and publish how many signals repeat, including zero. The project uses existing records and involves no excavation.
 
 **[Read the illustrated project brief](https://kravtsovd.github.io/giza-radar-check/)**
 
