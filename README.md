@@ -10,7 +10,7 @@ Two free Capella observations of Giza are available. We verified the files and r
 | --- | --- |
 | [Project page](https://kravtsovd.github.io/giza-radar-check/) | The claim, evidence, sources and proposed blind test |
 | [Scene manifest](data/scenes.json) | Direct downloads, exact sizes and SHA-256 fingerprints |
-| [Scoring audit](tools/audit.py) | Recalculate the published chamber ranks |
+| [Scoring audit](tools/audit.py) | Recalculate the chamber ranks · [Expected output](data/score-audit.txt) |
 | [Download tool](tools/fetch.py) | Fetch the public radar and metadata with integrity checks |
 
 ### Run locally

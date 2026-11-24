@@ -1,0 +1,16 @@
+ESITO.json calibration sign: -
+1004/q_arc queen_chamber 20/24 miss
+1004/q_arc grand_gallery 3/16 miss
+1004/q_arc subterranean 8/21 miss
+0916/q_arc king_chamber undefined
+0916/q_arc queen_chamber undefined
+0916/q_arc grand_gallery undefined
+0916/q_arc subterranean 15/23 miss
+ESITO_APPENDICE_1000.json calibration sign: -
+1004 queen_chamber 23/24 miss
+1004 grand_gallery 16/24 miss
+1004 subterranean 10/24 miss
+0916 king_chamber 20/24 miss
+0916 queen_chamber 6/24 miss
+0916 grand_gallery 14/24 miss
+0916 subterranean 0/24 miss
