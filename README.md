@@ -2,6 +2,22 @@
 
 Can satellite radar find a known chamber on a second pass? We are testing that question with open data before applying the method to a larger claim beneath the pyramid of Khafre.
 
+**[Explore the evidence map in English](https://kravtsovd.github.io/giza-radar-check/?lang=en) · [Карта проверки на русском](https://kravtsovd.github.io/giza-radar-check/?lang=ru)**
+
+Updated 26 November 2026. On the pass used for calibration, the King's Chamber beat 24 of 24 nearby controls. On the other pass it beat 13. The existence and depth of the proposed Khafre shafts remain unresolved.
+
+```mermaid
+flowchart TD
+ A["Two different claims: Khufu interior and Khafre underground"] --> B["Two Capella images: 16 Sep and 4 Oct 2024"]
+ B --> C["Canini preparation: both width checks match"]
+ C --> D["Known room: 24/24 calibrated, 13/24 checked"]
+ B --> E["Four motion estimators: none passes the false-alarm gate"]
+ A --> F["Khafre authors' section: 2 to 7 image peaks; no depth scale"]
+ D --> G["Pending: blind location and depth on a surveyed tunnel"]
+ E --> G
+ F --> H["Pending: numeric shaft section and original acquisition"]
+```
+
 | Eight proposed shafts beneath Khafre | A spiral around one proposed shaft |
 | :---: | :---: |
 | [![Khafre Project rendering of two rows of cylinders wrapped in yellow spirals](https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-03-15-at-3.30.06-PM-2.png)](https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-03-15-at-3.30.06-PM-2.png) | [![Khafre Project close-up of a yellow helix around a dark cylinder](https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-03-16-at-12.52.06-AM-2-1024x574.png)](https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-03-16-at-12.52.06-AM-2-1024x574.png) |

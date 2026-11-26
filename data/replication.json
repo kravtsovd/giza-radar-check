@@ -1,0 +1,122 @@
+{
+  "as_of": "2026-11-26",
+  "scope": "Descriptive results from the public-map project. A measured physical shaft depth is unavailable.",
+  "preparation": {
+    "width_change_percent_sep_oct": [
+      0.01754,
+      0.02802
+    ],
+    "zero_shift_counts_sep_oct": {
+      "rebuild": [
+        23763,
+        28918
+      ],
+      "Canini": [
+        23742,
+        28916
+      ]
+    }
+  },
+  "known_locations": {
+    "statistic": "number of 24 control points with lower score",
+    "method": "P2/W25, October tuning on King, known labels",
+    "order": [
+      "King",
+      "Queen",
+      "Subterranean"
+    ],
+    "2024-09-16": [
+      13,
+      2,
+      10
+    ],
+    "2024-10-04": [
+      24,
+      17,
+      13
+    ],
+    "october_king_shift_origin_15_2m_west": 5
+  },
+  "Opus": {
+    "order": [
+      "King",
+      "Queen",
+      "Subterranean"
+    ],
+    "A_ranks_sep_oct": [
+      [
+        12,
+        3,
+        3
+      ],
+      [
+        2,
+        14,
+        18
+      ]
+    ],
+    "B_convergence_percent_sep_oct": [
+      0,
+      0
+    ],
+    "real_CPHD_runs": 0
+  },
+  "synthetic_controls": {
+    "unit": "held-out stationary scene with at least one alarm",
+    "upper_confidence_limit_gate_percent": 5,
+    "methods": [
+      "Astra backprojection",
+      "Astra polar FFT",
+      "Opus A",
+      "Opus B"
+    ],
+    "alarms": [
+      3,
+      2,
+      7,
+      6
+    ],
+    "scenes": [
+      72,
+      72,
+      8,
+      8
+    ],
+    "Wilson_upper_95_percent": [
+      11.5,
+      9.6,
+      97.8,
+      92.9
+    ],
+    "common_blind_manifest": false
+  },
+  "Khafre_published_raster": {
+    "source": "https://codigooculto.com/wp-content/uploads/2025/03/project-khafre-2025.pdf#page=6",
+    "image_size_px": [
+      642,
+      234
+    ],
+    "crop_y_fraction": [
+      0.2,
+      0.7
+    ],
+    "channel": "green column means",
+    "smoothing_gaussian_sigma_px": 6.42,
+    "min_peak_distance_px": 26,
+    "min_prominence_fraction_of_range": 0.2,
+    "peak_x_px_zero_based": [
+      27,
+      114,
+      192,
+      253,
+      401,
+      500
+    ],
+    "sensitivity_test_count": 27,
+    "sensitivity_peak_range": [
+      2,
+      7
+    ],
+    "shaft_depth_m": null
+  }
+}
