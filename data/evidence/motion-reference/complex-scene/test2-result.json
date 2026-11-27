@@ -1,0 +1,349 @@
+{
+  "trial": 2,
+  "source_sicd": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/task-data/fea10fbd-a600-4134-97ea-a9ab3e82084a/2024-03-14-20-35-52_UMBRA-04/2024-03-14-20-35-52_UMBRA-04_SICD.nitf",
+  "source_stac": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/task-data/fea10fbd-a600-4134-97ea-a9ab3e82084a/2024-03-14-20-35-52_UMBRA-04/2024-03-14-20-35-52_UMBRA-04.stac.v2.json",
+  "paper": "https://strathprints.strath.ac.uk/95237/",
+  "centre_after_UTC_20_35_49_s": 4.099117823020705,
+  "input_sha256": "02274b35cc2bed964115ab3e7a80f0ecce6faa8ea5464c4aa0ee01fad3548a97",
+  "xml_sha256": "bf9c5ab4720c6f527ced8a4d5dac0c78eec0e5f163481dcd05e6c4800aba1671",
+  "reference_sha256": "da07d3ede5ea526f5f023b8dbef9c154833e387f6307a58e79c807ce87fa27f9",
+  "reference_plot": "Figure 10 line labelled Reference; no raw LVDT or absolute timing record",
+  "reflectors": [
+    {
+      "peak_hz": 2.015,
+      "two_hz_amplitude_mm_s": 21.52145459461467,
+      "velocity_rms_mm_s": 20.4076172111498,
+      "reference_rms_mm_s": 20.834925643080854,
+      "phase_residual_displacement_rms_mm": 1.5037439174210048,
+      "midpoint_only": {
+        "r": -0.009862707789960626,
+        "rmse_mm_s": 29.297755191072348
+      },
+      "fitted_lag_s": 0.121,
+      "fitted_alignment": {
+        "r": 0.7499267826341521,
+        "rmse_mm_s": 14.717822784201761
+      },
+      "first_half_lag_s": 0.10899999999999999,
+      "heldout_second_half": {
+        "r": 0.6218319187548074,
+        "rmse_mm_s": 19.566513963927036
+      },
+      "name": "shaker",
+      "pixel": [
+        13575,
+        15653
+      ],
+      "slant_plane_distance_m": 0.0,
+      "peak_complex_magnitude": 51.3923225402832,
+      "usable_duration_s": 5.049733865489831,
+      "nominal_resolution_hz": 0.1980302381545406
+    },
+    {
+      "peak_hz": 2.0250000000000004,
+      "two_hz_amplitude_mm_s": 16.09389497007474,
+      "velocity_rms_mm_s": 25.33696545945797,
+      "reference_rms_mm_s": 20.767835745784197,
+      "phase_residual_displacement_rms_mm": 1.7426255486321167,
+      "midpoint_only": {
+        "r": 0.053525994040759736,
+        "rmse_mm_s": 31.21860435688839
+      },
+      "fitted_lag_s": 0.12,
+      "fitted_alignment": {
+        "r": 0.4493891919718041,
+        "rmse_mm_s": 24.087703703707188
+      },
+      "first_half_lag_s": 0.09600000000000003,
+      "heldout_second_half": {
+        "r": 0.46525919027922513,
+        "rmse_mm_s": 24.987062359134555
+      },
+      "name": "comparison-1",
+      "pixel": [
+        13742,
+        15467
+      ],
+      "slant_plane_distance_m": 49.56466006971,
+      "peak_complex_magnitude": 27.339176177978516,
+      "usable_duration_s": 5.049733865489831,
+      "nominal_resolution_hz": 0.1980302381545406
+    },
+    {
+      "peak_hz": 2.55,
+      "two_hz_amplitude_mm_s": 4.084183323439983,
+      "velocity_rms_mm_s": 20.298567072553034,
+      "reference_rms_mm_s": 21.050747779887487,
+      "phase_residual_displacement_rms_mm": 4.888096483253779,
+      "midpoint_only": {
+        "r": 0.023976722273803715,
+        "rmse_mm_s": 28.741812326479057
+      },
+      "fitted_lag_s": 0.124,
+      "fitted_alignment": {
+        "r": 0.1350213349142129,
+        "rmse_mm_s": 27.4450515012175
+      },
+      "first_half_lag_s": 0.15400000000000003,
+      "heldout_second_half": {
+        "r": -0.28551373977578015,
+        "rmse_mm_s": 28.346345797884425
+      },
+      "name": "comparison-2",
+      "pixel": [
+        13700,
+        15408
+      ],
+      "slant_plane_distance_m": 57.47670862966457,
+      "peak_complex_magnitude": 90.51213836669922,
+      "usable_duration_s": 5.049733865489831,
+      "nominal_resolution_hz": 0.1980302381545406
+    },
+    {
+      "peak_hz": 3.58,
+      "two_hz_amplitude_mm_s": 8.89378770562778,
+      "velocity_rms_mm_s": 21.367244190623946,
+      "reference_rms_mm_s": 20.392915368759244,
+      "phase_residual_displacement_rms_mm": 3.709343727155277,
+      "midpoint_only": {
+        "r": 0.31065611188052145,
+        "rmse_mm_s": 24.78053442281071
+      },
+      "fitted_lag_s": 0.0030000000000000027,
+      "fitted_alignment": {
+        "r": 0.31130433359997695,
+        "rmse_mm_s": 24.729639345084472
+      },
+      "first_half_lag_s": -0.008000000000000007,
+      "heldout_second_half": {
+        "r": 0.2540220193941616,
+        "rmse_mm_s": 29.708889379634638
+      },
+      "name": "comparison-3",
+      "pixel": [
+        13642,
+        15394
+      ],
+      "slant_plane_distance_m": 57.5523414497013,
+      "peak_complex_magnitude": 52.7757568359375,
+      "usable_duration_s": 5.049733865489831,
+      "nominal_resolution_hz": 0.1980302381545406
+    },
+    {
+      "peak_hz": 3.43,
+      "two_hz_amplitude_mm_s": 2.987176454149742,
+      "velocity_rms_mm_s": 20.643074364700265,
+      "reference_rms_mm_s": 20.482593766122452,
+      "phase_residual_displacement_rms_mm": 4.894063728406658,
+      "midpoint_only": {
+        "r": -0.09973868992081335,
+        "rmse_mm_s": 30.775553143647294
+      },
+      "fitted_lag_s": -0.241,
+      "fitted_alignment": {
+        "r": 0.0922044781952004,
+        "rmse_mm_s": 27.957595954012078
+      },
+      "first_half_lag_s": -0.139,
+      "heldout_second_half": {
+        "r": -0.09943328226917421,
+        "rmse_mm_s": 26.140815799786278
+      },
+      "name": "comparison-4",
+      "pixel": [
+        13701,
+        15319
+      ],
+      "slant_plane_distance_m": 75.85814780945938,
+      "peak_complex_magnitude": 57.74709701538086,
+      "usable_duration_s": 5.049733865489831,
+      "nominal_resolution_hz": 0.1980302381545406
+    },
+    {
+      "peak_hz": 3.32,
+      "two_hz_amplitude_mm_s": 3.8997048205575213,
+      "velocity_rms_mm_s": 14.811336371229366,
+      "reference_rms_mm_s": 20.55944470455841,
+      "phase_residual_displacement_rms_mm": 1.0551004338525865,
+      "midpoint_only": {
+        "r": -0.07125151717585165,
+        "rmse_mm_s": 26.23890472376371
+      },
+      "fitted_lag_s": 0.14300000000000002,
+      "fitted_alignment": {
+        "r": 0.19045210617570407,
+        "rmse_mm_s": 23.040605574805788
+      },
+      "first_half_lag_s": 0.136,
+      "heldout_second_half": {
+        "r": 0.13605192687683523,
+        "rmse_mm_s": 24.648718183258296
+      },
+      "name": "comparison-5",
+      "pixel": [
+        13453,
+        15267
+      ],
+      "slant_plane_distance_m": 86.60710393486889,
+      "peak_complex_magnitude": 52.51899719238281,
+      "usable_duration_s": 5.049733865489831,
+      "nominal_resolution_hz": 0.1980302381545406
+    }
+  ],
+  "target_window_sensitivity": [
+    {
+      "half_width_px": 18,
+      "peak_hz": 2.01,
+      "two_hz_amplitude_mm_s": 17.906603304119404,
+      "velocity_rms_mm_s": 14.08893799471335,
+      "reference_rms_mm_s": 20.782992624666566,
+      "phase_residual_displacement_rms_mm": 1.2779284670156545,
+      "midpoint_only": {
+        "r": 0.057936993665188015,
+        "rmse_mm_s": 24.69351023799851
+      },
+      "fitted_lag_s": 0.121,
+      "fitted_alignment": {
+        "r": 0.9008058914488817,
+        "rmse_mm_s": 10.049080296075614
+      },
+      "first_half_lag_s": 0.10599999999999998,
+      "heldout_second_half": {
+        "r": 0.8273547532725062,
+        "rmse_mm_s": 11.709863027604682
+      }
+    },
+    {
+      "half_width_px": 22,
+      "peak_hz": 2.015,
+      "two_hz_amplitude_mm_s": 21.249782537173058,
+      "velocity_rms_mm_s": 17.44057076628812,
+      "reference_rms_mm_s": 20.871329559356806,
+      "phase_residual_displacement_rms_mm": 1.4430798341236963,
+      "midpoint_only": {
+        "r": 0.03807812660519845,
+        "rmse_mm_s": 26.696478414926766
+      },
+      "fitted_lag_s": 0.118,
+      "fitted_alignment": {
+        "r": 0.8660256110672098,
+        "rmse_mm_s": 10.44579275648921
+      },
+      "first_half_lag_s": 0.10999999999999999,
+      "heldout_second_half": {
+        "r": 0.7810734479282321,
+        "rmse_mm_s": 13.476109513278496
+      }
+    },
+    {
+      "half_width_px": 26,
+      "peak_hz": 2.015,
+      "two_hz_amplitude_mm_s": 21.322166030996154,
+      "velocity_rms_mm_s": 19.00593662809539,
+      "reference_rms_mm_s": 20.860707730748686,
+      "phase_residual_displacement_rms_mm": 1.4727662007792213,
+      "midpoint_only": {
+        "r": 0.01647331427764457,
+        "rmse_mm_s": 28.034744566306887
+      },
+      "fitted_lag_s": 0.12,
+      "fitted_alignment": {
+        "r": 0.8039441965752556,
+        "rmse_mm_s": 12.682390893938397
+      },
+      "first_half_lag_s": 0.10999999999999999,
+      "heldout_second_half": {
+        "r": 0.6872963653728389,
+        "rmse_mm_s": 16.944330933100947
+      }
+    },
+    {
+      "half_width_px": 30,
+      "peak_hz": 2.015,
+      "two_hz_amplitude_mm_s": 21.52145459461467,
+      "velocity_rms_mm_s": 20.4076172111498,
+      "reference_rms_mm_s": 20.834925643080854,
+      "phase_residual_displacement_rms_mm": 1.5037439174210048,
+      "midpoint_only": {
+        "r": -0.009862707789960626,
+        "rmse_mm_s": 29.297755191072348
+      },
+      "fitted_lag_s": 0.121,
+      "fitted_alignment": {
+        "r": 0.7499267826341521,
+        "rmse_mm_s": 14.717822784201761
+      },
+      "first_half_lag_s": 0.10899999999999999,
+      "heldout_second_half": {
+        "r": 0.6218319187548074,
+        "rmse_mm_s": 19.566513963927036
+      }
+    },
+    {
+      "half_width_px": 36,
+      "peak_hz": 2.015,
+      "two_hz_amplitude_mm_s": 22.512733063336906,
+      "velocity_rms_mm_s": 22.10743694629198,
+      "reference_rms_mm_s": 20.86044981677561,
+      "phase_residual_displacement_rms_mm": 1.5662753669362424,
+      "midpoint_only": {
+        "r": -0.005640935914757856,
+        "rmse_mm_s": 30.55641559340566
+      },
+      "fitted_lag_s": 0.13,
+      "fitted_alignment": {
+        "r": 0.7162909067822733,
+        "rmse_mm_s": 16.38005716562825
+      },
+      "first_half_lag_s": 0.11599999999999999,
+      "heldout_second_half": {
+        "r": 0.6056373264751771,
+        "rmse_mm_s": 21.04303741287559
+      }
+    },
+    {
+      "half_width_px": 44,
+      "peak_hz": 2.015,
+      "two_hz_amplitude_mm_s": 22.56145690210002,
+      "velocity_rms_mm_s": 23.954592751168764,
+      "reference_rms_mm_s": 20.829905428091703,
+      "phase_residual_displacement_rms_mm": 1.6190217036894283,
+      "midpoint_only": {
+        "r": -0.008518655150789728,
+        "rmse_mm_s": 32.01102706471621
+      },
+      "fitted_lag_s": 0.131,
+      "fitted_alignment": {
+        "r": 0.6649404050968946,
+        "rmse_mm_s": 18.734810204966593
+      },
+      "first_half_lag_s": 0.118,
+      "heldout_second_half": {
+        "r": 0.5562798507961818,
+        "rmse_mm_s": 23.57662135183889
+      }
+    },
+    {
+      "half_width_px": 60,
+      "peak_hz": 2.01,
+      "two_hz_amplitude_mm_s": 22.754039494245667,
+      "velocity_rms_mm_s": 31.91796135904435,
+      "reference_rms_mm_s": 20.894471334245953,
+      "phase_residual_displacement_rms_mm": 1.766273151832833,
+      "midpoint_only": {
+        "r": -0.001536575979107236,
+        "rmse_mm_s": 38.22008791301228
+      },
+      "fitted_lag_s": 0.11399999999999999,
+      "fitted_alignment": {
+        "r": 0.5234446205397008,
+        "rmse_mm_s": 27.698432407589962
+      },
+      "first_half_lag_s": 0.11199999999999999,
+      "heldout_second_half": {
+        "r": 0.43763454077282876,
+        "rmse_mm_s": 33.89688890032343
+      }
+    }
+  ]
+}

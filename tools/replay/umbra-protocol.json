@@ -1,0 +1,13 @@
+{
+  "timing": "Frozen after Capella/ICEYE outcome and before reading the three Umbra SICD target patches. Dates are earlier acquisitions tested later. Previously inspected detected (GEC) scenes and exterior checks were known. No new tuning or claims of blind archaeology.",
+  "eligible": [
+    "2023-02-07_UMBRA-05",
+    "2023-02-08_UMBRA-04",
+    "2023-03-08_UMBRA-04"
+  ],
+  "excluded": "2023-02-10 archive product at hand is detected image only. Three SICDs include first two short dwells 1.271 and 1.182 s, third 5.041 s. Footprint and pixel in-bounds checked for all 131 coordinates.",
+  "same_recipe": "Original selection adjacent pair / along-track / 0.48 m / whitened. Use the same script functions for registration and scoring. Primary King's +43 m must strictly beat 31 or more of 32 geographic translations AND its RMS and intact median power baseline ranks. Keep Queen +21 and Subterranean -30 as separate checks. Report three-chamber gate, ranks, free height peaks, angular diversity, physical window sizes and diagnostics per scene. Do not exclude a completed scene on its score or exterior outcome.",
+  "geometry_and_frontend": "Use provider SICD RGAZIM PFA coordinates without adjustment. Sarpy projects each nominal pavement WGS84/HAE position to image. Native rows range, columns azimuth; transpose internally. Both FFT signs -1. Wave numbers are grid-center frequencies plus unshifted FFT cycles/metre; respect Krg and Kaz bounds. Invert polar angle atan2(Kaz,Krg) using the SICD PolarAngPoly on the processed interval from TStartProc to TEndProc. Form 193 half-processed-aperture Hamming looks. Orbit/velocity directly from SICD ARPPoly and derivative. The signed along-track vector is velocity projected perpendicular to midlook, matching the primary. Baseline recorded for each pair's midpoint relative to processed aperture center. Reuse the root study's nominal HAE and fixed 128 coarse and 24 az x 32 range fine dimensions in native pixels. Shorter dwells and different pixels yield a different response.",
+  "geolocation": "Report original survey coordinates on all three SICDs. Measure the independently frozen square-edge exterior control and all 48 translations on the actual complex product's full-band intensity using the same geo-retest routine. Do not transport a correction from a separately formed GEC image to the native SICD. No search, registration adjustment or depth-axis change.",
+  "data": "The direct URLs, filenames and hashes of the three Umbra SICD files are in inputs.json."
+}

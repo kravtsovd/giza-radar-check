@@ -1,0 +1,490 @@
+{
+  "as_of": "2026-11-26",
+  "finding": "The audited open observations do not determine whether eight hollow shafts end 648 m beneath Khafre.",
+  "scope": "Eight vertical shaft interiors only. Spiral paths and terminal chambers have different unknown mass contrasts and are not included. Depth is relative to a horizontal base plane.",
+  "sources": "sources.json",
+  "replay": "python3 ground_test.py > reproduced.json (Python 3 plus NumPy). Compare parsed JSON numerically. Run in this directory.",
+  "actual_field_data": {
+    "source": "noaa_egypt",
+    "input_sha256": "9442287577da50f06002d393eca8780668f1b7f9f37dd7e03723254427f248e1",
+    "n_records": 71,
+    "distance_method": "Great-circle on sphere of mean radius 6371008.8 m. Approximate given historical horizontal datum and catalog center.",
+    "within_radius_counts": {
+      "200m": 0,
+      "1000m": 0,
+      "5000m": 0,
+      "10000m": 1
+    },
+    "nearest_record_as_distributed": {
+      "station_id": "30",
+      "latitude": "29.95083",
+      "longitude": "31.07778",
+      "sea_level_elev_m": "105.0",
+      "obs_grav": "979294.06",
+      "Bouguer_anom": "-3.74",
+      "Free_air_anom": "6.36"
+    },
+    "nearest_distance_m": 5829.49145225656,
+    "nearest_modeled_change_ugal": -0.04437566761109003,
+    "height_note": "69 m above sea level is an approximate Khafre base elevation (Nell and Ruggles table 12). A flat local Cartesian forward model is sufficient at this scale.",
+    "max_possible_acceleration_magnitude_ugal_for_benchmark": 0.6962992495079403,
+    "bound": "G times total mass deficit divided by squared minimum horizontal distance. Conservative in the local plane and independent of station height.",
+    "nearest_printed_step_ugal": 10,
+    "uncertainty": "Station uncertainty and occupation date unavailable. Decimal reporting is not an uncertainty estimate.",
+    "nearest_five_station_ids_distances_m": [
+      [
+        "30",
+        5829.49145225656
+      ],
+      [
+        "26",
+        24034.306388948396
+      ],
+      [
+        "27",
+        24034.306388948396
+      ],
+      [
+        "52",
+        31256.043793060486
+      ],
+      [
+        "53",
+        31689.252059678103
+      ]
+    ],
+    "engsn97_giza_city_distance_m": 5635.748371489008,
+    "engsn97_giza_city": {
+      "station": "SRI 1, Giza City",
+      "source": "engsn",
+      "height_m_MSL": 19,
+      "published_absolute_observation_standard_deviation_ugal": 5,
+      "benchmark_vertical_change_ugal": -0.0382191154149491,
+      "upper_bound_on_absolute_change_ugal": 0.7456484429239735,
+      "fraction_of_one_reported_sigma_even_at_upper_bound": 0.1491296885847947,
+      "interpretation": "Even if all other gravity contributions were perfectly predicted, this station alone lacks sensitivity to the benchmark at its published precision. This is a sensitivity comparison, not a residual fit."
+    },
+    "bgi_land_metadata_only": [
+      {
+        "lat": 29.983,
+        "lon": 31.133,
+        "distance_m": 795.9695823742884,
+        "survey": "WEST - EAST SAHARA EXPEDITION",
+        "compiled": "1975-11-01",
+        "height_in_map": null
+      },
+      {
+        "lat": 30.0,
+        "lon": 31.13,
+        "distance_m": 2658.6790551561025,
+        "survey": "GRAVITY OBSERVATIONS IN EGYPT",
+        "compiled": "1961-11-01",
+        "height_in_map": null
+      }
+    ],
+    "khufu_to_khafre_center_m": 472.5234430062573,
+    "inference": "Neither the absolute value nor the two reported anomalies are a no-shaft baseline. Removing regional geology cannot be calibrated with one distant observation."
+  },
+  "acoustic_timing": {
+    "source": "sri1977",
+    "measured_path_m": 19.8,
+    "longitudinal_arrival_ms": 6.6,
+    "adopted_speed_m_s": 3000,
+    "pulse_repetition_hz": 10,
+    "practical_long_range_m_approx": 50,
+    "electrical_drive_pulse_duration_ms_range": [
+      0.13,
+      1.3
+    ],
+    "emitted_acoustic_pulse": "Several cycles due to ringing. Section IV.D.4 describes about 8 m of pulse including ringing in the 33 m echo discussion.",
+    "inter_shot_period_ms": 100,
+    "nominal_display_interpulse_range_m": 150.0,
+    "figure_93": "Pooled picked ranges, axis ticks from 5 to 40 m. No per-station time trace. Plotted full trace duration unknown.",
+    "usable_floor_receiver_window_ms": null,
+    "original_floor_tape_duration_ms": null,
+    "hypothetical_slant_range_m": 648,
+    "two_way_ms_at_that_range": 432.0,
+    "reported_floor_echo_ranges_m": [
+      9,
+      21,
+      33
+    ],
+    "meaning": "432 ms is a travel-time comparison only. The 100 ms repetition interval does not give the total recorded time or usable listening window. The stated long-range application and published picks establish no sensitivity to a 648 m reflector. A slant range from the floor is not a surveyed depth below the base."
+  },
+  "model": {
+    "coordinates": "Local x east, y north from catalog Khafre center. z depth positive downward. Positive gravity is down. All listed model stations lie on the base plane unless marked otherwise.",
+    "lat_lon": [
+      29.9761,
+      31.1308
+    ],
+    "claimed_geometry": "Eight wells in two parallel north-south rows ending at 648 m. A March presentation assumes 20 m tube diameter. Neither the slide nor the later interview establishes the internal void diameter.",
+    "assumptions": "Eight entire circular interiors, model radius 10 m, roof at 50 m, 40 m spacings in both directions. Unmeasured. All model points are hypothetical. Central points require access in or under the pyramid; perimeter proxy is about 110 m east of center.",
+    "assumed_host_kg_m3": 2300.0,
+    "fill_kg_m3": {
+      "air_approx": 0,
+      "water": 1000,
+      "rubble_example": 2000,
+      "matched_solid": 2300,
+      "dense_solid_example": 2700
+    },
+    "central_axes_m": [
+      [
+        -20.0,
+        -60.0
+      ],
+      [
+        -20.0,
+        -20.0
+      ],
+      [
+        -20.0,
+        20.0
+      ],
+      [
+        -20.0,
+        60.0
+      ],
+      [
+        20.0,
+        -60.0
+      ],
+      [
+        20.0,
+        -20.0
+      ],
+      [
+        20.0,
+        20.0
+      ],
+      [
+        20.0,
+        60.0
+      ]
+    ],
+    "constants": {
+      "G_m3_kg_s2": 6.6743e-11,
+      "one_ugal_m_s2": 1e-08
+    },
+    "kernel": "g_z = G (rho_fill - rho_host) integral_over_disk [1/sqrt(s^2+t^2) - 1/sqrt(s^2+b^2)] dA. s is lateral distance to each area element. Sum eight bodies. Homogeneous reference has zero perturbation.",
+    "sweep_note": "One-at-a-time deterministic sensitivity cases, not field data, confidence intervals or bounds on actual geology. Gross column diameter could also enclose a much narrower void."
+  },
+  "predictions": [
+    {
+      "scenario": "air",
+      "overrides": {},
+      "change_in_downward_g_ugal": {
+        "above_inner_shaft": -487.44517924485456,
+        "center": -514.0169726310701,
+        "east_perimeter_proxy": -246.63055953953972,
+        "north_perimeter_proxy": -287.2635774548035,
+        "east_control": -6.150359086326745
+      },
+      "east_pair_difference_ugal": -240.48020045321297
+    },
+    {
+      "scenario": "water",
+      "overrides": {
+        "contrast": -1300.0
+      },
+      "change_in_downward_g_ugal": {
+        "above_inner_shaft": -275.5124926166569,
+        "center": -290.5313323566918,
+        "east_perimeter_proxy": -139.39988147887027,
+        "north_perimeter_proxy": -162.36636986575851,
+        "east_control": -3.476289918358595
+      },
+      "east_pair_difference_ugal": -135.92359156051168
+    },
+    {
+      "scenario": "partial_rubble",
+      "overrides": {
+        "contrast": -300.0
+      },
+      "change_in_downward_g_ugal": {
+        "above_inner_shaft": -63.579805988459285,
+        "center": -67.0456920823135,
+        "east_perimeter_proxy": -32.16920341820084,
+        "north_perimeter_proxy": -37.469162276713504,
+        "east_control": -0.802220750390445
+      },
+      "east_pair_difference_ugal": -31.36698266781039
+    },
+    {
+      "scenario": "matched_solid",
+      "overrides": {
+        "contrast": 0
+      },
+      "change_in_downward_g_ugal": {
+        "above_inner_shaft": 0.0,
+        "center": 0.0,
+        "east_perimeter_proxy": 0.0,
+        "north_perimeter_proxy": 0.0,
+        "east_control": 0.0
+      },
+      "east_pair_difference_ugal": 0.0
+    },
+    {
+      "scenario": "dense_solid",
+      "overrides": {
+        "contrast": 400.0
+      },
+      "change_in_downward_g_ugal": {
+        "above_inner_shaft": 84.77307465127905,
+        "center": 89.39425610975132,
+        "east_perimeter_proxy": 42.89227122426778,
+        "north_perimeter_proxy": 49.958883035618015,
+        "east_control": 1.0696276671872598
+      },
+      "east_pair_difference_ugal": 41.82264355708052
+    },
+    {
+      "scenario": "inner_radius_2m",
+      "overrides": {
+        "radius": 2
+      },
+      "change_in_downward_g_ugal": {
+        "above_inner_shaft": -19.558533719647347,
+        "center": -20.6254683332008,
+        "east_perimeter_proxy": -9.860617655106449,
+        "north_perimeter_proxy": -11.492128624102207,
+        "east_control": -0.2459972929398255
+      },
+      "east_pair_difference_ugal": -9.614620362166622
+    },
+    {
+      "scenario": "inner_radius_5m",
+      "overrides": {
+        "radius": 5
+      },
+      "change_in_downward_g_ugal": {
+        "above_inner_shaft": -122.15735848476612,
+        "center": -128.82063386473234,
+        "east_perimeter_proxy": -61.63516851039582,
+        "north_perimeter_proxy": -71.82373925100393,
+        "east_control": -1.537506418497936
+      },
+      "east_pair_difference_ugal": -60.09766209189789
+    },
+    {
+      "scenario": "roof_10m",
+      "overrides": {
+        "top": 10
+      },
+      "change_in_downward_g_ugal": {
+        "above_inner_shaft": -975.3347167461864,
+        "center": -891.7265121964427,
+        "east_perimeter_proxy": -274.91577339987987,
+        "north_perimeter_proxy": -351.8212422667116,
+        "east_control": -6.196543357527453
+      },
+      "east_pair_difference_ugal": -268.7192300423524
+    },
+    {
+      "scenario": "roof_100m",
+      "overrides": {
+        "top": 100
+      },
+      "change_in_downward_g_ugal": {
+        "above_inner_shaft": -280.311172596932,
+        "center": -288.7442937859174,
+        "east_perimeter_proxy": -191.41118791668796,
+        "north_perimeter_proxy": -204.18182874472356,
+        "east_control": -6.007097643192305
+      },
+      "east_pair_difference_ugal": -185.40409027349565
+    },
+    {
+      "scenario": "roof_300m",
+      "overrides": {
+        "top": 300
+      },
+      "change_in_downward_g_ugal": {
+        "above_inner_shaft": -67.06801919386045,
+        "center": -67.53740228097128,
+        "east_perimeter_proxy": -60.87936693011686,
+        "north_perimeter_proxy": -61.17895123522656,
+        "east_control": -4.572335411003343
+      },
+      "east_pair_difference_ugal": -56.307031519113515
+    },
+    {
+      "scenario": "roof_600m",
+      "overrides": {
+        "top": 600
+      },
+      "change_in_downward_g_ugal": {
+        "above_inner_shaft": -4.704252563940563,
+        "center": -4.7184921627202705,
+        "east_perimeter_proxy": -4.508456574734273,
+        "north_perimeter_proxy": -4.512447720799955,
+        "east_control": -0.7046833687792103
+      },
+      "east_pair_difference_ugal": -3.803773205955063
+    },
+    {
+      "scenario": "spacing_25m",
+      "overrides": {
+        "spacing": 25
+      },
+      "change_in_downward_g_ugal": {
+        "above_inner_shaft": -552.8924653165557,
+        "center": -603.47051227002,
+        "east_perimeter_proxy": -254.9455934492152,
+        "north_perimeter_proxy": -271.6542525534159,
+        "east_control": -6.1536501324167405
+      },
+      "east_pair_difference_ugal": -248.79194331679847
+    },
+    {
+      "scenario": "spacing_60m",
+      "overrides": {
+        "spacing": 60
+      },
+      "change_in_downward_g_ugal": {
+        "above_inner_shaft": -404.4009840425265,
+        "center": -414.32938039712735,
+        "east_perimeter_proxy": -232.26948137045727,
+        "north_perimeter_proxy": -304.99701091929126,
+        "east_control": -6.143594978331933
+      },
+      "east_pair_difference_ugal": -226.12588639212532
+    },
+    {
+      "scenario": "bedrock_2000_air",
+      "overrides": {
+        "contrast": -2000
+      },
+      "change_in_downward_g_ugal": {
+        "above_inner_shaft": -423.8653732563953,
+        "center": -446.9712805487566,
+        "east_perimeter_proxy": -214.4613561213389,
+        "north_perimeter_proxy": -249.79441517809005,
+        "east_control": -5.3481383359363
+      },
+      "east_pair_difference_ugal": -209.11321778540258
+    },
+    {
+      "scenario": "bedrock_2600_air",
+      "overrides": {
+        "contrast": -2600
+      },
+      "change_in_downward_g_ugal": {
+        "above_inner_shaft": -551.0249852333138,
+        "center": -581.0626647133836,
+        "east_perimeter_proxy": -278.79976295774054,
+        "north_perimeter_proxy": -324.73273973151703,
+        "east_control": -6.95257983671719
+      },
+      "east_pair_difference_ugal": -271.84718312102336
+    },
+    {
+      "scenario": "bottom_300m",
+      "overrides": {
+        "bottom": 300
+      },
+      "change_in_downward_g_ugal": {
+        "above_inner_shaft": -420.37716005099406,
+        "center": -446.4795703500988,
+        "east_perimeter_proxy": -185.7511926094229,
+        "north_perimeter_proxy": -226.084626219577,
+        "east_control": -1.578023675323401
+      },
+      "east_pair_difference_ugal": -184.1731689340995
+    },
+    {
+      "scenario": "bottom_600m",
+      "overrides": {
+        "bottom": 600
+      },
+      "change_in_downward_g_ugal": {
+        "above_inner_shaft": -482.74092668091396,
+        "center": -509.2984804683498,
+        "east_perimeter_proxy": -242.12210296480544,
+        "north_perimeter_proxy": -282.7511297340036,
+        "east_control": -5.445675717547533
+      },
+      "east_pair_difference_ugal": -236.6764272472579
+    }
+  ],
+  "diagram_geometry_sensitivity": {
+    "source": "diagram_positions",
+    "geometry": "Only the eight horizontal centers change. At each side compare a base-level station 110 m from the center to one 1 km away on the same ray.",
+    "side_tests": [
+      {
+        "unit_direction_in_diagram": [
+          1,
+          0
+        ],
+        "shaft_pair_ugal": -251.65466128944925,
+        "last_48m_pair_ugal": -3.7765512451923033
+      },
+      {
+        "unit_direction_in_diagram": [
+          -1,
+          0
+        ],
+        "shaft_pair_ugal": -215.60873669127852,
+        "last_48m_pair_ugal": -3.732025917042179
+      },
+      {
+        "unit_direction_in_diagram": [
+          0,
+          1
+        ],
+        "shaft_pair_ugal": -257.26650443316595,
+        "last_48m_pair_ugal": -3.7242744007205744
+      },
+      {
+        "unit_direction_in_diagram": [
+          0,
+          -1
+        ],
+        "shaft_pair_ugal": -311.7218776909341,
+        "last_48m_pair_ugal": -3.78233059166541
+      }
+    ],
+    "meaning": "Assumed roofs, measured drawing positions, unknown physical shaft locations. Signs and numbers are predictions for this diagram. The four values span sides, not statistical uncertainty."
+  },
+  "depth_discrimination": {
+    "bottoms_compared_m": [
+      600,
+      648
+    ],
+    "east_minus_control_difference_of_models_ugal": -3.803773205955082,
+    "equal_east_pair_alternative": {
+      "bottom_m": 600,
+      "roof_m": 50.0,
+      "inner_radius_m_fit_to_model_prediction": 10.079996758254747,
+      "alternative_minus_benchmark_at_each_site_relative_to_east_control_ugal": {
+        "above_inner_shaft": -3.641765213612018,
+        "center": -4.052211735678895,
+        "east_perimeter_proxy": -5.684341886080802e-14,
+        "north_perimeter_proxy": -0.64597947073878,
+        "east_control": 0.0
+      },
+      "interpretation": "Deterministic pair-matched model with the same eight axes and density. Radius was fitted to the 648 m scenario only, not to observations. Independent station geometry can help separate the alternatives."
+    },
+    "any_base_plane_station_change_abs_upper_bound_ugal": 4.763085753092848,
+    "bound_formula": "For each area element at depth z and any horizontal offset s, z/(s^2+z^2)^(3/2) <= 1/z^2. Integrate z=600..648 over the total void area. Valid at or above the assumed base plane, given the radius and contrast.",
+    "scaling": "Bound scales with inner radius squared and absolute density contrast. Does not include moving or adding any terminal chambers. A weaker contrast makes the endpoint still harder to resolve."
+  },
+  "design": {
+    "pair": "(110 m east, 0 north) minus (1 km east, 0 north), idealized common elevation. The physical controls would need surveyed elevations, topography and monument geometry.",
+    "east_pair_air_vs_homogeneous_ugal": -240.48020045321297,
+    "illustrative_total_pair_sigma_ugal": 10,
+    "illustrative_three_sigma_margin_ugal": 30,
+    "three_sigma_max_pair_sigma_for_benchmark_ugal": 80.16006681773766,
+    "three_sigma_max_pair_sigma_for_600_vs_648_ugal": 1.2679244019850273,
+    "example_spacing_m": "5-10 m along multiple accessible sides, plus independent surrounding control lines and any accessible interior stations. Check injection recovery for actual station geometry before interpreting a null.",
+    "uncertainty": "The assumed 10 microgal one-sigma error is for the final contrast, including covariance, residual leveling, monument mass, terrain, groundwater, variable rock density and regional background. It is a design goal, not achieved precision. Reject a fixed model only if measured contrast disagrees beyond a justified uncertainty threshold, with a background fitted from independent controls.",
+    "height": "A 1 cm relative height error gives about 3.086 microgal in the nominal free-air term before terrain and local-gradient effects. Estimate the local gradient, repeat base ties, correct tides and drift, level instrument heights, propagate correlated errors.",
+    "geometry": "A single gravity low cannot determine eight cylinders or their bottoms. Natural karst, lithology and backfill can have the same integrated mass deficit. Publish predicted axes, inner radii, roofs/fill, station coordinates, timestamps, raw readings, repeats, all reductions and covariance. A depth-resolved independent method or directly sampled intersection is needed to assign geometry."
+  },
+  "checks": {
+    "closed_form_axis_max_abs_error_ugal": 5.684341886080802e-14,
+    "quadrature_doubling_max_abs_error_ugal": 5.684341886080802e-14,
+    "depth_split_additivity_error_ugal": 8.881784197001252e-15,
+    "matched_density_exact_zero": true,
+    "density_scaling_verified": true
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "site": "El Osario, Mexico",
+  "classification": "survey axis withheld; site and approximate center known",
+  "seal_sha256": {
+    "forecast.json": "33d4b65584fe65e2e875b52a9624b4855511433efa48f9daae8b54e47f2b2688",
+    "keeper/osario_label.json": "f242133f63c7d5bd411e1835b8a1805b231614295e08e8466b11f954b1961cdf",
+    "keeper/osario_footprint.json": "b5acac265783f030a0cecd3616c176733bfc0c87221025b91e8a03c432048212",
+    "footprint_protocol.json": "90d6d7744362bb89fe4602ecb6b6ded13b830dd7906adfa5625575b4cec1612f",
+    "footprint_forecast.npz": "1c760fa2a78ba8d682cda2bc0ff38a4fbbefcde1b7cd4d62ad94b1283bb45626"
+  },
+  "survey_axis_deg": 133.418,
+  "survey_uncertainty_deg": 8,
+  "survey_eligibility": "32 horizontal-grid and vertical-slice perturbations supported a major axis. The keeper's +/-8 deg allowance is heuristic and includes unknown registration heading accuracy.",
+  "primary": {
+    "aspect_axis_deg": 71.69505122431895,
+    "brightness_axis_deg": 169.25861821371984,
+    "aspect_error_deg": 61.72294877568106,
+    "brightness_error_deg": 35.840618213719836,
+    "aspect_error_interval_deg": [
+      53.72294877568106,
+      69.72294877568106
+    ],
+    "brightness_error_interval_deg": [
+      27.840618213719836,
+      43.840618213719836
+    ],
+    "aspect_strength": 0.1124957994211481,
+    "brightness_strength": 0.06427022350633305,
+    "within_15_deg": false,
+    "beats_brightness": false,
+    "passes_angle_and_baseline": false
+  },
+  "verdict_across_reference_interval": "fail",
+  "offset_5m_axes_deg": [
+    52.74194796750582,
+    62.35882873657757,
+    81.66709052826639,
+    87.76386498711518,
+    83.40622352542124,
+    65.58346779026235,
+    48.5155457248117,
+    38.15345244128021
+  ],
+  "heights_minus_plus_5m_axes_deg": [
+    77.45758250906472,
+    40.526886724153286
+  ],
+  "alternate_osm_center": {
+    "aspect_axis_deg": 104.96756865291466,
+    "brightness_axis_deg": 161.26249453435494,
+    "aspect_error_deg": 28.450431347085342,
+    "brightness_error_deg": 27.844494534354936,
+    "aspect_error_interval_deg": [
+      20.450431347085342,
+      36.45043134708534
+    ],
+    "brightness_error_interval_deg": [
+      19.844494534354936,
+      35.844494534354936
+    ],
+    "aspect_strength": 0.25425598530791355,
+    "brightness_strength": 0.10975422401031676,
+    "within_15_deg": false,
+    "beats_brightness": false,
+    "passes_angle_and_baseline": false
+  },
+  "radar_range_azimuth_deg": [
+    77.63355811112014,
+    167.63248773470318
+  ],
+  "primary_error_from_radar_range_deg": 5.938506886801193,
+  "surface_building_axes_deg": [
+    178.874346748732,
+    88.874346748732
+  ],
+  "eight_neighbor_angle_matches_descriptive": 0,
+  "independently_empty_neighbors": 0,
+  "supplemental_footprint": {
+    "status": "unscored",
+    "reason": "The mobile LiDAR has a rough alignment to airborne LiDAR. Both public projections omit the CRS; the datum and absolute positional residual are unreported. The frozen protocol required a documented absolute horizontal CRS. EPSG:32616 is an inference.",
+    "survey_occupied_1m_cells": 55,
+    "survey_is_complete_negative_mask": false
+  },
+  "satellite_depth_estimate_m": null,
+  "depth_survey_reference": "The ground team measured 10.90 m from the connecting chamber to the lower floor. No surface-reference depth was predicted by SAR.",
+  "sources": [
+    "https://doi.org/10.34946/D6J30S",
+    "https://www.openheritage3d.org/project.php?id=D6NS3R",
+    "https://arqueologiamexicana.mx/mexico-antiguo/la-tumba-del-gran-sacerdote"
+  ]
+}

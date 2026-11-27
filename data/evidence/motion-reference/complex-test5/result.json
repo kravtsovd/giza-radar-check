@@ -1,0 +1,206 @@
+{
+  "trial": 5,
+  "status": "weak, exploratory carrier agreement",
+  "asset": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/task-data/4f9d8f1c-9d00-45cb-ac86-ea7dd9ad33a9/2025-02-25-10-53-00_UMBRA-10/2025-02-25-10-53-00_UMBRA-10_SICD.nitf",
+  "credit": "Umbra, CC BY 4.0",
+  "asset_collect_id": "48eef2ac-1a27-4b04-b13a-68f97c593401",
+  "chip_sha256_big_endian_complex64": "df8276cc5d9dc2bd7b2b992145a6b2f2149189fb3f085cc8a02da1e3b45cce9d",
+  "chip_bytes": 8404992,
+  "chip_origin_row_col": [
+    13289,
+    41807
+  ],
+  "frame": "Slant plane; approximate radar line-of-sight displacement.",
+  "time_sicd_collectstart_window_s": [
+    4.687765351999261,
+    20.69220696249221
+  ],
+  "used_window_s": [
+    5.968120680838696,
+    19.411851633652773
+  ],
+  "nominal_frequency_bin_hz": 0.07438411282625955,
+  "scan_hz": [
+    0.5,
+    4
+  ],
+  "scan_step_hz": 0.005,
+  "published_table1_ground_total_rms_mm": 0.1,
+  "published_ground_sinusoid_peaks_mm_in_1p8_2p0_2p2_order": [
+    0.05178589801804436,
+    0.1314003624178808,
+    0.04406805713641609
+  ],
+  "primary_halfwidth_pixels": 80,
+  "selection_history": "The published site, frequency and ground scale were known. The operator inspected image brightness before running the common estimator. Three widths were examined. The 20 m search and three-control rule formalize that retrospective inspection.",
+  "observations": [
+    {
+      "selection": "target_candidate",
+      "sicd_row": 13642,
+      "sicd_col": 42859,
+      "image_distance_to_projected_site_m": 14.803976986142667,
+      "magnitude": 72.98699188232422,
+      "by_azimuth_halfwidth_pixels": {
+        "48": {
+          "peak_hz": 1.97,
+          "peak_normalized_power": 0.16228834110564738,
+          "strongest_sine_peak_mm": 0.1683251491904256,
+          "total_detrended_rms_mm": 0.2955107449318088,
+          "three_component_peak_mm_in_1p8_2p0_2p2_order": [
+            0.11343068272090029,
+            0.12961280987673154,
+            0.02611347121386443
+          ]
+        },
+        "80": {
+          "peak_hz": 1.97,
+          "peak_normalized_power": 0.1143662462847088,
+          "strongest_sine_peak_mm": 0.17969710416365003,
+          "total_detrended_rms_mm": 0.37584755760317373,
+          "three_component_peak_mm_in_1p8_2p0_2p2_order": [
+            0.12708326021122304,
+            0.13261621449155123,
+            0.06355021732116244
+          ]
+        },
+        "120": {
+          "peak_hz": 1.965,
+          "peak_normalized_power": 0.08029079394724173,
+          "strongest_sine_peak_mm": 0.17831766740195065,
+          "total_detrended_rms_mm": 0.4448049568143072,
+          "three_component_peak_mm_in_1p8_2p0_2p2_order": [
+            0.12300260772363529,
+            0.12494870905894337,
+            0.06631824962220213
+          ]
+        }
+      }
+    },
+    {
+      "selection": "comparison_1",
+      "sicd_row": 13467,
+      "sicd_col": 43672,
+      "image_distance_to_projected_site_m": 64.17564314110257,
+      "magnitude": 48.58989715576172,
+      "by_azimuth_halfwidth_pixels": {
+        "48": {
+          "peak_hz": 1.785,
+          "peak_normalized_power": 0.11310625746808475,
+          "strongest_sine_peak_mm": 0.17559683106778165,
+          "total_detrended_rms_mm": 0.3695022533258771,
+          "three_component_peak_mm_in_1p8_2p0_2p2_order": [
+            0.1668503660443218,
+            0.041378670228956686,
+            0.030340831710816533
+          ]
+        },
+        "80": {
+          "peak_hz": 1.785,
+          "peak_normalized_power": 0.09323363173020584,
+          "strongest_sine_peak_mm": 0.19562067308219577,
+          "total_detrended_rms_mm": 0.4533980855254715,
+          "three_component_peak_mm_in_1p8_2p0_2p2_order": [
+            0.18400503586060507,
+            0.01948159635704444,
+            0.07654941252967866
+          ]
+        },
+        "120": {
+          "peak_hz": 1.79,
+          "peak_normalized_power": 0.06293899571438294,
+          "strongest_sine_peak_mm": 0.19170037840711418,
+          "total_detrended_rms_mm": 0.5413646897228064,
+          "three_component_peak_mm_in_1p8_2p0_2p2_order": [
+            0.18252136531169605,
+            0.026372973047881387,
+            0.08446531040960217
+          ]
+        }
+      }
+    },
+    {
+      "selection": "comparison_2",
+      "sicd_row": 13338,
+      "sicd_col": 42902,
+      "image_distance_to_projected_site_m": 31.72268511784935,
+      "magnitude": 39.03268051147461,
+      "by_azimuth_halfwidth_pixels": {
+        "48": {
+          "peak_hz": 0.75,
+          "peak_normalized_power": 0.1457393119575564,
+          "strongest_sine_peak_mm": 0.24980750696168896,
+          "total_detrended_rms_mm": 0.46406056851610267,
+          "three_component_peak_mm_in_1p8_2p0_2p2_order": [
+            0.09614572803959053,
+            0.04448631006318673,
+            0.04947908302773309
+          ]
+        },
+        "80": {
+          "peak_hz": 2.87,
+          "peak_normalized_power": 0.09173529656358499,
+          "strongest_sine_peak_mm": 0.2674913978878644,
+          "total_detrended_rms_mm": 0.625270483486523,
+          "three_component_peak_mm_in_1p8_2p0_2p2_order": [
+            0.0911139955572478,
+            0.057091945560843356,
+            0.0825185042027705
+          ]
+        },
+        "120": {
+          "peak_hz": 2.87,
+          "peak_normalized_power": 0.057985641214715784,
+          "strongest_sine_peak_mm": 0.25466933534277614,
+          "total_detrended_rms_mm": 0.7484727816001768,
+          "three_component_peak_mm_in_1p8_2p0_2p2_order": [
+            0.11381816998040409,
+            0.07063395682381564,
+            0.08037871040192252
+          ]
+        }
+      }
+    },
+    {
+      "selection": "comparison_3",
+      "sicd_row": 13577,
+      "sicd_col": 43377,
+      "image_distance_to_projected_site_m": 41.24050532708023,
+      "magnitude": 28.36944580078125,
+      "by_azimuth_halfwidth_pixels": {
+        "48": {
+          "peak_hz": 0.6,
+          "peak_normalized_power": 0.021834229543922713,
+          "strongest_sine_peak_mm": 0.49412345723129364,
+          "total_detrended_rms_mm": 2.356925855020463,
+          "three_component_peak_mm_in_1p8_2p0_2p2_order": [
+            0.05944563958567683,
+            0.10200887950591724,
+            0.02353399057108329
+          ]
+        },
+        "80": {
+          "peak_hz": 0.6,
+          "peak_normalized_power": 0.019852699111038884,
+          "strongest_sine_peak_mm": 0.48555879899661564,
+          "total_detrended_rms_mm": 2.4292508542202125,
+          "three_component_peak_mm_in_1p8_2p0_2p2_order": [
+            0.1314170618466307,
+            0.11865453979722898,
+            0.1870293909969615
+          ]
+        },
+        "120": {
+          "peak_hz": 0.545,
+          "peak_normalized_power": 0.06804097172139988,
+          "strongest_sine_peak_mm": 1.5368757210982655,
+          "total_detrended_rms_mm": 4.130680802669914,
+          "three_component_peak_mm_in_1p8_2p0_2p2_order": [
+            0.34104254474215473,
+            0.13285045738581844,
+            0.11082635934288733
+          ]
+        }
+      }
+    }
+  ]
+}

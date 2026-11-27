@@ -1,0 +1,211 @@
+{
+  "as_of": "2026-11-26",
+  "purpose": "Evidence inventory for the Khafre ground constraint. Coordinates are latitude north and longitude east. A plotted section, a regional anomaly and a local residual answer different questions.",
+  "scope": "Search bounded to the named public archives, publications, and author/project sources below. An unlocated or unpublished local survey could change the result. No paid downloads or correspondence. Independent fields were collected before the 2025 claim.",
+  "sources": [
+    {
+      "id": "claim",
+      "title": "Khafre Project, conference abstract, March 16, 2025",
+      "url": "https://ufologiacosmos.com/wp-content/uploads/2025/03/khafre-project2025.pdf",
+      "sha256": "9f886dfcb96a6a7a6317ce8d76447699fd17e5a942cd02808c5748d3fc4d083f",
+      "type": "First-party claim document on mirror",
+      "coverage": "Eight hollow cylindrical structures with spiral routes in two north-south rows. The document places the bottom at 648 m below its ground zero. No surveyed shaft axes, inner-radius values, roof elevations, density measurements or dimensional error bars were tabulated."
+    },
+    {
+      "id": "diameter",
+      "title": "Project conference annotated slide and Biondi interview",
+      "urls": [
+        "https://www.youtube.com/watch?v=bM8vzUUZdVM&t=10960s",
+        "https://www.youtube.com/watch?v=bhaz6vd4nSI"
+      ],
+      "coverage": "The conference slide uses a 20 m tube diameter as an assumption (companion depth branch). The January 23, 2026 interview discusses a 20 m column diameter. Neither establishes measured inner void radius. Model tests filled cross-sections of 2, 5 and 10 m radius."
+    },
+    {
+      "id": "location",
+      "title": "Project catalog and independent approximate base elevation",
+      "file": "../../02_Data catalog/catalog.json",
+      "url": "https://arxiv.org/pdf/1302.5622",
+      "coverage": "Project catalog targets are longitude, latitude. Khafre 31.1308, 29.9761. Khufu 31.134186, 29.979175. Nell and Ruggles, table 12, gives a rough elevation of 69 m for Khafre. Elevation estimates mix GPMP control points and Google Earth. These define regional calculations only."
+    },
+    {
+      "id": "noaa_egypt",
+      "title": "Riad / Assiut University contributors, NOAA NGDC Egypt gravity stations",
+      "url": "https://www.ngdc.noaa.gov/mgg/gravity/1999/document/html/egypt.html",
+      "data_url": "https://www.ngdc.noaa.gov/mgg/gravity/1999/data/regional/egypt/egypt.xyz",
+      "raw_snapshot": "egypt.xyz",
+      "sha256": "9442287577da50f06002d393eca8780668f1b7f9f37dd7e03723254427f248e1",
+      "dates": "Received March 1989, 1999 edition. No dates of individual occupations or uncertainty fields in the distributed station table.",
+      "coverage": "71 irregular station records. Exact data listing includes coordinates, level elevation, observed gravity, simple Bouguer and free-air anomalies. No terrain adjustment. Values reference IGSN71, anomalies GRS67. This is station data, not a grid. Nearest point and conditional prediction are computed from the raw file."
+    },
+    {
+      "id": "bgi_land",
+      "title": "BGI public land-gravity map and survey metadata, British Antarctic Survey and E. Tengstrom",
+      "urls": [
+        "https://api.sedoo.fr/sedoo-bgi-rest/data/v1_0/dataGeojsonByFilter?type=land&northBound=30.003078&southBound=29.949122&eastBound=31.161953&westBound=31.099647",
+        "https://api.sedoo.fr/sedoo-bgi-rest/infosource/v1_0/surveys/landata?pays=none&latmax=30.003078&latmin=29.949122&longmax=31.161953&longmin=31.099647",
+        "https://bgi.obs-mip.fr/data-products/terms-of-use/",
+        "https://doi.org/10.1007/s00190-020-01434-z"
+      ],
+      "raw_snapshots": [
+        "bgi_points.json",
+        "bgi_surveys.json"
+      ],
+      "coverage": "Two public location features in a roughly 6 by 6 km square around the catalog center. Snapshot primary keys match survey metadata. These are map coordinates of limited precision. Altitudes are null and no g or uncertainty fields are served. Dates are compilation dates. Full relative-data delivery is a separate request-based service. Public catalog metadata are distinct from station observations.",
+      "snapshot_sha256": {
+        "bgi_points.json": "3ab1fae65f85d36918ddcc3282364e73bbe2307b3cdb0164783dc8f8d19f33a5",
+        "bgi_surveys.json": "f4533ecfa86254ea88ab9ce82531cb7f151652e7ce2e082fbd715632f2514385"
+      }
+    },
+    {
+      "id": "engsn",
+      "title": "G. Dawod, The Egyptian National Gravity Standardization Network (ENGSN97), Fig. 2",
+      "url": "https://publication-cpas-egypt.com/wp-content/uploads/2024/09/040-The-Egyptian-National-Gravity-Standardization-Network.pdf#page=4",
+      "sha256": "e93ede665f74bfadaf4261c288e34d171aea190d3270916a1b52342878c15a10",
+      "coverage": "Original card visually read: station SRI 1, Giza City, 30°00′10″ N, 31°10′50″ E, 19 m above mean sea level; unadjusted 979300 mGal printed. The April 1997 FG5 absolute stations used GPS and precise leveling. National network mean separation 67 km. Adjusted network uncertainties span 2 to 48 microgal, mean 21, without a site-specific uncertainty on this card. One city station cannot define a pyramid residual. Dawod, 1998 doctoral dissertation, printed page 118: the absolute observation at SRI1 has estimated standard deviation 0.005 mGal (5 microgal). This is the uncertainty used for the city-station sensitivity comparison.",
+      "station_uncertainty_source": "https://publication-cpas-egypt.com/wp-content/uploads/2024/09/015-A-National-Gravity-Standardiztion-Network-for-Egypt.pdf"
+    },
+    {
+      "id": "national",
+      "title": "Al-Krargy and Dawod, Egypt unified terrestrial gravity database, 2026",
+      "url": "https://doi.org/10.1007/s11600-025-01760-w",
+      "coverage": "9,724 records from diverse networks and survey lines. Its authors say the data belong to Egypt's Survey Research Institute and may be available upon request. No near-Khafre station table supplied by the paper. Coverage, uncertainty and station spacing at the target cannot be inferred from the national count."
+    },
+    {
+      "id": "khufu_gravity",
+      "title": "Lakshmanan and Montlucon, Microgravity probes the Great Pyramid, 1987; Operation Kheops 1986",
+      "urls": [
+        "https://www.cpgf-horizon.fr/pdf/lakshmanan-1987.pdf",
+        "https://www.cpgf-horizon.fr/pdf/aspects-techniques-et-physiques-de-l-operation-kheops-1986-.pdf"
+      ],
+      "coverage": "Actual local profiles at Khufu. Two Queen's passage profiles include 46 stations spaced 0.5-2 m. In the separate boat-pit test, 35 readings 1-6 m apart yielded lows of 30-50 microgal. Local elevation, pyramid, known openings, granite and terrain were considered in the interior analysis. Reported repeat differences about 5 microgal in the French account. Published maps and lines, no coordinate/elevation/gravity station table identified in these reports. Khufu's center is about 473 m from Khafre. A regional Bouguer profile through Khufu in the French Fig. 12 is on a 50 km scale. Neither set is a corrected near-field grid surrounding Khafre."
+    },
+    {
+      "id": "sri1977",
+      "title": "Moussa, Dolphin and Mokhtar, Applications of Modern Sensing Techniques to Egyptology, 1977 field experiments",
+      "urls": [
+        "https://www.ldolphin.org/egypt/egypt2/index.html#ivd2",
+        "https://www.ldolphin.org/egypt/egypt2/index.html#ivd4",
+        "https://www.ldolphin.org/egypt/egypt2/fig091.jpg",
+        "https://www.ldolphin.org/egypt/egypt2/fig092.jpg",
+        "https://www.ldolphin.org/egypt/egypt2/fig093.jpg",
+        "https://www.ldolphin.org/egypt/egypt2/fig095.jpg"
+      ],
+      "coverage": "Downward soundings at 11 positions in the Belzoni chamber area and passage. Fig. 92 gives a relative plan with a 5 m scale. Fig. 93 pools picked slant ranges at 9, 21 and 33 m, with numerical ticks from 5 to 40 m. Fig. 95 reconstructs arcs of possible reflector locations. The team considered both geological and chamber explanations. Their one-way calibration gives 19.8 m in 6.6 ms; their independent two-way check agreed within 6%. That agreement is not a formal uncertainty. They separately estimated about 10% local range error on the west pavement, not a chamber-specific depth interval.",
+      "instrument": "Section IV.D.2 describes long-range use as 'up to 50 m in rock'. Electrical drive pulse 0.13-1.3 ms, longer acoustic pulse under ringing. Period between shots 100 ms. A-scope interpulse range 150 m for the assumed sound speed. Receiver and sync went to two-channel tape. Neither total tape duration, usable receiver time for each floor shot, nor full per-station floor waveform durations are reported. Published floor figure is a histogram. No raw floor tapes linked from author report or index. Numbers cannot be read as a maximum explored depth or as a 648 m non-detection."
+    },
+    {
+      "id": "gpr2006",
+      "title": "Abbas et al., Uncovering the Pyramids-Giza Plateau, 2012",
+      "url": "https://www.jofamericanscience.org/journals/am-sci/am0802/026_8148am0802_168_174.pdf",
+      "coverage": "February 2006 GPR survey. Khafre zone 2: P24 and P25, each 210 m long, 2 m apart. P25 placed 10 m from the base. Site maps and processed profiles are available. No under-footprint deep array, open numerical traces or 648 m sensitivity calibration supplied in the paper."
+    },
+    {
+      "id": "groundwater",
+      "title": "Sharafeldin et al., groundwater surveys, 2019",
+      "url": "https://gi.copernicus.org/articles/8/29/2019/gi-8-29-2019.html",
+      "coverage": "Fig. 4 locates 10 electrical, 26 seismic and 19 GPR profiles at selected plateau sites, including the causeway. Electrical spacing 5 m, electrode elevations incorporated in inversion. Seismic geophones at 5 m with 115 m spread. Near-surface aquifers, geological heterogeneity and tens-of-metres target depths. Paper published February 2019; field dates of the individual profiles not stated here. Raw data available from author upon request. No tested deep-shaft target."
+    },
+    {
+      "id": "muons",
+      "title": "Alvarez et al., Science 1970, and ScIDEP collaboration 2025",
+      "urls": [
+        "https://doi.org/10.1126/science.167.3919.832",
+        "https://www.lns.mit.edu/fisherp/AlvarezPyramids.pdf",
+        "https://arxiv.org/abs/2503.21959"
+      ],
+      "coverage": "Real 1967-onward Khafre cosmic-ray experiment observed density along downward muons' paths above Belzoni's chamber. Its chamber-sized exclusion cone lies above the detector. The 2025 instrumentation paper concerns the pyramid interior. Neither supplies trajectories through the rock 648 m below the chamber."
+    },
+    {
+      "id": "density",
+      "title": "Hemeda and Sonbol, Sustainability problems of the Giza pyramids, Table 10 (2020)",
+      "urls": [
+        "https://doi.org/10.1186/s40494-020-0356-9",
+        "https://peachv.org/images/MuslimGeo/EgyptPyramidSubstainabilityHemeda.pdf"
+      ],
+      "coverage": "Khafre backing-block samples: 2.31, 2.29 and 2.25 g/cm³ in the unit-weight column (given in density units). Local material analog only. No borehole density profile to 648 m. The 2300 kg/m³ constant used here is a model input. 2000-2600 kg/m³ is an exploratory bracket, not a measured local interval."
+    },
+    {
+      "id": "smallwood",
+      "title": "Smallwood, The attraction of the pyramids, 2018",
+      "url": "https://hgss.copernicus.org/articles/9/1/2018/",
+      "coverage": "Regional NGDC values and computed local topographic effects. Deflection-of-the-vertical profiles are modeled. The paper notes public gravity samples were too far apart to resolve proposed stations 85 m from the Khufu crest. Its 2200/2500 kg/m³ terrain assumptions and 2300 kg/m³ Egypt Bouguer reduction contextualize the scenario density."
+    },
+    {
+      "id": "grids",
+      "title": "BGI World Gravity Map 2012, and Hirt et al. GGMplus 2013",
+      "urls": [
+        "https://bgi.obs-mip.fr/data-products/outils/",
+        "https://bgi.obs-mip.fr/grids-and-models-2/",
+        "https://doi.org/10.18168/bgi.23",
+        "https://ddfe.curtin.edu.au/models/GGMPlus/hirt2013_ultrahighres_gravity.pdf"
+      ],
+      "coverage": "WGM2012 2 arc-minute output samples are about 3.7 km north-south by 3.2 km east-west at Giza. Underlying EGM2008/DTU10 with 1 arc-minute ETOPO1 terrain terms. GGMplus has about 200 m grid spacing, but below about 10 km its short-scale signal is computed from relief with an assumed density. Sampling a point above Khafre in either model does not create a local field observation."
+    },
+    {
+      "id": "satellite",
+      "title": "ESA GOCE mission specifications",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/GOCE/ESA_launches_Earth_Explorer_mission_GOCE",
+      "coverage": "Approximately 100 km spatial scale with gravity-anomaly accuracy target of 1 mGal (1000 microgal). Direct space gravimetry is distinct from modeled terrain refinements and local gravimeter readings."
+    },
+    {
+      "id": "reduction",
+      "title": "USGS techniques for repeat gravity surveys; EPA gravity method",
+      "urls": [
+        "https://pubs.usgs.gov/tm/02/d04/tm2d4.pdf",
+        "https://www.epa.gov/environmental-geophysics/gravity-method"
+      ],
+      "coverage": "USGS nominal free-air gradient -3.086 microgal/cm. A free-air anomaly corrects the effect of station elevation relative to a reference. A simple Bouguer anomaly also removes a modeled slab and still lacks detailed terrain and monument corrections. A test requires station-level readings and consistent reductions. Regional anomalies can coexist with local sources of either sign."
+    },
+    {
+      "id": "diagram_positions",
+      "title": "Eight positions digitized by companion depth audit from conference slide 76",
+      "url": "https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-04-19-at-7.37.13-PM.png",
+      "image_sha256": "dbe1bf6879c49457028f30efc88ad9cae2eb41974a39b064467bfba15db1a9e9",
+      "companion_replay": "../depth-audit/replay.py",
+      "numbers_source": "../depth-audit/result.json measured_plan",
+      "side_m": 215.26245999999998,
+      "normalized_marks_uv": [
+        [
+          0.38407035314283594,
+          0.07499402038250849
+        ],
+        [
+          0.7340397473615969,
+          0.054181229586942874
+        ],
+        [
+          0.3514788355922352,
+          0.308400100501093
+        ],
+        [
+          0.7189768889298536,
+          0.28322419100440466
+        ],
+        [
+          0.3831120487577298,
+          0.5052270419801185
+        ],
+        [
+          0.7241276224100697,
+          0.5344947189645889
+        ],
+        [
+          0.42265983048481826,
+          0.8164632260720187
+        ],
+        [
+          0.6905990008036785,
+          0.8823465672536632
+        ]
+      ],
+      "coverage": "The marks are annotations on a perspective-corrected diagram. They are not surveyed shaft coordinates. Used only to see how the near-field prediction varies with the published arrangement. Bearings are unnecessary because the four separate comparisons use the rectified square axes."
+    },
+    {
+      "id": "trans_sahara",
+      "title": "Brown, Girdler and Renner, A gravity traverse across northern Africa, 1980",
+      "url": "https://doi.org/10.1029/JB085iB11p06436",
+      "metadata": "https://api.crossref.org/works/10.1029/JB085iB11p06436",
+      "coverage": "The primary abstract reports 608 readings on the trans-African 1975 expedition. The checked record does not supply a local station series across Khafre."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "date_utc": "2026-11-27",
+  "classification": "Two survey-angle holdouts at known monuments using different predeclared surface proxies, plus a known-target acquisition transfer at Khufu.",
+  "comparison_basis": "No surveyed empty plots, contemporaneous ground vibration records, independent absolute-depth estimates or experiments on alleged Khafre shafts. Acquisition and image products differ by site. Two sites cannot establish operational detection power.",
+  "held_out_axes": {
+    "scored": 2,
+    "within_15_degrees": 0,
+    "passed_full_rules": 0,
+    "El Osario": {
+      "result": "osario/result.json",
+      "forecast_deg": 71.69505122431895,
+      "reference_deg": 133.418,
+      "reference_bracket_plus_minus_deg": 8,
+      "error_deg": 61.72294877568106,
+      "brightness_error_deg": 35.840618213719836
+    },
+    "Teotihuacan": {
+      "result": "teotihuacan/result.json",
+      "forecast_deg": 15,
+      "reference_deg": 107,
+      "reference_bracket_plus_minus_deg": 5,
+      "error_deg": 88,
+      "brightness_error_deg": 89
+    }
+  },
+  "Giza_transfer": {
+    "result": "giza_transfer.json",
+    "frozen_before_scoring": true,
+    "centers": 3,
+    "centers_passing": 0,
+    "center_ranks_of_32": {
+      "King": 0,
+      "Queen": 27,
+      "Subterranean": 9
+    },
+    "brightness_ranks_of_32": {
+      "King": 25,
+      "Queen": 11,
+      "Subterranean": 2
+    },
+    "edge_rank_of_48": 47,
+    "edge_contrast_db": 2.3303632736206055,
+    "median_translated_edge_contrast_db": 0.7995009422302246,
+    "shape_templates_passing_of_2": 0,
+    "sign_flip_fit_delta": {
+      "King": 0.0,
+      "Queen": 0.0,
+      "Subterranean": 0.0
+    },
+    "depth_wavelength_joint_scaling_fit_delta": {
+      "King": 0.0,
+      "Queen": 0.0,
+      "Subterranean": 0.0
+    }
+  },
+  "supplemental_footprint": {
+    "status": "unscored",
+    "reason": "The mobile LiDAR has a rough alignment to airborne LiDAR. Both public projections omit the CRS; the datum and absolute positional residual are unreported. The frozen protocol required a documented absolute horizontal CRS. EPSG:32616 is an inference.",
+    "survey_occupied_1m_cells": 55,
+    "survey_is_complete_negative_mask": false
+  },
+  "surface_motion": "These acquisitions show surface radar backscatter and aspect dependence. These tests have no synchronized independent motion reference; actual mechanical displacement is not estimated here.",
+  "survey_coverage": "Nine named candidate building centers screened across three archives, with Khufu as a separate positive sentinel. Archive files count records/products, including repeat representations of acquisitions.",
+  "archive_n_records": {
+    "capella": 9999,
+    "iceye": 740,
+    "umbra": 24542
+  },
+  "future_only": [
+    "A common model tested at additional sites and dates with certified positive and negative volumes.",
+    "An absolute reference tying the El Osario mobile survey to ground control with measured residuals.",
+    "Synchronized surface vibration, rock wave speed and source information for testing metric depth."
+  ],
+  "reproduction": "README.md",
+  "evidence_sha256": {
+    "README.md": "70e1775af69dae4e9e54d8dc32b7985ee99ae82b3914d4954ef8ce4856912fcc",
+    "archive/capella-control-overlap.json": "cae80521004b14c48ee8bbea575d6bcf550ee9e1a2fbd449bfbc4fe5c7b03dd5",
+    "archive/capella-current-check.json": "107edb5c8e487852189dfbbb3f480c94e1bc5f2d155282051c10e22d96f296a6",
+    "archive/controls_coverage.py": "3b8cec32fd4fc65fb7f6d5b12593f61303ab23d207f086f40f3bbf73c1dfb2e0",
+    "archive/iceye-control-overlap.json": "d248f688306cd50fb8f71d118dc1bcc6bfedf924fa41ab938c8923a7019fea94",
+    "archive/umbra-control-overlap.json": "3ada0625128160e86a381d737ec0de5428a7eb0bcf588cdd519d19bf2858fb5f",
+    "archive/umbra_legacy_recheck.py": "03b54f4df3de310d857b983796d79a6a110df6541d08582f9381c01a42a03233",
+    "decoder_validation.json": "623be0d028862a134b5a57ae32c20606c11db15bb0a8fb2e4e6c58952eb383af",
+    "giza_transfer.json": "afeca68460acf6e333251ddd4cd5a8d7d994156b2be05548b58126f1f7c172df",
+    "osario/footprint_forecast.npz": "1c760fa2a78ba8d682cda2bc0ff38a4fbbefcde1b7cd4d62ad94b1283bb45626",
+    "osario/footprint_forecast.py": "0d277b242ab7c63daa218e13fc9a4bf8e9847023019480f6527ebc43585af352",
+    "osario/footprint_protocol.json": "90d6d7744362bb89fe4602ecb6b6ded13b830dd7906adfa5625575b4cec1612f",
+    "osario/forecast.json": "33d4b65584fe65e2e875b52a9624b4855511433efa48f9daae8b54e47f2b2688",
+    "osario/forecast.py": "9d865cbeb30e79f2e80748464014cb70e793a61753acf52c553072a4aaebb47b",
+    "osario/keeper/freeze_osario.py": "4c9fe4040f2534f534011de8a8dae002ef2af11a7023fb702f4f4269d23b533c",
+    "osario/keeper/measure_cave.py": "345d2d798c42a70340421b33d6f60068f9e387569e01f362dbd69d7066414c8b",
+    "osario/keeper/metadata.json": "ded5f7abc24d7037e4ba60c44e4609a761d79b086a89a0d014fda2775037670d",
+    "osario/keeper/osario_footprint.json": "b5acac265783f030a0cecd3616c176733bfc0c87221025b91e8a03c432048212",
+    "osario/keeper/osario_label.json": "f242133f63c7d5bd411e1835b8a1805b231614295e08e8466b11f954b1961cdf",
+    "osario/keeper/read_cave.py": "40b32037539a55264b76fdd159c2fdb3d1a4d4f6184e46b969b7f6c4f0bfa199",
+    "osario/pre_score_addendum.json": "5e32f6fe3bd4de8d8b8fad68b1caeaf0e75190a9b57fb50f75a595a97d2b5bb6",
+    "osario/protocol.json": "8d351baa475f851d6ec5c8f2bc872b8c4db212d2e46041dc662c2477b7c77526",
+    "osario/result.json": "74d0dfd53c06aae7c3eee1b7838504deb2b3c936044e5b2834e242f4bcc97857",
+    "osario/score.py": "5b4b4a675344dfd871e00164ab1f11c78a5dd1e62c90a15d79cc645db90d0f18",
+    "osario/surface_building.json": "3ed3507e5588517931b9b3736f0aaf6c14f6fe0fd3578ddc93de28aaa99ab3cd",
+    "protocol.json": "9ea410f9fc3609b7fbd4f70dc9fd753902f3e428fb5e5c72dd5e8d3952563558",
+    "replay.py": "cfe3b3c5121fbd54bb0c07339e702dce9ca379191fbfd9cb625482b76da35721",
+    "summarize.py": "cde7e2caf5aac8fddf9fb7fe490b36f6036cd60ad41a10019f456419b474e552",
+    "teotihuacan/forecast.json": "087eb088513b8da0e7dd49de14c20dc8f586b6b0235821fb542cb354da20bdf7",
+    "teotihuacan/keeper-label.json": "814d18e27e45369a4f4974af02637b57032560cf8922d14cf997c0c10a26f02c",
+    "teotihuacan/protocol.json": "852064166775d30942f72103dc10733caddcd43cdfd3a7a903da312d3f52c654",
+    "teotihuacan/replay.py": "04cdd0a9dc84db3d97e5f2992b86bf363125eef451e44e8ac3a63cdccab0d671",
+    "teotihuacan/result.json": "93dfbfc019742b9cf6523245daff498d2479cd85989a96702065b816b4f7f44c",
+    "teotihuacan/score_reveal.py": "1a211558cccf5fd871326f71c8af719a4958f943f7a7a12dbfc5d22946bfd630"
+  }
+}

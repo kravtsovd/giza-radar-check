@@ -1,0 +1,1517 @@
+{
+  "as_of": "2026-11-27",
+  "scope": "Giza radar scenes, historical acquisition records, ground surveys and external controls used in the evidence review. Each record labels the meaning of its date. One pass can have several products. Archive counts reflect the dated searches.",
+  "items": [
+    {
+      "id": "capella-20240916",
+      "group": "Giza radar scenes",
+      "title": "Capella C13 over the Giza pyramids",
+      "date": "2024-09-16T21:57:11.063460Z",
+      "platform": "Capella C13",
+      "product": "Spotlight HH, SLC GeoTIFF, SICD, CPHD",
+      "site": "Giza plateau, Egypt",
+      "access": "Open measurement",
+      "url": "https://capella-open-data.s3.us-west-2.amazonaws.com/stac/capella-open-data-by-datetime/capella-open-data-2024/capella-open-data-2024-09/capella-open-data-2024-09-16/CAPELLA_C13_SP_SLC_HH_20240916215711_20240916215743/CAPELLA_C13_SP_SLC_HH_20240916215711_20240916215743.json",
+      "description": "Fixed +43 m input ranked 31/32 at the King’s Chamber plan position. The free-height peak was +1 m. The complete 33,678,669,088-byte CPHD passed its multipart checksum. The selected operator failed the three-chamber criterion.",
+      "date_kind": "Acquisition start UTC",
+      "end_utc": "2024-09-16T21:57:42.910579Z",
+      "source_id": "CAPELLA_C13_SP_SLC_HH_20240916215711_20240916215743",
+      "assets": [
+        {
+          "product": "CPHD",
+          "url": "https://capella-open-data.s3.us-west-2.amazonaws.com/data/2024/9/16/CAPELLA_C13_SP_CPHD_HH_20240916215711_20240916215743/CAPELLA_C13_SP_CPHD_HH_20240916215711_20240916215743.cphd"
+        },
+        {
+          "product": "GEC",
+          "url": "https://capella-open-data.s3.us-west-2.amazonaws.com/data/2024/9/16/CAPELLA_C13_SP_GEC_HH_20240916215711_20240916215743/CAPELLA_C13_SP_GEC_HH_20240916215711_20240916215743.tif"
+        },
+        {
+          "product": "SICD",
+          "url": "https://capella-open-data.s3.us-west-2.amazonaws.com/data/2024/9/16/CAPELLA_C13_SP_SICD_HH_20240916215711_20240916215743/CAPELLA_C13_SP_SICD_HH_20240916215711_20240916215743.ntf"
+        },
+        {
+          "product": "SLC",
+          "url": "https://capella-open-data.s3.us-west-2.amazonaws.com/data/2024/9/16/CAPELLA_C13_SP_SLC_HH_20240916215711_20240916215743/CAPELLA_C13_SP_SLC_HH_20240916215711_20240916215743.tif"
+        }
+      ],
+      "related": [
+        "petrie"
+      ],
+      "rights": "CC BY 4.0. Credit Capella Space.",
+      "rights_url": "https://support.capellaspace.com/what-is-the-licensing-for-capellas-open-data"
+    },
+    {
+      "id": "capella-20241004",
+      "group": "Giza radar scenes",
+      "title": "Capella C13 over the Giza pyramids",
+      "date": "2024-10-04T00:19:39.678111Z",
+      "platform": "Capella C13",
+      "product": "Spotlight HH, SLC GeoTIFF, SICD, CPHD",
+      "site": "Giza plateau, Egypt",
+      "access": "Open measurement",
+      "url": "https://capella-open-data.s3.us-west-2.amazonaws.com/stac/capella-open-data-by-datetime/capella-open-data-2024/capella-open-data-2024-10/capella-open-data-2024-10-04/CAPELLA_C13_SP_SLC_HH_20241004001939_20241004002012/CAPELLA_C13_SP_SLC_HH_20241004001939_20241004002012.json",
+      "description": "Fixed +43 m input ranked 32/32 at the King’s Chamber plan position. The free-height peak was +1 m. The complete 39,180,270,944-byte CPHD passed its multipart checksum. The selected operator failed the three-chamber criterion.",
+      "date_kind": "Acquisition start UTC",
+      "end_utc": "2024-10-04T00:20:12.546729Z",
+      "source_id": "CAPELLA_C13_SP_SLC_HH_20241004001939_20241004002012",
+      "assets": [
+        {
+          "product": "CPHD",
+          "url": "https://capella-open-data.s3.us-west-2.amazonaws.com/data/2024/10/4/CAPELLA_C13_SP_CPHD_HH_20241004001939_20241004002012/CAPELLA_C13_SP_CPHD_HH_20241004001939_20241004002012.cphd"
+        },
+        {
+          "product": "GEC",
+          "url": "https://capella-open-data.s3.us-west-2.amazonaws.com/data/2024/10/4/CAPELLA_C13_SP_GEC_HH_20241004001939_20241004002012/CAPELLA_C13_SP_GEC_HH_20241004001939_20241004002012.tif"
+        },
+        {
+          "product": "SICD",
+          "url": "https://capella-open-data.s3.us-west-2.amazonaws.com/data/2024/10/4/CAPELLA_C13_SP_SICD_HH_20241004001939_20241004002012/CAPELLA_C13_SP_SICD_HH_20241004001939_20241004002012.ntf"
+        },
+        {
+          "product": "SLC",
+          "url": "https://capella-open-data.s3.us-west-2.amazonaws.com/data/2024/10/4/CAPELLA_C13_SP_SLC_HH_20241004001939_20241004002012/CAPELLA_C13_SP_SLC_HH_20241004001939_20241004002012.tif"
+        }
+      ],
+      "related": [
+        "petrie"
+      ],
+      "rights": "CC BY 4.0. Credit Capella Space.",
+      "rights_url": "https://support.capellaspace.com/what-is-the-licensing-for-capellas-open-data"
+    },
+    {
+      "id": "umbra-20230207",
+      "group": "Giza radar scenes",
+      "title": "Umbra-05 over the Giza pyramids",
+      "date": "2023-02-07T07:58:29.003524Z",
+      "platform": "Umbra-05",
+      "product": "Spotlight VV, SICD, CPHD and GEC",
+      "site": "Giza plateau, Egypt",
+      "access": "Open measurement",
+      "url": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/7e7cd796-3842-4923-8b48-4c0950ece945/2023-02-07-07-58-27_UMBRA-05/2023-02-07-07-58-27_UMBRA-05_METADATA.json",
+      "description": "The fixed +43 m King’s Chamber test ranked 26/32. No chamber passed the frozen criterion.",
+      "date_kind": "Acquisition start UTC",
+      "end_utc": "2023-02-07T07:58:30.274323Z",
+      "source_id": "2023-02-07-07-58-27_UMBRA-05",
+      "assets": [
+        {
+          "product": "CPHD",
+          "url": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/7e7cd796-3842-4923-8b48-4c0950ece945/2023-02-07-07-58-27_UMBRA-05/2023-02-07-07-58-27_UMBRA-05_CPHD.cphd"
+        },
+        {
+          "product": "GEC",
+          "url": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/7e7cd796-3842-4923-8b48-4c0950ece945/2023-02-07-07-58-27_UMBRA-05/2023-02-07-07-58-27_UMBRA-05_GEC.tif"
+        },
+        {
+          "product": "SICD",
+          "url": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/7e7cd796-3842-4923-8b48-4c0950ece945/2023-02-07-07-58-27_UMBRA-05/2023-02-07-07-58-27_UMBRA-05_SICD.nitf"
+        }
+      ],
+      "related": [
+        "petrie"
+      ],
+      "rights": "CC BY 4.0. Credit Umbra.",
+      "rights_url": "https://umbra.space/open-data/"
+    },
+    {
+      "id": "umbra-20230208",
+      "group": "Giza radar scenes",
+      "title": "Umbra-04 over the Giza pyramids",
+      "date": "2023-02-08T07:54:57.132517Z",
+      "platform": "Umbra-04",
+      "product": "Spotlight VV, SICD, CPHD and GEC",
+      "site": "Giza plateau, Egypt",
+      "access": "Open measurement",
+      "url": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/44da7805-2129-4105-add8-2403bf671f40/2023-02-08-07-54-55_UMBRA-04/2023-02-08-07-54-55_UMBRA-04_METADATA.json",
+      "description": "The fixed +43 m King’s Chamber test ranked 17/32. No chamber passed the frozen criterion.",
+      "date_kind": "Acquisition start UTC",
+      "end_utc": "2023-02-08T07:54:58.315037Z",
+      "source_id": "2023-02-08-07-54-55_UMBRA-04",
+      "assets": [
+        {
+          "product": "CPHD",
+          "url": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/44da7805-2129-4105-add8-2403bf671f40/2023-02-08-07-54-55_UMBRA-04/2023-02-08-07-54-55_UMBRA-04_CPHD.cphd"
+        },
+        {
+          "product": "GEC",
+          "url": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/44da7805-2129-4105-add8-2403bf671f40/2023-02-08-07-54-55_UMBRA-04/2023-02-08-07-54-55_UMBRA-04_GEC.tif"
+        },
+        {
+          "product": "SICD",
+          "url": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/44da7805-2129-4105-add8-2403bf671f40/2023-02-08-07-54-55_UMBRA-04/2023-02-08-07-54-55_UMBRA-04_SICD.nitf"
+        }
+      ],
+      "related": [
+        "petrie"
+      ],
+      "rights": "CC BY 4.0. Credit Umbra.",
+      "rights_url": "https://umbra.space/open-data/"
+    },
+    {
+      "id": "umbra-20230210",
+      "group": "Giza radar scenes",
+      "title": "Umbra-04 over the Giza pyramids",
+      "date": "2023-02-10T07:29:56.436479Z",
+      "platform": "Umbra-04",
+      "product": "Spotlight VV, detected GEC GeoTIFF",
+      "site": "Giza plateau, Egypt",
+      "access": "Open measurement",
+      "url": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/e00923b7-7a71-4c44-bff6-0765c38a8273/2023-02-10-07-29-54_UMBRA-04_METADATA.json",
+      "description": "The public task supplies intensity and metadata. It lacks the complex phase required by the chamber test.",
+      "date_kind": "Acquisition start UTC",
+      "end_utc": "2023-02-10T07:30:01.430736Z",
+      "source_id": "2023-02-10-07-29-54_UMBRA-04",
+      "assets": [
+        {
+          "product": "GEC",
+          "url": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/e00923b7-7a71-4c44-bff6-0765c38a8273/2023-02-10-07-29-54_UMBRA-04.tif"
+        }
+      ],
+      "related": [],
+      "rights": "CC BY 4.0. Credit Umbra.",
+      "rights_url": "https://umbra.space/open-data/"
+    },
+    {
+      "id": "umbra-20230308",
+      "group": "Giza radar scenes",
+      "title": "Umbra-04 over the Giza pyramids",
+      "date": "2023-03-08T07:57:55.041879Z",
+      "platform": "Umbra-04",
+      "product": "Spotlight VV, SICD and GEC",
+      "site": "Giza plateau, Egypt",
+      "access": "Open measurement",
+      "url": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/5aa49658-ecf9-4504-afee-281f43fb076e/2023-03-08-07-57-53_UMBRA-04/2023-03-08-07-57-53_UMBRA-04_METADATA.json",
+      "description": "The fixed +43 m King’s Chamber test ranked 21/32. No chamber passed the frozen criterion.",
+      "date_kind": "Acquisition start UTC",
+      "end_utc": "2023-03-08T07:58:00.082777Z",
+      "source_id": "2023-03-08-07-57-53_UMBRA-04",
+      "assets": [
+        {
+          "product": "GEC",
+          "url": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/5aa49658-ecf9-4504-afee-281f43fb076e/2023-03-08-07-57-53_UMBRA-04/2023-03-08-07-57-53_UMBRA-04_GEC.tif"
+        },
+        {
+          "product": "SICD",
+          "url": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/5aa49658-ecf9-4504-afee-281f43fb076e/2023-03-08-07-57-53_UMBRA-04/2023-03-08-07-57-53_UMBRA-04_SICD.nitf"
+        }
+      ],
+      "related": [
+        "petrie"
+      ],
+      "rights": "CC BY 4.0. Credit Umbra.",
+      "rights_url": "https://umbra.space/open-data/"
+    },
+    {
+      "id": "iceye-20250602",
+      "group": "Giza radar scenes",
+      "title": "ICEYE-X50 over the Giza pyramids",
+      "date": "2025-06-02T20:21:39.358Z",
+      "platform": "ICEYE-X50",
+      "product": "Dwell Precise VV, SLC GeoTIFF",
+      "site": "Giza plateau, Egypt",
+      "access": "Open measurement",
+      "url": "https://iceye-open-data-catalog.s3.amazonaws.com/stac-items/2025/06/ICEYE_STQ4S3_20250602T202139Z_4806740_X50_SLEDP.json",
+      "description": "Fixed +43 m input ranked 31/32 at the King’s Chamber plan position. The free-height peak was -1.5 m. The scene was already known to an earlier investigation. The selected operator failed the three-chamber criterion.",
+      "date_kind": "Acquisition start UTC",
+      "end_utc": "2025-06-02T20:21:57.193Z",
+      "source_id": "ICEYE_STQ4S3_20250602T202139Z_4806740_X50_SLEDP",
+      "assets": [
+        {
+          "product": "grd-cog",
+          "url": "https://iceye-open-data-catalog.s3.amazonaws.com/data/dwell-precise/ICEYE_STQ4S3_20250602T202139Z_4806740_X50_SLEDP/ICEYE_STQ4S3_20250602T202139Z_4806740_X50_SLEDP_GRD.tif"
+        },
+        {
+          "product": "slc-cog",
+          "url": "https://iceye-open-data-catalog.s3.amazonaws.com/data/dwell-precise/ICEYE_STQ4S3_20250602T202139Z_4806740_X50_SLEDP/ICEYE_STQ4S3_20250602T202139Z_4806740_X50_SLEDP_SLC.tif"
+        }
+      ],
+      "related": [
+        "petrie"
+      ],
+      "rights": "CC BY 4.0. Credit ICEYE.",
+      "rights_url": "https://sar.iceye.com/6.0.6/opendata/opendata/"
+    },
+    {
+      "id": "cosmo-20211028",
+      "group": "Historical COSMO-SkyMed scenes",
+      "title": "Khufu external image, Table 2 row 1",
+      "date": "2021-10-28",
+      "platform": "COSMO-SkyMed",
+      "product": "X-band SAR, reported acquisition",
+      "site": "Khufu, Egypt",
+      "access": "Published date; original by request",
+      "url": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-14-05231/article_deploy/remotesensing-14-05231.pdf#page=16",
+      "description": "Right-descending, 06 degrees, HH, master. The retracted study lists this date. The vendor ID and imagery remain unverified.",
+      "date_kind": "Reported acquisition day, time and timezone unspecified",
+      "rights": "Original radar requires ASI science approval or a commercial licence through e-GEOS.",
+      "rights_url": "https://www.asi.it/en/earth-science/cosmo-skymed/"
+    },
+    {
+      "id": "cosmo-20211113",
+      "group": "Historical COSMO-SkyMed scenes",
+      "title": "Khufu external image, Table 2 row 2",
+      "date": "2021-11-13",
+      "platform": "COSMO-SkyMed",
+      "product": "X-band SAR, reported acquisition",
+      "site": "Khufu, Egypt",
+      "access": "Published date; original by request",
+      "url": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-14-05231/article_deploy/remotesensing-14-05231.pdf#page=16",
+      "description": "Right-descending, 06 degrees, HH, slave. The retracted study lists this date. The vendor ID and imagery remain unverified.",
+      "date_kind": "Reported acquisition day, time and timezone unspecified",
+      "rights": "Original radar requires ASI science approval or a commercial licence through e-GEOS.",
+      "rights_url": "https://www.asi.it/en/earth-science/cosmo-skymed/"
+    },
+    {
+      "id": "cosmo-20211027",
+      "group": "Historical COSMO-SkyMed scenes",
+      "title": "Khufu external image, Table 2 row 3",
+      "date": "2021-10-27",
+      "platform": "COSMO-SkyMed",
+      "product": "X-band SAR, reported acquisition",
+      "site": "Khufu, Egypt",
+      "access": "Published date; original by request",
+      "url": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-14-05231/article_deploy/remotesensing-14-05231.pdf#page=16",
+      "description": "Right-descending, 08 degrees, HH, master. The retracted study lists this date. The vendor ID and imagery remain unverified.",
+      "date_kind": "Reported acquisition day, time and timezone unspecified",
+      "rights": "Original radar requires ASI science approval or a commercial licence through e-GEOS.",
+      "rights_url": "https://www.asi.it/en/earth-science/cosmo-skymed/"
+    },
+    {
+      "id": "cosmo-20211112",
+      "group": "Historical COSMO-SkyMed scenes",
+      "title": "Khufu external image, Table 2 row 4",
+      "date": "2021-11-12",
+      "platform": "COSMO-SkyMed",
+      "product": "X-band SAR, reported acquisition",
+      "site": "Khufu, Egypt",
+      "access": "Published date; original by request",
+      "url": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-14-05231/article_deploy/remotesensing-14-05231.pdf#page=16",
+      "description": "Right-descending, 08 degrees, HH, slave. The retracted study lists this date. The vendor ID and imagery remain unverified.",
+      "date_kind": "Reported acquisition day, time and timezone unspecified",
+      "rights": "Original radar requires ASI science approval or a commercial licence through e-GEOS.",
+      "rights_url": "https://www.asi.it/en/earth-science/cosmo-skymed/"
+    },
+    {
+      "id": "cosmo-20210724",
+      "group": "Historical COSMO-SkyMed scenes",
+      "title": "Khufu external image, Table 2 row 5",
+      "date": "2021-07-24",
+      "platform": "COSMO-SkyMed",
+      "product": "X-band SAR, reported acquisition",
+      "site": "Khufu, Egypt",
+      "access": "Published date; original by request",
+      "url": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-14-05231/article_deploy/remotesensing-14-05231.pdf#page=16",
+      "description": "Right-ascending, 39 degrees, HH, master. The retracted study lists this date. The vendor ID and imagery remain unverified.",
+      "date_kind": "Reported acquisition day, time and timezone unspecified",
+      "rights": "Original radar requires ASI science approval or a commercial licence through e-GEOS.",
+      "rights_url": "https://www.asi.it/en/earth-science/cosmo-skymed/"
+    },
+    {
+      "id": "cosmo-20210809",
+      "group": "Historical COSMO-SkyMed scenes",
+      "title": "Khufu external image, Table 2 row 6",
+      "date": "2021-08-09",
+      "platform": "COSMO-SkyMed",
+      "product": "X-band SAR, reported acquisition",
+      "site": "Khufu, Egypt",
+      "access": "Published date; original by request",
+      "url": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-14-05231/article_deploy/remotesensing-14-05231.pdf#page=16",
+      "description": "Right-ascending, 39 degrees, HH, slave. The retracted study lists this date. The vendor ID and imagery remain unverified.",
+      "date_kind": "Reported acquisition day, time and timezone unspecified",
+      "rights": "Original radar requires ASI science approval or a commercial licence through e-GEOS.",
+      "rights_url": "https://www.asi.it/en/earth-science/cosmo-skymed/"
+    },
+    {
+      "id": "cosmo-20220225",
+      "group": "Historical COSMO-SkyMed scenes",
+      "title": "Khufu internal image, Table 2 row 7",
+      "date": "2022-02-25",
+      "platform": "COSMO-SkyMed",
+      "product": "X-band SAR, reported acquisition",
+      "site": "Khufu, Egypt",
+      "access": "Published date; original by request",
+      "url": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-14-05231/article_deploy/remotesensing-14-05231.pdf#page=16",
+      "description": "Left-descending, 46 degrees, VV, single image. The retracted study lists this date. The vendor ID and imagery remain unverified.",
+      "date_kind": "Reported acquisition day, time and timezone unspecified",
+      "rights": "Original radar requires ASI science approval or a commercial licence through e-GEOS.",
+      "rights_url": "https://www.asi.it/en/earth-science/cosmo-skymed/"
+    },
+    {
+      "id": "cosmo-20211116",
+      "group": "Historical COSMO-SkyMed scenes",
+      "title": "Khufu internal image, Table 2 row 8",
+      "date": "2021-11-16",
+      "platform": "COSMO-SkyMed",
+      "product": "X-band SAR, reported acquisition",
+      "site": "Khufu, Egypt",
+      "access": "Published date; original by request",
+      "url": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-14-05231/article_deploy/remotesensing-14-05231.pdf#page=16",
+      "description": "Right-descending, 48 degrees, HH, single image. The retracted study lists this date. The vendor ID and imagery remain unverified.",
+      "date_kind": "Reported acquisition day, time and timezone unspecified",
+      "rights": "Original radar requires ASI science approval or a commercial licence through e-GEOS.",
+      "rights_url": "https://www.asi.it/en/earth-science/cosmo-skymed/"
+    },
+    {
+      "id": "cosmo-20220222",
+      "group": "Historical COSMO-SkyMed scenes",
+      "title": "Khufu internal image, Table 2 row 9",
+      "date": "2022-02-22",
+      "platform": "COSMO-SkyMed",
+      "product": "X-band SAR, reported acquisition",
+      "site": "Khufu, Egypt",
+      "access": "Published date; original by request",
+      "url": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-14-05231/article_deploy/remotesensing-14-05231.pdf#page=16",
+      "description": "Right-descending, 48 degrees, VV, single image. The retracted study lists this date. The vendor ID and imagery remain unverified.",
+      "date_kind": "Reported acquisition day, time and timezone unspecified",
+      "rights": "Original radar requires ASI science approval or a commercial licence through e-GEOS.",
+      "rights_url": "https://www.asi.it/en/earth-science/cosmo-skymed/"
+    },
+    {
+      "id": "cosmo-20220216",
+      "group": "Historical COSMO-SkyMed scenes",
+      "title": "Khufu internal image, Table 2 row 10",
+      "date": "2022-02-16",
+      "platform": "COSMO-SkyMed",
+      "product": "X-band SAR, reported acquisition",
+      "site": "Khufu, Egypt",
+      "access": "Published date; original by request",
+      "url": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-14-05231/article_deploy/remotesensing-14-05231.pdf#page=16",
+      "description": "Right-ascending, 48 degrees, VV, single image. The retracted study lists this date. The vendor ID and imagery remain unverified.",
+      "date_kind": "Reported acquisition day, time and timezone unspecified",
+      "rights": "Original radar requires ASI science approval or a commercial licence through e-GEOS.",
+      "rights_url": "https://www.asi.it/en/earth-science/cosmo-skymed/"
+    },
+    {
+      "id": "cosmo-20220325",
+      "group": "Historical COSMO-SkyMed scenes",
+      "title": "Khufu internal image, Table 2 row 11",
+      "date": "2022-03-25",
+      "platform": "COSMO-SkyMed",
+      "product": "X-band SAR, reported acquisition",
+      "site": "Khufu, Egypt",
+      "access": "Published date; original by request",
+      "url": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-14-05231/article_deploy/remotesensing-14-05231.pdf#page=16",
+      "description": "Right-descending, 48 degrees, VV, single image. The retracted study lists this date. The vendor ID and imagery remain unverified.",
+      "date_kind": "Reported acquisition day, time and timezone unspecified",
+      "rights": "Original radar requires ASI science approval or a commercial licence through e-GEOS.",
+      "rights_url": "https://www.asi.it/en/earth-science/cosmo-skymed/"
+    },
+    {
+      "id": "cosmo-20220426",
+      "group": "Historical COSMO-SkyMed scenes",
+      "title": "Khufu internal image, Table 2 row 12",
+      "date": "2022-04-26",
+      "platform": "COSMO-SkyMed",
+      "product": "X-band SAR, reported acquisition",
+      "site": "Khufu, Egypt",
+      "access": "Published date; original by request",
+      "url": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-14-05231/article_deploy/remotesensing-14-05231.pdf#page=16",
+      "description": "Right-descending, 48 degrees, VV, single image. The retracted study lists this date. The vendor ID and imagery remain unverified.",
+      "date_kind": "Reported acquisition day, time and timezone unspecified",
+      "rights": "Original radar requires ASI science approval or a commercial licence through e-GEOS.",
+      "rights_url": "https://www.asi.it/en/earth-science/cosmo-skymed/"
+    },
+    {
+      "id": "sentinel-khafre",
+      "group": "Archive searches",
+      "title": "Sentinel-1 archive over the three pyramids",
+      "date": "2014-10-05T03:52:09Z",
+      "platform": "Sentinel-1",
+      "product": "C-band IW SLC GeoJSON search",
+      "site": "Giza plateau, Egypt",
+      "access": "Free catalogue; Earthdata Login for images",
+      "url": "https://api.daac.asf.alaska.edu/services/search/param?platform=Sentinel-1&processingLevel=SLC&intersectsWith=POINT%2831.1308%2029.9761%29&start=2014-01-01&end=2026-11-26&output=geojson&maxResults=10000",
+      "description": "The dated search returned 820 scene records. Each footprint covered all three pyramids. The chamber test used other acquisitions.",
+      "date_kind": "Earliest matching acquisition UTC",
+      "end_utc": "2026-11-24T15:55:45Z",
+      "archive_cutoff": "2026-11-26",
+      "scene_count": 820,
+      "rights": "Copernicus Sentinel data are free and open. ASF requires Earthdata Login for product downloads.",
+      "rights_url": "https://dataspace.copernicus.eu/terms-and-conditions"
+    },
+    {
+      "id": "petrie",
+      "group": "Ground references",
+      "title": "Petrie chamber and passage survey",
+      "date": "1883",
+      "platform": "Field survey",
+      "product": "Book with measurements and plans",
+      "site": "Khufu, Egypt",
+      "access": "Open reference",
+      "url": "https://pdfs.petrieproject.com/cu31924012038927.pdf",
+      "description": "Petrie surveyed Giza in 1880-82 and published the measurements in 1883. Chamber and passage dimensions anchor the known locations.",
+      "date_kind": "Publication year",
+      "rights": "Free source link. Consult the rights statement for reuse of figures or data."
+    },
+    {
+      "id": "north-face-muons",
+      "group": "Ground references",
+      "title": "North Face Corridor muography",
+      "date": "2023",
+      "platform": "ScanPyramids",
+      "product": "Published muon measurements and geometry",
+      "site": "Khufu, Egypt",
+      "access": "Open reference",
+      "url": "https://doi.org/10.1038/s41467-023-36351-0",
+      "description": "An independently surveyed corridor checks position and shape. The article reports detector results and derived geometry.",
+      "date_kind": "Publication year",
+      "rights": "Published article under CC BY 4.0. Credit the authors. Check figure credits for third-party material.",
+      "rights_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "big-void",
+      "group": "Ground references",
+      "title": "Big Void muography",
+      "date": "2017",
+      "platform": "ScanPyramids",
+      "product": "Muon observations from three detector technologies",
+      "site": "Khufu, Egypt",
+      "access": "Open reference",
+      "url": "https://arxiv.org/abs/1711.01576",
+      "description": "Independent evidence places a large void above the Grand Gallery. Its precise shape and orientation remain unresolved.",
+      "date_kind": "Publication year",
+      "rights": "Free source link. Consult the rights statement for reuse of figures or data."
+    },
+    {
+      "id": "western-cemetery-survey",
+      "group": "Ground references",
+      "title": "Western Cemetery ground survey",
+      "date": "2021",
+      "platform": "Ground radar and resistivity",
+      "product": "GPR and electrical resistivity profiles",
+      "site": "Western Cemetery, Giza",
+      "access": "Open publisher abstract and DOI",
+      "url": "https://api.crossref.org/works/10.1002/arp.1940",
+      "description": "The joint survey measured shallow anomalies west of Khufu from 2021 to 2023. The 2024 paper includes ground radar and resistivity profiles.",
+      "date_kind": "Field campaign years",
+      "end_date": "2023",
+      "doi": "10.1002/arp.1940",
+      "rights": "Published article under CC BY-NC-ND 4.0. Credit the authors.",
+      "rights_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+    },
+    {
+      "id": "osiris-shaft-survey",
+      "group": "Ground references",
+      "title": "Osiris Shaft excavation",
+      "date": "2007",
+      "platform": "Archaeological excavation",
+      "product": "Survey plans, sections and photographs",
+      "site": "Osiris Shaft, Giza",
+      "access": "Open reference",
+      "url": "https://giza.fas.harvard.edu/pubdocs/476/full/",
+      "description": "Published excavation levels and plans provide a reference for the shaft model.",
+      "date_kind": "Report publication year",
+      "rights": "Free source link. Consult the rights statement for reuse of figures or data."
+    },
+    {
+      "id": "north-face-fusion",
+      "group": "Ground references",
+      "title": "North Face Corridor ground survey",
+      "date": "2025",
+      "platform": "Ground radar, ultrasound and resistivity",
+      "product": "Published ground-survey profiles and geometry",
+      "site": "Khufu, Egypt",
+      "access": "Open reference",
+      "url": "https://doi.org/10.1038/s41598-025-91115-8",
+      "description": "Three physical methods tested the corridor geometry. The study provides independent comparisons with muography.",
+      "date_kind": "Publication year",
+      "rights": "Published article under CC BY 4.0. Credit the authors. Check figure credits for third-party material.",
+      "rights_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "khufu-mast",
+      "group": "Ground references",
+      "title": "Khufu summit GPS survey",
+      "date": "2018",
+      "platform": "AERA / GPMP",
+      "product": "WGS84 coordinates in survey report",
+      "site": "Khufu, Egypt",
+      "access": "Open reference",
+      "url": "https://aeraweb.org/wp-content/uploads/2020/04/AR2018.pdf#page=5",
+      "description": "Surveyed modern summit mast anchors exterior registration. The original base center has a separate uncertainty.",
+      "date_kind": "Annual report year",
+      "rights": "Free source link. Consult the rights statement for reuse of figures or data."
+    },
+    {
+      "id": "egm96",
+      "group": "Ground references",
+      "title": "EGM96 height reference",
+      "date": null,
+      "platform": "US NGA",
+      "product": "15-minute geoid GeoTIFF",
+      "site": "Global",
+      "access": "Open grid",
+      "url": "https://cdn.proj.org/us_nga_egm96_15.tif",
+      "description": "The geoid grid converts survey heights into satellite ellipsoid heights. The original local leveling datum remains uncertain.",
+      "date_kind": "Grid release not dated here",
+      "rights": "US NGA source grid, public domain. PROJ distributes the GeoTIFF.",
+      "rights_url": "https://cdn.proj.org/"
+    },
+    {
+      "id": "khufu-x33-model",
+      "group": "Published reconstructions",
+      "title": "Khufu X33 published reconstruction",
+      "date": "2026-11-11",
+      "platform": "ArchaeoSAR",
+      "product": "Interactive HTML",
+      "site": "Khufu, Egypt",
+      "access": "Derived output only",
+      "url": "https://archaeologicalrescue.org/wp-content/uploads/2026/11/Khufu_X33_W1300_P2_Heights_3D2.html",
+      "description": "An interactive mesh and display textures show the registered reconstruction. The source does not distribute a phase-preserving scene.",
+      "date_kind": "Report publication date",
+      "rights": "Public display. An open licence for the underlying radar was not established."
+    },
+    {
+      "id": "western-cemetery-model",
+      "group": "Published reconstructions",
+      "title": "Western Cemetery fitted scores",
+      "date": "2026-11-11",
+      "platform": "ArchaeoSAR",
+      "product": "Interactive HTML",
+      "site": "Western Cemetery, Giza",
+      "access": "Derived output only",
+      "url": "https://archaeologicalrescue.org/wp-content/uploads/2026/11/Yoshimura_Y27_Y34_P8_Interactive_3D.html",
+      "description": "Eight profiles contain fitted scores at 999 depth labels. These data can test rendering and normalization.",
+      "date_kind": "Report publication date",
+      "rights": "Public display. An open licence for the underlying radar was not established."
+    },
+    {
+      "id": "osiris-model",
+      "group": "Published reconstructions",
+      "title": "Osiris Shaft reconstruction",
+      "date": "2026-11-11",
+      "platform": "ArchaeoSAR",
+      "product": "Interactive HTML",
+      "site": "Osiris Shaft, Giza",
+      "access": "Derived output only",
+      "url": "https://archaeologicalrescue.org/wp-content/uploads/2026/11/Osiris_Shaft_Interactive_3D.html",
+      "description": "The released interactive model permits comparison with excavation plans.",
+      "date_kind": "Report publication date",
+      "rights": "Public display. An open licence for the underlying radar was not established."
+    },
+    {
+      "id": "khafre-ew-model",
+      "group": "Published reconstructions",
+      "title": "Khafre east and west sections",
+      "date": "2026-11-11",
+      "platform": "ArchaeoSAR",
+      "product": "Published profiles",
+      "site": "Khafre, Egypt",
+      "access": "Derived output only",
+      "url": "https://archaeologicalrescue.org/biondi-validation/#khafre",
+      "description": "The published images cover the upper 50 m. They do not span the 648 m claim.",
+      "date_kind": "Report publication date",
+      "rights": "Public display. An open licence for the underlying radar was not established."
+    },
+    {
+      "id": "khafre-scene-ids",
+      "group": "Missing inputs",
+      "title": "Original Khafre radar scenes",
+      "date": null,
+      "platform": "Capella and Umbra named in press abstract",
+      "product": "Phase-preserving input scenes",
+      "site": "Khafre, Egypt",
+      "access": "No verified measurement release",
+      "url": "https://codigooculto.com/wp-content/uploads/2025/03/project-khafre-2025.pdf#page=2",
+      "description": "The conference material gives no verified scene IDs or acquisition times for the 648 m claim.",
+      "date_kind": "Acquisition time unverified",
+      "related": [],
+      "rights": "No verified public data release."
+    },
+    {
+      "id": "khafre-648-array",
+      "group": "Missing inputs",
+      "title": "Original numerical shaft volume",
+      "date": null,
+      "platform": "Khafre Project",
+      "product": "Depth-calibrated volume",
+      "site": "Khafre, Egypt",
+      "access": "No verified measurement release",
+      "url": "https://codigooculto.com/wp-content/uploads/2025/03/project-khafre-2025.pdf#page=6",
+      "description": "The published figures do not provide voxel values, a datum or a reproducible depth transform.",
+      "date_kind": "Acquisition time unverified",
+      "related": [],
+      "rights": "No verified public data release."
+    },
+    {
+      "id": "blind-ground-controls",
+      "group": "Missing inputs",
+      "title": "Certified buried and empty targets",
+      "date": null,
+      "platform": "Independent survey required",
+      "product": "Held-out survey labels",
+      "site": "Giza, Egypt",
+      "access": "No verified measurement release",
+      "description": "An external ground survey would need to identify buried targets and certify comparable empty sites.",
+      "date_kind": "Acquisition time unverified",
+      "related": [],
+      "rights": "No verified public data release."
+    },
+    {
+      "id": "iceye-x13",
+      "group": "Missing inputs",
+      "title": "Claimed ICEYE-X13 input",
+      "date": null,
+      "platform": "ICEYE-X13",
+      "product": "Complex SAR",
+      "site": "Giza, Egypt",
+      "access": "No verified measurement release",
+      "url": "https://archaeologicalrescue.org/biondi-validation/",
+      "description": "The original X13 product ID, acquisition time and release terms remain unresolved. The public X50 scene is separate.",
+      "date_kind": "Acquisition time unverified",
+      "related": [
+        "iceye-20250602"
+      ],
+      "rights": "No verified public data release."
+    },
+    {
+      "id": "iceye-x33",
+      "group": "Missing inputs",
+      "title": "Claimed ICEYE-X33 input",
+      "date": null,
+      "platform": "ICEYE-X33",
+      "product": "Complex SAR",
+      "site": "Khufu, Egypt",
+      "access": "No verified measurement release",
+      "url": "https://archaeologicalrescue.org/biondi-validation/",
+      "description": "The author published a reconstruction. No matching provider scene or open licence for the phase data was verified.",
+      "date_kind": "Acquisition time unverified",
+      "related": [
+        "khufu-x33-model"
+      ],
+      "rights": "No verified public data release."
+    },
+    {
+      "id": "motion-trial-1",
+      "group": "Surface-motion trials",
+      "title": "Driven corner reflector, trial 1",
+      "date": "2023-11-18T20:46:27Z",
+      "platform": "Umbra-05",
+      "product": "Published radar and displacement curves",
+      "site": "Glasgow or Trento; individual site unverified",
+      "access": "Published curves only",
+      "url": "https://strathprints.strath.ac.uk/95237/7/Vattulainen-etal-IEEE-Access-2026-Assessment-of-spaceborne-SAR-micro-motion-measurement.pdf",
+      "description": "The replay used published curves. The open catalogue check did not identify a matching radar file. Ground comparison used published displacement curves.",
+      "date_kind": "Paper-reported start UTC",
+      "related": [
+        "motion-ground-curves"
+      ],
+      "rights": "Free source link. Consult the rights statement for reuse of figures or data."
+    },
+    {
+      "id": "motion-trial-2",
+      "group": "Surface-motion trials",
+      "title": "Driven corner reflector, trial 2",
+      "date": "2024-03-14T20:35:49Z",
+      "platform": "Umbra-04",
+      "product": "SICD NITF",
+      "site": "Glasgow Green, Scotland",
+      "access": "Open measurement",
+      "url": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/task-data/fea10fbd-a600-4134-97ea-a9ab3e82084a/2024-03-14-20-35-52_UMBRA-04/2024-03-14-20-35-52_UMBRA-04.stac.v2.json",
+      "description": "The replay recovered a peak near 2 Hz in velocity. Ground comparison used published displacement curves.",
+      "date_kind": "Provider acquisition start UTC",
+      "related": [
+        "motion-ground-curves"
+      ],
+      "source_id": "2024-03-14-20-35-52_UMBRA-04",
+      "end_utc": "2024-03-14T20:35:55.600002Z",
+      "assets": [
+        {
+          "product": "SICD",
+          "url": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/task-data/fea10fbd-a600-4134-97ea-a9ab3e82084a/2024-03-14-20-35-52_UMBRA-04/2024-03-14-20-35-52_UMBRA-04_SICD.nitf"
+        },
+        {
+          "product": "CPHD",
+          "url": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/task-data/fea10fbd-a600-4134-97ea-a9ab3e82084a/2024-03-14-20-35-52_UMBRA-04/2024-03-14-20-35-52_UMBRA-04_CPHD.cphd"
+        }
+      ],
+      "rights": "CC BY 4.0. Credit Umbra.",
+      "rights_url": "https://umbra.space/open-data/"
+    },
+    {
+      "id": "motion-trial-3",
+      "group": "Surface-motion trials",
+      "title": "Driven corner reflector, trial 3",
+      "date": "2024-03-14T21:29:23Z",
+      "platform": "Umbra-05",
+      "product": "SICD NITF",
+      "site": "Glasgow Green, Scotland",
+      "access": "Open measurement",
+      "url": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/task-data/664ca27d-b2c2-486a-b190-0b14ec4c1597/2024-03-14-21-29-26_UMBRA-05/2024-03-14-21-29-26_UMBRA-05.stac.v2.json",
+      "description": "The replay recovered the 2 Hz displacement and its amplitude. Ground comparison used published displacement curves.",
+      "date_kind": "Provider acquisition start UTC",
+      "related": [
+        "motion-ground-curves"
+      ],
+      "source_id": "2024-03-14-21-29-26_UMBRA-05",
+      "end_utc": "2024-03-14T21:29:30.399998Z",
+      "assets": [
+        {
+          "product": "SICD",
+          "url": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/task-data/664ca27d-b2c2-486a-b190-0b14ec4c1597/2024-03-14-21-29-26_UMBRA-05/2024-03-14-21-29-26_UMBRA-05_SICD.nitf"
+        },
+        {
+          "product": "CPHD",
+          "url": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/task-data/664ca27d-b2c2-486a-b190-0b14ec4c1597/2024-03-14-21-29-26_UMBRA-05/2024-03-14-21-29-26_UMBRA-05_CPHD.cphd"
+        }
+      ],
+      "rights": "CC BY 4.0. Credit Umbra.",
+      "rights_url": "https://umbra.space/open-data/"
+    },
+    {
+      "id": "motion-trial-4",
+      "group": "Surface-motion trials",
+      "title": "Driven corner reflector, trial 4",
+      "date": "2025-02-24T10:53:09Z",
+      "platform": "Umbra-09",
+      "product": "Published radar and displacement curves",
+      "site": "Glasgow or Trento; individual site unverified",
+      "access": "Published curves only",
+      "url": "https://strathprints.strath.ac.uk/95237/7/Vattulainen-etal-IEEE-Access-2026-Assessment-of-spaceborne-SAR-micro-motion-measurement.pdf",
+      "description": "The replay used published curves. The open catalogue check did not identify a matching radar file. Ground comparison used published displacement curves.",
+      "date_kind": "Paper-reported start UTC",
+      "related": [
+        "motion-ground-curves"
+      ],
+      "rights": "Free source link. Consult the rights statement for reuse of figures or data."
+    },
+    {
+      "id": "motion-trial-5",
+      "group": "Surface-motion trials",
+      "title": "Driven corner reflector, trial 5",
+      "date": "2025-02-25T10:52:50Z",
+      "platform": "Umbra-10",
+      "product": "SICD NITF",
+      "site": "Villa Gherta, Trento, Italy",
+      "access": "Open measurement",
+      "url": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/task-data/4f9d8f1c-9d00-45cb-ac86-ea7dd9ad33a9/2025-02-25-10-53-00_UMBRA-10/2025-02-25-10-53-00_UMBRA-10.stac.v2.json",
+      "description": "The carrier was weak. The displacement estimate exceeded the measured reference. Ground comparison used published displacement curves.",
+      "date_kind": "Provider acquisition start UTC",
+      "related": [
+        "motion-ground-curves"
+      ],
+      "source_id": "2025-02-25-10-53-00_UMBRA-10",
+      "end_utc": "2025-02-25T10:53:11.000001Z",
+      "assets": [
+        {
+          "product": "SICD",
+          "url": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/task-data/4f9d8f1c-9d00-45cb-ac86-ea7dd9ad33a9/2025-02-25-10-53-00_UMBRA-10/2025-02-25-10-53-00_UMBRA-10_SICD.nitf"
+        },
+        {
+          "product": "CPHD",
+          "url": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/task-data/4f9d8f1c-9d00-45cb-ac86-ea7dd9ad33a9/2025-02-25-10-53-00_UMBRA-10/2025-02-25-10-53-00_UMBRA-10_CPHD.cphd"
+        }
+      ],
+      "rights": "CC BY 4.0. Credit Umbra.",
+      "rights_url": "https://umbra.space/open-data/"
+    },
+    {
+      "id": "motion-trial-6",
+      "group": "Surface-motion trials",
+      "title": "Driven corner reflector, trial 6",
+      "date": "2025-01-30T10:46:27Z",
+      "platform": "Umbra-09",
+      "product": "Published radar and displacement curves",
+      "site": "Glasgow or Trento; individual site unverified",
+      "access": "Published curves only",
+      "url": "https://strathprints.strath.ac.uk/95237/7/Vattulainen-etal-IEEE-Access-2026-Assessment-of-spaceborne-SAR-micro-motion-measurement.pdf",
+      "description": "The replay used published curves. The open catalogue check did not identify a matching radar file. Ground comparison used published displacement curves.",
+      "date_kind": "Paper-reported start UTC",
+      "related": [
+        "motion-ground-curves"
+      ],
+      "rights": "Free source link. Consult the rights statement for reuse of figures or data."
+    },
+    {
+      "id": "motion-trial-7",
+      "group": "Surface-motion trials",
+      "title": "Driven corner reflector, trial 7",
+      "date": "2025-01-31T10:46:52Z",
+      "platform": "Umbra-09",
+      "product": "Published radar and displacement curves",
+      "site": "Glasgow or Trento; individual site unverified",
+      "access": "Published curves only",
+      "url": "https://strathprints.strath.ac.uk/95237/7/Vattulainen-etal-IEEE-Access-2026-Assessment-of-spaceborne-SAR-micro-motion-measurement.pdf",
+      "description": "The replay used published curves. The open catalogue check did not identify a matching radar file. Ground comparison used published displacement curves.",
+      "date_kind": "Paper-reported start UTC",
+      "related": [
+        "motion-ground-curves"
+      ],
+      "rights": "Free source link. Consult the rights statement for reuse of figures or data."
+    },
+    {
+      "id": "motion-trial-8",
+      "group": "Surface-motion trials",
+      "title": "Driven corner reflector, trial 8",
+      "date": "2024-03-29T20:57:42Z",
+      "platform": "Umbra-08",
+      "product": "SICD NITF",
+      "site": "Glasgow Green, Scotland",
+      "access": "Open measurement",
+      "url": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/task-data/fa5eb7d1-e9a6-4147-9d23-f428c86ae1ce/2024-03-29-20-57-46_UMBRA-08/2024-03-29-20-57-46_UMBRA-08.stac.v2.json",
+      "description": "The replay recovered 2 Hz. Evidence for a separate 4 Hz tone was weak. Ground motion was read from published curves.",
+      "date_kind": "Provider acquisition start UTC",
+      "related": [
+        "motion-ground-curves"
+      ],
+      "source_id": "2024-03-29-20-57-46_UMBRA-08",
+      "end_utc": "2024-03-29T20:57:51.600000Z",
+      "assets": [
+        {
+          "product": "SICD",
+          "url": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/task-data/fa5eb7d1-e9a6-4147-9d23-f428c86ae1ce/2024-03-29-20-57-46_UMBRA-08/2024-03-29-20-57-46_UMBRA-08_SICD.nitf"
+        },
+        {
+          "product": "CPHD",
+          "url": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/task-data/fa5eb7d1-e9a6-4147-9d23-f428c86ae1ce/2024-03-29-20-57-46_UMBRA-08/2024-03-29-20-57-46_UMBRA-08_CPHD.cphd"
+        }
+      ],
+      "rights": "CC BY 4.0. Credit Umbra.",
+      "rights_url": "https://umbra.space/open-data/"
+    },
+    {
+      "id": "motion-trial-9",
+      "group": "Surface-motion trials",
+      "title": "Driven corner reflector, trial 9",
+      "date": "2024-03-29T21:29:39Z",
+      "platform": "Umbra-04",
+      "product": "SICD NITF",
+      "site": "Glasgow Green, Scotland",
+      "access": "Open measurement",
+      "url": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/task-data/151bd074-b562-43d4-a486-815e98d2abb8/2024-03-29-21-29-43_UMBRA-04/2024-03-29-21-29-43_UMBRA-04.stac.v2.json",
+      "description": "The aggregate spectrum agreed. The changing sweep timing remained unresolved. Ground motion was read from published curves.",
+      "date_kind": "Provider acquisition start UTC",
+      "related": [
+        "motion-ground-curves"
+      ],
+      "source_id": "2024-03-29-21-29-43_UMBRA-04",
+      "end_utc": "2024-03-29T21:29:47.599998Z",
+      "assets": [
+        {
+          "product": "SICD",
+          "url": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/task-data/151bd074-b562-43d4-a486-815e98d2abb8/2024-03-29-21-29-43_UMBRA-04/2024-03-29-21-29-43_UMBRA-04_SICD.nitf"
+        },
+        {
+          "product": "CPHD",
+          "url": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/task-data/151bd074-b562-43d4-a486-815e98d2abb8/2024-03-29-21-29-43_UMBRA-04/2024-03-29-21-29-43_UMBRA-04_CPHD.cphd"
+        }
+      ],
+      "rights": "CC BY 4.0. Credit Umbra.",
+      "rights_url": "https://umbra.space/open-data/"
+    },
+    {
+      "id": "motion-ground-curves",
+      "group": "Ground references",
+      "title": "Instrumented surface-motion reference",
+      "date": "2026",
+      "platform": "Vattulainen et al.",
+      "product": "Published LVDT displacement and velocity curves",
+      "site": "Glasgow, Scotland and Trento, Italy",
+      "access": "Public paper; original instrument traces unverified",
+      "url": "https://strathprints.strath.ac.uk/95237/7/Vattulainen-etal-IEEE-Access-2026-Assessment-of-spaceborne-SAR-micro-motion-measurement.pdf",
+      "description": "Ground observations come from a driven surface-mounted reflector. Waveforms were digitized from plots for nine trials.",
+      "date_kind": "Publication year",
+      "rights": "Free source link. Consult the rights statement for reuse of figures or data."
+    },
+    {
+      "id": "iceye-osario-20231225",
+      "group": "Cavity controls",
+      "title": "El Osario satellite scene",
+      "date": "2023-12-25T04:04:35.674Z",
+      "platform": "ICEYE-X31",
+      "product": "Dwell Fine VV, complex SLC GeoTIFF",
+      "site": "El Osario, Chichen Itza, Mexico",
+      "access": "Open measurement",
+      "url": "https://iceye-open-data-catalog.s3.amazonaws.com/stac-items/2023/12/ICEYE_D59J8T_20231225T040435Z_3175275_X31_SLEDF.json",
+      "description": "The split-aperture estimate missed the held-out survey axis.",
+      "date_kind": "Acquisition start UTC",
+      "related": [
+        "osario-lidar"
+      ],
+      "end_utc": "2023-12-25T04:04:50.746Z",
+      "rights": "CC BY 4.0. Credit ICEYE.",
+      "rights_url": "https://sar.iceye.com/6.0.6/opendata/opendata/"
+    },
+    {
+      "id": "umbra-teotihuacan-20240214",
+      "group": "Cavity controls",
+      "title": "Feathered Serpent Temple satellite scene",
+      "date": "2024-02-14T16:11:29Z",
+      "platform": "Umbra-04",
+      "product": "CSI and GEC GeoTIFF",
+      "site": "Feathered Serpent Temple, Teotihuacan, Mexico",
+      "access": "Open measurement",
+      "url": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/task-data/44f7aae4-0ca5-4a27-b733-12965da9f458/2024-02-14-16-11-33_UMBRA-04/2024-02-14-16-11-33_UMBRA-04.stac.v2.json",
+      "description": "The three-band intensity test missed the held-out tunnel axis by 88 degrees. Static brightness missed by 89 degrees.",
+      "date_kind": "Acquisition start UTC",
+      "related": [
+        "teotihuacan-survey"
+      ],
+      "end_utc": "2024-02-14T16:11:38.399998Z",
+      "rights": "CC BY 4.0. Credit Umbra.",
+      "rights_url": "https://umbra.space/open-data/"
+    },
+    {
+      "id": "osario-lidar",
+      "group": "Cavity controls",
+      "title": "El Osario cave and shaft point cloud",
+      "date": "2018-07-16",
+      "platform": "OpenHeritage3D contributors",
+      "product": "Laser scans and photogrammetry",
+      "site": "El Osario, Chichen Itza, Mexico",
+      "access": "Open survey",
+      "url": "https://doi.org/10.34946/D6J30S",
+      "description": "The registered cave cloud provided a held-out axis and footprint. Dates cover the entire archive. The cave layer has no separately dated acquisition here.",
+      "date_kind": "Start of project collection window",
+      "end_date": "2025-12-12",
+      "related": [
+        "iceye-osario-20231225"
+      ],
+      "rights": "CC BY-NC. Credit the contributors named on OpenHeritage3D.",
+      "rights_url": "https://doi.org/10.34946/D6J30S"
+    },
+    {
+      "id": "teotihuacan-survey",
+      "group": "Cavity controls",
+      "title": "Feathered Serpent tunnel survey",
+      "date": "2016",
+      "platform": "Excavation and ground radar teams",
+      "product": "Excavation laser scan and GPR profiles",
+      "site": "Teotihuacan, Mexico",
+      "access": "Public paper and profiles",
+      "url": "https://arxiv.org/abs/1609.08736",
+      "description": "Two independent publications constrain the reference angle to 107 degrees with about 5 degrees of reading uncertainty.",
+      "date_kind": "Publication year",
+      "related": [
+        "umbra-teotihuacan-20240214"
+      ],
+      "assets": [
+        {
+          "product": "Excavators’ publication",
+          "url": "https://doi.org/10.1017/RDC.2016.77"
+        }
+      ],
+      "rights": "Free source link. Consult the rights statement for reuse of figures or data."
+    },
+    {
+      "id": "egypt-gravity-stations",
+      "group": "Regional geophysics",
+      "title": "Egypt gravity stations",
+      "date": "1989",
+      "platform": "Assiut University / NOAA",
+      "product": "71 observed gravity stations, ASCII",
+      "site": "Egypt",
+      "access": "Open numerical table",
+      "url": "https://www.ngdc.noaa.gov/mgg/gravity/1999/data/regional/egypt/egypt.xyz",
+      "description": "The closest station was 5.83 km from Khafre. The table omits individual occupation dates and uncertainty.",
+      "date_kind": "Archive receipt year",
+      "rights": "Free source link. Consult the rights statement for reuse of figures or data."
+    },
+    {
+      "id": "bgi-giza-gravity",
+      "group": "Regional geophysics",
+      "title": "BGI gravity station catalogue",
+      "date": null,
+      "platform": "Bureau Gravimétrique International",
+      "product": "Station coordinates and survey metadata",
+      "site": "Giza, Egypt",
+      "access": "Free map; readings by request",
+      "url": "https://api.sedoo.fr/sedoo-bgi-rest/data/v1_0/dataGeojsonByFilter?type=land&northBound=30.003078&southBound=29.949122&eastBound=31.161953&westBound=31.099647",
+      "description": "Two public locations lie in the 6 km search box. The map omits measured gravity, altitude and uncertainty.",
+      "date_kind": "Individual occupation dates unknown",
+      "rights": "Public station locations. BGI terms apply separately to access and reuse of measurements.",
+      "rights_url": "https://bgi.obs-mip.fr/data-products/terms-of-use/"
+    },
+    {
+      "id": "giza-city-gravity",
+      "group": "Regional geophysics",
+      "title": "SRI 1 absolute gravity station",
+      "date": "1997-04",
+      "platform": "Egyptian National Gravity Standardization Network",
+      "product": "Published FG5 station card",
+      "site": "Giza City, Egypt",
+      "access": "Published station card",
+      "url": "https://publication-cpas-egypt.com/wp-content/uploads/2024/09/040-The-Egyptian-National-Gravity-Standardization-Network.pdf#page=4",
+      "description": "One absolute station lies about 5.64 km from Khafre. It does not sample individual shafts.",
+      "date_kind": "Measurement month",
+      "rights": "Free source link. Consult the rights statement for reuse of figures or data."
+    },
+    {
+      "id": "egypt-gravity-national",
+      "group": "Regional geophysics",
+      "title": "Unified terrestrial gravity database",
+      "date": "2026",
+      "platform": "Survey Research Institute, Egypt",
+      "product": "National gravity compilation",
+      "site": "Egypt",
+      "access": "Public paper; data by request",
+      "url": "https://doi.org/10.1007/s11600-025-01760-w",
+      "description": "The authors report 9,724 observations. Near-Khafre spacing and uncertainty are unknown.",
+      "date_kind": "Publication year",
+      "rights": "Free source link. Consult the rights statement for reuse of figures or data."
+    },
+    {
+      "id": "khufu-microgravity",
+      "group": "Regional geophysics",
+      "title": "Operation Kheops microgravity",
+      "date": "1986",
+      "platform": "Ground gravimeters",
+      "product": "Profiles in Khufu and a boat pit",
+      "site": "Khufu, Egypt",
+      "access": "Published profiles",
+      "url": "https://www.cpgf-horizon.fr/pdf/lakshmanan-1987.pdf",
+      "description": "The study reports 46 Queen’s passage stations and 35 boat-pit readings. It provides a local sensitivity benchmark.",
+      "date_kind": "Field campaign year",
+      "rights": "Free source link. Consult the rights statement for reuse of figures or data."
+    },
+    {
+      "id": "khafre-acoustics",
+      "group": "Regional geophysics",
+      "title": "Khafre chamber acoustic soundings",
+      "date": "1977",
+      "platform": "Egyptian Antiquities Organization / SRI",
+      "product": "Published sounding plots and station plan",
+      "site": "Khafre, Egypt",
+      "access": "Published profiles",
+      "url": "https://www.ldolphin.org/egypt/egypt2/index.html#ivd2",
+      "description": "The team measured downward from 11 chamber and passage locations. Published echoes span tens of metres.",
+      "date_kind": "Field campaign year",
+      "rights": "Free source link. Consult the rights statement for reuse of figures or data."
+    },
+    {
+      "id": "khafre-gpr",
+      "group": "Regional geophysics",
+      "title": "Giza plateau ground radar lines",
+      "date": "2006-02",
+      "platform": "Ground-penetrating radar",
+      "product": "Site map and processed profiles",
+      "site": "Khafre, Egypt",
+      "access": "Published profiles",
+      "url": "https://archaeologicalrescue.org/wp-content/uploads/2026/02/UNCOVERING-THE-PYRAMIDS-PLATEAU-GIZA-PLATEAU-IN-A-SEARCH-FOR-ARCHAEOLOGICAL-RELICS-BY-UTILIZING-GROUND-PENETRATING-RADAR.pdf",
+      "description": "Two 210 m lines ran near the pyramid base. The study reports no deep phase-calibrated survey below the footprint.",
+      "date_kind": "Field campaign month",
+      "rights": "Free source link. Consult the rights statement for reuse of figures or data."
+    },
+    {
+      "id": "giza-groundwater",
+      "group": "Regional geophysics",
+      "title": "Giza groundwater survey",
+      "date": "2019",
+      "platform": "Ground radar, seismic and resistivity teams",
+      "product": "Published site map and geophysical profiles",
+      "site": "Giza plateau, Egypt",
+      "access": "Published profiles",
+      "url": "https://gi.copernicus.org/articles/8/29/2019/gi-8-29-2019.html",
+      "description": "The paper maps 10 electrical, 26 seismic and 19 radar profiles. These constrain shallow geology and aquifers.",
+      "date_kind": "Publication year",
+      "rights": "Published article under CC BY 4.0. Credit the authors. Check figure credits for third-party material.",
+      "rights_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "khafre-muons-1970",
+      "group": "Regional geophysics",
+      "title": "Khafre chamber muography",
+      "date": "1967",
+      "platform": "Alvarez et al.",
+      "product": "Upward-looking muon measurements",
+      "site": "Khafre, Egypt",
+      "access": "Open publisher record and DOI",
+      "url": "https://api.crossref.org/works/10.1126/science.167.3919.832",
+      "description": "Detectors inside the Belzoni chamber measured rock above them starting in 1967. The team published in 1970. Their geometry excludes the proposed deep shafts.",
+      "date_kind": "Field campaign start year",
+      "doi": "10.1126/science.167.3919.832",
+      "rights": "Free source link. Consult the rights statement for reuse of figures or data."
+    },
+    {
+      "id": "khafre-stone-density",
+      "group": "Regional geophysics",
+      "title": "Khafre backing-block material tests",
+      "date": "2020",
+      "platform": "Hemeda and Sonbol",
+      "product": "Laboratory density measurements, Table 10",
+      "site": "Khafre, Egypt",
+      "access": "Public paper",
+      "url": "https://doi.org/10.1186/s40494-020-0356-9",
+      "description": "Three Khafre samples have reported densities from 2.25 to 2.31 g/cm³. No deep borehole density profile was available.",
+      "date_kind": "Publication year",
+      "rights": "Published article under CC BY 4.0. Credit the authors. Check figure credits for third-party material.",
+      "rights_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "trans-sahara-gravity",
+      "group": "Regional geophysics",
+      "title": "Trans-African gravity traverse",
+      "date": "1975",
+      "platform": "Brown, Girdler and Renner",
+      "product": "Published traverse of 608 readings",
+      "site": "Northern Africa",
+      "access": "Open publisher abstract and DOI",
+      "url": "https://api.crossref.org/works/10.1029/JB085iB11p06436",
+      "description": "The primary abstract reports 608 readings. It does not supply a local station series across Khafre.",
+      "date_kind": "Field campaign year",
+      "doi": "10.1029/JB085iB11p06436",
+      "rights": "Free source link. Consult the rights statement for reuse of figures or data."
+    },
+    {
+      "id": "khafre-muons-2025",
+      "group": "Regional geophysics",
+      "title": "ScIDEP Khafre muography",
+      "date": "2025",
+      "platform": "ScIDEP collaboration",
+      "product": "Detector description and simulated sensitivity",
+      "site": "Khafre, Egypt",
+      "access": "Public preprint",
+      "url": "https://arxiv.org/abs/2503.21959",
+      "description": "This detector study specifies the planned viewing geometry. It does not release a measured deep-shaft volume.",
+      "date_kind": "Preprint year",
+      "rights": "Free source link. Consult the rights statement for reuse of figures or data."
+    },
+    {
+      "id": "canini-two-date",
+      "group": "Published reconstructions",
+      "title": "Canini two-date chamber comparison",
+      "date": "2026-09",
+      "platform": "Independent reconstruction",
+      "product": "Derived chamber and control diagnostics",
+      "site": "Khufu, Egypt",
+      "access": "Published comparison",
+      "url": "https://www.accadradinuovo.com/Lab/giza_sar_verifica_en.html",
+      "description": "The author links the protocol and diagnostic outputs for two public Capella scenes.",
+      "date_kind": "Release month",
+      "related": [
+        "capella-20240916",
+        "capella-20241004"
+      ],
+      "rights": "Public display. An open licence for the underlying radar was not established."
+    },
+    {
+      "id": "canini-v19",
+      "group": "Published reconstructions",
+      "title": "Canini v1.9 chamber comparison",
+      "date": "2026-11",
+      "platform": "Independent reconstruction",
+      "product": "Derived measurements and parameters",
+      "site": "Khufu, Egypt",
+      "access": "Published comparison",
+      "url": "https://www.accadradinuovo.com/Lab/giza_sar/replica_v19/ESITO.md",
+      "description": "The reported comparison used Capella and ICEYE-X50 data. The published scores are downstream products.",
+      "date_kind": "Release month",
+      "related": [
+        "iceye-20250602"
+      ],
+      "rights": "Public display. An open licence for the underlying radar was not established."
+    },
+    {
+      "id": "capella-archive-screen",
+      "group": "Archive searches",
+      "title": "Capella archaeological archive search",
+      "date": "2026-11-27",
+      "date_kind": "Search date",
+      "platform": "Capella",
+      "product": "Public archive footprints",
+      "site": "Egypt, Mexico, Scotland and Ireland",
+      "access": "Free archive catalogue",
+      "url": "https://capella-open-data.s3.us-west-2.amazonaws.com/stac/capella-open-data-by-product-type/capella-open-data-slc/collection.json",
+      "description": "The overlap search checked 9,999 product footprints at ten named landmarks. Khufu had twelve products from two acquisitions. The link opens the complex-image collection.",
+      "records_screened": 9999,
+      "rights": "CC BY 4.0. Credit Capella Space.",
+      "rights_url": "https://support.capellaspace.com/what-is-the-licensing-for-capellas-open-data"
+    },
+    {
+      "id": "umbra-archive-screen",
+      "group": "Archive searches",
+      "title": "Umbra archaeological archive search",
+      "date": "2026-11-27",
+      "date_kind": "Search date",
+      "platform": "Umbra",
+      "product": "Public archive footprints",
+      "site": "Egypt, Mexico, Scotland and Ireland",
+      "access": "Free archive catalogue",
+      "url": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/",
+      "description": "The search checked 24,542 metadata records. Three records at Teotihuacan represent a single acquisition.",
+      "records_screened": 24542,
+      "assets": [
+        {
+          "product": "Public Umbra dataset documentation",
+          "url": "https://umbra.space/open-data/"
+        }
+      ],
+      "rights": "CC BY 4.0. Credit Umbra.",
+      "rights_url": "https://umbra.space/open-data/"
+    },
+    {
+      "id": "iceye-archive-screen",
+      "group": "Archive searches",
+      "title": "ICEYE archaeological archive search",
+      "date": "2026-11-27",
+      "date_kind": "Search date",
+      "platform": "ICEYE",
+      "product": "Public archive footprints",
+      "site": "Egypt, Mexico, Scotland and Ireland",
+      "access": "Free archive catalogue",
+      "url": "https://iceye-open-data-catalog.s3.amazonaws.com/stac-items/summary/footprint-summary-points.geojson",
+      "description": "The search checked 740 records. One acquisition covers both El Osario and El Castillo. A separate scene covers Khufu.",
+      "records_screened": 740,
+      "rights": "CC BY 4.0. Credit ICEYE.",
+      "rights_url": "https://sar.iceye.com/6.0.6/opendata/opendata/"
+    },
+    {
+      "id": "khafre-nagoya-muons",
+      "group": "Regional geophysics",
+      "title": "Nagoya Khafre muon exposure",
+      "date": "2026-06",
+      "date_kind": "Conference month; individual exposure dates unspecified",
+      "platform": "Nagoya University nuclear emulsion detectors",
+      "product": "Reported detector exposure and track count",
+      "site": "Belzoni chamber, Khafre, Egypt",
+      "access": "Open presentation; raw tracks not released here",
+      "url": "https://indico.wigner.hu/event/1727/contributions/4704/attachments/3294/6801/Muographers2026_morishima.pdf",
+      "description": "The team reports about 300 days and 70 million tracks at the chamber location used by Alvarez. Analysis was ongoing at the conference.",
+      "related": [
+        "khafre-muons-1970",
+        "khafre-muons-2025"
+      ],
+      "rights": "Free source link. Consult the rights statement for reuse of figures or data."
+    },
+    {
+      "id": "kompsat5-20240109",
+      "group": "Korean archive",
+      "title": "KOMPSAT-5 Giza archive pass",
+      "date": "2024-01-09T03:45:04Z",
+      "date_kind": "Acquisition start UTC",
+      "end_utc": "2024-01-09T03:45:45Z",
+      "platform": "KOMPSAT-5",
+      "product": "ES, L1A",
+      "site": "Giza plateau, Egypt",
+      "access": "Public archive listing; commercial order",
+      "url": "https://spaceeye.si-imaging.com/",
+      "description": "L1A retains phase. The catalogue footprint covers the three pyramids. No full scene was used in the chamber tests.",
+      "source_ids": [
+        "K5_20240109034504_012122_57009_A_ES04_HH_L1A"
+      ],
+      "catalog_retrieved": "2026-11-23",
+      "rights": "SI Imaging Services end-user licence. Archive product pricing and reuse depend on the order.",
+      "rights_url": "https://www.si-imaging.com/page/73"
+    },
+    {
+      "id": "kompsat5-20220722",
+      "group": "Korean archive",
+      "title": "KOMPSAT-5 Giza archive pass",
+      "date": "2022-07-22T03:56:05Z",
+      "date_kind": "Acquisition start UTC",
+      "end_utc": "2022-07-22T03:56:18Z",
+      "platform": "KOMPSAT-5",
+      "product": "ES, L1A",
+      "site": "Giza plateau, Egypt",
+      "access": "Public archive listing; commercial order",
+      "url": "https://spaceeye.si-imaging.com/",
+      "description": "L1A retains phase. The catalogue footprint covers the three pyramids. No full scene was used in the chamber tests.",
+      "source_ids": [
+        "K5_20220722035605_008106_48950_A_ES15_HH_L1A"
+      ],
+      "catalog_retrieved": "2026-11-23",
+      "rights": "SI Imaging Services end-user licence. Archive product pricing and reuse depend on the order.",
+      "rights_url": "https://www.si-imaging.com/page/73"
+    },
+    {
+      "id": "kompsat5-20200506",
+      "group": "Korean archive",
+      "title": "KOMPSAT-5 Giza archive pass",
+      "date": "2020-05-06T03:34:57Z",
+      "date_kind": "Acquisition start UTC",
+      "end_utc": "2020-05-06T03:35:18Z",
+      "platform": "KOMPSAT-5",
+      "product": "ES, L1A",
+      "site": "Giza plateau, Egypt",
+      "access": "Public archive listing; commercial order",
+      "url": "https://spaceeye.si-imaging.com/",
+      "description": "L1A retains phase. The catalogue footprint covers the three pyramids. No full scene was used in the chamber tests.",
+      "source_ids": [
+        "K5_20200506033457_000010_36816_A_ES01_HH_L1A"
+      ],
+      "catalog_retrieved": "2026-11-23",
+      "rights": "SI Imaging Services end-user licence. Archive product pricing and reuse depend on the order.",
+      "rights_url": "https://www.si-imaging.com/page/73"
+    },
+    {
+      "id": "kompsat5-20190111",
+      "group": "Korean archive",
+      "title": "KOMPSAT-5 Giza archive pass",
+      "date": "2019-01-11T03:51:15Z",
+      "date_kind": "Acquisition start UTC",
+      "end_utc": "2019-01-11T03:51:32Z",
+      "platform": "KOMPSAT-5",
+      "product": "ES, L1A",
+      "site": "Giza plateau, Egypt",
+      "access": "Public archive listing; commercial order",
+      "url": "https://spaceeye.si-imaging.com/",
+      "description": "L1A retains phase. The catalogue footprint covers the three pyramids. No full scene was used in the chamber tests.",
+      "source_ids": [
+        "K5_20190111035115_004054_29584_A_ES16_HH_L1A"
+      ],
+      "catalog_retrieved": "2026-11-23",
+      "rights": "SI Imaging Services end-user licence. Archive product pricing and reuse depend on the order.",
+      "rights_url": "https://www.si-imaging.com/page/73"
+    },
+    {
+      "id": "kompsat5-20170509",
+      "group": "Korean archive",
+      "title": "KOMPSAT-5 Giza archive pass",
+      "date": "2017-05-09T03:38:55Z",
+      "date_kind": "Acquisition start UTC",
+      "end_utc": "2017-05-09T03:39:35Z",
+      "platform": "KOMPSAT-5",
+      "product": "ES, L1A",
+      "site": "Giza plateau, Egypt",
+      "access": "Public archive listing; commercial order",
+      "url": "https://spaceeye.si-imaging.com/",
+      "description": "L1A retains phase. The catalogue footprint covers the three pyramids. No full scene was used in the chamber tests.",
+      "source_ids": [
+        "K5_20170509033855_008080_20382_A_ES03_VV_L1A"
+      ],
+      "catalog_retrieved": "2026-11-23",
+      "rights": "SI Imaging Services end-user licence. Archive product pricing and reuse depend on the order.",
+      "rights_url": "https://www.si-imaging.com/page/73"
+    },
+    {
+      "id": "kompsat5-20170508",
+      "group": "Korean archive",
+      "title": "KOMPSAT-5 Giza archive pass",
+      "date": "2017-05-08T03:42:10Z",
+      "date_kind": "Acquisition start UTC",
+      "end_utc": "2017-05-08T03:42:58Z",
+      "platform": "KOMPSAT-5",
+      "product": "ES, L1A",
+      "site": "Giza plateau, Egypt",
+      "access": "Public archive listing; commercial order",
+      "url": "https://spaceeye.si-imaging.com/",
+      "description": "L1A retains phase. The catalogue footprint covers the three pyramids. No full scene was used in the chamber tests.",
+      "source_ids": [
+        "K5_20170508034210_016170_20367_A_ES06_VV_L1A"
+      ],
+      "catalog_retrieved": "2026-11-23",
+      "rights": "SI Imaging Services end-user licence. Archive product pricing and reuse depend on the order.",
+      "rights_url": "https://www.si-imaging.com/page/73"
+    },
+    {
+      "id": "kompsat5-20170410",
+      "group": "Korean archive",
+      "title": "KOMPSAT-5 Giza archive pass",
+      "date": "2017-04-10T03:42:20Z",
+      "date_kind": "Acquisition start UTC",
+      "end_utc": "2017-04-10T03:43:09Z",
+      "platform": "KOMPSAT-5",
+      "product": "ES, L1A",
+      "site": "Giza plateau, Egypt",
+      "access": "Public archive listing; commercial order",
+      "url": "https://spaceeye.si-imaging.com/",
+      "description": "L1A retains phase. The catalogue footprint covers the three pyramids. No full scene was used in the chamber tests.",
+      "source_ids": [
+        "K5_20170410034220_016172_19946_A_ES07_VV_L1A"
+      ],
+      "catalog_retrieved": "2026-11-23",
+      "rights": "SI Imaging Services end-user licence. Archive product pricing and reuse depend on the order.",
+      "rights_url": "https://www.si-imaging.com/page/73"
+    },
+    {
+      "id": "kompsat5-20151027",
+      "group": "Korean archive",
+      "title": "KOMPSAT-5 Giza archive pass",
+      "date": "2015-10-27T03:42:29Z",
+      "date_kind": "Acquisition start UTC",
+      "end_utc": "2015-10-27T03:43:02Z",
+      "platform": "KOMPSAT-5",
+      "product": "ES, L1A",
+      "site": "Giza plateau, Egypt",
+      "access": "Public archive listing; commercial order",
+      "url": "https://spaceeye.si-imaging.com/",
+      "description": "L1A retains phase. The catalogue footprint covers the three pyramids. No full scene was used in the chamber tests.",
+      "source_ids": [
+        "K5_20151027034229_000010_11962_A_ES04_HH_L1A"
+      ],
+      "catalog_retrieved": "2026-11-23",
+      "rights": "SI Imaging Services end-user licence. Archive product pricing and reuse depend on the order.",
+      "rights_url": "https://www.si-imaging.com/page/73"
+    },
+    {
+      "id": "kompsat5-20150217",
+      "group": "Korean archive",
+      "title": "KOMPSAT-5 Giza archive pass",
+      "date": "2015-02-17T03:49:30Z",
+      "date_kind": "Acquisition start UTC",
+      "end_utc": "2015-02-17T03:50:23Z",
+      "platform": "KOMPSAT-5",
+      "product": "ST, L1B",
+      "site": "Giza plateau, Egypt",
+      "access": "Public archive listing; commercial order",
+      "url": "https://spaceeye.si-imaging.com/",
+      "description": "L1B contains intensity only. The catalogue footprint covers the three pyramids. No full scene was used in the chamber tests.",
+      "source_ids": [
+        "K5_20150217034930_020223_08173_A_ST08_HH_L1B"
+      ],
+      "catalog_retrieved": "2026-11-23",
+      "rights": "SI Imaging Services end-user licence. Archive product pricing and reuse depend on the order.",
+      "rights_url": "https://www.si-imaging.com/page/73"
+    },
+    {
+      "id": "kompsat5-20150211",
+      "group": "Korean archive",
+      "title": "KOMPSAT-5 Giza archive pass",
+      "date": "2015-02-11T15:52:27Z",
+      "date_kind": "Acquisition start UTC",
+      "end_utc": "2015-02-11T15:53:28Z",
+      "platform": "KOMPSAT-5",
+      "product": "ST, L1B",
+      "site": "Giza plateau, Egypt",
+      "access": "Public archive listing; commercial order",
+      "url": "https://spaceeye.si-imaging.com/",
+      "description": "L1B contains intensity only. The catalogue footprint covers the three pyramids. No full scene was used in the chamber tests.",
+      "source_ids": [
+        "K5_20150211155227_028339_08090_D_ST07_HH_L1B"
+      ],
+      "catalog_retrieved": "2026-11-23",
+      "rights": "SI Imaging Services end-user licence. Archive product pricing and reuse depend on the order.",
+      "rights_url": "https://www.si-imaging.com/page/73"
+    },
+    {
+      "id": "kompsat5-20141121",
+      "group": "Korean archive",
+      "title": "KOMPSAT-5 Giza archive pass",
+      "date": "2014-11-21T03:49:42Z",
+      "date_kind": "Acquisition start UTC",
+      "end_utc": "2014-11-21T03:50:43Z",
+      "platform": "KOMPSAT-5",
+      "product": "ST, L1B",
+      "site": "Giza plateau, Egypt",
+      "access": "Public archive listing; commercial order",
+      "url": "https://spaceeye.si-imaging.com/",
+      "description": "L1B contains intensity only. The catalogue footprint covers the three pyramids. No full scene was used in the chamber tests.",
+      "source_ids": [
+        "K5_20141121034942_028350_06850_A_ST08_HH_L1B"
+      ],
+      "catalog_retrieved": "2026-11-23",
+      "rights": "SI Imaging Services end-user licence. Archive product pricing and reuse depend on the order.",
+      "rights_url": "https://www.si-imaging.com/page/73"
+    },
+    {
+      "id": "kompsat5-20140221",
+      "group": "Korean archive",
+      "title": "KOMPSAT-5 Giza archive pass",
+      "date": "2014-02-21T03:50:09Z",
+      "date_kind": "Acquisition start UTC",
+      "end_utc": "2014-02-21T03:50:12Z",
+      "platform": "KOMPSAT-5",
+      "product": "HR, L1A, L1B",
+      "site": "Giza plateau, Egypt",
+      "access": "Public archive listing; commercial order",
+      "url": "https://spaceeye.si-imaging.com/",
+      "description": "L1A retains phase. L1B is an intensity product from the same acquisition. The catalogue footprint covers the three pyramids. No full scene was used in the chamber tests.",
+      "source_ids": [
+        "K5_20140221035009_000000_02745_A_HR10_HH_L1B",
+        "K5_20140221035009_000000_02745_A_HR10_HH_L1A"
+      ],
+      "catalog_retrieved": "2026-11-23",
+      "rights": "SI Imaging Services end-user licence. Archive product pricing and reuse depend on the order.",
+      "rights_url": "https://www.si-imaging.com/page/73"
+    }
+  ]
+}

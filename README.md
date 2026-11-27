@@ -1,56 +1,20 @@
 # Giza Radar Check
 
-Can satellite radar find a known chamber on a second pass? We are testing that question with open data before applying the method to a larger claim beneath the pyramid of Khafre.
+**[Open the public research index](https://dkravt.ai/giza-radar-check/) · [Открыть по-русски](https://dkravt.ai/giza-radar-check/?lang=ru)**
 
-**[Explore the evidence map in English](https://kravtsovd.github.io/giza-radar-check/?lang=en) · [Карта проверки на русском](https://kravtsovd.github.io/giza-radar-check/?lang=ru)**
+Can satellite radar locate a known chamber? We test published methods against surveyed structures before interpreting the eight proposed shafts beneath Khafre. For a fixed method and supplied height, the King's Chamber passed on two of five follow-up scenes. A free height search missed on all six scenes, including the training scene. The proposed 648 m depth has no independent measurement in this project.
 
-Updated 26 November 2026. On the pass used for calibration, the King's Chamber beat 24 of 24 nearby controls. On the other pass it beat 13. The existence and depth of the proposed Khafre shafts remain unresolved.
-
-```mermaid
-flowchart TD
- A["Two different claims: Khufu interior and Khafre underground"] --> B["Two Capella images: 16 Sep and 4 Oct 2024"]
- B --> C["Canini preparation: both width checks match"]
- C --> D["Known room: 24/24 calibrated, 13/24 checked"]
- B --> E["Four motion estimators: none passes the false-alarm gate"]
- A --> F["Khafre authors' section: 2 to 7 image peaks; no depth scale"]
- D --> G["Pending: blind location and depth on a surveyed tunnel"]
- E --> G
- F --> H["Pending: numeric shaft section and original acquisition"]
-```
-
-| Eight proposed shafts beneath Khafre | A spiral around one proposed shaft |
-| :---: | :---: |
-| [![Khafre Project rendering of two rows of cylinders wrapped in yellow spirals](https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-03-15-at-3.30.06-PM-2.png)](https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-03-15-at-3.30.06-PM-2.png) | [![Khafre Project close-up of a yellow helix around a dark cylinder](https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-03-16-at-12.52.06-AM-2-1024x574.png)](https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-03-16-at-12.52.06-AM-2-1024x574.png) |
-
-*Both images are 3D models presented by the Khafre Project in March 2025. The team inferred this geometry from radar. The shafts and spiral paths remain unverified.* [Original presentation gallery](https://opusmagnum.org/khafre-project-gallery/)
-
-We start with existing satellite passes over known rooms and surveyed tunnels. If the method passes a blind test, we will look beneath Khafre and publish how many signals repeat, including zero. The project uses existing records and involves no excavation.
-
-**[Read the illustrated project brief](https://kravtsovd.github.io/giza-radar-check/)**
-
-[Watch the one-minute film on YouTube Shorts](https://www.youtube.com/shorts/ntOvITR3Ux4) · [Download the video](assets/giza-radar-check.mp4) · [English captions](assets/en.vtt)
-
-Two free Capella observations of Giza are available. We verified the files and recomputed the scores from Pietro Canini’s independent reconstruction. In the finer-resolution test, the Queen’s Chamber beat 23 of 24 nearby positions on one date and 6 of 24 on the other. Its contrast changed sign. The deep structures reported under Khafre remain unverified.
-
-| Start here | What you get |
+| Explore | Contents |
 | --- | --- |
-| [Project page](https://kravtsovd.github.io/giza-radar-check/) | The claim, evidence, sources and proposed blind test |
-| [Scene manifest](data/scenes.json) | Direct downloads, exact sizes and SHA-256 fingerprints |
-| [Scoring audit](tools/audit.py) | Recalculate the chamber ranks · [Expected output](data/score-audit.txt) |
-| [Download tool](tools/fetch.py) | Fetch the public radar and metadata with integrity checks |
+| [Algorithm](https://dkravt.ai/giza-radar-check/#method) | Published steps, 36 tested combinations, assumptions and missing information |
+| [Data](https://dkravt.ai/giza-radar-check/#datasets) | Acquisition dates, satellites, products, ground references and access |
+| [Tests and decisions](https://dkravt.ai/giza-radar-check/#tests) | Claim, inputs, result, interpretation and next test |
+| [Library](https://dkravt.ai/giza-radar-check/#library) | Sources, interviews, publications, films, code and project files |
+| [Interactive decision map](https://kravtsovd.github.io/giza-radar-check/decision-map.html) | Explore the questions and evidence in English or Russian |
+| [Earlier illustrated project brief](https://kravtsovd.github.io/giza-radar-check/brief.html) | The original diagrams, downloadable film and initial 24-neighbor test |
+| [Numerical replay](tools/replay/) | Repeat the 36-variant selection and transfer tests |
+| [How to add a record](CONTRIBUTING.md) | The project schema, stable IDs and publishing instructions |
 
-### Run locally
+The [source](data/library.json), [data](data/datasets.json) and [research](data/research.json) registers feed the public page. [Download the linked evidence graph](data/ontology.json). Use `python3 tools/audit.py` for the earlier independent-table audit and `python3 tools/fetch.py --metadata-only downloads` for the two original Capella SLC metadata records. The public project films include [the initial question](https://www.youtube.com/shorts/ntOvITR3Ux4) and [the second-pass update](https://www.youtube.com/shorts/1_YXXXllJ40).
 
-Use Python 3.11 or later. The scripts use only the standard library.
-
-```sh
-python3 tools/audit.py
-python3 tools/fetch.py --metadata-only downloads
-python3 tools/fetch.py downloads
-```
-
-The two full images total 6.77 GB. The audit downloads Canini’s result tables independently. It does not reconstruct the chambers from raw observations. For the next test, see the prospective protocol in the project brief.
-
-### Sources and reuse
-
-[Original paper](https://arxiv.org/abs/2208.00811) · [Retraction](https://doi.org/10.3390/rs18162679) · [November comparison](https://archaeologicalrescue.org/biondi-validation/) · [Canini’s protocol and data](https://www.accadradinuovo.com/Lab/giza_sar_verifica_en.html) · [Capella Open Data, CC BY 4.0](https://registry.opendata.aws/capella_opendata/). Third-party materials retain their respective terms. See [image credit](assets/CREDITS.md).
+Source publications, data products, film and thumbnail credits retain their [individual terms](assets/CREDITS.md).

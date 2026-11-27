@@ -1,0 +1,14 @@
+{
+  "status": "Design budget only, for a picked vertical two-way reflection from the claimed interface.",
+  "depth_design_m": 650.0,
+  "path_mean_speed_design_m_s": 3000.0,
+  "two_way_time_design_s": 0.43333333333333335,
+  "time_error_bound_s": 0.002,
+  "effective_speed_relative_error_bound": 0.05,
+  "base_datum_error_bound_m": 1.0,
+  "conditional_depth_bounds_m": [
+    613.65,
+    686.65
+  ],
+  "requires": "Independently located reflector below a specified shaft, known wave mode, surveyed geometry and a measured travel-time average speed to the relevant depth. Multiple offsets may help identify the arrival. No such trace entered this study. Failure to see an echo alone would not rule out a shaft."
+}

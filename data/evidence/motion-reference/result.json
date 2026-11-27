@@ -1,0 +1,173 @@
+{
+  "decision": "Surface vibration is measurable on this driven corner reflector. Frequency recovery is stronger than broadband amplitude and absolute timing.",
+  "evidence_class": "Retrospective reprocessing of public focused complex radar pixels paired with published ground-sensor figures and tables.",
+  "trials_reprocessed_from_complex_sar": [
+    2,
+    3,
+    5,
+    8,
+    9
+  ],
+  "trials_with_published_curves_only": [
+    1,
+    4,
+    6,
+    7
+  ],
+  "raw_pulses_reprocessed": false,
+  "raw_lvdt_reprocessed": false,
+  "blind_validation": false,
+  "physically_instrumented_static_reference": false,
+  "subsurface_shape_or_depth_tested": false,
+  "complex_scene_results": [
+    {
+      "trial": 2,
+      "grade": "positive retrospective calibration, time alignment uncertain",
+      "peak_hz": 2.015,
+      "resolved_bin_hz": 0.1980302381545406,
+      "two_hz_sar_peak_mm_s": 21.52145459461467,
+      "ground_tone_peak_mm_s": 29.06741384973939,
+      "velocity_rms_mm_s_sar_vs_table1": [
+        20.4076172111498,
+        20.7
+      ],
+      "midpoint_r": -0.009862707789960626,
+      "fitted_lag_s": 0.121,
+      "fitted_r": 0.7499267826341521,
+      "holdout_r": 0.6218319187548074,
+      "neighbor_peak_within_one_bin_of_2Hz": [
+        1,
+        5
+      ],
+      "files": [
+        "complex-scene/test2-result.json",
+        "complex-scene/test2-series.csv",
+        "complex-scene/replay_test2.py"
+      ]
+    },
+    {
+      "trial": 3,
+      "grade": "positive retrospective calibration, strongest tone result",
+      "peak_hz": 2.01,
+      "resolved_bin_hz": 0.17628049576874844,
+      "tone_displacement_rms_mm_sar_vs_ground": [
+        0.5334023133244418,
+        0.5197521642797347
+      ],
+      "whole_trace_rms_mm_sar_vs_table1": [
+        0.7129715239898907,
+        0.52
+      ],
+      "fixed_2Hz_partial_R2": 0.5508884684940912,
+      "highest_control_2Hz_partial_R2": 0.08273899541625473,
+      "neighbor_peak_within_one_bin_of_2Hz": [
+        0,
+        8
+      ],
+      "files": [
+        "complex-test3/result.json",
+        "complex-test3/phase_samples.csv",
+        "complex-test3/reference_samples.csv",
+        "complex-test3/measure_phase.py"
+      ]
+    },
+    {
+      "trial": 5,
+      "grade": "weak carrier evidence, total displacement inaccurate",
+      "peak_hz": 1.97,
+      "peak_normalized_power": 0.1143662462847088,
+      "whole_trace_rms_mm_sar_vs_table1": [
+        0.37584755760317373,
+        0.1
+      ],
+      "control_peaks_hz": [
+        1.785,
+        2.87,
+        0.6
+      ],
+      "files": [
+        "complex-test5/result.json",
+        "complex-test5/displacement.csv",
+        "complex-test5/replay_test5.py"
+      ]
+    },
+    {
+      "trial": 8,
+      "grade": "positive for 2 Hz; weak for separate 4 Hz detection",
+      "window_s": 7.275649024803166,
+      "highest_displacement_spectrum_peak": {
+        "Hz": 2.0,
+        "partial_R2": 0.29986005077319555
+      },
+      "spectral_shape_cosine_site": 0.7975914865053212,
+      "spectral_shape_cosine_control_max": 0.41966023324273105,
+      "overlapping_windows_within_0p5_Hz": [
+        15,
+        16
+      ],
+      "control_max_windows_matching": 9,
+      "signed_midpoint_r": -0.27069075123951636,
+      "files": [
+        "complex-multitone/estimates.json",
+        "complex-multitone/published-reference-check.json",
+        "complex-multitone/replay-info.json"
+      ],
+      "site_4Hz_incremental_R2": 0.03340165894500435,
+      "strongest_control_4Hz_incremental_R2": 0.03088121930762433
+    },
+    {
+      "trial": 9,
+      "grade": "aggregate spectrum agrees; local sweep timing unresolved",
+      "window_s": 5.796940400689509,
+      "highest_displacement_spectrum_peak": {
+        "Hz": 1.5,
+        "partial_R2": 0.3642346819052381
+      },
+      "spectral_shape_cosine_site": 0.9537691801124306,
+      "spectral_shape_cosine_control_max": 0.4743214774400853,
+      "overlapping_windows_within_0p5_Hz": [
+        4,
+        12
+      ],
+      "control_max_windows_matching": 4,
+      "signed_midpoint_r": 0.31662739557496206,
+      "files": [
+        "complex-multitone/estimates.json",
+        "complex-multitone/published-reference-check.json",
+        "complex-multitone/replay-info.json"
+      ]
+    }
+  ],
+  "published_curves": {
+    "path": "published_curves.json",
+    "trial_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "tone_frequency_within_one_bin": 3,
+    "beats_zero_predictor_runs_of_nine": 5
+  },
+  "stationary_comparator": {
+    "file": "static/fence_results.json",
+    "type": "separate published change statistic, author-described fence",
+    "description": "One of five maps gives more high-response cells on the fence than on the shaker at 75% and 90% of the displayed shaker maximum."
+  },
+  "access": {
+    "audit": "access/data-access-audit.json",
+    "as_of_utc": "2026-11-27T00:34:02.989335+00:00",
+    "source_doi": "10.1109/ACCESS.2026.3652346",
+    "radar_credit": "Umbra, CC BY 4.0. https://registry.opendata.aws/umbra-open-data/"
+  },
+  "future_inputs": [
+    "Native timestamped 50 Hz LVDT displacement with clock and trigger metadata.",
+    "Surveyed reflector coordinates and synchronized, independently measured stationary channels.",
+    "Concealed target/off-target labels and shaker programs for held-out passes, fixed before results are read."
+  ]
+}

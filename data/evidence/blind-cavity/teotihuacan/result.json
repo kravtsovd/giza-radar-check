@@ -1,0 +1,56 @@
+{
+  "site": "Teotihuacan Feathered Serpent archaeological tunnel",
+  "scored_utc": "2026-11-27T00:41:01.818672+00:00",
+  "protocol_sha256": "852064166775d30942f72103dc10733caddcd43cdfd3a7a903da312d3f52c654",
+  "forecast_sha256": "087eb088513b8da0e7dd49de14c20dc8f586b6b0235821fb542cb354da20bdf7",
+  "keeper_sha256": "814d18e27e45369a4f4974af02637b57032560cf8922d14cf997c0c10a26f02c",
+  "keeper_seal_file": "keeper-label.json",
+  "forecast": "forecast.json",
+  "primary_true_degrees": 15,
+  "brightness_true_degrees": 16,
+  "reference_true_degrees": 107,
+  "reference_uncertainty_degrees": 5,
+  "uncertainty_kind": "Conservative reference bracket, not an acceptance threshold or formal confidence interval.",
+  "point_score": {
+    "reference_true_degree_interval": [
+      107,
+      107
+    ],
+    "verdict": "fail",
+    "primary_error_degree_interval": [
+      88,
+      88
+    ],
+    "brightness_error_degree_interval": [
+      89,
+      89
+    ]
+  },
+  "bracket_score": {
+    "reference_true_degree_interval": [
+      102,
+      112
+    ],
+    "verdict": "fail",
+    "primary_error_degree_interval": [
+      83,
+      90
+    ],
+    "brightness_error_degree_interval": [
+      84,
+      90
+    ]
+  },
+  "sources": [
+    "https://doi.org/10.1017/RDC.2016.77",
+    "https://arxiv.org/pdf/1609.08736",
+    "https://www.aegeussociety.org/wp-content/uploads/2021/12/Brysbaert-et-al-2018-Monuments.pdf"
+  ],
+  "interpretation": "Both frozen predictions were almost perpendicular to the surveyed axis. The primary missed the gate for every bearing in the independent reference bracket. A second run from the public radar tiles reproduced the forecast byte-for-byte. The site and surface center were supplied. This tested one surface proxy and one brightness control on one acquisition. No absolute depth was estimated.",
+  "replay": [
+    "python replay.py > forecast-replay.json",
+    "cmp forecast.json forecast-replay.json",
+    "python score_reveal.py 102 112",
+    "python score_reveal.py 107"
+  ]
+}

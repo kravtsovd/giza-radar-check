@@ -1,0 +1,16 @@
+{
+  "original_protocol_sha256": "2bed76a1e785237bae6b0293f09b2eef51080000df0be2c6dc1c46520ad95c48",
+  "frozen_at_utc": "2026-11-27T15:50:10Z",
+  "clarification_before_new_range_reads": {
+    "injection": "Use the numeric fixed injection location rather than the inconsistent description of a dark training-selected location. Set its amplitude from the fixed location's actual echo. Apply the perturbation to focused pulse samples as specified in processing.injections.",
+    "training": "Use one training set, preceding the first test block, for both test blocks. Keep the pulse ID sets disjoint.",
+    "look_coherence": "Median across looks of absolute value of the tapered coherent sum divided by tapered sum of magnitudes.",
+    "split_agreement": "For each block, both odd-only and even-only fitted frequencies must be within one Rayleigh width of the full target frequency.",
+    "amplitude_gate": "The injection amplitude criterion compares the fitted amplitude against the deterministic sampled, tapered point-model answer. At these look widths the small taper attenuation may change the amplitude from 2.0 mm; also report the difference from 2.0 mm."
+  },
+  "umbra_metadata_only_amendment": {
+    "utc": "2026-11-27T15:53:21.714013+00:00",
+    "reason": "The overlap guard rejected the nominal 12 ms Umbra training gap before reading any Umbra signal or analyzing any pass. The first Umbra look starts 20 ms before its center.",
+    "umbra_training_gap_s": 0.022
+  }
+}

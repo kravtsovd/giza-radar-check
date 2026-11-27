@@ -1,0 +1,23 @@
+{
+  "accessed": "2026-11-27",
+  "author_page": "https://www.harmonicsar.com/index.html",
+  "author_label": "The sound of Khefren (New)",
+  "source": "https://www.harmonicsar.com/HarmonicSAR/Sound_1.wav",
+  "sha256": "e4f47e7c4d3930d86751c058ebcb5d6e7632c6b697d84989700553917d9d6f25",
+  "bytes": 60044,
+  "encoding": "mono signed 16-bit little-endian PCM",
+  "sample_rate_hz": 1189,
+  "samples": 30000,
+  "duration_seconds": 25.231287,
+  "estimator": "Welch, periodic Hann, constant detrend, 4096 samples, 50 percent overlap, one-sided PSD",
+  "largest_local_peaks_hz": [
+    38.898,
+    13.063,
+    1.742,
+    14.804,
+    10.45,
+    1.161
+  ],
+  "fraction_welch_power_1_to_below_100_hz": 0.96388911,
+  "interpretation": "These are playback frequencies. The linking page provides no collect ID, location within the image, physical time calibration, or resampling rule. Comparison with candidate output requires those fields."
+}

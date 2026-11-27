@@ -1,0 +1,2031 @@
+{
+  "as_of": "2026-11-27",
+  "scope": "This is the project’s named source set as of the date shown. It covers 72 video entries, including repeats, commentary and one unavailable playlist position. The audit screened 62 English or Italian caption tracks for technical terms, covering 106,452 cues. One additional recording has a separate publisher transcript. Eight other videos have metadata only. The 50 statements are attributed paraphrases with source clocks or document locations. Twelve written source records and seven pinned repositories were reviewed, alongside named articles, measurements, films and code archives. Book listings cover publisher information only. Source availability and scientific confirmation are separate questions.",
+  "items": [
+    {
+      "id": "film-status",
+      "group": "Project films and guides",
+      "title": "Giza Radar Update: We Found the Raw Radar Data",
+      "access": "Public",
+      "description": "Second project short, published November 26. It explains the raw radar data and the status of the room test.",
+      "url": "https://www.youtube.com/shorts/1_YXXXllJ40",
+      "ru": "Итоги проверки Гизы: нашли исходные радарные данные"
+    },
+    {
+      "id": "film-intro",
+      "group": "Project films and guides",
+      "title": "Can radar see inside a pyramid? We're checking the Giza claims in the open",
+      "access": "Public",
+      "description": "The one-minute introduction to the two Giza claims and the open-data test.",
+      "url": "https://www.youtube.com/shorts/ntOvITR3Ux4",
+      "ru": "Первая минута проекта"
+    },
+    {
+      "id": "map",
+      "group": "Project films and guides",
+      "title": "Decision map",
+      "access": "Public",
+      "description": "Follow each question to its evidence, competing explanations and remaining uncertainty.",
+      "url": "https://kravtsovd.github.io/giza-radar-check/decision-map.html",
+      "ru": "Карта решений"
+    },
+    {
+      "id": "brief",
+      "group": "Project films and guides",
+      "title": "Earlier two-pass overview",
+      "access": "Public",
+      "description": "The November 26 edition shows the first two Capella passes, the chamber check and the published shaft diagrams.",
+      "url": "https://kravtsovd.github.io/giza-radar-check/brief.html",
+      "ru": "Первая версия отчёта"
+    },
+    {
+      "id": "repo",
+      "group": "Project films and guides",
+      "title": "Project source and replay tools",
+      "access": "Public",
+      "description": "Source code, measurements and publication history for Giza Radar Check.",
+      "url": "https://github.com/kravtsovd/giza-radar-check",
+      "ru": "Код и результаты проекта"
+    },
+    {
+      "id": "film-file",
+      "group": "Project films and guides",
+      "title": "Download the original film",
+      "access": "Public",
+      "description": "The first film as an MP4, available independently of YouTube.",
+      "url": "https://kravtsovd.github.io/giza-radar-check/assets/giza-radar-check.mp4",
+      "ru": "Скачать первый фильм"
+    },
+    {
+      "id": "film-captions",
+      "group": "Project films and guides",
+      "title": "English captions for the original film",
+      "access": "Public",
+      "description": "Time-coded captions for the downloadable project film.",
+      "url": "https://kravtsovd.github.io/giza-radar-check/assets/en.vtt",
+      "ru": "Английские субтитры"
+    },
+    {
+      "id": "film-credits",
+      "group": "Project films and guides",
+      "title": "Project film credits",
+      "access": "Public",
+      "description": "Credits and sources for the original project film.",
+      "url": "https://kravtsovd.github.io/giza-radar-check/assets/CREDITS.md",
+      "ru": "Источники первого фильма"
+    },
+    {
+      "id": "legacy-map-source",
+      "group": "Project films and guides",
+      "title": "Original map source, archived revision",
+      "access": "Public",
+      "description": "The versioned HTML of the November 26 public two-pass overview.",
+      "url": "https://github.com/kravtsovd/giza-radar-check/blob/6dc8b6473fdde13568fca004eb5dae026f1fbd39/index.html",
+      "ru": "Архивный исходник первой карты"
+    },
+    {
+      "id": "drive-workspace",
+      "group": "Data and access",
+      "title": "Project working files on Google Drive",
+      "access": "Restricted",
+      "description": "The working folder has individual sharing permissions. Public editions of the films, map, code and measurements appear here.",
+      "ru": "Рабочая папка Google Drive",
+      "related": [
+        "repo",
+        "film-file",
+        "map"
+      ]
+    },
+    {
+      "id": "paper-khufu",
+      "group": "Papers, claims and responses",
+      "title": "The 2022 Khufu paper (retracted)",
+      "access": "Public",
+      "description": "Biondi and Malanga describe pyramid interiors. The journal later retracted the paper. The separate eight-shaft claim came in 2025.",
+      "url": "https://doi.org/10.3390/rs14205231",
+      "ru": "Статья о Хуфу 2022 года (отозвана)",
+      "related": [
+        "retraction",
+        "text-counsel",
+        "text-abstract"
+      ]
+    },
+    {
+      "id": "retraction",
+      "group": "Critical assessments",
+      "title": "Journal retraction notice",
+      "access": "Public",
+      "description": "The editors give their reasons for withdrawing the 2022 Khufu article. The authors disagree.",
+      "url": "https://doi.org/10.3390/rs18162679",
+      "ru": "Уведомление редакции об отзыве",
+      "related": [
+        "paper-khufu",
+        "text-counsel"
+      ]
+    },
+    {
+      "id": "peer-review",
+      "group": "Critical assessments",
+      "title": "Ahram Online: the peer-review record",
+      "access": "Public",
+      "description": "Ahram Online reports reviewer concerns about validation, image alignment and scaling. This is a news account of the review record.",
+      "url": "https://english.ahram.org.eg/UI/Front/Inner.aspx?NewsContentID=576187"
+    },
+    {
+      "id": "canini",
+      "group": "Critical assessments",
+      "title": "Canini: an independent test of known chambers",
+      "access": "Public",
+      "description": "A public reconstruction with nearby controls. Chamber scores depend on processing choices and the observation date.",
+      "url": "https://www.accadradinuovo.com/Lab/giza_sar_verifica_en.html",
+      "ru": "Независимая проверка Канини",
+      "related": [
+        "canini-archive-nov",
+        "canini-archive-sep",
+        "canini-scores"
+      ]
+    },
+    {
+      "id": "afp",
+      "group": "Critical assessments",
+      "title": "AFP interviews Biondi and outside specialists",
+      "access": "Public",
+      "description": "AFP reports its own interviews about penetration, surface vibrations, and the proposed independent verification.",
+      "url": "https://factcheck.afp.com/doc.afp.com.42LQ7G3",
+      "ru": "Интервью AFP с авторами и специалистами"
+    },
+    {
+      "id": "review-watch",
+      "group": "Critical assessments",
+      "title": "Retraction Watch interviews reviewer Lawrence Conyers",
+      "access": "Public",
+      "description": "The reviewer discusses radar returns and whether surface motion would be measurable. The article also reports the authors’ position.",
+      "url": "https://retractionwatch.com/2026/08/31/retraction-corridors-inside-great-pyramid-giza/",
+      "ru": "Объяснение рецензента Лоуренса Коньерса"
+    },
+    {
+      "id": "khaled",
+      "group": "Critical assessments",
+      "title": "Egyptology and survey objections in Al-Ahram",
+      "access": "Public",
+      "description": "Egyptian specialists discuss the claims, field evidence and differences between the two pyramids.",
+      "url": "https://english.ahram.org.eg/UI/Front/Inner.aspx?NewsContentID=544236"
+    },
+    {
+      "id": "appraisal-pilicy",
+      "group": "Papers, claims and responses",
+      "title": "Pilicy: an appraisal of the Khafre presentation",
+      "access": "Public",
+      "description": "A signed argument for taking the reported tomography seriously. It discusses the researchers’ response to critics.",
+      "url": "https://grahamhancock.com/pilicyd1/"
+    },
+    {
+      "id": "project-site",
+      "group": "Papers, claims and responses",
+      "title": "HarmonicSAR: the authors’ project site",
+      "access": "Public",
+      "description": "The project presents its approach, publications and books. Access to the core processing program is a separate question.",
+      "url": "https://www.harmonicsar.com/"
+    },
+    {
+      "id": "project-program",
+      "group": "Papers, claims and responses",
+      "title": "ArchaeoSAR: stated goals and software access",
+      "access": "Public",
+      "description": "The program describes its intended use, developer control and an intended third-party review.",
+      "url": "https://archaeologicalrescue.org/about-archaeosar/"
+    },
+    {
+      "id": "closed-processor",
+      "group": "Code and model downloads",
+      "title": "Biondi’s original processing software",
+      "access": "No public release located",
+      "description": "HarmonicSAR and ArchaeoSAR describe the software. The reviewed material supplies no public source archive or executable.",
+      "related": [
+        "project-program",
+        "project-site"
+      ]
+    },
+    {
+      "id": "sound",
+      "group": "Papers, claims and responses",
+      "title": "HarmonicSAR audio exhibit",
+      "access": "Public",
+      "description": "WAV file published by the authors. It can be measured, but the acquisition and conversion history is unspecified.",
+      "url": "https://www.harmonicsar.com/HarmonicSAR/Sound_1.wav"
+    },
+    {
+      "id": "patent",
+      "group": "Papers, claims and responses",
+      "title": "Patent application for the Doppler method",
+      "access": "Public",
+      "description": "The application describes processing stages and claims. Readers can compare its disclosed choices with the interviews.",
+      "url": "https://patents.google.com/patent/WO2024008365A1/en"
+    },
+    {
+      "id": "paper-maritime",
+      "group": "Papers, claims and responses",
+      "title": "Maritime micro-motion study (2019)",
+      "access": "Public",
+      "description": "Earlier work describes splitting the aperture and comparing adjacent looks with normalized correlation.",
+      "url": "https://doi.org/10.3390/rs11141637"
+    },
+    {
+      "id": "paper-vesuvius",
+      "group": "Papers, claims and responses",
+      "title": "Vesuvius Doppler tomography study (2022)",
+      "access": "Public",
+      "description": "Biondi and colleagues apply the proposed approach to the volcano. Its data and assumptions differ from Giza.",
+      "url": "https://doi.org/10.3390/rs14153828"
+    },
+    {
+      "id": "preprint-khufu",
+      "group": "Papers, claims and responses",
+      "title": "Preprint of the Khufu article",
+      "access": "Public",
+      "description": "ArXiv version of the original claim. Read with the journal’s retraction and the authors’ response.",
+      "url": "https://arxiv.org/abs/2208.00811",
+      "related": [
+        "paper-khufu",
+        "retraction",
+        "text-counsel"
+      ]
+    },
+    {
+      "id": "technical-manual",
+      "group": "Code and model downloads",
+      "title": "SARPROZ registration settings",
+      "access": "Public",
+      "description": "Vendor documentation for registration windows, correlation and point selection. The original project settings are unspecified.",
+      "url": "https://www.sarproz.com/manual/coreg_param.html"
+    },
+    {
+      "id": "muon_corridor",
+      "group": "Ground measurements and comparisons",
+      "title": "North Face Corridor measured with muons",
+      "access": "Public",
+      "description": "Independent corridor geometry in Khufu, published in 2023.",
+      "url": "https://doi.org/10.1038/s41467-023-36351-0"
+    },
+    {
+      "id": "big_void",
+      "group": "Ground measurements and comparisons",
+      "title": "Big Void measured with muons",
+      "access": "Public",
+      "description": "Independent 2017 observation of a large void above the Grand Gallery in Khufu.",
+      "url": "https://www.nature.com/articles/nature24647"
+    },
+    {
+      "id": "sato",
+      "group": "Ground measurements and comparisons",
+      "title": "Ground radar and electrical survey of the Western Cemetery",
+      "access": "Public",
+      "description": "A near-surface anomaly in a separate area. The site and measuring method differ from the Khafre claim.",
+      "url": "https://doi.org/10.1002/arp.1940"
+    },
+    {
+      "id": "infn_lngs",
+      "group": "Ground measurements and comparisons",
+      "title": "Gran Sasso underground laboratory",
+      "access": "Public",
+      "description": "The operator describes the underground halls used as a comparison in the interviews.",
+      "url": "https://www.lngs.infn.it/en/lngs-overview/"
+    },
+    {
+      "id": "vibration-trials",
+      "group": "Ground measurements and comparisons",
+      "title": "Driven reflectors with ground motion sensors",
+      "access": "Public",
+      "description": "Vattulainen and colleagues compare satellite estimates with measured motion of aboveground reflectors.",
+      "url": "https://doi.org/10.1109/ACCESS.2026.3652346"
+    },
+    {
+      "id": "fence",
+      "group": "Ground measurements and comparisons",
+      "title": "Stationary fence and rotating reflector",
+      "access": "Public",
+      "description": "Rollo and colleagues publish observations of a stationary fence and a moving target. Used for a surface-control comparison.",
+      "url": "https://strathprints.strath.ac.uk/90731/"
+    },
+    {
+      "id": "osario-survey",
+      "group": "Ground measurements and comparisons",
+      "title": "El Osario: survey data",
+      "access": "Public",
+      "description": "The survey provides independent geometry for the orientation test.",
+      "url": "https://doi.org/10.34946/D6J30S"
+    },
+    {
+      "id": "osario-surface",
+      "group": "Ground measurements and comparisons",
+      "title": "El Osario: surface survey",
+      "access": "Public",
+      "description": "Open Heritage 3D surface data for the known monument and its setting.",
+      "url": "https://www.openheritage3d.org/project.php?id=D6NS3R"
+    },
+    {
+      "id": "osario-archaeology",
+      "group": "Ground measurements and comparisons",
+      "title": "El Osario: the High Priest’s Tomb",
+      "access": "Public",
+      "description": "Archaeological context for the shaft and chamber.",
+      "url": "https://arqueologiamexicana.mx/mexico-antiguo/la-tumba-del-gran-sacerdote"
+    },
+    {
+      "id": "teotihuacan-survey",
+      "group": "Ground measurements and comparisons",
+      "title": "Teotihuacan: dated tunnel excavation",
+      "access": "Public",
+      "description": "The excavation describes the tunnel beneath the Feathered Serpent complex.",
+      "url": "https://doi.org/10.1017/RDC.2016.77"
+    },
+    {
+      "id": "teotihuacan-geophysics",
+      "group": "Ground measurements and comparisons",
+      "title": "Teotihuacan: published geophysical survey",
+      "access": "Public",
+      "description": "Independent geophysical context for the known tunnel and its setting.",
+      "url": "https://arxiv.org/pdf/1609.08736"
+    },
+    {
+      "id": "teotihuacan-monuments",
+      "group": "Ground measurements and comparisons",
+      "title": "Teotihuacan: tunnel plans in a volume on monuments",
+      "access": "Public",
+      "description": "The book provides an additional source of plans and site context.",
+      "url": "https://www.aegeussociety.org/wp-content/uploads/2021/12/Brysbaert-et-al-2018-Monuments.pdf"
+    },
+    {
+      "id": "gravity-location",
+      "group": "Ground measurements and comparisons",
+      "title": "Nell and Ruggles: Giza pyramid surveys and elevations",
+      "access": "Public",
+      "description": "Published survey context for Giza. Table 12 gives a rough base elevation for Khafre.",
+      "url": "https://arxiv.org/pdf/1302.5622"
+    },
+    {
+      "id": "gravity-noaa_egypt",
+      "group": "Ground measurements and comparisons",
+      "title": "Riad / Assiut University contributors, NOAA NGDC Egypt gravity stations",
+      "access": "Public",
+      "description": "NOAA distributes 71 Egyptian station readings. Their distances from Khafre limit what they can resolve.",
+      "url": "https://www.ngdc.noaa.gov/mgg/gravity/1999/document/html/egypt.html"
+    },
+    {
+      "id": "gravity-bgi_land",
+      "group": "Ground measurements and comparisons",
+      "title": "BGI: land-gravity survey coverage near Giza",
+      "access": "Public",
+      "description": "The catalogue identifies two gravity survey locations within about three kilometres of central Khafre in each coordinate.",
+      "url": "https://api.sedoo.fr/sedoo-bgi-rest/data/v1_0/dataGeojsonByFilter?type=land&northBound=30.003078&southBound=29.949122&eastBound=31.161953&westBound=31.099647"
+    },
+    {
+      "id": "gravity-engsn",
+      "group": "Ground measurements and comparisons",
+      "title": "G. Dawod, The Egyptian National Gravity Standardization Network (ENGSN97), Fig. 2",
+      "access": "Public",
+      "description": "The national survey plots station SRI 1 in Giza City and gives its gravity reading.",
+      "url": "https://publication-cpas-egypt.com/wp-content/uploads/2024/09/040-The-Egyptian-National-Gravity-Standardization-Network.pdf#page=4"
+    },
+    {
+      "id": "gravity-national",
+      "group": "Ground measurements and comparisons",
+      "title": "Al-Krargy and Dawod, Egypt unified terrestrial gravity database, 2026",
+      "access": "Public",
+      "description": "9,724 records from diverse networks and survey lines.",
+      "url": "https://doi.org/10.1007/s11600-025-01760-w"
+    },
+    {
+      "id": "gravity-khufu_gravity",
+      "group": "Ground measurements and comparisons",
+      "title": "Lakshmanan and Montlucon, Microgravity probes the Great Pyramid, 1987; Operation Kheops 1986",
+      "access": "Public",
+      "description": "The authors provide local gravity profiles measured at Khufu.",
+      "url": "https://www.cpgf-horizon.fr/pdf/lakshmanan-1987.pdf"
+    },
+    {
+      "id": "gravity-sri1977",
+      "group": "Ground measurements and comparisons",
+      "title": "1977 Egyptian field experiments in the Belzoni Chamber",
+      "access": "Public",
+      "description": "Ground surveys included downward soundings at 11 positions in the chamber and passage.",
+      "url": "https://www.ldolphin.org/egypt/egypt2/index.html#ivd2"
+    },
+    {
+      "id": "gravity-gpr2006",
+      "group": "Ground measurements and comparisons",
+      "title": "Abbas et al., Uncovering the Pyramids-Giza Plateau, 2012",
+      "access": "Public",
+      "description": "Ground radar profiles at Giza in February 2006 are a separate field dataset.",
+      "url": "https://www.jofamericanscience.org/journals/am-sci/am0802/026_8148am0802_168_174.pdf"
+    },
+    {
+      "id": "gravity-groundwater",
+      "group": "Ground measurements and comparisons",
+      "title": "Sharafeldin et al., groundwater surveys, 2019",
+      "access": "Public",
+      "description": "Electrical, seismic and ground-radar profiles map shallow groundwater and geology at selected sites across the plateau.",
+      "url": "https://gi.copernicus.org/articles/8/29/2019/gi-8-29-2019.html"
+    },
+    {
+      "id": "gravity-muons",
+      "group": "Ground measurements and comparisons",
+      "title": "Alvarez and colleagues: cosmic-ray search inside Khafre",
+      "access": "Public",
+      "description": "The detector in the Belzoni Chamber measured rock above the chamber. Its field of view limits what this experiment can rule out.",
+      "url": "https://doi.org/10.1126/science.167.3919.832"
+    },
+    {
+      "id": "gravity-density",
+      "group": "Ground measurements and comparisons",
+      "title": "Hemeda and Sonbol, Sustainability problems of the Giza pyramids, Table 10 (2020)",
+      "access": "Public",
+      "description": "Table 10 gives densities measured in three samples of backing stone from Khafre.",
+      "url": "https://doi.org/10.1186/s40494-020-0356-9"
+    },
+    {
+      "id": "gravity-smallwood",
+      "group": "Ground measurements and comparisons",
+      "title": "Smallwood, The attraction of the pyramids, 2018",
+      "access": "Public",
+      "description": "The study combines regional observations with calculated gravity effects of pyramid topography.",
+      "url": "https://hgss.copernicus.org/articles/9/1/2018/"
+    },
+    {
+      "id": "gravity-grids",
+      "group": "Ground measurements and comparisons",
+      "title": "BGI World Gravity Map 2012, and Hirt et al. GGMplus 2013",
+      "access": "Public",
+      "description": "The WGM2012 gravity grid has samples several kilometres apart at Giza.",
+      "url": "https://bgi.obs-mip.fr/data-products/outils/"
+    },
+    {
+      "id": "gravity-satellite",
+      "group": "Ground measurements and comparisons",
+      "title": "ESA GOCE mission specifications",
+      "access": "Public",
+      "description": "ESA describes the scale and accuracy of GOCE gravity measurements.",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/GOCE/ESA_launches_Earth_Explorer_mission_GOCE"
+    },
+    {
+      "id": "gravity-reduction",
+      "group": "Ground measurements and comparisons",
+      "title": "USGS techniques for repeat gravity surveys; EPA gravity method",
+      "access": "Public",
+      "description": "USGS documents gravity survey corrections, including how vertical position affects a reading.",
+      "url": "https://pubs.usgs.gov/tm/02/d04/tm2d4.pdf"
+    },
+    {
+      "id": "gravity-trans_sahara",
+      "group": "Ground measurements and comparisons",
+      "title": "Brown, Girdler and Renner, A gravity traverse across northern Africa, 1980",
+      "access": "Public",
+      "description": "The paper reports 608 readings from a trans-African expedition in 1975.",
+      "url": "https://doi.org/10.1029/JB085iB11p06436"
+    },
+    {
+      "id": "archive-capella",
+      "group": "Data and access",
+      "title": "Capella public radar archive",
+      "access": "Public",
+      "description": "Open scene products and data-use terms.",
+      "url": "https://registry.opendata.aws/capella_opendata/"
+    },
+    {
+      "id": "archive-umbra",
+      "group": "Data and access",
+      "title": "Umbra public radar archive",
+      "access": "Public",
+      "description": "Complex imagery and selected phase histories, with public access conditions.",
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "id": "archive-umbra-listing",
+      "group": "Data and access",
+      "title": "Umbra: Giza scene listing",
+      "access": "Public",
+      "description": "Open listing of the provider’s Giza collection.",
+      "url": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/?list-type=2&prefix=sar-data%2Ftasks%2Fad+hoc%2FPyramids+of+Giza%2F"
+    },
+    {
+      "id": "archive-iceye",
+      "group": "Data and access",
+      "title": "ICEYE Open Data Initiative",
+      "access": "Public",
+      "description": "Provider’s public access information and catalogue. Individual products have their own terms.",
+      "url": "https://www.iceye.com/open-data-initiative"
+    },
+    {
+      "id": "archive-kompsat-5",
+      "group": "Data and access",
+      "title": "KOMPSAT-5 product information",
+      "access": "Public",
+      "description": "Sensor and product details from SI Imaging Services.",
+      "url": "https://www.si-imaging.com/page/32"
+    },
+    {
+      "id": "archive-cosmo-skymed",
+      "group": "Data and access",
+      "title": "COSMO-SkyMed research access",
+      "access": "Public",
+      "description": "Italian Space Agency application route for research data.",
+      "url": "https://www.asi.it/bandi_e_concorsi/open-call-for-science-data-utilization-of-the-cosmo-skymed-mission-first-and-second-generation-english-version/"
+    },
+    {
+      "id": "archive-sentinel-1",
+      "group": "Data and access",
+      "title": "Sentinel-1 products covering Khafre",
+      "access": "Public",
+      "description": "ASF catalogue query at Khafre. A footprint match alone says nothing about depth sensitivity.",
+      "url": "https://api.daac.asf.alaska.edu/services/search/param?platform=Sentinel-1&processingLevel=SLC&intersectsWith=POINT%2831.1308%2029.9761%29&start=2014-01-01&end=2026-11-26&output=geojson&maxResults=10000"
+    },
+    {
+      "id": "korea-index",
+      "group": "Data and access",
+      "title": "Korean archive footprint matches",
+      "access": "Public",
+      "description": "Thirteen catalogue records. Metadata access and access to the actual radar images are separate.",
+      "url": "https://kravtsovd.github.io/giza-radar-check/data/korea-archive.json"
+    },
+    {
+      "id": "capella-scenes",
+      "group": "Data and access",
+      "title": "Project scene URLs and checksums",
+      "access": "Public",
+      "description": "The public scene manifest identifies the two open Capella products.",
+      "url": "https://kravtsovd.github.io/giza-radar-check/data/scenes.json"
+    },
+    {
+      "id": "scores-archive",
+      "group": "Critical assessments",
+      "title": "Project chamber score audit",
+      "access": "Public",
+      "description": "The published numbers can be compared with the earlier two-pass overview.",
+      "url": "https://kravtsovd.github.io/giza-radar-check/data/score-audit.txt"
+    },
+    {
+      "id": "canini-scores",
+      "group": "Critical assessments",
+      "title": "Canini: published chamber scores",
+      "access": "Public",
+      "description": "The reported chamber and control values are machine-readable.",
+      "url": "https://www.accadradinuovo.com/Lab/giza_sar/prova_camere/file/ESITO_APPENDICE_1000.json"
+    },
+    {
+      "id": "canini-archive-nov",
+      "group": "Code and model downloads",
+      "title": "Canini: November code archive",
+      "access": "Public",
+      "description": "The later depth-focusing implementation, with processing windows and control settings.",
+      "url": "https://www.accadradinuovo.com/Lab/giza_sar/replica_v19/codice_replica_v19.zip"
+    },
+    {
+      "id": "canini-archive-sep",
+      "group": "Code and model downloads",
+      "title": "Canini: September code archive",
+      "access": "Public",
+      "description": "The earlier chamber test, including code for scoring against local controls.",
+      "url": "https://www.accadradinuovo.com/Lab/giza_sar/prova_camere/file/codice_prova_camere.zip"
+    },
+    {
+      "id": "model-osiris",
+      "group": "Code and model downloads",
+      "title": "Osiris Shaft: interactive 3D display",
+      "access": "Public",
+      "description": "The published viewer shows the chamber model, saved geometry and textures.",
+      "url": "https://archaeologicalrescue.org/wp-content/uploads/2026/11/Osiris_Shaft_Interactive_3D.html",
+      "related": [
+        "text-validation"
+      ]
+    },
+    {
+      "id": "model-khufu",
+      "group": "Code and model downloads",
+      "title": "Khufu: interactive sections",
+      "access": "Public",
+      "description": "Two saved textured sections with processing parameters in the viewer.",
+      "url": "https://archaeologicalrescue.org/wp-content/uploads/2026/11/Khufu_X33_W1300_P2_Heights_3D2.html",
+      "related": [
+        "text-validation"
+      ]
+    },
+    {
+      "id": "model-yoshimura",
+      "group": "Code and model downloads",
+      "title": "Yoshimura: filtered output arrays",
+      "access": "Public",
+      "description": "The interactive model includes saved scores and position vectors.",
+      "url": "https://archaeologicalrescue.org/wp-content/uploads/2026/11/Yoshimura_Y27_Y34_P8_Interactive_3D.html",
+      "related": [
+        "text-validation"
+      ]
+    },
+    {
+      "id": "curator-playlist",
+      "group": "Recorded sources",
+      "title": "ArchaeoSAR curator playlist",
+      "access": "Public",
+      "description": "Public playlist used to find recordings. It includes clips, commentary, translations and repeat editions.",
+      "url": "https://www.youtube.com/playlist?list=PL5YUkAb_nbNRWSKC5ODGlO-cu1vli1xNS"
+    },
+    {
+      "id": "text-earth",
+      "group": "Books, conferences and written sources",
+      "title": "Biondi and Mei on Earth Ancients: publisher transcript",
+      "access": "Public",
+      "description": "The host transcript includes claims about the laboratory test and the corridor. Use the podcast clock.",
+      "url": "https://www.iheart.com/podcast/269-earth-ancients-29336705/episode/filippo-biondi-armando-mei-the-284328902/"
+    },
+    {
+      "id": "text-program",
+      "group": "Books, conferences and written sources",
+      "title": "ArchaeoSAR recordings and reports",
+      "access": "Public",
+      "description": "The organizer links its presentations and later test report.",
+      "url": "https://archaeologicalrescue.org/archaeosar/"
+    },
+    {
+      "id": "text-validation",
+      "group": "Books, conferences and written sources",
+      "title": "ArchaeoSAR: Seyfzadeh and Grassi’s validation report",
+      "access": "Public",
+      "description": "The project compares radar sections with known structures using spatial overlays. The participants had access to the locations.",
+      "url": "https://archaeologicalrescue.org/biondi-validation/"
+    },
+    {
+      "id": "text-dialogue",
+      "group": "Books, conferences and written sources",
+      "title": "Seyfzadeh’s written exchange with a language model",
+      "access": "Public",
+      "description": "The human prompts and model replies have different evidentiary status. The human proposes several processing choices.",
+      "url": "https://opusmagnum.org/cracking-the-biondi-code-with-ai/"
+    },
+    {
+      "id": "text-rss",
+      "group": "Books, conferences and written sources",
+      "title": "Biondi on the Billy Carson podcast: publisher transcript",
+      "access": "Public",
+      "description": "Creator-supplied transcript of the interview. The podcast clock differs from other editions.",
+      "url": "https://www.buzzsprout.com/1819416/18923011/transcript"
+    },
+    {
+      "id": "text-bologna",
+      "group": "Books, conferences and written sources",
+      "title": "Bologna presentation: Italian transcript extract",
+      "access": "Public",
+      "description": "An Italian transcript of part of the event. The clock restarts in the second part.",
+      "url": "https://www.litti.it/wp-content/uploads/2025/04/Trascrizione_Intervento_Biondi.pdf"
+    },
+    {
+      "id": "text-gallery",
+      "group": "Books, conferences and written sources",
+      "title": "Khafre Project: conference gallery",
+      "access": "Public",
+      "description": "Conference images and original event links provided by the publisher.",
+      "url": "https://opusmagnum.org/khafre-project-gallery/"
+    },
+    {
+      "id": "text-abstract",
+      "group": "Books, conferences and written sources",
+      "title": "Khafre Project: signed conference abstract",
+      "access": "Public",
+      "description": "The team describes eight proposed shafts, two deep chambers and a base at 648 metres.",
+      "url": "https://ufologiacosmos.com/wp-content/uploads/2025/03/khafre-project2025.pdf"
+    },
+    {
+      "id": "text-counsel",
+      "group": "Books, conferences and written sources",
+      "title": "Malanga’s counsel responds to the retraction",
+      "access": "Public",
+      "description": "The signed letter sets out the author’s objections and mentions proposed independent review.",
+      "url": "https://archaeologicalrescue.org/wp-content/uploads/2026/10/MDPI_Litigation_1.pdf"
+    },
+    {
+      "id": "text-tour",
+      "group": "Books, conferences and written sources",
+      "title": "Malanga book tour: publisher listing",
+      "access": "Public listing only",
+      "description": "The listing documents the tour. The book text was outside the reviewed material.",
+      "url": "https://www.spaziointeriore.com/malanga2023/it/"
+    },
+    {
+      "id": "text-khnum",
+      "group": "Books, conferences and written sources",
+      "title": "Khnum-Khufu: publisher listing",
+      "access": "Public listing only",
+      "description": "Publisher description only. The full manuscript was outside the reviewed material.",
+      "url": "https://www.gruppomacro.com/prodotti/khnum-khufu"
+    },
+    {
+      "id": "text-errare",
+      "group": "Books, conferences and written sources",
+      "title": "Errare Humanum Est: book listing",
+      "access": "Public listing only",
+      "description": "The title is listed by HarmonicSAR. The retail link failed during the audit. The book text was outside the reviewed material.",
+      "url": "https://www.harmonicsar.com/"
+    },
+    {
+      "id": "unlocated-biondi",
+      "group": "Code and model downloads",
+      "title": "BiondiProtocol: cited archive",
+      "access": "Archive unavailable",
+      "description": "The cited repository returned 404. Authorship and contents could not be verified."
+    },
+    {
+      "id": "unlocated-ejhong",
+      "group": "Code and model downloads",
+      "title": "ejhong/sar: cited archive",
+      "access": "Archive unavailable",
+      "description": "The cited repository and archive URLs returned 404 during the audit."
+    },
+    {
+      "id": "project-evidence",
+      "group": "Project films and guides",
+      "title": "Measurements and tests: full catalogue",
+      "url": "https://kravtsovd.github.io/giza-radar-check/data/research.json",
+      "description": "The machine-readable catalogue links the method stages, test results, comparison datasets and next measurement.",
+      "ru": "Каталог измерений и испытаний",
+      "access": "Public"
+    },
+    {
+      "id": "project-archive-catalog",
+      "group": "Data and access",
+      "title": "Data inventory and access conditions",
+      "url": "https://kravtsovd.github.io/giza-radar-check/data/datasets.json",
+      "description": "Project inventory of radar scenes, acquisition records, ground surveys and external controls.",
+      "ru": "Каталог данных и условия доступа",
+      "access": "Public"
+    },
+    {
+      "id": "chamber-replay",
+      "group": "Code and model downloads",
+      "title": "Run the six-scene chamber test",
+      "url": "https://kravtsovd.github.io/giza-radar-check/tools/replay/README.md",
+      "description": "Instructions, inputs, code and expected outputs for rerunning the published chamber test.",
+      "ru": "Как повторить проверку по шести съёмкам",
+      "access": "Public"
+    },
+    {
+      "id": "first-audit",
+      "group": "Code and model downloads",
+      "title": "Recalculate ranks from Canini’s published contrasts",
+      "url": "https://kravtsovd.github.io/giza-radar-check/tools/audit.py",
+      "description": "The script fetches Canini’s published JSON and calculates the chamber ranks against nearby control values.",
+      "ru": "Код первой проверки по двум датам",
+      "access": "Public"
+    },
+    {
+      "id": "scene-download",
+      "group": "Code and model downloads",
+      "title": "Fetch the project’s public scene inputs",
+      "url": "https://kravtsovd.github.io/giza-radar-check/tools/fetch.py",
+      "description": "Download the two public Capella scenes and check their byte counts and SHA-256 hashes.",
+      "ru": "Скрипт загрузки публичных съёмок",
+      "access": "Public"
+    },
+    {
+      "id": "canini-protocol",
+      "group": "Critical assessments",
+      "title": "Canini: sealed November protocol",
+      "url": "https://www.accadradinuovo.com/Lab/giza_sar/replica_v19/PROTOCOLLO.md",
+      "description": "Dated protocol for the independent reproduction. It records the method before the result.",
+      "access": "Public",
+      "related": [
+        "canini"
+      ]
+    },
+    {
+      "id": "canini-report",
+      "group": "Critical assessments",
+      "title": "Canini: Giza radar study, full report",
+      "url": "https://www.accadradinuovo.com/Lab/giza_sar/rapporto_sar_giza.pdf",
+      "description": "Italian technical report linked from the researcher’s public comparison.",
+      "access": "Public",
+      "related": [
+        "canini"
+      ]
+    },
+    {
+      "id": "canini-replay-report",
+      "group": "Critical assessments",
+      "title": "Separate replay report linked by Canini",
+      "url": "https://www.accadradinuovo.com/Lab/giza_sar/replica/replica_indipendente_codex.pdf",
+      "description": "The audit site supplies this additional replay report as an Italian PDF.",
+      "access": "Public",
+      "related": [
+        "canini"
+      ]
+    },
+    {
+      "id": "video--TNrerDd02U",
+      "group": "Recorded sources",
+      "title": "Unavailable playlist entry",
+      "access": "Unavailable",
+      "description": "One position in the organizer’s playlist had no title or recoverable content.",
+      "related": [
+        "curator-playlist"
+      ]
+    },
+    {
+      "id": "video--uLdW_7sX4g",
+      "group": "Recorded sources",
+      "title": "WORLD'S FIRST DISCLOSURE! Khafre Project's SAR scan below the GREAT SPHINX reveals MASSIVE CHAMBERS!",
+      "url": "https://youtu.be/-uLdW_7sX4g",
+      "access": "Public recording",
+      "description": "Trevor Grassi, 2025-07-09. English captions screened for technical terms. Commentary, imagery or report; distinguish the narrator from any original guest clips."
+    },
+    {
+      "id": "video-1VT4Sa8RdMA",
+      "group": "Recorded sources",
+      "title": "Live dal Cairo:TOUR EGITTO SVELATO (2 Marzo). Con Arrmando Mei. #expedition_nicoleciccolo",
+      "url": "https://youtu.be/1VT4Sa8RdMA",
+      "access": "Public recording",
+      "description": "@EXPEDITIONNicoleCiccolo, 2025-03-03. Italian captions screened for technical terms."
+    },
+    {
+      "id": "video-2NEef3qaISI",
+      "group": "Recorded sources",
+      "title": "Satellite Scans Show a Lost Labyrinth Underneath the Pyramids",
+      "url": "https://youtu.be/2NEef3qaISI",
+      "access": "Public recording",
+      "description": "JRE Clips. Only programme metadata was available for this edition.",
+      "related": [
+        "video-bhaz6vd4nSI"
+      ]
+    },
+    {
+      "id": "video-2YkD6CFZIE8",
+      "group": "Recorded sources",
+      "title": "Beneath the Pyramids - with Randall Carlson, Filippo Biondi, Armando Mei & George Howard",
+      "url": "https://youtu.be/2YkD6CFZIE8",
+      "access": "Public recording",
+      "description": "The Cosmic Summit, 2025-05-03. English captions screened for technical terms."
+    },
+    {
+      "id": "video-3xb2_DmprWU",
+      "group": "Recorded sources",
+      "title": "Corrado Malanga e Filippo Biondi rispondono a MDPI!",
+      "url": "https://youtu.be/3xb2_DmprWU",
+      "access": "Public recording",
+      "description": "Nel cuore c'è spazio , 2026-09-04. Italian captions screened for technical terms."
+    },
+    {
+      "id": "video-4E0q4deWshY",
+      "group": "Recorded sources",
+      "title": "Cosa si Nasconde Sotto le Piramidi di Giza? - Filippo Biondi al Symposium Podcast",
+      "url": "https://youtu.be/4E0q4deWshY",
+      "access": "Public recording",
+      "description": "Symposium Podcast, 2026-07-15. Italian captions screened for technical terms."
+    },
+    {
+      "id": "video-6BBWf19RMAk",
+      "group": "Recorded sources",
+      "title": "The Khafre Project | @ArmandoMei and Filippo Biondi at Cosmic Summit 2025",
+      "url": "https://youtu.be/6BBWf19RMAk",
+      "access": "Public recording",
+      "description": "The Cosmic Summit, 2025-12-12. English captions screened for technical terms."
+    },
+    {
+      "id": "video-6aPzy-90qnI",
+      "group": "Recorded sources",
+      "title": "The Secret Underworld of Giza, Extended Series Trailer, William Brown and Trevor Grassi",
+      "url": "https://youtu.be/6aPzy-90qnI",
+      "access": "Public recording",
+      "description": "Trevor Grassi, 2024-03-03. English captions screened for technical terms. Trailer, published 2024, before Khafre launch."
+    },
+    {
+      "id": "video-7WFGwihonjE",
+      "group": "Recorded sources",
+      "title": "SPHINX TUNNELS CONFIRMED! Lost 'sequel' to Mystery of the Sphinx, finally REVEALED!",
+      "url": "https://youtu.be/7WFGwihonjE",
+      "access": "Public recording",
+      "description": "Trevor Grassi, 2025-07-25. English captions screened for technical terms. Commentary, imagery or report; distinguish the narrator from any original guest clips."
+    },
+    {
+      "id": "video-9qK8h8YoTZo",
+      "group": "Recorded sources",
+      "title": "Dr. Filippo Biondi Goes on Record - 100% Confidence in Buried Second Sphinx",
+      "url": "https://youtu.be/9qK8h8YoTZo",
+      "access": "Public recording",
+      "description": "The Cosmic Summit, 2026-05-02. English captions screened for technical terms."
+    },
+    {
+      "id": "video-A988XZT2f7c",
+      "group": "Recorded sources",
+      "title": "SECOND SPHINXES Revealed: Exclusive on-site footage of the entrances underground, blocked by SAND",
+      "url": "https://youtu.be/A988XZT2f7c",
+      "access": "Public recording",
+      "description": "Trevor Grassi. English captions screened for technical terms. Commentary, imagery or report; distinguish the narrator from any original guest clips."
+    },
+    {
+      "id": "video-CW9oESesWCA",
+      "group": "Recorded sources",
+      "title": "UPDATE! Breaking News!  Filippo Biondi and Corrado Malanga strike back!",
+      "url": "https://youtu.be/CW9oESesWCA",
+      "access": "Public recording",
+      "description": "MortalsOfEarth, 2026-09-23. English captions screened for technical terms. Editorial (MortalsOfEarth) discussion of the legal notice; see the signed 22 September letter for its wording."
+    },
+    {
+      "id": "video-DhHM1dcJPUQ",
+      "group": "Recorded sources",
+      "title": "Secrets of the Giza Plateau! What's Hiding in Egypt?",
+      "url": "https://youtu.be/DhHM1dcJPUQ",
+      "access": "Public recording",
+      "description": "Mike Ricksecker, 2025-04-03. English captions screened for technical terms."
+    },
+    {
+      "id": "video-HAWTFemtfdE",
+      "group": "Recorded sources",
+      "title": "Filip Biondi SAR Scan VALIDATION: Manu Seyfzadeh's Independent Verification",
+      "url": "https://youtu.be/HAWTFemtfdE",
+      "access": "Public recording",
+      "description": "4BiddenKnowledge Clips. Only programme metadata was available for this edition."
+    },
+    {
+      "id": "video-KVYVjA44dLc",
+      "group": "Recorded sources",
+      "title": "Is There a Second Sphinx Beneath Giza? Trevor Grassi Explains the Evidence",
+      "url": "https://youtu.be/KVYVjA44dLc",
+      "access": "Public recording",
+      "description": "Earth Ancients. Only programme metadata was available for this edition."
+    },
+    {
+      "id": "video-LBSH78V3IiM",
+      "group": "Recorded sources",
+      "title": "Second Sphinx Giza Radar Scans: A Response to Milo Rossi (Miniminuteman)",
+      "url": "https://youtu.be/LBSH78V3IiM",
+      "access": "Public recording",
+      "description": "The Cosmic Summit. Only programme metadata was available for this edition."
+    },
+    {
+      "id": "video-Lz1ySixcj3A",
+      "group": "Recorded sources",
+      "title": "Cosa nascondono davvero la Sfinge e le Piramidi di Giza? Prima intervista esclusiva a Filippo Biondi",
+      "url": "https://youtu.be/Lz1ySixcj3A",
+      "access": "Public recording",
+      "description": "MePiù: domande fondamentali, 2025-08-14. Italian captions screened for technical terms."
+    },
+    {
+      "id": "video-NajYAvJl4dA",
+      "group": "Recorded sources",
+      "title": "La scoperta di Corrado Malanga e Filippo Biondi - Animazione 3D della piramide di Khnum-Khufu",
+      "url": "https://youtu.be/NajYAvJl4dA",
+      "access": "Public recording",
+      "description": "Architecture Way Ahead - Gaetano Paternostro, 2023-03-15. English captions screened for technical terms."
+    },
+    {
+      "id": "video-NvQXmtcwHA8",
+      "group": "Recorded sources",
+      "title": "BREAKING: Massive Energy Grid Found Beneath Pyramids of Egypt",
+      "url": "https://youtu.be/NvQXmtcwHA8",
+      "access": "Public recording",
+      "description": "Jesse Michels, 2026-03-15. English captions screened for technical terms."
+    },
+    {
+      "id": "video-O3K2NQ6_yAU",
+      "group": "Recorded sources",
+      "title": "#KHAFRE RESEARCH PROJECT: Aggiornamento importante. #expedition_nicoleciccolo",
+      "url": "https://youtu.be/O3K2NQ6_yAU",
+      "access": "Public recording",
+      "description": "@EXPEDITIONNicoleCiccolo, 2026-03-28. Italian captions screened for technical terms."
+    },
+    {
+      "id": "video-OK3bjfxLM9s",
+      "group": "Recorded sources",
+      "title": "THE BIONDI PROTOCOL: Revealing the Megachambers Below Giza, with Filippo Biondi and Armando Mei",
+      "url": "https://youtu.be/OK3bjfxLM9s",
+      "access": "Public recording",
+      "description": "Trevor Grassi, 2025-04-24. English captions screened for technical terms."
+    },
+    {
+      "id": "video-Q-UE2VM4wK0",
+      "group": "Recorded sources",
+      "title": "Egypt's Underground Cities and Long Range Tunnel System, Kariolis Emil and Trevor Grassi",
+      "url": "https://youtu.be/Q-UE2VM4wK0",
+      "access": "Public recording",
+      "description": "Trevor Grassi, 2025-03-24. Only programme metadata was available for this edition."
+    },
+    {
+      "id": "video-Q0GgXmF3ByQ",
+      "group": "Recorded sources",
+      "title": "Le sale dei registri (di Atlantide) sotto la Sfinge? Potremmo averle trovate... Armando Mei",
+      "url": "https://youtu.be/Q0GgXmF3ByQ",
+      "access": "Public recording",
+      "description": "MePiù: domande fondamentali, 2025-08-05. Italian captions screened for technical terms."
+    },
+    {
+      "id": "video-R_DIGdpxXCo",
+      "group": "Recorded sources",
+      "title": "NEWS ",
+      "url": "https://youtu.be/R_DIGdpxXCo",
+      "access": "Public recording",
+      "description": " Beneath All Three Pyramids and the Sphinx! | Khafre Project Interview | Megalithomania|MegalithomaniaUK, 2025-06-28. English captions screened for technical terms."
+    },
+    {
+      "id": "video-RzADEhrnKAc",
+      "group": "Recorded sources",
+      "title": "REVEALING THE OSIRIS SHAFT: Deepest footage ever recorded shows discoveries beyond the Third Chamber",
+      "url": "https://youtu.be/RzADEhrnKAc",
+      "access": "Public recording",
+      "description": "Trevor Grassi, 2026-08-02. English captions screened for technical terms. Commentary, imagery or report; distinguish the narrator from any original guest clips."
+    },
+    {
+      "id": "video-SKJsolWOAqc",
+      "group": "Recorded sources",
+      "title": "Is There Really A Second Sphinx? | More SAR Scan Revelations in 2026 | Megalithomania Podcast",
+      "url": "https://youtu.be/SKJsolWOAqc",
+      "access": "Public recording",
+      "description": "MegalithomaniaUK. Only programme metadata was available for this edition."
+    },
+    {
+      "id": "video-SjJTRVgr9Mw",
+      "group": "Recorded sources",
+      "title": "THE BIONDI VALIDATION: Manu Seyfzadeh's independent verification of scan method and results at Giza",
+      "url": "https://youtu.be/SjJTRVgr9Mw",
+      "access": "Public recording",
+      "description": "Trevor Grassi, 2026-11-11. English captions screened for technical terms."
+    },
+    {
+      "id": "video-TcEgzicEwHk",
+      "group": "Recorded sources",
+      "title": "Live dal Cairo:TOUR EGITTO SVELATO (4 Marzo). Con Armando Mei.  #expedition_nicoleciccolo",
+      "url": "https://youtu.be/TcEgzicEwHk",
+      "access": "Public recording",
+      "description": "@EXPEDITIONNicoleCiccolo, 2025-03-04. Italian captions screened for technical terms."
+    },
+    {
+      "id": "video-US6N5Xpsczc",
+      "group": "Recorded sources",
+      "title": "Filippo Biondi al Symposium Podcast",
+      "url": "https://youtu.be/US6N5Xpsczc",
+      "access": "Public recording",
+      "description": "Symposium Podcast, 2026-07-15. Italian captions screened for technical terms.",
+      "related": [
+        "video-4E0q4deWshY"
+      ]
+    },
+    {
+      "id": "video-UrC0mrWFVo4",
+      "group": "Recorded sources",
+      "title": "Corrado Malanga, Armando Mei, Filippo Biondi - GIZA – La Punta dell’Iceberg",
+      "url": "https://youtu.be/UrC0mrWFVo4",
+      "access": "Public recording",
+      "description": "Spoletolistica, 2025-09-24. Italian captions screened for technical terms."
+    },
+    {
+      "id": "video-Z-C5fE9fpcQ",
+      "group": "Recorded sources",
+      "title": "Revealing the buried PYRAMID OF RECORDS! The Secret Underworld of Giza Part 7, With William Brown",
+      "url": "https://youtu.be/Z-C5fE9fpcQ",
+      "access": "Public recording",
+      "description": "Trevor Grassi, 2026-05-30. English captions screened for technical terms. Commentary, imagery or report; distinguish the narrator from any original guest clips."
+    },
+    {
+      "id": "video-Z4JQaTwJffY",
+      "group": "Recorded sources",
+      "title": "AMENTI UNVEILED: The whole truth about the Khafre Project",
+      "url": "https://youtu.be/Z4JQaTwJffY",
+      "access": "Public recording",
+      "description": "Trevor Grassi, 2025-05-25. English captions screened for technical terms. Commentary, imagery or report; distinguish the narrator from any original guest clips."
+    },
+    {
+      "id": "video-ZHbDK1Ga1ss",
+      "group": "Recorded sources",
+      "title": "THE BIONDI PROTOCOL (Newsreel Trailer) Revealing the Megachambers Below Giza",
+      "url": "https://youtu.be/ZHbDK1Ga1ss",
+      "access": "Public recording",
+      "description": "Trevor Grassi, 2025-04-19. English captions screened for technical terms.",
+      "related": [
+        "video-OK3bjfxLM9s"
+      ]
+    },
+    {
+      "id": "video-ZTB7_SFHsGg",
+      "group": "Recorded sources",
+      "title": "Dr Filippo Biondi, Armando Mei & Trevor Grassi | Khafre Project Interview | Megalithomania",
+      "url": "https://youtu.be/ZTB7_SFHsGg",
+      "access": "Public recording",
+      "description": "MegalithomaniaUK, 2026-01-25. English captions screened for technical terms.",
+      "related": [
+        "video-R_DIGdpxXCo"
+      ]
+    },
+    {
+      "id": "video-b513P5g7XmQ",
+      "group": "Recorded sources",
+      "title": "EXCLUSIVE: Meet The Scientist Behind The MASSIVE Giza Plateau Discoveries!",
+      "url": "https://youtu.be/b513P5g7XmQ",
+      "access": "Public recording",
+      "description": "Project Unity, 2025-04-04. English captions screened for technical terms."
+    },
+    {
+      "id": "video-bM8vzUUZdVM",
+      "group": "Recorded sources",
+      "title": "Conferenza: #Giza - Le piramidi e la porta del tempo. Armando Mei, Filippo Biondi, Corrado Malanga.",
+      "url": "https://youtu.be/bM8vzUUZdVM",
+      "access": "Public recording",
+      "description": "2025-03-23. Italian captions screened for technical terms."
+    },
+    {
+      "id": "video-bhaz6vd4nSI",
+      "group": "Recorded sources",
+      "title": "Joe Rogan Experience #2443 - Filippo Biondi",
+      "url": "https://youtu.be/bhaz6vd4nSI",
+      "access": "Public recording",
+      "description": "PowerfulJRE, 2026-01-23. English captions screened for technical terms."
+    },
+    {
+      "id": "video-cWL4vw144fc",
+      "group": "Recorded sources",
+      "title": "Corrado Malanga ",
+      "url": "https://youtu.be/cWL4vw144fc",
+      "access": "Public recording",
+      "description": " SAR | Piramidi | Video-risposta allo scetticismo mainstream | 2025|Neuronic Channel, 2025-04-03. Italian captions screened for technical terms."
+    },
+    {
+      "id": "video-dTSj72C1LD8",
+      "group": "Recorded sources",
+      "title": "GIZA PROIBITA con Corrado Malanga e Filippo Biondi - Presentazione",
+      "url": "https://youtu.be/dTSj72C1LD8",
+      "access": "Public recording",
+      "description": "Spazio Interiore, 2026-06-11. Italian captions screened for technical terms."
+    },
+    {
+      "id": "video-fB7U-vB5Y8c",
+      "group": "Recorded sources",
+      "title": "CUBI E CILINDRI SOTTO LA PIRAMIDE DI CHEFREN? MALANGA RISPONDE A GEOPLOF",
+      "url": "https://youtu.be/fB7U-vB5Y8c",
+      "access": "Public recording",
+      "description": "Omega Click . Only programme metadata was available for this edition."
+    },
+    {
+      "id": "video-fnQRD9MO0p0",
+      "group": "Recorded sources",
+      "title": "Corrado Malanga- Egitto Sepolto! nuove scoperte col RADAR SAR?",
+      "url": "https://youtu.be/fnQRD9MO0p0",
+      "access": "Public recording",
+      "description": "Prossemica.Tv, 2025-03-16. Italian captions screened for technical terms."
+    },
+    {
+      "id": "video-fszqQaODIcs",
+      "group": "Recorded sources",
+      "title": "The Filippo Biondi Interview | Matt Beall Podcast",
+      "url": "https://youtu.be/fszqQaODIcs",
+      "access": "Public recording",
+      "description": "Matt Beall Podcast, 2026-03-26. English captions screened for technical terms."
+    },
+    {
+      "id": "video-gDcPBPx0Fv8",
+      "group": "Recorded sources",
+      "title": "Scientists Reveal Hidden World Below the Pyramids - Independent Verification! Filippo Biondi",
+      "url": "https://youtu.be/gDcPBPx0Fv8",
+      "access": "Public recording",
+      "description": "Lehto Files, 2025-07-12. English captions screened for technical terms."
+    },
+    {
+      "id": "video-gmYoJV7lZAE",
+      "group": "Recorded sources",
+      "title": "Biondi/Malanga Great Pyramid Paper Review",
+      "url": "https://youtu.be/gmYoJV7lZAE",
+      "access": "Public recording",
+      "description": "Manu Seyfzadeh, 2022-11-11. English captions screened for technical terms."
+    },
+    {
+      "id": "video-h4-LIVLrfgo",
+      "group": "Recorded sources",
+      "title": "THE LOST SPHINX: New SAR scans of Giza's 'Second Sphinx' revealed at Khafre Project press conference",
+      "url": "https://youtu.be/h4-LIVLrfgo",
+      "access": "Public recording",
+      "description": "Trevor Grassi, 2026-06-26. English captions screened for technical terms. Commentary, imagery or report; distinguish the narrator from any original guest clips."
+    },
+    {
+      "id": "video-hAjgIKE6m8k",
+      "group": "Recorded sources",
+      "title": "Cosa c'è dentro la  camera della regina? Filippo Biondi. #expedition_nicoleciccolo",
+      "url": "https://youtu.be/hAjgIKE6m8k",
+      "access": "Public recording",
+      "description": "@EXPEDITIONNicoleCiccolo, 2025-10-14. Italian captions screened for technical terms."
+    },
+    {
+      "id": "video-ioRDPMeOymc",
+      "group": "Recorded sources",
+      "title": "KHAFRE PROJECT at COSMIC SUMMIT: Full Press Conference, Q & A Session and ZAHI'S SHOCKING RESPONSE!",
+      "url": "https://youtu.be/ioRDPMeOymc",
+      "access": "Public recording",
+      "description": "Trevor Grassi, 2025-06-28. English captions screened for technical terms."
+    },
+    {
+      "id": "video-jmfqt67ArIE",
+      "group": "Recorded sources",
+      "title": "4 Satellites Confirm Khafre Pyramid SAR Scan Discovery of Massive Structures Underground",
+      "url": "https://youtu.be/jmfqt67ArIE",
+      "access": "Public recording",
+      "description": "Megalithic Marvels (Derek Olson). English captions screened for technical terms. Commentary, imagery or report; distinguish the narrator from any original guest clips."
+    },
+    {
+      "id": "video-k0YYjLIgkwA",
+      "group": "Recorded sources",
+      "title": "Radar Scans Reveal Underground Structures Beneath Giza — Researcher Says the Pyramids Weren’t Tombs",
+      "url": "https://youtu.be/k0YYjLIgkwA",
+      "access": "Public recording",
+      "description": "JRE Clips. Only programme metadata was available for this edition.",
+      "related": [
+        "video-bhaz6vd4nSI"
+      ]
+    },
+    {
+      "id": "video-kIZw3wasi8M",
+      "group": "Recorded sources",
+      "title": "Giza Pyramid Scans Explained | Dr. Filippo Biondi & Dr. Armando Mei – Ancient Technology Podcast",
+      "url": "https://youtu.be/kIZw3wasi8M",
+      "access": "Public recording",
+      "description": "Károly Póka, 2025-10-20. English captions screened for technical terms."
+    },
+    {
+      "id": "video-kO1vzZAFil0",
+      "group": "Recorded sources",
+      "title": "Second Sphinx DETAILS and the ArchaeoSAR Project to scan all the world's most important sites!",
+      "url": "https://youtu.be/kO1vzZAFil0",
+      "access": "Public recording",
+      "description": "Trevor Grassi. English captions screened for technical terms."
+    },
+    {
+      "id": "video-kuyYGdfWw48",
+      "group": "Recorded sources",
+      "title": "Khafre Pyramid SAR Scan Project - Tracing the Source of the News",
+      "url": "https://youtu.be/kuyYGdfWw48",
+      "access": "Public recording",
+      "description": "Funny Olde World, 2025-03-22. English captions screened for technical terms. Commentary, imagery or report; distinguish the narrator from any original guest clips."
+    },
+    {
+      "id": "video-n9ISC9ji-WA",
+      "group": "Recorded sources",
+      "title": "L.A. Interviews Two Scientists from the Giza Pyramid Findings!",
+      "url": "https://youtu.be/n9ISC9ji-WA",
+      "access": "Public recording",
+      "description": "L. A. Marzulli, 2025-04-07. English captions screened for technical terms."
+    },
+    {
+      "id": "video-oIliyX5m2Ro",
+      "group": "Recorded sources",
+      "title": "FILIPPO BIONDI & CORRADO MALANGA \"GIZA: HIDDEN CITY FINAL ACT\" JUNE 21, 2026 PART 3/3 (SP SUBT.)",
+      "url": "https://youtu.be/oIliyX5m2Ro",
+      "access": "Public recording",
+      "description": "EXTRATERRESTRIALS & SCI-FI UNIVERSE, 2026-07-30. Italian captions screened for technical terms.",
+      "related": [
+        "video-wH792ihvbhk"
+      ]
+    },
+    {
+      "id": "video-pN-Lj5G8Y2Y",
+      "group": "Recorded sources",
+      "title": "La fine di un'era e l'inizio delle domande fondamentali - Eugenio Miccoli intervista Corrado Malanga",
+      "url": "https://youtu.be/pN-Lj5G8Y2Y",
+      "access": "Public recording",
+      "description": "MePiù: domande fondamentali, 2025-08-25. Italian captions screened for technical terms."
+    },
+    {
+      "id": "video-qTLbRqFIWNQ",
+      "group": "Recorded sources",
+      "title": "BREAKING: FULL Technical Presentation on Giza Plateau MASSIVE Underground Structures!",
+      "url": "https://youtu.be/qTLbRqFIWNQ",
+      "access": "Public recording",
+      "description": "Project Unity, 2025-06-15. English captions screened for technical terms."
+    },
+    {
+      "id": "video-qop3jd9qL9E",
+      "group": "Recorded sources",
+      "title": "Conference: #Giza The pyramids and the Temporal Gateway.Armando Mei, Filippo Biondi, Corrado Malanga",
+      "url": "https://youtu.be/qop3jd9qL9E",
+      "access": "Public recording",
+      "description": "@EXPEDITIONNicoleCiccolo, 2025-04-12. English captions screened for technical terms.",
+      "related": [
+        "video-bM8vzUUZdVM"
+      ]
+    },
+    {
+      "id": "video-rUl0G7N2iGk",
+      "group": "Recorded sources",
+      "title": "GIZA: THE HIDDEN CITY Final Act (ENGLISH version of 'Second Sphinx' full press conference, Bologna)",
+      "url": "https://youtu.be/rUl0G7N2iGk",
+      "access": "Public recording",
+      "description": "Trevor Grassi, 2026-07-05. English captions screened for technical terms.",
+      "related": [
+        "video-wH792ihvbhk"
+      ]
+    },
+    {
+      "id": "video-rZdL79qMxZQ",
+      "group": "Recorded sources",
+      "title": "Corrado Malanga ",
+      "url": "https://youtu.be/rZdL79qMxZQ",
+      "access": "Public recording",
+      "description": " Conferenza Catania  2023 - Versione completa|NuovaConsapevolezzA, 2023-07-16. Italian captions screened for technical terms."
+    },
+    {
+      "id": "video-sJQxMYPUAyU",
+      "group": "Recorded sources",
+      "title": "Secrets Beneath Giza and the Lost Sphinx - Filipo Biondi - Billy Carson",
+      "url": "https://youtu.be/sJQxMYPUAyU",
+      "access": "Public recording",
+      "description": "4biddenknowledge Podcast Network . The separate publisher transcript was screened.",
+      "related": [
+        "text-rss"
+      ]
+    },
+    {
+      "id": "video-sQNjse68IM4",
+      "group": "Recorded sources",
+      "title": "GLI AMICI DEL MISTERO. Con Malanga-Mei-Biondi. #live #expedition_nicoleciccolo #lealidelbrujo",
+      "url": "https://youtu.be/sQNjse68IM4",
+      "access": "Public recording",
+      "description": "@EXPEDITIONNicoleCiccolo, 2025-03-25. Italian captions screened for technical terms."
+    },
+    {
+      "id": "video-se5C91JxAMY",
+      "group": "Recorded sources",
+      "title": "CORRADO MALANGA e ARMANDO MEI: IL TUNNEL DELLA DISCORDIA. #expedition_nicoleciccolo #live",
+      "url": "https://youtu.be/se5C91JxAMY",
+      "access": "Public recording",
+      "description": "@EXPEDITIONNicoleCiccolo, 2023-03-17. Italian captions screened for technical terms."
+    },
+    {
+      "id": "video-tPA8UoR8lM8",
+      "group": "Recorded sources",
+      "title": "ROGUE ARCHAEOLOGY: Corrado Malanga on Giza, lost technology and the gatekeepers of history [English]",
+      "url": "https://youtu.be/tPA8UoR8lM8",
+      "access": "Public recording",
+      "description": "Trevor Grassi, 2026-07-27. English captions screened for technical terms."
+    },
+    {
+      "id": "video-uKrYcOD0nD4",
+      "group": "Recorded sources",
+      "title": "KHAFRE PROJECT EGYPT TOUR!!! Recovering Lost Technologies with Filippo Biondi and Armando Mei",
+      "url": "https://youtu.be/uKrYcOD0nD4",
+      "access": "Public recording",
+      "description": "Trevor Grassi, 2025-12-28. English captions screened for technical terms."
+    },
+    {
+      "id": "video-vE-BRzn0dDY",
+      "group": "Recorded sources",
+      "title": "Khafre pyramid SAR scan Mar 2025 shows massive underground structures deep beneath egyptian pyramids",
+      "url": "https://youtu.be/vE-BRzn0dDY",
+      "access": "Public recording",
+      "description": "Lizzie Karen’s Prior World, 2025-03-16. English captions screened for technical terms. Commentary, imagery or report; distinguish the narrator from any original guest clips."
+    },
+    {
+      "id": "video-wH792ihvbhk",
+      "group": "Recorded sources",
+      "title": "CONFERENZA #GIZA  LA CITTA' NASCOSTA - ATTO FINALE. Corrado Malanga - Filippo Biondi.",
+      "url": "https://youtu.be/wH792ihvbhk",
+      "access": "Public recording",
+      "description": "EXPEDITION -Nicole Ciccolo-, 2026-06-24. Italian captions screened for technical terms."
+    },
+    {
+      "id": "video-wOtaDCZgaAo",
+      "group": "Recorded sources",
+      "title": "Intervista a Trevor Grassi. #expedition_nicoleciccolo",
+      "url": "https://youtu.be/wOtaDCZgaAo",
+      "access": "Public recording",
+      "description": "@EXPEDITIONNicoleCiccolo, 2025-06-09. Italian captions screened for technical terms."
+    },
+    {
+      "id": "video-xDpdJFlLpRE",
+      "group": "Recorded sources",
+      "title": "Conferenza stampa #Giza.  Armando Mei, Filippo Biondi, Corrado Malanga. #expedition_nicoleciccolo",
+      "url": "https://youtu.be/xDpdJFlLpRE",
+      "access": "Public recording",
+      "description": "@EXPEDITIONNicoleCiccolo, 2025-03-22. Italian captions screened for technical terms.",
+      "related": [
+        "video-bM8vzUUZdVM"
+      ]
+    },
+    {
+      "id": "video-yEguZVozbv4",
+      "group": "Recorded sources",
+      "title": "Corrado Malanga ",
+      "url": "https://youtu.be/yEguZVozbv4",
+      "access": "Public recording",
+      "description": " SAR | Piramidi | Video-risposta a Massimo Polidoro | 2023|Neuronic Channel, 2025-04-03. Italian captions screened for technical terms."
+    },
+    {
+      "id": "video-zZjU_hioDfQ",
+      "group": "Recorded sources",
+      "title": "HUGE Structures Discovered 2km BELOW Pyramid of Khafre?!",
+      "url": "https://youtu.be/zZjU_hioDfQ",
+      "access": "Public recording",
+      "description": "Project Unity, 2025-03-19. English captions screened for technical terms. Commentary, imagery or report; distinguish the narrator from any original guest clips."
+    },
+    {
+      "id": "video-zrmG2jBckgk",
+      "group": "Recorded sources",
+      "title": "Meet the Scientist Who Scanned Beneath the Pyramids",
+      "url": "https://youtu.be/zrmG2jBckgk",
+      "access": "Public recording",
+      "description": "Jesse Michels, 2025-12-07. English captions screened for technical terms."
+    },
+    {
+      "id": "S01",
+      "group": "Attributed statements",
+      "title": "Undisclosed implementation choices (19:40 to 20:41)",
+      "url": "https://youtu.be/SjJTRVgr9Mw?t=1180",
+      "access": "Source passage",
+      "description": "Manu Seyfzadeh. He filled gaps experimentally for sub-aperture synthesis, registration and depth focusing. He describes his own implementation. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-SjJTRVgr9Mw"
+      ]
+    },
+    {
+      "id": "S02",
+      "group": "Attributed statements",
+      "title": "Fixed half-band reference (Human prompt following the band-pass filter design question)",
+      "url": "https://opusmagnum.org/cracking-the-biondi-code-with-ai/",
+      "access": "Source passage",
+      "description": "Manu Seyfzadeh. He proposes a fixed half-band master and many partly overlapping half-band copies. English. Written prompt by Seyfzadeh; his technical interpretation, no Biondi confirmation.",
+      "related": [
+        "text-dialogue"
+      ]
+    },
+    {
+      "id": "S03",
+      "group": "Attributed statements",
+      "title": "Suggested 1-100 Hz range (Human question about whether seismic frequencies between 1 and 100 Hz are plausible)",
+      "url": "https://opusmagnum.org/cracking-the-biondi-code-with-ai/",
+      "access": "Source passage",
+      "description": "Manu Seyfzadeh. He asks if 1-100 Hz could be the band for seismic frequencies. ChatGPT agrees. English. Written question by Seyfzadeh; model answer excluded.",
+      "related": [
+        "text-dialogue"
+      ]
+    },
+    {
+      "id": "S04",
+      "group": "Attributed statements",
+      "title": "Interpreting a surface ellipse (20:20 to 22:18)",
+      "url": "https://youtu.be/SjJTRVgr9Mw?t=1220",
+      "access": "Source passage",
+      "description": "Manu Seyfzadeh. He describes a surface ellipse from vertical and transverse oscillation as his interpretation, drawing on an external geophysicist. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-SjJTRVgr9Mw"
+      ]
+    },
+    {
+      "id": "S05",
+      "group": "Attributed statements",
+      "title": "Pairing two displaced looks (29:50 to 31:07)",
+      "url": "https://youtu.be/SjJTRVgr9Mw?t=1790",
+      "access": "Source passage",
+      "description": "Manu Seyfzadeh. He uses a single flyover, many Doppler sub-apertures, and slightly displaced reference and offset copies within each one. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-SjJTRVgr9Mw"
+      ]
+    },
+    {
+      "id": "S06",
+      "group": "Attributed statements",
+      "title": "Focusing against candidate depths (35:19 to 36:02)",
+      "url": "https://youtu.be/SjJTRVgr9Mw?t=2119",
+      "access": "Source passage",
+      "description": "Manu Seyfzadeh. He describes an adjoint focusing operator against theoretical phase histories for candidate depths. Biondi asks about the displacement matrix. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-SjJTRVgr9Mw"
+      ]
+    },
+    {
+      "id": "S07",
+      "group": "Attributed statements",
+      "title": "Encoding vibration direction (44:05 to 45:32)",
+      "url": "https://youtu.be/SjJTRVgr9Mw?t=2645",
+      "access": "Source passage",
+      "description": "Filippo Biondi. He proposes extending the display to encode horizontal, vertical and oblique vibration orientation using a second polarimetry patent. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-SjJTRVgr9Mw"
+      ]
+    },
+    {
+      "id": "S08",
+      "group": "Attributed statements",
+      "title": "Choosing the section direction (55:24 to 56:28)",
+      "url": "https://youtu.be/SjJTRVgr9Mw?t=3324",
+      "access": "Source passage",
+      "description": "Filippo Biondi. Biondi recommends a range-oriented section. He describes lower quality when the line and sub-aperture split are both in azimuth. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-SjJTRVgr9Mw"
+      ]
+    },
+    {
+      "id": "S09",
+      "group": "Attributed statements",
+      "title": "Coarse and fine registration windows (56:37 to 57:11)",
+      "url": "https://youtu.be/SjJTRVgr9Mw?t=3397",
+      "access": "Source passage",
+      "description": "Manu Seyfzadeh. His coarse registration frame is 128 by 128 pixels. The fine frame is 24 azimuth by 32 range pixels. He tested recovery with injected vectors. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-SjJTRVgr9Mw"
+      ]
+    },
+    {
+      "id": "S10",
+      "group": "Attributed statements",
+      "title": "Converting pixel shifts to metres (53:52 to 54:31)",
+      "url": "https://youtu.be/SjJTRVgr9Mw?t=3232",
+      "access": "Source passage",
+      "description": "Manu Seyfzadeh. He converts range and azimuth pixel scales independently to metres from delivered metadata. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-SjJTRVgr9Mw"
+      ]
+    },
+    {
+      "id": "S11",
+      "group": "Attributed statements",
+      "title": "Calibrating the rock-speed model (47:36 to 48:34)",
+      "url": "https://youtu.be/SjJTRVgr9Mw?t=2856",
+      "access": "Source passage",
+      "description": "Manu Seyfzadeh. He says he changed the rock-speed model, calibrated with Campbell’s Tomb and a shaft by Khufu, then applied the derived rule to Osiris. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-SjJTRVgr9Mw"
+      ]
+    },
+    {
+      "id": "S12",
+      "group": "Attributed statements",
+      "title": "Choosing the wavelength (1:21:43 to 1:21:59)",
+      "url": "https://youtu.be/SjJTRVgr9Mw?t=4903",
+      "access": "Source passage",
+      "description": "Manu Seyfzadeh. He says he used a different wavelength from 0.24 m and again cites calibration at Campbell’s Tomb. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-SjJTRVgr9Mw"
+      ]
+    },
+    {
+      "id": "S13",
+      "group": "Attributed statements",
+      "title": "Uncertainty in the depth estimate (1:21:22 to 1:21:37)",
+      "url": "https://youtu.be/SjJTRVgr9Mw?t=4882",
+      "access": "Source passage",
+      "description": "Filippo Biondi. Reviewing the Khafre similarity, Biondi says the depth estimate still needs work. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-SjJTRVgr9Mw"
+      ]
+    },
+    {
+      "id": "S14",
+      "group": "Attributed statements",
+      "title": "Changing the sub-aperture count (1:23:34 to 1:24:00)",
+      "url": "https://youtu.be/SjJTRVgr9Mw?t=5014",
+      "access": "Source passage",
+      "description": "Seyfzadeh, then Biondi. Seyfzadeh says K was 295. Biondi suggests trying 5000 after seeing the output. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-SjJTRVgr9Mw"
+      ]
+    },
+    {
+      "id": "S15",
+      "group": "Attributed statements",
+      "title": "Version and filter changes (1:26:56 to 1:27:39)",
+      "url": "https://youtu.be/SjJTRVgr9Mw?t=5216",
+      "access": "Source passage",
+      "description": "Trevor Grassi. He distinguishes a first Osiris output, a 100 m version described as 3360 pixels, and a later version with stronger filtering. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-SjJTRVgr9Mw"
+      ]
+    },
+    {
+      "id": "S16",
+      "group": "Attributed statements",
+      "title": "Aligning output with a drawing (1:28:02 to 1:29:00)",
+      "url": "https://youtu.be/SjJTRVgr9Mw?t=5282",
+      "access": "Source passage",
+      "description": "Trevor Grassi. He marked corresponding spots in Photoshop and discusses matching a perspective drawing to a different section view. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-SjJTRVgr9Mw"
+      ]
+    },
+    {
+      "id": "S17",
+      "group": "Attributed statements",
+      "title": "First tests with a Capella image (37:30 to 38:00)",
+      "url": "https://youtu.be/SjJTRVgr9Mw?t=2250",
+      "access": "Source passage",
+      "description": "Manu Seyfzadeh. Initial Giza tests used a lower-resolution image supplied without charge by Capella. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-SjJTRVgr9Mw"
+      ]
+    },
+    {
+      "id": "S18",
+      "group": "Attributed statements",
+      "title": "Sharing an image and a line (51:34 to 51:56)",
+      "url": "https://youtu.be/SjJTRVgr9Mw?t=3094",
+      "access": "Source passage",
+      "description": "Manu Seyfzadeh. He says a placement line was sent to Biondi and both had access to the image from Athanatos. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-SjJTRVgr9Mw"
+      ]
+    },
+    {
+      "id": "S19",
+      "group": "Attributed statements",
+      "title": "Confidence in the Osiris identification (43:48 to 44:04)",
+      "url": "https://youtu.be/SjJTRVgr9Mw?t=2628",
+      "access": "Source passage",
+      "description": "Manu Seyfzadeh. His expressed confidence in seeing Osiris is above 50 percent and below 100 percent at this point. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-SjJTRVgr9Mw"
+      ]
+    },
+    {
+      "id": "S20",
+      "group": "Attributed statements",
+      "title": "Horizontal mismatch in the Khufu overlay (1:45:48 to 1:46:30)",
+      "url": "https://youtu.be/SjJTRVgr9Mw?t=6348",
+      "access": "Source passage",
+      "description": "Trevor Grassi. In his Khufu overlay, Grassi asks viewers to compare chamber heights and notes the horizontal mismatch. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-SjJTRVgr9Mw"
+      ]
+    },
+    {
+      "id": "S21",
+      "group": "Attributed statements",
+      "title": "Doppler bandwidth and half-band scanning (25:12 to 26:20)",
+      "url": "https://youtu.be/ioRDPMeOymc?t=1512",
+      "access": "Source passage",
+      "description": "Filippo Biondi. He describes spotlight Doppler bandwidths of roughly 22-25 kHz and using half the available band to scan along the aperture. He separately mentions a roughly 10 GHz carrier. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-ioRDPMeOymc"
+      ]
+    },
+    {
+      "id": "S22",
+      "group": "Attributed statements",
+      "title": "Moving processing to GPUs (26:40 to 27:11)",
+      "url": "https://youtu.be/b513P5g7XmQ?t=1600",
+      "access": "Source passage",
+      "description": "Filippo Biondi. Biondi says they optimized the kernel and were moving towards GPU processing while retaining the same technique. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-b513P5g7XmQ"
+      ]
+    },
+    {
+      "id": "S23",
+      "group": "Attributed statements",
+      "title": "Retuning the method for depth (29:54 to 30:50)",
+      "url": "https://youtu.be/b513P5g7XmQ?t=1794",
+      "access": "Source passage",
+      "description": "Filippo Biondi. He says they tuned the software differently once the aim changed from the top of the pyramid to deeper targets. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-b513P5g7XmQ"
+      ]
+    },
+    {
+      "id": "S24",
+      "group": "Attributed statements",
+      "title": "Averaging several Gran Sasso sections (2:54:27 to 2:57:37)",
+      "url": "https://youtu.be/NvQXmtcwHA8?t=10467",
+      "access": "Source passage",
+      "description": "Filippo Biondi. For the wide Gran Sasso target he describes wider focusing and averaging several lines pixel by pixel to reduce noise. He reports at least two months of processing. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-NvQXmtcwHA8"
+      ]
+    },
+    {
+      "id": "S25",
+      "group": "Attributed statements",
+      "title": "Discarding noise-dominated outputs (20:50 to 21:30)",
+      "url": "https://youtu.be/4E0q4deWshY?t=1250",
+      "access": "Source passage",
+      "description": "Filippo Biondi. He says they discarded many trials where noise was inverted and kept successes. He mentions hundreds of successes on other things. Italian. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-4E0q4deWshY"
+      ]
+    },
+    {
+      "id": "S26",
+      "group": "Attributed statements",
+      "title": "MATLAB to CUDA processing times (2:20:00 to 2:21:14)",
+      "url": "https://youtu.be/wH792ihvbhk?t=8400",
+      "access": "Source passage",
+      "description": "Filippo Biondi. He describes the Gran Sasso demonstration as software 1.0, a MATLAB to C++/CUDA rewrite, and a change from about a month to three or four hours. Italian. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-wH792ihvbhk"
+      ]
+    },
+    {
+      "id": "S27",
+      "group": "Attributed statements",
+      "title": "Coherent processing of complex returns (23:35 to 24:45)",
+      "url": "https://youtu.be/gDcPBPx0Fv8?t=1415",
+      "access": "Source passage",
+      "description": "Filippo Biondi. He says the processing is coherent and handles real and imaginary components. It uses an aperture of displaced measurements to infer direction. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-gDcPBPx0Fv8"
+      ]
+    },
+    {
+      "id": "S28",
+      "group": "Attributed statements",
+      "title": "A three-band colour image (33:05 to 33:38)",
+      "url": "https://youtu.be/gDcPBPx0Fv8?t=1985",
+      "access": "Source passage",
+      "description": "Filippo Biondi. He describes a colour Capella image made from three Doppler bands. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-gDcPBPx0Fv8"
+      ]
+    },
+    {
+      "id": "S29",
+      "group": "Attributed statements",
+      "title": "Pseudo-inversion and the role of AI (55:18 to 57:10)",
+      "url": "https://youtu.be/zrmG2jBckgk?t=3318",
+      "access": "Source passage",
+      "description": "Filippo Biondi. He says the model is pseudo-inverted, reports four providers and distinguishes that reconstruction from AI. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-zrmG2jBckgk"
+      ]
+    },
+    {
+      "id": "S30",
+      "group": "Attributed statements",
+      "title": "Limits of spiral interpretation (47:17 to 50:09)",
+      "url": "https://youtu.be/zrmG2jBckgk?t=2837",
+      "access": "Source passage",
+      "description": "Filippo Biondi. He describes the spiral as a shape. He cannot distinguish stairs from cables and describes material recognition as future work requiring ground truth. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-zrmG2jBckgk"
+      ]
+    },
+    {
+      "id": "S31",
+      "group": "Attributed statements",
+      "title": "Depth depends on the local geology (Podcast 23:30 (publisher segment timestamp))",
+      "url": "https://www.buzzsprout.com/1819416/18923011/transcript",
+      "access": "Source passage",
+      "description": "Filippo Biondi. He says accurate depth needs the local geological model and constant density produces only a rough estimate. English. Creator-supplied RSS transcript, paraphrased.",
+      "related": [
+        "text-rss"
+      ]
+    },
+    {
+      "id": "S32",
+      "group": "Attributed statements",
+      "title": "Unscaled depth axis in the spiral model (Podcast 26:15 (publisher segment timestamp))",
+      "url": "https://www.buzzsprout.com/1819416/18923011/transcript",
+      "access": "Source passage",
+      "description": "Filippo Biondi. Biondi says the displayed spiral model has an unscaled depth axis. He says in-person examination would distinguish what the apparent spiral represents. English. Creator-supplied RSS transcript, paraphrased.",
+      "related": [
+        "text-rss"
+      ]
+    },
+    {
+      "id": "S33",
+      "group": "Attributed statements",
+      "title": "Reading 648 m from a displayed ratio (3:02:15 to 3:03:43)",
+      "url": "https://youtu.be/bM8vzUUZdVM?t=10935",
+      "access": "Source passage",
+      "description": "Khafre Project speaker at Bologna (Italian release). The presentation explicitly counts pixels relative to the 137 m height of Khafre and reads 648 m to the end platform. The speaker acknowledges obliquity and argues that the angular errors cancel in the ratio. Italian. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-bM8vzUUZdVM"
+      ]
+    },
+    {
+      "id": "S34",
+      "group": "Attributed statements",
+      "title": "A visible cutoff and deeper estimates (3:30:05 to 3:31:28)",
+      "url": "https://youtu.be/NvQXmtcwHA8?t=12605",
+      "access": "Source passage",
+      "description": "Mixed panel; speaker changes in captions. The panel discusses a visible cutoff near 550-600 m and questions a deeper estimate. Attribution changes during the exchange. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-NvQXmtcwHA8"
+      ]
+    },
+    {
+      "id": "S35",
+      "group": "Attributed statements",
+      "title": "Claim to have measured the Big Void (1:02:15 to 1:03:00)",
+      "url": "https://youtu.be/kIZw3wasi8M?t=3735",
+      "access": "Source passage",
+      "description": "Filippo Biondi. He says their model contains the Big Void and they measured its dimensions. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-kIZw3wasi8M"
+      ]
+    },
+    {
+      "id": "S36",
+      "group": "Attributed statements",
+      "title": "Separating Big Void and corridor priority (1:40:37 to 1:41:50)",
+      "url": "https://youtu.be/bhaz6vd4nSI?t=6037",
+      "access": "Source passage",
+      "description": "Filippo Biondi. The conversation identifies Big Void on a slide. Biondi associates his six-month priority claim with the corridor in the following sentences. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-bhaz6vd4nSI"
+      ]
+    },
+    {
+      "id": "S37",
+      "group": "Attributed statements",
+      "title": "Claimed orientation of the Big Void (5:19 to 6:00)",
+      "url": "https://youtu.be/fszqQaODIcs?t=319",
+      "access": "Source passage",
+      "description": "Filippo Biondi. He tells Matt Beall that they detected the Big Void and offers a different orientation from the Grand Gallery. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-fszqQaODIcs"
+      ]
+    },
+    {
+      "id": "S38",
+      "group": "Attributed statements",
+      "title": "Selecting the second-Sphinx search area (15:12 to 16:33)",
+      "url": "https://youtu.be/9qK8h8YoTZo?t=912",
+      "access": "Source passage",
+      "description": "Filippo Biondi. He describes selecting the second Sphinx location after Damiano Piras and others suggested that area. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-9qK8h8YoTZo"
+      ]
+    },
+    {
+      "id": "S39",
+      "group": "Attributed statements",
+      "title": "Compute requirements in meeting footage (11:40 to 13:50)",
+      "url": "https://youtu.be/kO1vzZAFil0?t=700",
+      "access": "Source passage",
+      "description": "Filippo Biondi. In edited meeting footage, he describes using multiple cores and needing more computing capacity. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-kO1vzZAFil0"
+      ]
+    },
+    {
+      "id": "S40",
+      "group": "Attributed statements",
+      "title": "An unspecified stage in the 2022 paper (50:05 to 51:39)",
+      "url": "https://youtu.be/gmYoJV7lZAE?t=3005",
+      "access": "Source passage",
+      "description": "Manu Seyfzadeh. In his 2022 reading of the paper, he notes that he could not find a detailed explanation of one stage. This predates his later reconstruction. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-gmYoJV7lZAE"
+      ]
+    },
+    {
+      "id": "S41",
+      "group": "Attributed statements",
+      "title": "Carlin Tunnel as a proposed example (Post text, Carlin Tunnel railway, Nevada)",
+      "url": "https://www.linkedin.com/posts/filippo-biondi-ph-d-52254b40_harmonicsar-radar-spacemining-activity-7074315053797117952-tbye",
+      "access": "Source passage",
+      "description": "Filippo Biondi. He describes deep geocoding with one SLC and names the Carlin railway tunnel as an example. English. Author-written public post; paraphrased."
+    },
+    {
+      "id": "S42",
+      "group": "Attributed statements",
+      "title": "Program claims and intended external review (Initial report, abstract and project introduction)",
+      "url": "https://archaeologicalrescue.org/about-archaeosar/",
+      "access": "Source passage",
+      "description": "Grassi and Frank Rogala. The program attributes deep imaging and material identification to the software and describes a proposed third-party check under NDA. English. Written program statement; paraphrased.",
+      "related": [
+        "project-program"
+      ]
+    },
+    {
+      "id": "S43",
+      "group": "Attributed statements",
+      "title": "Eight shafts and two large chambers (Conference abstract, Second Step, March 16 2025)",
+      "url": "https://opusmagnum.org/khafre-project-gallery/",
+      "access": "Source passage",
+      "description": "Khafre Project (three signatories). The signed abstract describes eight shafts, two rows, 648 m depth and two cubes of approximately 80 m per side. It credits Capella and Umbra and multiple tomograms. English. Signed author abstract; paraphrased.",
+      "related": [
+        "text-gallery"
+      ]
+    },
+    {
+      "id": "S44",
+      "group": "Attributed statements",
+      "title": "Tracking the Doppler centroid (1:12:18 to 1:13:09)",
+      "url": "https://youtu.be/sQNjse68IM4?t=4338",
+      "access": "Source passage",
+      "description": "Filippo Biondi. He says changing surface motion shifts the estimated Doppler centroid. He records its history and attempts the inversion from it. Italian. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-sQNjse68IM4"
+      ]
+    },
+    {
+      "id": "S45",
+      "group": "Attributed statements",
+      "title": "Vegetation as a source of noise (1:13:10 to 1:14:10)",
+      "url": "https://youtu.be/sQNjse68IM4?t=4390",
+      "access": "Source passage",
+      "description": "Filippo Biondi. Biondi expects dense vegetation to add noise and says he has not tested strongly vegetated terrain. Italian. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-sQNjse68IM4"
+      ]
+    },
+    {
+      "id": "S46",
+      "group": "Attributed statements",
+      "title": "Expected brightness of chamber edges (34:06 to 34:30)",
+      "url": "https://youtu.be/OK3bjfxLM9s?t=2046",
+      "access": "Source passage",
+      "description": "Filippo Biondi. He says air inside a chamber should appear dark and its borders bright in his tomogram. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-OK3bjfxLM9s"
+      ]
+    },
+    {
+      "id": "S47",
+      "group": "Attributed statements",
+      "title": "Extracting a section between two pixels (43:38 to 44:04)",
+      "url": "https://youtu.be/NvQXmtcwHA8?t=2618",
+      "access": "Source passage",
+      "description": "Filippo Biondi. He says to select two image pixels, draw a line and extract a vertical section. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-NvQXmtcwHA8"
+      ]
+    },
+    {
+      "id": "S48",
+      "group": "Attributed statements",
+      "title": "Repeated Fourier transforms and runtime (40:01 to 41:04)",
+      "url": "https://youtu.be/R_DIGdpxXCo?t=2401",
+      "access": "Source passage",
+      "description": "Filippo Biondi. He describes calculating shifts with repeated FFTs and inverse FFTs over a large data region. He gives roughly two weeks of continuous processing for the example. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-R_DIGdpxXCo"
+      ]
+    },
+    {
+      "id": "S49",
+      "group": "Attributed statements",
+      "title": "Proposed tests on the ground (48:50 to 49:54)",
+      "url": "https://youtu.be/9qK8h8YoTZo?t=2930",
+      "access": "Source passage",
+      "description": "Filippo Biondi. He proposes ground radar and seismic/electrical methods to validate the satellite work. The phrasing is future tense. English. Public captions with timecodes; paraphrased.",
+      "related": [
+        "video-9qK8h8YoTZo"
+      ]
+    },
+    {
+      "id": "S50",
+      "group": "Attributed statements",
+      "title": "Malanga’s proposed independent review (22 September 2026 letter, Section 3, Fifth; Section 4)",
+      "url": "https://archaeologicalrescue.org/wp-content/uploads/2026/10/MDPI_Litigation_1.pdf",
+      "access": "Source passage",
+      "description": "Counsel speaking for Corrado Malanga. The letter describes the method as SAR Doppler tomography and multichromatic analysis of micro-motion. It announces plans for an independent review of the data and processing chain. English. Written statement on behalf of Malanga; paraphrased.",
+      "related": [
+        "text-counsel"
+      ]
+    },
+    {
+      "id": "code-teoamico-resonarsat",
+      "group": "Code and model downloads",
+      "title": "teoAmico/ResonarSat",
+      "url": "https://github.com/teoAmico/ResonarSat/tree/3af02ffb6798c7602575f576fdb7d2d4f0c75e92",
+      "access": "Public source revision",
+      "description": "Independent C processing chain. Examined the source and constants. No new full-scene Giza run."
+    },
+    {
+      "id": "code-mfwarren-pyramid",
+      "group": "Code and model downloads",
+      "title": "mfwarren/Pyramid",
+      "url": "https://github.com/mfwarren/Pyramid/tree/b65e87ede6e8b94b1c54304f81016e2bf2f7b7ca",
+      "access": "Public source revision",
+      "description": "Independent Sentinel-1 IW TOPS Giza experiments. Code and result JSON are public. Its explicit sensor and geometry choices differ from the Giza spotlight claims."
+    },
+    {
+      "id": "code-hassanforeman-subsurface-sar-tomo",
+      "group": "Code and model downloads",
+      "title": "Hassanforeman/subsurface-sar-tomo",
+      "url": "https://github.com/Hassanforeman/subsurface-sar-tomo/tree/eef7aa233581ab0abb1e5716bd4d6b8cebd167b4",
+      "access": "Public source revision",
+      "description": "Independent controls-first tracker and depth-operator analysis. Executed the deterministic expected-power routine and checked its answer using independent QR and impulse propagation. Its null applies to accumulated and detrended noise."
+    },
+    {
+      "id": "code-not-jash-sar-doppler-tomography",
+      "group": "Code and model downloads",
+      "title": "not-JASH/sar-doppler-tomography",
+      "url": "https://github.com/not-JASH/sar-doppler-tomography/tree/8fa3f5fdbafdad76b6978fd45e97bcbce37d8711",
+      "access": "Public source revision",
+      "description": "Independent CUDA chain and observation-space benchmark. Optional one-sided filtering encodes a sign convention. Blind recovery of physical polarity would need signed ground truth. The benchmark supplies its own forward-model observations."
+    },
+    {
+      "id": "code-simossss-sar-tomography-reproduction",
+      "group": "Code and model downloads",
+      "title": "simossss/sar-tomography-reproduction",
+      "url": "https://github.com/simossss/sar-tomography-reproduction/tree/c34bd03c07422ea4130ee51504ba576628d2dbfa",
+      "access": "Public source revision",
+      "description": "Independent Umbra single-pass surrogate plus separate Sentinel-1 multi-pass test. The single-pass branch averages reconstructed complex values per subband. Its scores test a different observable from paired displacement."
+    },
+    {
+      "id": "code-emmanuel6474-biondirepro",
+      "group": "Code and model downloads",
+      "title": "emmanuel6474/biondirepro",
+      "url": "https://github.com/emmanuel6474/biondirepro/tree/e32889ba3394b80bd2e1bb87ae5a3796315dee0c",
+      "access": "Public source revision",
+      "description": "Independent Vesuvius operator and published-figure audit. Useful control designs and source-fidelity checks. This is not Biondi’s processing source or a sensor-to-cavity validation."
+    },
+    {
+      "id": "code-juanvillaverde-harmonicsar",
+      "group": "Code and model downloads",
+      "title": "juanvillaverde/harmonicsar",
+      "url": "https://github.com/juanvillaverde/harmonicsar/tree/0259299b30eaf0f7084cf578231a2e3b1f4246fc",
+      "access": "Public source revision",
+      "description": "Public HarmonicSAR marketing site. The only JavaScript file in this revision runs the web interface and canvas illustration."
+    }
+  ]
+}

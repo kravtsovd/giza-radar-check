@@ -1,0 +1,710 @@
+{
+  "selected": [
+    "adjacent",
+    "along",
+    0.48,
+    "whitened"
+  ],
+  "full_grid_count": 36,
+  "sites": [
+    "King",
+    "Queen",
+    "Subterranean"
+  ],
+  "training_date": "20240916",
+  "acquisitions": {
+    "20240916": {
+      "ranks": {
+        "King": [
+          31,
+          21,
+          29
+        ],
+        "Queen": [
+          27,
+          1,
+          9
+        ],
+        "Subterranean": [
+          8,
+          14,
+          23
+        ]
+      },
+      "peaks": {
+        "King": 1.0,
+        "Queen": -2.0,
+        "Subterranean": -1.5
+      },
+      "scores": {
+        "adjacent/along/0.24/ordinary": {
+          "King": 21,
+          "Queen": 8,
+          "Subterranean": 23
+        },
+        "adjacent/along/0.24/whitened": {
+          "King": 17,
+          "Queen": 2,
+          "Subterranean": 10
+        },
+        "adjacent/along/0.3/ordinary": {
+          "King": 9,
+          "Queen": 18,
+          "Subterranean": 23
+        },
+        "adjacent/along/0.3/whitened": {
+          "King": 26,
+          "Queen": 9,
+          "Subterranean": 18
+        },
+        "adjacent/along/0.48/ordinary": {
+          "King": 21,
+          "Queen": 27,
+          "Subterranean": 17
+        },
+        "adjacent/along/0.48/whitened": {
+          "King": 31,
+          "Queen": 27,
+          "Subterranean": 8
+        },
+        "adjacent/elevation/0.24/ordinary": {
+          "King": 8,
+          "Queen": 12,
+          "Subterranean": 11
+        },
+        "adjacent/elevation/0.24/whitened": {
+          "King": 17,
+          "Queen": 4,
+          "Subterranean": 21
+        },
+        "adjacent/elevation/0.3/ordinary": {
+          "King": 8,
+          "Queen": 13,
+          "Subterranean": 10
+        },
+        "adjacent/elevation/0.3/whitened": {
+          "King": 17,
+          "Queen": 5,
+          "Subterranean": 20
+        },
+        "adjacent/elevation/0.48/ordinary": {
+          "King": 8,
+          "Queen": 13,
+          "Subterranean": 10
+        },
+        "adjacent/elevation/0.48/whitened": {
+          "King": 19,
+          "Queen": 5,
+          "Subterranean": 16
+        },
+        "lag8/along/0.24/ordinary": {
+          "King": 4,
+          "Queen": 20,
+          "Subterranean": 17
+        },
+        "lag8/along/0.24/whitened": {
+          "King": 11,
+          "Queen": 20,
+          "Subterranean": 13
+        },
+        "lag8/along/0.3/ordinary": {
+          "King": 12,
+          "Queen": 14,
+          "Subterranean": 27
+        },
+        "lag8/along/0.3/whitened": {
+          "King": 27,
+          "Queen": 22,
+          "Subterranean": 16
+        },
+        "lag8/along/0.48/ordinary": {
+          "King": 25,
+          "Queen": 30,
+          "Subterranean": 18
+        },
+        "lag8/along/0.48/whitened": {
+          "King": 28,
+          "Queen": 0,
+          "Subterranean": 20
+        },
+        "lag8/elevation/0.24/ordinary": {
+          "King": 5,
+          "Queen": 18,
+          "Subterranean": 12
+        },
+        "lag8/elevation/0.24/whitened": {
+          "King": 5,
+          "Queen": 5,
+          "Subterranean": 23
+        },
+        "lag8/elevation/0.3/ordinary": {
+          "King": 5,
+          "Queen": 18,
+          "Subterranean": 12
+        },
+        "lag8/elevation/0.3/whitened": {
+          "King": 5,
+          "Queen": 4,
+          "Subterranean": 22
+        },
+        "lag8/elevation/0.48/ordinary": {
+          "King": 4,
+          "Queen": 18,
+          "Subterranean": 12
+        },
+        "lag8/elevation/0.48/whitened": {
+          "King": 5,
+          "Queen": 4,
+          "Subterranean": 21
+        },
+        "fixed/along/0.24/ordinary": {
+          "King": 21,
+          "Queen": 31,
+          "Subterranean": 11
+        },
+        "fixed/along/0.24/whitened": {
+          "King": 30,
+          "Queen": 7,
+          "Subterranean": 2
+        },
+        "fixed/along/0.3/ordinary": {
+          "King": 2,
+          "Queen": 7,
+          "Subterranean": 2
+        },
+        "fixed/along/0.3/whitened": {
+          "King": 5,
+          "Queen": 12,
+          "Subterranean": 10
+        },
+        "fixed/along/0.48/ordinary": {
+          "King": 15,
+          "Queen": 17,
+          "Subterranean": 32
+        },
+        "fixed/along/0.48/whitened": {
+          "King": 0,
+          "Queen": 2,
+          "Subterranean": 22
+        },
+        "fixed/elevation/0.24/ordinary": {
+          "King": 11,
+          "Queen": 8,
+          "Subterranean": 0
+        },
+        "fixed/elevation/0.24/whitened": {
+          "King": 27,
+          "Queen": 6,
+          "Subterranean": 8
+        },
+        "fixed/elevation/0.3/ordinary": {
+          "King": 11,
+          "Queen": 8,
+          "Subterranean": 0
+        },
+        "fixed/elevation/0.3/whitened": {
+          "King": 27,
+          "Queen": 7,
+          "Subterranean": 9
+        },
+        "fixed/elevation/0.48/ordinary": {
+          "King": 11,
+          "Queen": 8,
+          "Subterranean": 0
+        },
+        "fixed/elevation/0.48/whitened": {
+          "King": 27,
+          "Queen": 8,
+          "Subterranean": 9
+        }
+      }
+    },
+    "20241004": {
+      "ranks": {
+        "King": [
+          32,
+          24,
+          15
+        ],
+        "Queen": [
+          15,
+          26,
+          15
+        ],
+        "Subterranean": [
+          9,
+          12,
+          19
+        ]
+      },
+      "peaks": {
+        "King": 1.0,
+        "Queen": -1.5,
+        "Subterranean": 1.0
+      },
+      "scores": {
+        "adjacent/along/0.24/ordinary": {
+          "King": 17,
+          "Queen": 24,
+          "Subterranean": 26
+        },
+        "adjacent/along/0.24/whitened": {
+          "King": 26,
+          "Queen": 18,
+          "Subterranean": 19
+        },
+        "adjacent/along/0.3/ordinary": {
+          "King": 1,
+          "Queen": 31,
+          "Subterranean": 30
+        },
+        "adjacent/along/0.3/whitened": {
+          "King": 7,
+          "Queen": 32,
+          "Subterranean": 29
+        },
+        "adjacent/along/0.48/ordinary": {
+          "King": 19,
+          "Queen": 4,
+          "Subterranean": 16
+        },
+        "adjacent/along/0.48/whitened": {
+          "King": 32,
+          "Queen": 15,
+          "Subterranean": 9
+        },
+        "adjacent/elevation/0.24/ordinary": {
+          "King": 32,
+          "Queen": 15,
+          "Subterranean": 30
+        },
+        "adjacent/elevation/0.24/whitened": {
+          "King": 32,
+          "Queen": 17,
+          "Subterranean": 27
+        },
+        "adjacent/elevation/0.3/ordinary": {
+          "King": 32,
+          "Queen": 15,
+          "Subterranean": 30
+        },
+        "adjacent/elevation/0.3/whitened": {
+          "King": 32,
+          "Queen": 17,
+          "Subterranean": 27
+        },
+        "adjacent/elevation/0.48/ordinary": {
+          "King": 32,
+          "Queen": 15,
+          "Subterranean": 30
+        },
+        "adjacent/elevation/0.48/whitened": {
+          "King": 32,
+          "Queen": 17,
+          "Subterranean": 27
+        },
+        "lag8/along/0.24/ordinary": {
+          "King": 11,
+          "Queen": 24,
+          "Subterranean": 29
+        },
+        "lag8/along/0.24/whitened": {
+          "King": 17,
+          "Queen": 26,
+          "Subterranean": 31
+        },
+        "lag8/along/0.3/ordinary": {
+          "King": 5,
+          "Queen": 31,
+          "Subterranean": 28
+        },
+        "lag8/along/0.3/whitened": {
+          "King": 3,
+          "Queen": 32,
+          "Subterranean": 18
+        },
+        "lag8/along/0.48/ordinary": {
+          "King": 18,
+          "Queen": 28,
+          "Subterranean": 18
+        },
+        "lag8/along/0.48/whitened": {
+          "King": 17,
+          "Queen": 13,
+          "Subterranean": 3
+        },
+        "lag8/elevation/0.24/ordinary": {
+          "King": 32,
+          "Queen": 15,
+          "Subterranean": 32
+        },
+        "lag8/elevation/0.24/whitened": {
+          "King": 32,
+          "Queen": 17,
+          "Subterranean": 21
+        },
+        "lag8/elevation/0.3/ordinary": {
+          "King": 32,
+          "Queen": 15,
+          "Subterranean": 32
+        },
+        "lag8/elevation/0.3/whitened": {
+          "King": 32,
+          "Queen": 17,
+          "Subterranean": 21
+        },
+        "lag8/elevation/0.48/ordinary": {
+          "King": 32,
+          "Queen": 15,
+          "Subterranean": 32
+        },
+        "lag8/elevation/0.48/whitened": {
+          "King": 32,
+          "Queen": 17,
+          "Subterranean": 20
+        },
+        "fixed/along/0.24/ordinary": {
+          "King": 5,
+          "Queen": 0,
+          "Subterranean": 12
+        },
+        "fixed/along/0.24/whitened": {
+          "King": 0,
+          "Queen": 29,
+          "Subterranean": 17
+        },
+        "fixed/along/0.3/ordinary": {
+          "King": 14,
+          "Queen": 19,
+          "Subterranean": 19
+        },
+        "fixed/along/0.3/whitened": {
+          "King": 1,
+          "Queen": 12,
+          "Subterranean": 20
+        },
+        "fixed/along/0.48/ordinary": {
+          "King": 8,
+          "Queen": 3,
+          "Subterranean": 10
+        },
+        "fixed/along/0.48/whitened": {
+          "King": 4,
+          "Queen": 32,
+          "Subterranean": 30
+        },
+        "fixed/elevation/0.24/ordinary": {
+          "King": 5,
+          "Queen": 22,
+          "Subterranean": 12
+        },
+        "fixed/elevation/0.24/whitened": {
+          "King": 6,
+          "Queen": 32,
+          "Subterranean": 3
+        },
+        "fixed/elevation/0.3/ordinary": {
+          "King": 5,
+          "Queen": 22,
+          "Subterranean": 12
+        },
+        "fixed/elevation/0.3/whitened": {
+          "King": 6,
+          "Queen": 32,
+          "Subterranean": 3
+        },
+        "fixed/elevation/0.48/ordinary": {
+          "King": 5,
+          "Queen": 22,
+          "Subterranean": 12
+        },
+        "fixed/elevation/0.48/whitened": {
+          "King": 6,
+          "Queen": 32,
+          "Subterranean": 3
+        }
+      }
+    },
+    "20250602": {
+      "ranks": {
+        "King": [
+          31,
+          18,
+          5
+        ],
+        "Queen": [
+          11,
+          30,
+          28
+        ],
+        "Subterranean": [
+          24,
+          5,
+          5
+        ]
+      },
+      "peaks": {
+        "King": -1.5,
+        "Queen": -2.0,
+        "Subterranean": -2.5
+      },
+      "scores": {
+        "adjacent/along/0.24/ordinary": {
+          "King": 1,
+          "Queen": 3,
+          "Subterranean": 13
+        },
+        "adjacent/along/0.24/whitened": {
+          "King": 1,
+          "Queen": 7,
+          "Subterranean": 13
+        },
+        "adjacent/along/0.3/ordinary": {
+          "King": 3,
+          "Queen": 29,
+          "Subterranean": 4
+        },
+        "adjacent/along/0.3/whitened": {
+          "King": 19,
+          "Queen": 28,
+          "Subterranean": 0
+        },
+        "adjacent/along/0.48/ordinary": {
+          "King": 31,
+          "Queen": 17,
+          "Subterranean": 19
+        },
+        "adjacent/along/0.48/whitened": {
+          "King": 31,
+          "Queen": 11,
+          "Subterranean": 24
+        },
+        "adjacent/elevation/0.24/ordinary": {
+          "King": 21,
+          "Queen": 15,
+          "Subterranean": 2
+        },
+        "adjacent/elevation/0.24/whitened": {
+          "King": 19,
+          "Queen": 18,
+          "Subterranean": 8
+        },
+        "adjacent/elevation/0.3/ordinary": {
+          "King": 21,
+          "Queen": 15,
+          "Subterranean": 2
+        },
+        "adjacent/elevation/0.3/whitened": {
+          "King": 19,
+          "Queen": 17,
+          "Subterranean": 8
+        },
+        "adjacent/elevation/0.48/ordinary": {
+          "King": 21,
+          "Queen": 15,
+          "Subterranean": 2
+        },
+        "adjacent/elevation/0.48/whitened": {
+          "King": 18,
+          "Queen": 17,
+          "Subterranean": 8
+        },
+        "lag8/along/0.24/ordinary": {
+          "King": 3,
+          "Queen": 2,
+          "Subterranean": 21
+        },
+        "lag8/along/0.24/whitened": {
+          "King": 8,
+          "Queen": 16,
+          "Subterranean": 15
+        },
+        "lag8/along/0.3/ordinary": {
+          "King": 16,
+          "Queen": 7,
+          "Subterranean": 8
+        },
+        "lag8/along/0.3/whitened": {
+          "King": 6,
+          "Queen": 2,
+          "Subterranean": 17
+        },
+        "lag8/along/0.48/ordinary": {
+          "King": 30,
+          "Queen": 1,
+          "Subterranean": 21
+        },
+        "lag8/along/0.48/whitened": {
+          "King": 32,
+          "Queen": 15,
+          "Subterranean": 3
+        },
+        "lag8/elevation/0.24/ordinary": {
+          "King": 18,
+          "Queen": 12,
+          "Subterranean": 2
+        },
+        "lag8/elevation/0.24/whitened": {
+          "King": 17,
+          "Queen": 24,
+          "Subterranean": 8
+        },
+        "lag8/elevation/0.3/ordinary": {
+          "King": 18,
+          "Queen": 12,
+          "Subterranean": 2
+        },
+        "lag8/elevation/0.3/whitened": {
+          "King": 17,
+          "Queen": 24,
+          "Subterranean": 8
+        },
+        "lag8/elevation/0.48/ordinary": {
+          "King": 18,
+          "Queen": 12,
+          "Subterranean": 2
+        },
+        "lag8/elevation/0.48/whitened": {
+          "King": 16,
+          "Queen": 24,
+          "Subterranean": 9
+        },
+        "fixed/along/0.24/ordinary": {
+          "King": 23,
+          "Queen": 9,
+          "Subterranean": 1
+        },
+        "fixed/along/0.24/whitened": {
+          "King": 14,
+          "Queen": 24,
+          "Subterranean": 0
+        },
+        "fixed/along/0.3/ordinary": {
+          "King": 32,
+          "Queen": 3,
+          "Subterranean": 0
+        },
+        "fixed/along/0.3/whitened": {
+          "King": 29,
+          "Queen": 14,
+          "Subterranean": 22
+        },
+        "fixed/along/0.48/ordinary": {
+          "King": 32,
+          "Queen": 19,
+          "Subterranean": 1
+        },
+        "fixed/along/0.48/whitened": {
+          "King": 28,
+          "Queen": 8,
+          "Subterranean": 18
+        },
+        "fixed/elevation/0.24/ordinary": {
+          "King": 21,
+          "Queen": 20,
+          "Subterranean": 26
+        },
+        "fixed/elevation/0.24/whitened": {
+          "King": 8,
+          "Queen": 6,
+          "Subterranean": 30
+        },
+        "fixed/elevation/0.3/ordinary": {
+          "King": 21,
+          "Queen": 20,
+          "Subterranean": 26
+        },
+        "fixed/elevation/0.3/whitened": {
+          "King": 7,
+          "Queen": 5,
+          "Subterranean": 30
+        },
+        "fixed/elevation/0.48/ordinary": {
+          "King": 20,
+          "Queen": 20,
+          "Subterranean": 26
+        },
+        "fixed/elevation/0.48/whitened": {
+          "King": 6,
+          "Queen": 5,
+          "Subterranean": 30
+        }
+      }
+    },
+    "2023-02-07": {
+      "ranks": {
+        "King": [
+          26,
+          12,
+          23
+        ],
+        "Queen": [
+          28,
+          19,
+          16
+        ],
+        "Subterranean": [
+          8,
+          11,
+          17
+        ]
+      },
+      "peaks": {
+        "King": -29.0,
+        "Queen": 17.5,
+        "Subterranean": -16.5
+      },
+      "surface": 42
+    },
+    "2023-02-08": {
+      "ranks": {
+        "King": [
+          17,
+          10,
+          7
+        ],
+        "Queen": [
+          21,
+          15,
+          17
+        ],
+        "Subterranean": [
+          17,
+          29,
+          13
+        ]
+      },
+      "peaks": {
+        "King": -0.5,
+        "Queen": -19.5,
+        "Subterranean": 16.5
+      },
+      "surface": 22
+    },
+    "2023-03-08": {
+      "ranks": {
+        "King": [
+          21,
+          25,
+          22
+        ],
+        "Queen": [
+          26,
+          14,
+          15
+        ],
+        "Subterranean": [
+          17,
+          0,
+          13
+        ]
+      },
+      "peaks": {
+        "King": -5.5,
+        "Queen": 5.0,
+        "Subterranean": 6.5
+      },
+      "surface": 41
+    }
+  }
+}

@@ -1,0 +1,1857 @@
+{
+  "version": 1,
+  "as_of": "2026-11-27",
+  "stages": [
+    {
+      "id": "inputs",
+      "url": "tools/replay/inputs.json",
+      "title": "Identify the observation",
+      "ru_title": "Установить источник измерений",
+      "known": "Six public complex images include amplitude, phase and acquisition geometry.",
+      "ru_known": "У шести открытых комплексных снимков есть амплитуда, фаза и геометрия съёмки.",
+      "unknown": "The exact acquisition and pre-color numerical section behind the 648 m drawing remain unknown.",
+      "ru_unknown": "Для чертежа на 648 м неизвестны точная съёмка и численный разрез до раскраски.",
+      "test": "Match products by identifier and SHA-256. Use survey coordinates fixed independently of chamber brightness.",
+      "ru_test": "Сверить файлы по идентификаторам и SHA-256. Взять координаты из наземной съёмки до анализа яркости.",
+      "ru": "Установить источник измерений",
+      "related": [
+        "six-scene-location",
+        "two-view-surface",
+        "pulse-motion",
+        "directions",
+        "gravity"
+      ],
+      "scene_ids": [
+        "capella-20240916",
+        "capella-20241004",
+        "iceye-20250602",
+        "umbra-20230207",
+        "umbra-20230208",
+        "umbra-20230308"
+      ],
+      "sources": [
+        "https://doi.org/10.3390/rs14205231",
+        "https://doi.org/10.3390/rs18162679",
+        "https://registry.opendata.aws/capella_opendata/",
+        "https://www.iceye.com/open-data-initiative",
+        "https://registry.opendata.aws/umbra-open-data/"
+      ]
+    },
+    {
+      "id": "looks",
+      "url": "tools/replay/measure.py",
+      "title": "Split the aperture",
+      "ru_title": "Разделить апертуру",
+      "known": "Biondi describes using half the Doppler band. Seyfzadeh also describes a fixed master.",
+      "ru_known": "Бионди говорит о половине доплеровской полосы. Сейфзаде описывает вариант с постоянным опорным изображением.",
+      "unknown": "Original mask edges, time mapping and pair spacing for each published section remain unspecified.",
+      "ru_unknown": "Границы фильтров, привязка времени и шаг пар для конкретного разреза не опубликованы.",
+      "test": "Build 193 half-band looks. Pair adjacent centers, centers eight steps apart, or each look with one fixed master.",
+      "ru_test": "Построить 193 изображения из половины полосы. Сравнить соседние, со сдвигом на восемь шагов и с постоянным опорным.",
+      "ru": "Разделить апертуру",
+      "related": [
+        "six-scene-location",
+        "pulse-motion",
+        "driven-motion",
+        "older-location"
+      ],
+      "scene_ids": [
+        "capella-20240916",
+        "capella-20241004",
+        "iceye-20250602",
+        "umbra-20230207",
+        "umbra-20230208",
+        "umbra-20230308"
+      ],
+      "sources": [
+        "https://youtu.be/ioRDPMeOymc?t=1529",
+        "https://opusmagnum.org/cracking-the-biondi-code-with-ai/",
+        "https://patents.google.com/patent/WO2024008365A1/en"
+      ]
+    },
+    {
+      "id": "track",
+      "url": "tools/replay/measure.py",
+      "title": "Track apparent shifts",
+      "ru_title": "Измерить видимые сдвиги",
+      "known": "Seyfzadeh describes coarse 128 × 128 sampling followed by 24 azimuth × 32 range samples.",
+      "ru_known": "Сейфзаде называет грубое окно 128 × 128 пикселей и точное окно 24 по азимуту на 32 по дальности.",
+      "unknown": "Product spacing changes the physical footprint. Fine image shifts lack a colocated ground-motion record at Giza.",
+      "ru_unknown": "В метрах окно различается по спутникам. Синхронного измерения движения поверхности в Гизе нет.",
+      "test": "Correlate complex patches, refine the peak, then subtract common motion measured on 32 reference positions.",
+      "ru_test": "Совместить комплексные фрагменты, уточнить максимум и вычесть общий сдвиг по 32 опорным точкам.",
+      "ru": "Измерить видимые сдвиги",
+      "related": [
+        "six-scene-location",
+        "wall-test",
+        "pulse-motion",
+        "driven-motion",
+        "older-location",
+        "earlier-iceye",
+        "line-average"
+      ],
+      "scene_ids": [
+        "capella-20240916",
+        "capella-20241004",
+        "iceye-20250602",
+        "umbra-20230207",
+        "umbra-20230208",
+        "umbra-20230308"
+      ],
+      "sources": [
+        "https://youtu.be/SjJTRVgr9Mw?t=3397",
+        "https://youtu.be/SjJTRVgr9Mw?t=3324",
+        "https://www.accadradinuovo.com/Lab/giza_sar/prova_camere/file/PROTOCOLLO.md"
+      ]
+    },
+    {
+      "id": "steer",
+      "url": "https://doi.org/10.3390/rs14205231",
+      "title": "Set the height scale",
+      "ru_title": "Задать шкалу высоты",
+      "known": "Equations 20-24 link paired image offsets to complex steering vectors under an assumed wavelength.",
+      "ru_known": "Формулы 20-24 связывают сдвиги с комплексными векторами при выбранной длине волны.",
+      "unknown": "The baseline convention, extra phase factor, seismic wavelength and subsurface transfer are not calibrated for these scenes.",
+      "ru_unknown": "Для этих сцен не откалиброваны проекция базы, множитель фазы, сейсмическая длина волны и передача сигнала из породы.",
+      "test": "Compare along-track and elevation-plane baselines. Test the published 0.24, 0.30 and 0.48 m examples separately.",
+      "ru_test": "Сравнить базы вдоль траектории и в плоскости высоты. Раздельно проверить примеры 0,24, 0,30 и 0,48 м.",
+      "ru": "Задать шкалу высоты",
+      "related": [
+        "six-scene-location",
+        "free-height",
+        "quadratic",
+        "depth-identifiability",
+        "gravity"
+      ],
+      "scene_ids": [
+        "capella-20240916",
+        "capella-20241004",
+        "iceye-20250602",
+        "umbra-20230207",
+        "umbra-20230208",
+        "umbra-20230308"
+      ],
+      "sources": [
+        "https://doi.org/10.3390/rs14205231",
+        "https://patents.google.com/patent/WO2024008365A1/en",
+        "https://arxiv.org/abs/2208.00811",
+        "https://youtu.be/SjJTRVgr9Mw?t=4904"
+      ]
+    },
+    {
+      "id": "focus",
+      "url": "tools/replay/score.py",
+      "title": "Focus the signal",
+      "ru_title": "Рассчитать отклик",
+      "known": "The paper describes a Fourier-like inverse. Seyfzadeh says he used an adjoint.",
+      "ru_known": "В статье описано фурье-подобное обращение. Сейфзаде говорит о сопряжённом операторе.",
+      "unknown": "The exact regularization and numerical scores before filtering the published authors' images are missing.",
+      "ru_unknown": "Отсутствуют точная регуляризация и численные значения, из которых получены исходные авторские изображения.",
+      "test": "Score normalized complex correlation with and without noise weighting from separate reference patches. Lock on September King alone.",
+      "ru_test": "Сравнить комплексную корреляцию с поправкой на шум и без неё. Выбрать правило только по камере царя в сентябре.",
+      "ru": "Рассчитать отклик",
+      "related": [
+        "six-scene-location",
+        "free-height",
+        "wall-test",
+        "placebo",
+        "older-location",
+        "earlier-iceye",
+        "quadratic",
+        "line-average",
+        "depth-identifiability"
+      ],
+      "scene_ids": [
+        "capella-20240916",
+        "capella-20241004",
+        "iceye-20250602",
+        "umbra-20230207",
+        "umbra-20230208",
+        "umbra-20230308"
+      ],
+      "sources": [
+        "https://youtu.be/SjJTRVgr9Mw?t=2129",
+        "https://doi.org/10.3390/rs14205231"
+      ]
+    },
+    {
+      "id": "shape",
+      "url": "https://pdfs.petrieproject.com/cu31924012038927.pdf",
+      "title": "Test position and shape",
+      "ru_title": "Проверить положение и контур",
+      "known": "The surveyed plan and approximate signed floor heights supply independent comparison coordinates.",
+      "ru_known": "Геодезический план и примерные отметки полов задают независимые координаты сравнения.",
+      "unknown": "A high value at one supplied height does not identify the walls or free height maximum.",
+      "ru_unknown": "Высокая оценка на заданной отметке сама по себе не определяет стены или высоту.",
+      "test": "Score translated plans, a 90° rotation, a signed wall-minus-center contrast, and a free height scan.",
+      "ru_test": "Сопоставить сдвинутые планы, поворот на 90°, разность между стеной и центром и свободный поиск высоты.",
+      "ru": "Проверить положение и контур",
+      "related": [
+        "six-scene-location",
+        "free-height",
+        "wall-test",
+        "placebo",
+        "two-view-surface",
+        "directions",
+        "line-average"
+      ],
+      "scene_ids": [
+        "capella-20240916",
+        "capella-20241004",
+        "iceye-20250602",
+        "umbra-20230207",
+        "umbra-20230208",
+        "umbra-20230308"
+      ],
+      "sources": [
+        "https://pdfs.petrieproject.com/cu31924012038927.pdf",
+        "https://youtu.be/OK3bjfxLM9s?t=2056"
+      ]
+    },
+    {
+      "id": "validate",
+      "url": "https://www.lngs.infn.it/en/lngs-overview/",
+      "title": "Test outside the training case",
+      "ru_title": "Проверить за пределами калибровки",
+      "known": "Separate acquisitions, a driven reflector and two independently surveyed underground directions provide distinct tests.",
+      "ru_known": "Есть отдельные съёмки, вибрирующий отражатель и два независимых измерения направления подземных объектов.",
+      "unknown": "The checked archives contain no unused surveyed target with all inputs for blind shaft depth validation.",
+      "ru_unknown": "Среди проверенных материалов нет неиспользованного объекта со всеми данными для слепой проверки глубины шахты.",
+      "test": "Seal predicted coordinates, depth, uncertainty and a failure rule before opening a survey. Include matched empty-rock labels.",
+      "ru_test": "Зафиксировать координаты, глубину, погрешность и критерий неудачи до вскрытия плана. Включить проверенные участки сплошной породы.",
+      "ru": "Проверить за пределами калибровки",
+      "related": [
+        "six-scene-location",
+        "free-height",
+        "wall-test",
+        "placebo",
+        "two-view-surface",
+        "pulse-motion",
+        "driven-motion",
+        "directions",
+        "older-location",
+        "earlier-iceye",
+        "quadratic",
+        "line-average",
+        "depth-identifiability",
+        "gravity"
+      ],
+      "scene_ids": [
+        "capella-20240916",
+        "capella-20241004",
+        "iceye-20250602",
+        "umbra-20230207",
+        "umbra-20230208",
+        "umbra-20230308"
+      ],
+      "sources": [
+        "https://doi.org/10.1109/ACCESS.2026.3652346",
+        "https://www.lngs.infn.it/en/lngs-overview/",
+        "https://www.youtube.com/watch?v=bM8vzUUZdVM&t=10960s"
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "id": "six-scene-location",
+      "stage_ids": [
+        "inputs",
+        "looks",
+        "track",
+        "steer",
+        "focus",
+        "shape",
+        "validate"
+      ],
+      "scene_ids": [
+        "capella-20240916",
+        "capella-20241004",
+        "iceye-20250602",
+        "umbra-20230207",
+        "umbra-20230208",
+        "umbra-20230308"
+      ],
+      "sources": [
+        "https://doi.org/10.3390/rs14205231",
+        "https://patents.google.com/patent/WO2024008365A1/en",
+        "https://archaeologicalrescue.org/biondi-validation/",
+        "https://pdfs.petrieproject.com/cu31924012038927.pdf"
+      ],
+      "url": "tools/replay/expected.json",
+      "title": "One fixed room position across six scenes",
+      "ru_title": "Одна известная точка на шести съёмках",
+      "claim": "A rule chosen at the supplied King's floor should rank the same location highly on other passes.",
+      "ru_claim": "Правило, выбранное по известной отметке камеры царя, должно снова выделить её положение.",
+      "result": "At +43 m the King's location beat 31, 32 and 31 of 32 neighbors on the long passes, then 26, 17 and 21 on Umbra. Only October beat all 32.",
+      "ru_result": "При +43 м точка камеры царя превзошла 31, 32 и 31 из 32 соседей на длинных съёмках, затем 26, 17 и 21 на Umbra. Все 32 она превзошла только в октябре.",
+      "decision": "The locked rule passed two of five transfer scenes at King's. No scene passed for all three chambers.",
+      "ru_decision": "После калибровки правило прошло на двух из пяти съёмок для камеры царя. Ни одна съёмка не прошла сразу по трём камерам.",
+      "next_test": "Forecast an unseen surveyed location before seeing any labels.",
+      "ru_next_test": "Предсказать положение нового обследованного объекта до знакомства с разметкой.",
+      "ru": "Одна известная точка на шести съёмках",
+      "evidence_ids": [],
+      "receipts": []
+    },
+    {
+      "id": "free-height",
+      "stage_ids": [
+        "steer",
+        "focus",
+        "shape",
+        "validate"
+      ],
+      "scene_ids": [
+        "capella-20240916",
+        "capella-20241004",
+        "iceye-20250602",
+        "umbra-20230207",
+        "umbra-20230208",
+        "umbra-20230308"
+      ],
+      "sources": [
+        "https://doi.org/10.3390/rs14205231",
+        "https://pdfs.petrieproject.com/cu31924012038927.pdf"
+      ],
+      "url": "tools/replay/expected.json",
+      "title": "Release the supplied floor height",
+      "ru_title": "Убрать известную высоту пола",
+      "claim": "If the signal measures the King's floor, let the peak select its own height.",
+      "ru_claim": "Если сигнал измеряет высоту пола, максимум должен сам указать на него.",
+      "result": "Over -44 to +44 m the King's peaks were +1, +1, -1.5, -29, -0.5 and -5.5 m. The supplied floor was +43 m.",
+      "ru_result": "На сетке от -44 до +44 м максимумы пришлись на +1, +1, -1,5, -29, -0,5 и -5,5 м. Заданная отметка пола была +43 м.",
+      "decision": "None recovered the floor. A location comparison at a supplied height and an unrestricted height estimate answer different questions.",
+      "ru_decision": "Ни один максимум не восстановил пол. Сравнение мест на заданной высоте и независимая оценка высоты дают разные ответы.",
+      "next_test": "Predict two unseen depth marks with a fixed vertical scale and benchmark.",
+      "ru_next_test": "Предсказать две закрытые отметки глубины с заранее заданной шкалой.",
+      "ru": "Убрать известную высоту пола",
+      "evidence_ids": [],
+      "receipts": []
+    },
+    {
+      "id": "wall-test",
+      "stage_ids": [
+        "track",
+        "focus",
+        "shape",
+        "validate"
+      ],
+      "scene_ids": [
+        "capella-20240916",
+        "capella-20241004",
+        "iceye-20250602"
+      ],
+      "sources": [
+        "https://youtu.be/OK3bjfxLM9s?t=2056",
+        "https://pdfs.petrieproject.com/cu31924012038927.pdf"
+      ],
+      "url": "data/evidence/line-average/border-20240916.json",
+      "title": "Dark interior and bright borders",
+      "ru_title": "Тёмная полость и яркие границы",
+      "claim": "Biondi describes a dark room interior bounded by bright edges.",
+      "ru_claim": "Бионди описывает тёмную полость с яркими краями.",
+      "result": "At the King's room, wall-minus-center was negative on all three passes. Ranks were 1, 0 and 1 of 32. Queen ranks were 3, 23 and 27. Zero of six met the signed, rotated and baseline gates.",
+      "ru_result": "В камере царя стены на трёх съёмках были темнее центра. Ранги 1, 0 и 1 из 32. У камеры царицы 3, 23 и 27. Ни один из шести случаев не прошёл все критерии.",
+      "decision": "This planned-outline approximation failed. The author's original vertical cross-section was unavailable for direct comparison.",
+      "ru_decision": "Этот тест горизонтального контура не прошёл. Исходного вертикального разреза автора для прямого сравнения нет.",
+      "next_test": "Compare walls in the native numerical section against a registered independent survey.",
+      "ru_next_test": "Сопоставить стены на исходном численном разрезе с независимой геодезической привязкой.",
+      "ru": "Тёмная полость и яркие границы",
+      "evidence_ids": [],
+      "receipts": [
+        "data/evidence/line-average/border-20240916.json",
+        "data/evidence/line-average/border-20241004.json",
+        "data/evidence/line-average/border-20250602.json"
+      ]
+    },
+    {
+      "id": "placebo",
+      "stage_ids": [
+        "focus",
+        "shape",
+        "validate"
+      ],
+      "scene_ids": [
+        "capella-20240916",
+        "capella-20241004",
+        "iceye-20250602"
+      ],
+      "sources": [
+        "https://registry.opendata.aws/capella_opendata/",
+        "https://www.iceye.com/open-data-initiative",
+        "https://pdfs.petrieproject.com/cu31924012038927.pdf"
+      ],
+      "url": "data/evidence/line-average/placebo.json",
+      "title": "Let each neighbor train",
+      "ru_title": "Повторить подбор для каждого соседа",
+      "claim": "Could a nearby location achieve two transfers with the same training freedom?",
+      "ru_claim": "Может ли соседняя точка пройти обе проверки при том же подборе параметров?",
+      "result": "Each of the 32 shifted King locations tried the same 36 recipes. Zero passed on both later long scenes. The survey position passed both. None of 12 randomized-phase images passed there.",
+      "ru_result": "Каждая из 32 соседних точек получила те же 36 вариантов. Ни одна не прошла обе длинные проверочные съёмки. Геодезическая точка прошла. На ней не прошёл ни один из 12 вариантов со случайной фазой.",
+      "decision": "The contrast depends on complex image structure. Surface scattering could produce such structure. The positions overlap.",
+      "ru_decision": "Контраст зависит от комплексной структуры изображения. Её может создавать и поверхность. Соседние области перекрываются.",
+      "next_test": "Repeat on independent sites with surveyed positives and negatives.",
+      "ru_next_test": "Повторить на других площадках с проверенными полостями и сплошной породой.",
+      "ru": "Повторить подбор для каждого соседа",
+      "evidence_ids": [],
+      "receipts": [
+        "data/evidence/line-average/placebo.json"
+      ]
+    },
+    {
+      "id": "two-view-surface",
+      "stage_ids": [
+        "inputs",
+        "shape",
+        "validate"
+      ],
+      "scene_ids": [
+        "capella-20240916",
+        "capella-20241004",
+        "iceye-20250602",
+        "umbra-20230207",
+        "umbra-20230208",
+        "umbra-20230308"
+      ],
+      "sources": [
+        "https://registry.opendata.aws/capella_opendata/",
+        "https://registry.opendata.aws/umbra-open-data/",
+        "https://www.iceye.com/open-data-initiative"
+      ],
+      "url": "data/evidence/method-retest/scenes/results.json",
+      "title": "Repeat visible surface locations",
+      "ru_title": "Найти повторяющиеся точки на поверхности",
+      "claim": "Two Capella views might select surface details that persist better than one view.",
+      "ru_claim": "Два ракурса Capella могут лучше выделять устойчивые детали поверхности.",
+      "result": "Two-view picks matched ICEYE and at least one Umbra image within 8 m in 16/162 blocks. Single-view prominence and brightness gave 14/162 and 10/162.",
+      "ru_result": "Выбранные по двум ракурсам точки совпали с ICEYE и хотя бы одной Umbra в пределах 8 м в 16 из 162 блоков. По одному ракурсу получили 14 и 10 совпадений.",
+      "decision": "Some surface features repeated. The paired comparison did not establish an advantage over either single-view baseline.",
+      "ru_decision": "Часть наземных деталей повторилась. Парное сравнение не подтвердило преимущества перед каждым из двух простых способов.",
+      "next_test": "Evaluate the fixed selector in another landscape. This endpoint measures the surface.",
+      "ru_next_test": "Проверить выбранное правило на другом ландшафте. Этот критерий относится к поверхности.",
+      "ru": "Найти повторяющиеся точки на поверхности",
+      "evidence_ids": [],
+      "receipts": [
+        "data/evidence/method-retest/scenes/results.json"
+      ]
+    },
+    {
+      "id": "pulse-motion",
+      "stage_ids": [
+        "inputs",
+        "looks",
+        "track",
+        "validate"
+      ],
+      "scene_ids": [
+        "capella-20240916",
+        "capella-20241004",
+        "umbra-20230207",
+        "umbra-20230208"
+      ],
+      "sources": [
+        "https://registry.opendata.aws/capella_opendata/",
+        "https://registry.opendata.aws/umbra-open-data/",
+        "https://patents.google.com/patent/WO2024008365A1/en"
+      ],
+      "url": "data/evidence/method-retest/pulse/interpretation.json",
+      "title": "Measure motion from individual pulses",
+      "ru_title": "Проверить движение по отдельным импульсам",
+      "claim": "Raw pulse phase should supply a stable Khafre motion series before assigning depth.",
+      "ru_claim": "До перехода к глубине фаза импульсов должна дать устойчивый сигнал движения у Хафры.",
+      "result": "Zero of eight Capella blocks passed the target phase gate. Zero of four short Umbra blocks passed. All 12 injected moving-point controls passed.",
+      "ru_result": "Ни один из восьми блоков Capella и четырёх коротких блоков Umbra не прошёл проверку фазы цели. Все 12 искусственно добавленных движущихся точек прошли.",
+      "decision": "Natural motion remained unresolved at Khafre in these blocks. Complete Capella phase-history files were verified; these fits used declared pulse subsets.",
+      "ru_decision": "Естественное движение у Хафры в этих блоках не удалось выделить. Полные файлы истории фазы Capella проверены. Расчёт использовал указанные подмножества импульсов.",
+      "next_test": "Measure a surveyed stable target and synchronize a surface-motion sensor during the pass.",
+      "ru_next_test": "Измерить известную устойчивую цель и синхронно записать наземные колебания.",
+      "ru": "Проверить движение по отдельным импульсам",
+      "evidence_ids": [
+        "capella-cphd-sep",
+        "capella-cphd-oct",
+        "umbra-cphd-feb7",
+        "umbra-cphd-feb8"
+      ],
+      "receipts": [
+        "data/evidence/method-retest/pulse/interpretation.json",
+        "data/evidence/method-retest/pulse/surface-check.json"
+      ]
+    },
+    {
+      "id": "driven-motion",
+      "stage_ids": [
+        "looks",
+        "track",
+        "validate"
+      ],
+      "scene_ids": [],
+      "sources": [
+        "https://doi.org/10.1109/ACCESS.2026.3652346",
+        "https://youtu.be/sQNjse68IM4?t=4338"
+      ],
+      "url": "data/evidence/centroid/result.json",
+      "title": "Recover a known surface tone",
+      "ru_title": "Восстановить известную наземную частоту",
+      "claim": "A radar spectral centroid should recover motion of an instrumented driven reflector.",
+      "ru_claim": "По доплеровскому центроиду можно восстановить движение отражателя на вибростенде.",
+      "result": "The primary seven-sample window gave 2.01 Hz for a 2 Hz drive and beat eight comparison locations. Ideal-response correction gave 5.98 mm/s RMS versus the 6.66 mm/s ground reference.",
+      "ru_result": "Основное окно из семи отсчётов дало 2,01 Гц при заданных 2 Гц и опередило восемь контрольных точек. После модельной поправки получилось 5,98 мм/с против наземных 6,66 мм/с.",
+      "decision": "A driven surface reflector supplies a positive motion check. No underground target was involved.",
+      "ru_decision": "Испытание подтверждает измерение движения наземного отражателя. Подземной цели в опыте не было.",
+      "next_test": "Run the same estimator against independently instrumented weaker targets.",
+      "ru_next_test": "Проверить тот же измеритель на более слабых целях с независимой записью движения.",
+      "ru": "Восстановить известную наземную частоту",
+      "evidence_ids": [
+        "glasgow-reflector"
+      ],
+      "receipts": [
+        "data/evidence/centroid/result.json"
+      ]
+    },
+    {
+      "id": "directions",
+      "stage_ids": [
+        "inputs",
+        "shape",
+        "validate"
+      ],
+      "scene_ids": [],
+      "sources": [
+        "https://iceye-open-data-catalog.s3.amazonaws.com/stac-items/2023/12/ICEYE_D59J8T_20231225T040435Z_3175275_X31_SLEDF.json",
+        "https://doi.org/10.34946/D6J30S",
+        "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/task-data/44f7aae4-0ca5-4a27-b733-12965da9f458/2024-02-14-16-11-33_UMBRA-04/2024-02-14-16-11-33_UMBRA-04.stac.v2.json",
+        "https://doi.org/10.1017/RDC.2016.77"
+      ],
+      "url": "data/evidence/blind-cavity/osario/result.json",
+      "title": "Withhold two archaeological directions",
+      "ru_title": "Скрыть направления двух подземных объектов",
+      "claim": "Radar imagery might predict known underground axes before the survey labels are opened.",
+      "ru_claim": "Спутниковые данные могут предсказать направление подземного объекта до вскрытия плана.",
+      "result": "El Osario cave missed its surveyed axis by 61.72°. Teotihuacan tunnel missed by 88°. Both exceeded the fixed 15° tolerance. Simple brightness missed by 35.84° and 89°.",
+      "ru_result": "Ошибка для пещеры Эль-Осарио составила 61,72°, для тоннеля Теотиуакана 88°. Обе больше допуска 15°. По обычной яркости ошибки были 35,84° и 89°.",
+      "decision": "Both orientation tests failed. Locations and monument names were known. El Osario used complex ICEYE, Teotihuacan a processed Umbra image.",
+      "ru_decision": "Обе проверки направления провалены. Площадки и названия были известны. Для Эль-Осарио использовали комплексные данные ICEYE, для Теотиуакана обработанное изображение Umbra.",
+      "next_test": "Use the same complex-image estimator at a new site and seal the survey before analysis.",
+      "ru_next_test": "Применить единый алгоритм к комплексным данным нового объекта и закрыть план до расчёта.",
+      "ru": "Скрыть направления двух подземных объектов",
+      "evidence_ids": [
+        "osario-lidar",
+        "osario-iceye",
+        "teotihuacan-excavation",
+        "teotihuacan-umbra"
+      ],
+      "receipts": [
+        "data/evidence/blind-cavity/osario/result.json",
+        "data/evidence/blind-cavity/teotihuacan/result.json"
+      ]
+    },
+    {
+      "id": "older-location",
+      "stage_ids": [
+        "looks",
+        "track",
+        "focus",
+        "validate"
+      ],
+      "scene_ids": [
+        "capella-20240916",
+        "capella-20241004"
+      ],
+      "sources": [
+        "https://www.accadradinuovo.com/Lab/giza_sar/prova_camere/file/PROTOCOLLO.md"
+      ],
+      "url": "data/replication.json",
+      "title": "Earlier 24-neighbor score",
+      "ru_title": "Более ранняя проверка по 24 соседям",
+      "claim": "Can a harmonic-window setting selected on the October King's position transfer to September?",
+      "ru_claim": "Переносится ли выбранная по октябрьской точке камеры царя настройка гармонического окна на сентябрь?",
+      "result": "The October P2/W25 winner beat 24/24 neighbors in training and 13/24 in September. This was a different 300-setting search, with different sites and controls.",
+      "ru_result": "Октябрьский вариант P2/W25 опередил 24 из 24 соседей при подборе и 13 из 24 в сентябре. Это другой поиск по 300 настройкам со своими точками и контролями.",
+      "decision": "The tuned October result failed to transfer at its original gate. Keep it distinct from the September-trained 36-recipe test.",
+      "ru_decision": "Октябрьский результат не подтвердился по своему исходному критерию. Это отдельный тест от 36 вариантов с сентябрьской калибровкой.",
+      "next_test": "Compare algorithms on one common predeclared unseen target.",
+      "ru_next_test": "Сопоставить методы на одной заранее зафиксированной новой цели.",
+      "ru": "Более ранняя проверка по 24 соседям",
+      "evidence_ids": [],
+      "receipts": []
+    },
+    {
+      "id": "earlier-iceye",
+      "stage_ids": [
+        "track",
+        "focus",
+        "validate"
+      ],
+      "scene_ids": [
+        "iceye-20250602"
+      ],
+      "sources": [
+        "https://www.iceye.com/open-data-initiative",
+        "https://www.accadradinuovo.com/Lab/giza_sar/prova_camere/file/PROTOCOLLO.md",
+        "https://pdfs.petrieproject.com/cu31924012038927.pdf"
+      ],
+      "url": "data/evidence/blind-cavity/giza_transfer.json",
+      "title": "Earlier three-room ICEYE transfer",
+      "ru_title": "Ранняя проверка трёх комнат на ICEYE",
+      "claim": "Can the previously fixed harmonic score separate each room from every translation on X50?",
+      "ru_claim": "Выделит ли ранее фиксированный гармонический показатель каждую комнату среди всех сдвигов на X50?",
+      "result": "King, Queen and Subterranean beat 0, 27 and 9 of 32 positions. The exterior square beat 47/48.",
+      "ru_result": "Камеры царя, царицы и подземная превзошли 0, 27 и 9 из 32 соседей. Наружный контур превзошёл 47 из 48 сдвигов.",
+      "decision": "The three chamber locations missed that protocol's strict 32/32 gate. Its harmonic statistic differs from the new weighted complex filter.",
+      "ru_decision": "Ни одна камера не прошла тот прежний порог 32 из 32. Гармонический показатель отличается от нового взвешенного комплексного фильтра.",
+      "next_test": "Compare scores on further acquisitions under one fixed set of labels.",
+      "ru_next_test": "Сопоставить показатели на новых съёмках с единым набором меток.",
+      "ru": "Ранняя проверка трёх комнат на ICEYE",
+      "evidence_ids": [],
+      "receipts": [
+        "data/evidence/blind-cavity/giza_transfer.json"
+      ]
+    },
+    {
+      "id": "quadratic",
+      "stage_ids": [
+        "steer",
+        "focus",
+        "validate"
+      ],
+      "scene_ids": [
+        "capella-20240916",
+        "capella-20241004"
+      ],
+      "sources": [
+        "https://doi.org/10.3390/rs14205231",
+        "https://www.accadradinuovo.com/Lab/giza_sar/prova_camere/file/PROTOCOLLO.md"
+      ],
+      "url": "tools/replay/controls.json",
+      "title": "One oscillator versus smooth drift",
+      "ru_title": "Одна гармоника и плавный дрейф",
+      "claim": "A frozen depth-to-wavelength ratio should explain the second date better than ordinary smooth drift.",
+      "ru_claim": "Фиксированное отношение глубины к длине волны должно описать второй пролёт лучше плавного дрейфа.",
+      "result": "The chosen oscillator reduced October residual power by 47.91%. A quadratic trend with the same count of fitted coefficients reduced it by 63.23%. Both compare with linear drift.",
+      "ru_result": "Выбранная гармоника уменьшила мощность октябрьского остатка на 47,91%. Квадратичный тренд с тем же числом коэффициентов дал 63,23%. Оба сравнивались с линейным дрейфом.",
+      "decision": "Smooth drift explains more of this observed trace. This single-component test used 24 neighbors and allowed a new complex amplitude per date.",
+      "ru_decision": "Плавный дрейф лучше объясняет этот ряд. В одночастотной модели брали 24 соседние точки и свою комплексную амплитуду на каждый пролёт.",
+      "next_test": "Predict a calibrated response without fitting a separate excitation for each observation.",
+      "ru_next_test": "Предсказать калиброванный отклик без отдельного подбора возбуждения для каждого пролёта.",
+      "ru": "Одна гармоника и плавный дрейф",
+      "evidence_ids": [],
+      "receipts": []
+    },
+    {
+      "id": "line-average",
+      "stage_ids": [
+        "track",
+        "focus",
+        "shape",
+        "validate"
+      ],
+      "scene_ids": [
+        "capella-20240916",
+        "capella-20241004"
+      ],
+      "sources": [
+        "https://youtu.be/NvQXmtcwHA8?t=10570",
+        "https://archaeologicalrescue.org/wp-content/uploads/2026/11/Yoshimura_Y27_Y34_P8_Interactive_3D.html"
+      ],
+      "url": "data/evidence/line-average/result.json",
+      "title": "Average adjacent section lines",
+      "ru_title": "Усреднить соседние линии разреза",
+      "claim": "Biondi says averaging adjacent lines reduces noise. Does that improve the repeated fit?",
+      "ru_claim": "По словам Бионди, усреднение соседних линий уменьшает шум. Улучшает ли оно повторяемость?",
+      "result": "One, three and five parallel-line choices produced no two-date chamber pass at the preset rule. On published cemetery lines, only one of three withheld lines had a nonzero value at the selected cell.",
+      "ru_result": "При одной, трёх и пяти линиях ни одна камера не прошла заданный критерий на обеих датах. На опубликованных линиях кладбища ненулевое значение прогнозной ячейки было в одной из трёх скрытых линий.",
+      "decision": "These two tests apply to different inputs. The cemetery values are already filtered output, with a supplied relative coordinate system.",
+      "ru_decision": "Это два опыта на разных данных. Для кладбища имелся уже отфильтрованный результат с заданной относительной системой координат.",
+      "next_test": "Request original unfiltered parallel lines with their physical spacing, direction and selection rule.",
+      "ru_next_test": "Получить исходные линии до фильтрации с расстояниями, направлениями и правилом отбора.",
+      "ru": "Усреднить соседние линии разреза",
+      "evidence_ids": [
+        "published-yoshimura-lines"
+      ],
+      "receipts": [
+        "data/evidence/line-average/result.json",
+        "data/evidence/line-average/published_result.json"
+      ]
+    },
+    {
+      "id": "depth-identifiability",
+      "stage_ids": [
+        "steer",
+        "focus",
+        "validate"
+      ],
+      "scene_ids": [
+        "capella-20240916",
+        "capella-20241004"
+      ],
+      "sources": [
+        "https://doi.org/10.3390/rs14205231",
+        "https://patents.google.com/patent/WO2024008365A1/en"
+      ],
+      "url": "data/evidence/depth-audit/result.json",
+      "title": "Can the traces select deep over shallow?",
+      "ru_title": "Различают ли измерения малую и большую глубину?",
+      "claim": "The same hundred tracked observations might distinguish shallow from deep support.",
+      "ru_claim": "Одни и те же сто измерений могли бы отличить малую глубину от большой.",
+      "result": "At 0.24 m wavelength, both a 0-200 m model and a disjoint 520-800 m model fit to relative residual below 5 × 10⁻¹⁴. Fitting either profile on one date predicted the other worse than zero.",
+      "ru_result": "При длине волны 0,24 м модели с диапазонами 0-200 м и 520-800 м обе дали относительную невязку ниже 5 × 10⁻¹⁴. При переносе с одной даты на другую обе уступили нулевому прогнозу.",
+      "decision": "The unrestricted complex profile is underdetermined in this model. A constrained, independently calibrated physical model may behave differently.",
+      "ru_decision": "В этой модели свободный комплексный профиль недоопределён. Для ограниченной физической модели с независимой калибровкой результат может отличаться.",
+      "next_test": "Use independently measured wave speed, mode and phase, then predict a depth withheld from fitting.",
+      "ru_next_test": "Независимо измерить скорость, тип волны и фазу, затем предсказать скрытую глубину.",
+      "ru": "Различают ли измерения малую и большую глубину?",
+      "evidence_ids": [],
+      "receipts": [
+        "data/evidence/depth-audit/result.json"
+      ]
+    },
+    {
+      "id": "gravity",
+      "stage_ids": [
+        "inputs",
+        "steer",
+        "validate"
+      ],
+      "scene_ids": [],
+      "sources": [
+        "https://www.ngdc.noaa.gov/mgg/gravity/1999/document/html/egypt.html",
+        "https://www.youtube.com/watch?v=bM8vzUUZdVM&t=10960s"
+      ],
+      "url": "data/evidence/ground-constraint/result.json",
+      "title": "Can measured gravity resolve the 648 m bracket?",
+      "ru_title": "Проверяют ли гравиметрические данные отметку 648 м?",
+      "claim": "The proposed missing rock should have a gravity signature measurable near Khafre.",
+      "ru_claim": "Объём отсутствующей породы должен влиять на измеряемое поле тяжести у Хафры.",
+      "result": "The nearest of 71 checked Egyptian gravity records was 5.83 km away. The benchmark shaft model predicts 0.044 µGal there, versus a 10 µGal reporting increment.",
+      "ru_result": "Ближайшая из 71 проверенной египетской гравиметрической точки находится в 5,83 км. Расчётный эффект модели шахт там 0,044 мкГал при шаге записи 10 мкГал.",
+      "decision": "This published sample cannot determine the shaft bottoms. The signed 648 m label is a published drawing dimension.",
+      "ru_decision": "По этим опубликованным данным глубину шахт определить нельзя. Число 648 м нанесено на авторский чертёж.",
+      "next_test": "Test a surveyed vertical return with an identifiable endpoint and an independent velocity measurement.",
+      "ru_next_test": "Проверить вертикальное отражение с привязанной конечной точкой и независимо измеренной скоростью.",
+      "ru": "Проверяют ли гравиметрические данные отметку 648 м?",
+      "evidence_ids": [
+        "egypt-gravity",
+        "khafre-dimension"
+      ],
+      "receipts": [
+        "data/evidence/ground-constraint/result.json"
+      ]
+    }
+  ],
+  "independent_evidence": [
+    {
+      "id": "osario-lidar",
+      "title": "El Osario cave scan",
+      "url": "https://doi.org/10.34946/D6J30S"
+    },
+    {
+      "id": "osario-iceye",
+      "title": "El Osario X31 complex radar scene",
+      "url": "https://iceye-open-data-catalog.s3.amazonaws.com/stac-items/2023/12/ICEYE_D59J8T_20231225T040435Z_3175275_X31_SLEDF.json"
+    },
+    {
+      "id": "teotihuacan-excavation",
+      "title": "Teotihuacan independent tunnel survey",
+      "url": "https://doi.org/10.1017/RDC.2016.77"
+    },
+    {
+      "id": "teotihuacan-umbra",
+      "title": "Teotihuacan Umbra three-look image",
+      "url": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/task-data/44f7aae4-0ca5-4a27-b733-12965da9f458/2024-02-14-16-11-33_UMBRA-04/2024-02-14-16-11-33_UMBRA-04.stac.v2.json"
+    },
+    {
+      "id": "egypt-gravity",
+      "title": "NOAA Egypt gravity station table",
+      "url": "https://www.ngdc.noaa.gov/mgg/gravity/1999/document/html/egypt.html"
+    },
+    {
+      "id": "khafre-dimension",
+      "title": "Khafre project dimensioned section",
+      "url": "https://www.youtube.com/watch?v=bM8vzUUZdVM&t=10960s"
+    },
+    {
+      "id": "glasgow-reflector",
+      "title": "Driven reflector and instrument reference",
+      "url": "https://doi.org/10.1109/ACCESS.2026.3652346"
+    },
+    {
+      "id": "published-yoshimura-lines",
+      "title": "Published filtered cemetery lines",
+      "url": "https://archaeologicalrescue.org/wp-content/uploads/2026/11/Yoshimura_Y27_Y34_P8_Interactive_3D.html"
+    },
+    {
+      "id": "capella-cphd-sep",
+      "title": "Phase history 20240916",
+      "url": "https://capella-open-data.s3.us-west-2.amazonaws.com/data/2024/9/16/CAPELLA_C13_SP_CPHD_HH_20240916215711_20240916215743/CAPELLA_C13_SP_CPHD_HH_20240916215711_20240916215743.cphd"
+    },
+    {
+      "id": "capella-cphd-oct",
+      "title": "Phase history 20241004",
+      "url": "https://capella-open-data.s3.us-west-2.amazonaws.com/data/2024/10/4/CAPELLA_C13_SP_CPHD_HH_20241004001939_20241004002012/CAPELLA_C13_SP_CPHD_HH_20241004001939_20241004002012.cphd"
+    },
+    {
+      "id": "umbra-cphd-feb7",
+      "title": "Phase history 2023-02-07",
+      "url": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/7e7cd796-3842-4923-8b48-4c0950ece945/2023-02-07-07-58-27_UMBRA-05/2023-02-07-07-58-27_UMBRA-05_CPHD.cphd"
+    },
+    {
+      "id": "umbra-cphd-feb8",
+      "title": "Phase history 2023-02-08",
+      "url": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/44da7805-2129-4105-add8-2403bf671f40/2023-02-08-07-54-55_UMBRA-04/2023-02-08-07-54-55_UMBRA-04_CPHD.cphd"
+    }
+  ],
+  "execution": {
+    "source_level": "Provider focused complex imagery",
+    "look_count": 193,
+    "look_center_fraction": [
+      0.25,
+      0.75
+    ],
+    "look_width_fraction": 0.5,
+    "look_taper": "Hamming",
+    "pair_counts": {
+      "adjacent": 192,
+      "lag8": 185,
+      "fixed": 192
+    },
+    "coarse_patch_azimuth_range_px": [
+      128,
+      128
+    ],
+    "fine_patch_azimuth_range_px": [
+      24,
+      32
+    ],
+    "observable": "Y = apparent azimuth shift in metres + i × apparent range shift in metres",
+    "steering": "a = exp(i × 4π × B_perp × signed_height / (range × sin(incidence) × assumed_wavelength))",
+    "mean_removal": "Subtract componentwise reference-ring median per pair, then center the time series and the steering vector.",
+    "normalized_score": "abs(aᴴY)² / ((aᴴa) × (YᴴY)) after optional reference-covariance whitening",
+    "covariance_isotropic_shrinkage": 0.25,
+    "reference_ring_radius_m": 48,
+    "reference_ring_count": 32,
+    "translated_radii_m": [
+      8,
+      16,
+      24,
+      32
+    ],
+    "bearings_per_radius": 8,
+    "training_tie_break": "largest rank, then largest median-absolute-deviation margin, then fixed enumeration",
+    "gate": "At least 31 of 32 translated plans beaten and rank strictly greater than both apparent-motion RMS and full-image-power ranks.",
+    "free_height_search": {
+      "min_m": -44,
+      "max_m": 44,
+      "step_m": 0.5,
+      "excluded_m": [
+        0
+      ],
+      "reason": "Zero gives a constant steering vector removed by centering."
+    },
+    "chronological_analysis_order": [
+      {
+        "step": 1,
+        "role": "select",
+        "scenes": [
+          "capella-20240916"
+        ],
+        "target": "King +43 m"
+      },
+      {
+        "step": 2,
+        "role": "frozen across dates and chamber labels",
+        "scenes": [
+          "capella-20241004",
+          "iceye-20250602"
+        ],
+        "target": "King / Queen / Subterranean"
+      },
+      {
+        "step": 3,
+        "role": "additional frozen short-aperture transfer after the first result",
+        "scenes": [
+          "umbra-20230207",
+          "umbra-20230208",
+          "umbra-20230308"
+        ],
+        "target": "King / Queen / Subterranean"
+      }
+    ]
+  },
+  "candidate_family": {
+    "count": 36,
+    "pairing": [
+      "adjacent",
+      "lag8",
+      "fixed"
+    ],
+    "geometry": [
+      "along",
+      "elevation"
+    ],
+    "wavelength_m": [
+      0.24,
+      0.3,
+      0.48
+    ],
+    "estimator": [
+      "ordinary",
+      "whitened"
+    ],
+    "selected": [
+      "adjacent",
+      "along",
+      0.48,
+      "whitened"
+    ],
+    "train_scene": "capella-20240916",
+    "train_site": "King",
+    "assumed_floor_height_m": 43,
+    "first_transfer_scenes": [
+      "capella-20241004",
+      "iceye-20250602"
+    ],
+    "followup_scenes": [
+      "umbra-20230207",
+      "umbra-20230208",
+      "umbra-20230308"
+    ],
+    "variants": [
+      {
+        "id": "adjacent/along/0.24/ordinary",
+        "pairing": "adjacent",
+        "geometry": "along",
+        "wavelength_m": 0.24,
+        "estimator": "ordinary",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 21,
+            "Queen": 8,
+            "Subterranean": 23
+          },
+          "capella-20241004": {
+            "King": 17,
+            "Queen": 24,
+            "Subterranean": 26
+          },
+          "iceye-20250602": {
+            "King": 1,
+            "Queen": 3,
+            "Subterranean": 13
+          }
+        }
+      },
+      {
+        "id": "adjacent/along/0.24/whitened",
+        "pairing": "adjacent",
+        "geometry": "along",
+        "wavelength_m": 0.24,
+        "estimator": "whitened",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 17,
+            "Queen": 2,
+            "Subterranean": 10
+          },
+          "capella-20241004": {
+            "King": 26,
+            "Queen": 18,
+            "Subterranean": 19
+          },
+          "iceye-20250602": {
+            "King": 1,
+            "Queen": 7,
+            "Subterranean": 13
+          }
+        }
+      },
+      {
+        "id": "adjacent/along/0.3/ordinary",
+        "pairing": "adjacent",
+        "geometry": "along",
+        "wavelength_m": 0.3,
+        "estimator": "ordinary",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 9,
+            "Queen": 18,
+            "Subterranean": 23
+          },
+          "capella-20241004": {
+            "King": 1,
+            "Queen": 31,
+            "Subterranean": 30
+          },
+          "iceye-20250602": {
+            "King": 3,
+            "Queen": 29,
+            "Subterranean": 4
+          }
+        }
+      },
+      {
+        "id": "adjacent/along/0.3/whitened",
+        "pairing": "adjacent",
+        "geometry": "along",
+        "wavelength_m": 0.3,
+        "estimator": "whitened",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 26,
+            "Queen": 9,
+            "Subterranean": 18
+          },
+          "capella-20241004": {
+            "King": 7,
+            "Queen": 32,
+            "Subterranean": 29
+          },
+          "iceye-20250602": {
+            "King": 19,
+            "Queen": 28,
+            "Subterranean": 0
+          }
+        }
+      },
+      {
+        "id": "adjacent/along/0.48/ordinary",
+        "pairing": "adjacent",
+        "geometry": "along",
+        "wavelength_m": 0.48,
+        "estimator": "ordinary",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 21,
+            "Queen": 27,
+            "Subterranean": 17
+          },
+          "capella-20241004": {
+            "King": 19,
+            "Queen": 4,
+            "Subterranean": 16
+          },
+          "iceye-20250602": {
+            "King": 31,
+            "Queen": 17,
+            "Subterranean": 19
+          }
+        }
+      },
+      {
+        "id": "adjacent/along/0.48/whitened",
+        "pairing": "adjacent",
+        "geometry": "along",
+        "wavelength_m": 0.48,
+        "estimator": "whitened",
+        "selected": true,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 31,
+            "Queen": 27,
+            "Subterranean": 8
+          },
+          "capella-20241004": {
+            "King": 32,
+            "Queen": 15,
+            "Subterranean": 9
+          },
+          "iceye-20250602": {
+            "King": 31,
+            "Queen": 11,
+            "Subterranean": 24
+          }
+        }
+      },
+      {
+        "id": "adjacent/elevation/0.24/ordinary",
+        "pairing": "adjacent",
+        "geometry": "elevation",
+        "wavelength_m": 0.24,
+        "estimator": "ordinary",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 8,
+            "Queen": 12,
+            "Subterranean": 11
+          },
+          "capella-20241004": {
+            "King": 32,
+            "Queen": 15,
+            "Subterranean": 30
+          },
+          "iceye-20250602": {
+            "King": 21,
+            "Queen": 15,
+            "Subterranean": 2
+          }
+        }
+      },
+      {
+        "id": "adjacent/elevation/0.24/whitened",
+        "pairing": "adjacent",
+        "geometry": "elevation",
+        "wavelength_m": 0.24,
+        "estimator": "whitened",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 17,
+            "Queen": 4,
+            "Subterranean": 21
+          },
+          "capella-20241004": {
+            "King": 32,
+            "Queen": 17,
+            "Subterranean": 27
+          },
+          "iceye-20250602": {
+            "King": 19,
+            "Queen": 18,
+            "Subterranean": 8
+          }
+        }
+      },
+      {
+        "id": "adjacent/elevation/0.3/ordinary",
+        "pairing": "adjacent",
+        "geometry": "elevation",
+        "wavelength_m": 0.3,
+        "estimator": "ordinary",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 8,
+            "Queen": 13,
+            "Subterranean": 10
+          },
+          "capella-20241004": {
+            "King": 32,
+            "Queen": 15,
+            "Subterranean": 30
+          },
+          "iceye-20250602": {
+            "King": 21,
+            "Queen": 15,
+            "Subterranean": 2
+          }
+        }
+      },
+      {
+        "id": "adjacent/elevation/0.3/whitened",
+        "pairing": "adjacent",
+        "geometry": "elevation",
+        "wavelength_m": 0.3,
+        "estimator": "whitened",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 17,
+            "Queen": 5,
+            "Subterranean": 20
+          },
+          "capella-20241004": {
+            "King": 32,
+            "Queen": 17,
+            "Subterranean": 27
+          },
+          "iceye-20250602": {
+            "King": 19,
+            "Queen": 17,
+            "Subterranean": 8
+          }
+        }
+      },
+      {
+        "id": "adjacent/elevation/0.48/ordinary",
+        "pairing": "adjacent",
+        "geometry": "elevation",
+        "wavelength_m": 0.48,
+        "estimator": "ordinary",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 8,
+            "Queen": 13,
+            "Subterranean": 10
+          },
+          "capella-20241004": {
+            "King": 32,
+            "Queen": 15,
+            "Subterranean": 30
+          },
+          "iceye-20250602": {
+            "King": 21,
+            "Queen": 15,
+            "Subterranean": 2
+          }
+        }
+      },
+      {
+        "id": "adjacent/elevation/0.48/whitened",
+        "pairing": "adjacent",
+        "geometry": "elevation",
+        "wavelength_m": 0.48,
+        "estimator": "whitened",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 19,
+            "Queen": 5,
+            "Subterranean": 16
+          },
+          "capella-20241004": {
+            "King": 32,
+            "Queen": 17,
+            "Subterranean": 27
+          },
+          "iceye-20250602": {
+            "King": 18,
+            "Queen": 17,
+            "Subterranean": 8
+          }
+        }
+      },
+      {
+        "id": "lag8/along/0.24/ordinary",
+        "pairing": "lag8",
+        "geometry": "along",
+        "wavelength_m": 0.24,
+        "estimator": "ordinary",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 4,
+            "Queen": 20,
+            "Subterranean": 17
+          },
+          "capella-20241004": {
+            "King": 11,
+            "Queen": 24,
+            "Subterranean": 29
+          },
+          "iceye-20250602": {
+            "King": 3,
+            "Queen": 2,
+            "Subterranean": 21
+          }
+        }
+      },
+      {
+        "id": "lag8/along/0.24/whitened",
+        "pairing": "lag8",
+        "geometry": "along",
+        "wavelength_m": 0.24,
+        "estimator": "whitened",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 11,
+            "Queen": 20,
+            "Subterranean": 13
+          },
+          "capella-20241004": {
+            "King": 17,
+            "Queen": 26,
+            "Subterranean": 31
+          },
+          "iceye-20250602": {
+            "King": 8,
+            "Queen": 16,
+            "Subterranean": 15
+          }
+        }
+      },
+      {
+        "id": "lag8/along/0.3/ordinary",
+        "pairing": "lag8",
+        "geometry": "along",
+        "wavelength_m": 0.3,
+        "estimator": "ordinary",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 12,
+            "Queen": 14,
+            "Subterranean": 27
+          },
+          "capella-20241004": {
+            "King": 5,
+            "Queen": 31,
+            "Subterranean": 28
+          },
+          "iceye-20250602": {
+            "King": 16,
+            "Queen": 7,
+            "Subterranean": 8
+          }
+        }
+      },
+      {
+        "id": "lag8/along/0.3/whitened",
+        "pairing": "lag8",
+        "geometry": "along",
+        "wavelength_m": 0.3,
+        "estimator": "whitened",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 27,
+            "Queen": 22,
+            "Subterranean": 16
+          },
+          "capella-20241004": {
+            "King": 3,
+            "Queen": 32,
+            "Subterranean": 18
+          },
+          "iceye-20250602": {
+            "King": 6,
+            "Queen": 2,
+            "Subterranean": 17
+          }
+        }
+      },
+      {
+        "id": "lag8/along/0.48/ordinary",
+        "pairing": "lag8",
+        "geometry": "along",
+        "wavelength_m": 0.48,
+        "estimator": "ordinary",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 25,
+            "Queen": 30,
+            "Subterranean": 18
+          },
+          "capella-20241004": {
+            "King": 18,
+            "Queen": 28,
+            "Subterranean": 18
+          },
+          "iceye-20250602": {
+            "King": 30,
+            "Queen": 1,
+            "Subterranean": 21
+          }
+        }
+      },
+      {
+        "id": "lag8/along/0.48/whitened",
+        "pairing": "lag8",
+        "geometry": "along",
+        "wavelength_m": 0.48,
+        "estimator": "whitened",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 28,
+            "Queen": 0,
+            "Subterranean": 20
+          },
+          "capella-20241004": {
+            "King": 17,
+            "Queen": 13,
+            "Subterranean": 3
+          },
+          "iceye-20250602": {
+            "King": 32,
+            "Queen": 15,
+            "Subterranean": 3
+          }
+        }
+      },
+      {
+        "id": "lag8/elevation/0.24/ordinary",
+        "pairing": "lag8",
+        "geometry": "elevation",
+        "wavelength_m": 0.24,
+        "estimator": "ordinary",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 5,
+            "Queen": 18,
+            "Subterranean": 12
+          },
+          "capella-20241004": {
+            "King": 32,
+            "Queen": 15,
+            "Subterranean": 32
+          },
+          "iceye-20250602": {
+            "King": 18,
+            "Queen": 12,
+            "Subterranean": 2
+          }
+        }
+      },
+      {
+        "id": "lag8/elevation/0.24/whitened",
+        "pairing": "lag8",
+        "geometry": "elevation",
+        "wavelength_m": 0.24,
+        "estimator": "whitened",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 5,
+            "Queen": 5,
+            "Subterranean": 23
+          },
+          "capella-20241004": {
+            "King": 32,
+            "Queen": 17,
+            "Subterranean": 21
+          },
+          "iceye-20250602": {
+            "King": 17,
+            "Queen": 24,
+            "Subterranean": 8
+          }
+        }
+      },
+      {
+        "id": "lag8/elevation/0.3/ordinary",
+        "pairing": "lag8",
+        "geometry": "elevation",
+        "wavelength_m": 0.3,
+        "estimator": "ordinary",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 5,
+            "Queen": 18,
+            "Subterranean": 12
+          },
+          "capella-20241004": {
+            "King": 32,
+            "Queen": 15,
+            "Subterranean": 32
+          },
+          "iceye-20250602": {
+            "King": 18,
+            "Queen": 12,
+            "Subterranean": 2
+          }
+        }
+      },
+      {
+        "id": "lag8/elevation/0.3/whitened",
+        "pairing": "lag8",
+        "geometry": "elevation",
+        "wavelength_m": 0.3,
+        "estimator": "whitened",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 5,
+            "Queen": 4,
+            "Subterranean": 22
+          },
+          "capella-20241004": {
+            "King": 32,
+            "Queen": 17,
+            "Subterranean": 21
+          },
+          "iceye-20250602": {
+            "King": 17,
+            "Queen": 24,
+            "Subterranean": 8
+          }
+        }
+      },
+      {
+        "id": "lag8/elevation/0.48/ordinary",
+        "pairing": "lag8",
+        "geometry": "elevation",
+        "wavelength_m": 0.48,
+        "estimator": "ordinary",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 4,
+            "Queen": 18,
+            "Subterranean": 12
+          },
+          "capella-20241004": {
+            "King": 32,
+            "Queen": 15,
+            "Subterranean": 32
+          },
+          "iceye-20250602": {
+            "King": 18,
+            "Queen": 12,
+            "Subterranean": 2
+          }
+        }
+      },
+      {
+        "id": "lag8/elevation/0.48/whitened",
+        "pairing": "lag8",
+        "geometry": "elevation",
+        "wavelength_m": 0.48,
+        "estimator": "whitened",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 5,
+            "Queen": 4,
+            "Subterranean": 21
+          },
+          "capella-20241004": {
+            "King": 32,
+            "Queen": 17,
+            "Subterranean": 20
+          },
+          "iceye-20250602": {
+            "King": 16,
+            "Queen": 24,
+            "Subterranean": 9
+          }
+        }
+      },
+      {
+        "id": "fixed/along/0.24/ordinary",
+        "pairing": "fixed",
+        "geometry": "along",
+        "wavelength_m": 0.24,
+        "estimator": "ordinary",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 21,
+            "Queen": 31,
+            "Subterranean": 11
+          },
+          "capella-20241004": {
+            "King": 5,
+            "Queen": 0,
+            "Subterranean": 12
+          },
+          "iceye-20250602": {
+            "King": 23,
+            "Queen": 9,
+            "Subterranean": 1
+          }
+        }
+      },
+      {
+        "id": "fixed/along/0.24/whitened",
+        "pairing": "fixed",
+        "geometry": "along",
+        "wavelength_m": 0.24,
+        "estimator": "whitened",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 30,
+            "Queen": 7,
+            "Subterranean": 2
+          },
+          "capella-20241004": {
+            "King": 0,
+            "Queen": 29,
+            "Subterranean": 17
+          },
+          "iceye-20250602": {
+            "King": 14,
+            "Queen": 24,
+            "Subterranean": 0
+          }
+        }
+      },
+      {
+        "id": "fixed/along/0.3/ordinary",
+        "pairing": "fixed",
+        "geometry": "along",
+        "wavelength_m": 0.3,
+        "estimator": "ordinary",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 2,
+            "Queen": 7,
+            "Subterranean": 2
+          },
+          "capella-20241004": {
+            "King": 14,
+            "Queen": 19,
+            "Subterranean": 19
+          },
+          "iceye-20250602": {
+            "King": 32,
+            "Queen": 3,
+            "Subterranean": 0
+          }
+        }
+      },
+      {
+        "id": "fixed/along/0.3/whitened",
+        "pairing": "fixed",
+        "geometry": "along",
+        "wavelength_m": 0.3,
+        "estimator": "whitened",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 5,
+            "Queen": 12,
+            "Subterranean": 10
+          },
+          "capella-20241004": {
+            "King": 1,
+            "Queen": 12,
+            "Subterranean": 20
+          },
+          "iceye-20250602": {
+            "King": 29,
+            "Queen": 14,
+            "Subterranean": 22
+          }
+        }
+      },
+      {
+        "id": "fixed/along/0.48/ordinary",
+        "pairing": "fixed",
+        "geometry": "along",
+        "wavelength_m": 0.48,
+        "estimator": "ordinary",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 15,
+            "Queen": 17,
+            "Subterranean": 32
+          },
+          "capella-20241004": {
+            "King": 8,
+            "Queen": 3,
+            "Subterranean": 10
+          },
+          "iceye-20250602": {
+            "King": 32,
+            "Queen": 19,
+            "Subterranean": 1
+          }
+        }
+      },
+      {
+        "id": "fixed/along/0.48/whitened",
+        "pairing": "fixed",
+        "geometry": "along",
+        "wavelength_m": 0.48,
+        "estimator": "whitened",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 0,
+            "Queen": 2,
+            "Subterranean": 22
+          },
+          "capella-20241004": {
+            "King": 4,
+            "Queen": 32,
+            "Subterranean": 30
+          },
+          "iceye-20250602": {
+            "King": 28,
+            "Queen": 8,
+            "Subterranean": 18
+          }
+        }
+      },
+      {
+        "id": "fixed/elevation/0.24/ordinary",
+        "pairing": "fixed",
+        "geometry": "elevation",
+        "wavelength_m": 0.24,
+        "estimator": "ordinary",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 11,
+            "Queen": 8,
+            "Subterranean": 0
+          },
+          "capella-20241004": {
+            "King": 5,
+            "Queen": 22,
+            "Subterranean": 12
+          },
+          "iceye-20250602": {
+            "King": 21,
+            "Queen": 20,
+            "Subterranean": 26
+          }
+        }
+      },
+      {
+        "id": "fixed/elevation/0.24/whitened",
+        "pairing": "fixed",
+        "geometry": "elevation",
+        "wavelength_m": 0.24,
+        "estimator": "whitened",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 27,
+            "Queen": 6,
+            "Subterranean": 8
+          },
+          "capella-20241004": {
+            "King": 6,
+            "Queen": 32,
+            "Subterranean": 3
+          },
+          "iceye-20250602": {
+            "King": 8,
+            "Queen": 6,
+            "Subterranean": 30
+          }
+        }
+      },
+      {
+        "id": "fixed/elevation/0.3/ordinary",
+        "pairing": "fixed",
+        "geometry": "elevation",
+        "wavelength_m": 0.3,
+        "estimator": "ordinary",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 11,
+            "Queen": 8,
+            "Subterranean": 0
+          },
+          "capella-20241004": {
+            "King": 5,
+            "Queen": 22,
+            "Subterranean": 12
+          },
+          "iceye-20250602": {
+            "King": 21,
+            "Queen": 20,
+            "Subterranean": 26
+          }
+        }
+      },
+      {
+        "id": "fixed/elevation/0.3/whitened",
+        "pairing": "fixed",
+        "geometry": "elevation",
+        "wavelength_m": 0.3,
+        "estimator": "whitened",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 27,
+            "Queen": 7,
+            "Subterranean": 9
+          },
+          "capella-20241004": {
+            "King": 6,
+            "Queen": 32,
+            "Subterranean": 3
+          },
+          "iceye-20250602": {
+            "King": 7,
+            "Queen": 5,
+            "Subterranean": 30
+          }
+        }
+      },
+      {
+        "id": "fixed/elevation/0.48/ordinary",
+        "pairing": "fixed",
+        "geometry": "elevation",
+        "wavelength_m": 0.48,
+        "estimator": "ordinary",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 11,
+            "Queen": 8,
+            "Subterranean": 0
+          },
+          "capella-20241004": {
+            "King": 5,
+            "Queen": 22,
+            "Subterranean": 12
+          },
+          "iceye-20250602": {
+            "King": 20,
+            "Queen": 20,
+            "Subterranean": 26
+          }
+        }
+      },
+      {
+        "id": "fixed/elevation/0.48/whitened",
+        "pairing": "fixed",
+        "geometry": "elevation",
+        "wavelength_m": 0.48,
+        "estimator": "whitened",
+        "selected": false,
+        "ranks_against_32": {
+          "capella-20240916": {
+            "King": 27,
+            "Queen": 8,
+            "Subterranean": 9
+          },
+          "capella-20241004": {
+            "King": 6,
+            "Queen": 32,
+            "Subterranean": 3
+          },
+          "iceye-20250602": {
+            "King": 6,
+            "Queen": 5,
+            "Subterranean": 30
+          }
+        }
+      }
+    ]
+  },
+  "numerical_replay": {
+    "command": "python tools/replay/run.py",
+    "guide": "tools/replay/README.md",
+    "code": "tools/replay/run.py",
+    "inputs": "tools/replay/inputs.json",
+    "expected": "tools/replay/expected.json",
+    "companion_results": "tools/replay/controls.json",
+    "protocol": "tools/replay/protocol.json",
+    "followup": "tools/replay/umbra-protocol.json",
+    "source_paper": "https://doi.org/10.3390/rs14205231",
+    "retraction": "https://doi.org/10.3390/rs18162679",
+    "scene_order": [
+      "capella-20240916",
+      "capella-20241004",
+      "iceye-20250602",
+      "umbra-20230207",
+      "umbra-20230208",
+      "umbra-20230308"
+    ],
+    "full_raw_remeasurement": true
+  },
+  "next_test": {
+    "title": "Predict a surveyed object before the reveal",
+    "ru_title": "Дать прогноз до вскрытия геодезического плана",
+    "rule": "Seal coordinates, signed depth, benchmark and uncertainty. Score once against the independent survey and matched intact material. Proposed tolerances are 10 m horizontally and the larger of 10 m or 10% vertically.",
+    "ru_rule": "Зафиксировать координаты, знаковую глубину, высотный репер и погрешность. Сверить с независимым планом и проверенными участками сплошной породы. Предложенные допуски: 10 м по горизонтали и большее из 10 м или 10% по вертикали.",
+    "status": "Proposed; no blind site and depth result is available.",
+    "ru_status": "Предложено. Результата слепой проверки одновременно места и глубины пока нет.",
+    "necessary_inputs": [
+      "identified complex acquisition",
+      "metric pre-color section",
+      "registered line endpoints",
+      "ground benchmark",
+      "independent velocity or wavelength",
+      "untouched surveyed labels"
+    ]
+  }
+}

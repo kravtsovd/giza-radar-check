@@ -1,0 +1,20 @@
+{
+  "frozen_utc": "2026-11-27T15:59:35Z",
+  "question": "At a measured aboveground reflector, does a local Doppler-centroid history show the 2 Hz shaker tone above the eight existing comparison loci?",
+  "source_statement": "https://youtu.be/sQNjse68IM4?t=4338",
+  "field_measurement": "https://doi.org/10.1109/ACCESS.2026.3652346",
+  "scope": "Retrospective choice of one known positive, its coordinates, eight comparison loci and crop half-width from the earlier phase experiment. New observable and rules fixed before first centroid calculation. Not an independent scene.",
+  "instrument": "Original Umbra Test 3 focused complex SICD chip and XML. Use nine of the same 129-pixel azimuth row profiles from the earlier phase experiment. Do not use its phase or displacement arrays. No original pulse history or co-temporal ground phase is available here.",
+  "geometry": "Use each profile centered on its fixed image pixel, a 50 percent Tukey image taper, the vendor sign convention, azimuth spatial FFT, and the same processed PFA time mapping as the phase experiment. Retain the inner 95 percent of azimuth support. Interpolate real and imaginary parts linearly onto an endpoint-preserving uniform grid of the same sample count.",
+  "observable": "Compute a short-time power spectrum of the complex aperture-return series in every overlapping block, without temporal phase unwrapping or phase differencing. The local signed frequency is the first moment of power over the principal Nyquist interval. Use a symmetric Hann, 2048 FFT points and unit hop. DC is retained. Each locus is centered on itself in focused coordinates (stationary ideal target has constant aperture phase). Fit an intercept and linear drift to remove residual offset/trend; no individual geometric-delay reconstruction from original pulses.",
+  "primary_window_samples": 7,
+  "sensitivity_windows_samples": [
+    5,
+    9,
+    13
+  ],
+  "score": "At the unadjusted 2 Hz reference, fit trend plus cosine/sine. Report the added fraction of variance versus trend alone and rank among eight comparison pixels. Also search 0.5 to 4 Hz inclusive in steps of 0.01 for the strongest trend-plus-tone fit. Compare the peak with one independent frequency bin, 1 / usable center-time span, around 2 Hz. Overlapping windows are correlated; fit fractions are descriptive, not p-values.",
+  "calibration": "The known velocity RMS is 6.66 mm/s. Model an ideal complex sinusoidal displacement at 2 Hz, constant amplitude, sampled on the original cropped PFA times, using the scene two-way spatial frequency and velocity reference (displacement RMS = velocity RMS / (2*pi*2)). Pass that series through the identical interpolation and spectral estimate. Scale the observed 2 Hz centroid amplitude by this known ideal response for a comparison conditional on the ideal point model. Report uncorrected and corrected values. Confirm a constant stationary phasor yields zero modulation; test conjugation reverses centroid sign.",
+  "primary_rule": "A positive surface check requires all three: peak within one measured center-time-span frequency bin of 2 Hz, target 2 Hz fit fraction exceeds all eight comparison loci, and model-transfer-corrected velocity RMS is between 0.5 and 2 times 6.66 mm/s. Report sensitivity windows without replacing the primary call.",
+  "interpretive_limits": "Centroid fractions measure modulation in the local spectrum, and spectral first moment is related to the power-weighted phase rate. The result is not statistically independent of phase from the same data. Precision depends on time support, spatial taper, competing scatterers and window attenuation. Power-driven sign, absolute phase and calibrated depth require separate evidence."
+}

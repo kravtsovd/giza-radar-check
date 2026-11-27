@@ -1,0 +1,403 @@
+{
+  "source": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/task-data/664ca27d-b2c2-486a-b190-0b14ec4c1597/2024-03-14-21-29-26_UMBRA-05/2024-03-14-21-29-26_UMBRA-05_SICD.nitf",
+  "stac": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/task-data/664ca27d-b2c2-486a-b190-0b14ec4c1597/2024-03-14-21-29-26_UMBRA-05/2024-03-14-21-29-26_UMBRA-05.stac.v2.json",
+  "paper": "https://doi.org/10.1109/ACCESS.2026.3652346",
+  "paper_test": 3,
+  "start_utc": "2024-03-14T21:29:23.000000Z",
+  "data": "Original focused complex SICD image using real and imaginary samples. The original transmitted pulses and the original displacement sensor file were not processed.",
+  "nitf_size": 6574127161,
+  "chip_npy_sha256": "97fc5bb8abc167adf18a509d34b7760234db0b278e5b8f06c26ee2be4a1e1510",
+  "sicd_xml_sha256": "84ec8ad7b256202f4326f32bbc3279014461a747b0510440d489cd5c07aa9f8f",
+  "crop_bounds_rows_cols_half_open": [
+    12800,
+    13440,
+    14800,
+    16200
+  ],
+  "location": {
+    "paper_site_latlon": [
+      55.84379,
+      -4.23634
+    ],
+    "assumed_hae_m": 64.2979294023975,
+    "site_projected_row_col": [
+      13078.410949068264,
+      15457.774773111314
+    ],
+    "brightest_latlon_hae": [
+      55.84384003439138,
+      -4.236696298860672,
+      64.29792940210024
+    ],
+    "next_local_peak_magnitude": 23.5546932220459,
+    "selection": "Brightest full-image pixel within 149 range and 119 azimuth pixels of rounded site projection. Site position is approximate. Frequency and amplitude were not used for localization."
+  },
+  "procedure": "Window the complex azimuth row with a Tukey taper, transform it, and use the processed PFA polar angle mapping at center range frequency. Fit an intercept, linear drift, sine and cosine to unwrapped phase at each candidate frequency. Correct for two-way phase and compare the highest-variance tone with the published line-of-sight measurement.",
+  "frequency_grid_step_hz": 0.01,
+  "analysis_status": "Retrospective exploration. The published 2 Hz reference was known. The frequency estimator searches 0.5-4 Hz for the largest reduction in residual sum of squares after fitting an intercept and linear drift. All controls use the same crop, detrending, search and statistic as the target. The processing code and variations were finalized after viewing these data. Neither the region nor the band was independently preregistered.",
+  "paper_ground": {
+    "dr_rms_mm_table1": 0.52,
+    "nominal_hz": 2,
+    "velocity_rms_mm_s_table1": 6.66
+  },
+  "clock_note": "Time coordinate uses center range frequency and relative aperture time. No alignment to raw ground timestamps or absolute phase calibration.",
+  "main": {
+    "full_image_row_col": [
+      13002,
+      15513
+    ],
+    "half_width_pixels": 64,
+    "pixel_magnitude": 147.4463348388672,
+    "retained_samples": 99,
+    "time_span_s": 5.672777329329948,
+    "nominal_bin_hz": 0.17628049576874844,
+    "search_band_hz": [
+      0.5,
+      4.0
+    ],
+    "best_hz": 2.01,
+    "best_tone_peak_mm": 0.7543447857046086,
+    "best_tone_rms_mm": 0.5334023133244418,
+    "tone_fraction_of_detrended_variance": 0.5598544033255217,
+    "at_2hz_fraction": 0.5508884684940912,
+    "at_2hz_peak_mm": 0.749036089224161,
+    "detrended_total_rms_mm": 0.7129715239898907
+  },
+  "crop_sensitivity": [
+    {
+      "full_image_row_col": [
+        13002,
+        15513
+      ],
+      "half_width_pixels": 24,
+      "pixel_magnitude": 147.4463348388672,
+      "retained_samples": 37,
+      "time_span_s": 5.486116510081532,
+      "nominal_bin_hz": 0.18227830162964193,
+      "search_band_hz": [
+        0.5,
+        3.24
+      ],
+      "best_hz": 2.01,
+      "best_tone_peak_mm": 0.6358878573908759,
+      "best_tone_rms_mm": 0.4496406160352726,
+      "tone_fraction_of_detrended_variance": 0.7615235040586922,
+      "at_2hz_fraction": 0.7501004138573169,
+      "at_2hz_peak_mm": 0.631868871599259,
+      "detrended_total_rms_mm": 0.5120621897163202
+    },
+    {
+      "full_image_row_col": [
+        13002,
+        15513
+      ],
+      "half_width_pixels": 32,
+      "pixel_magnitude": 147.4463348388672,
+      "retained_samples": 49,
+      "time_span_s": 5.514251884549871,
+      "nominal_bin_hz": 0.18134826281727426,
+      "search_band_hz": [
+        0.5,
+        4.0
+      ],
+      "best_hz": 2.01,
+      "best_tone_peak_mm": 0.7443824814388847,
+      "best_tone_rms_mm": 0.5263579004219047,
+      "tone_fraction_of_detrended_variance": 0.7749626760718518,
+      "at_2hz_fraction": 0.7631995712697188,
+      "at_2hz_peak_mm": 0.7392828254277406,
+      "detrended_total_rms_mm": 0.5952240582825664
+    },
+    {
+      "full_image_row_col": [
+        13002,
+        15513
+      ],
+      "half_width_pixels": 40,
+      "pixel_magnitude": 147.4463348388672,
+      "retained_samples": 61,
+      "time_span_s": 5.5312720614087745,
+      "nominal_bin_hz": 0.18079023936951447,
+      "search_band_hz": [
+        0.5,
+        4.0
+      ],
+      "best_hz": 2.01,
+      "best_tone_peak_mm": 0.7527275276857559,
+      "best_tone_rms_mm": 0.5322587392123826,
+      "tone_fraction_of_detrended_variance": 0.7226497576886102,
+      "at_2hz_fraction": 0.710709981329035,
+      "at_2hz_peak_mm": 0.7469405584627838,
+      "detrended_total_rms_mm": 0.6235545247748445
+    },
+    {
+      "full_image_row_col": [
+        13002,
+        15513
+      ],
+      "half_width_pixels": 48,
+      "pixel_magnitude": 147.4463348388672,
+      "retained_samples": 73,
+      "time_span_s": 5.542677337203594,
+      "nominal_bin_hz": 0.18041822375042357,
+      "search_band_hz": [
+        0.5,
+        4.0
+      ],
+      "best_hz": 2.01,
+      "best_tone_peak_mm": 0.7589312205982358,
+      "best_tone_rms_mm": 0.5366454125391962,
+      "tone_fraction_of_detrended_variance": 0.6653409965451078,
+      "at_2hz_fraction": 0.6540622546655027,
+      "at_2hz_peak_mm": 0.7528545010927641,
+      "detrended_total_rms_mm": 0.6553488681862496
+    },
+    {
+      "full_image_row_col": [
+        13002,
+        15513
+      ],
+      "half_width_pixels": 64,
+      "pixel_magnitude": 147.4463348388672,
+      "retained_samples": 99,
+      "time_span_s": 5.672777329329948,
+      "nominal_bin_hz": 0.17628049576874844,
+      "search_band_hz": [
+        0.5,
+        4.0
+      ],
+      "best_hz": 2.01,
+      "best_tone_peak_mm": 0.7543447857046086,
+      "best_tone_rms_mm": 0.5334023133244418,
+      "tone_fraction_of_detrended_variance": 0.5598544033255217,
+      "at_2hz_fraction": 0.5508884684940912,
+      "at_2hz_peak_mm": 0.749036089224161,
+      "detrended_total_rms_mm": 0.7129715239898907
+    },
+    {
+      "full_image_row_col": [
+        13002,
+        15513
+      ],
+      "half_width_pixels": 80,
+      "pixel_magnitude": 147.4463348388672,
+      "retained_samples": 123,
+      "time_span_s": 5.658395060870363,
+      "nominal_bin_hz": 0.17672855805267546,
+      "search_band_hz": [
+        0.5,
+        4.0
+      ],
+      "best_hz": 2.01,
+      "best_tone_peak_mm": 0.7517621987578923,
+      "best_tone_rms_mm": 0.5315761485814148,
+      "tone_fraction_of_detrended_variance": 0.4876547467331762,
+      "at_2hz_fraction": 0.4802630062720198,
+      "at_2hz_peak_mm": 0.7467680589919107,
+      "detrended_total_rms_mm": 0.7606719038827477
+    },
+    {
+      "full_image_row_col": [
+        13002,
+        15513
+      ],
+      "half_width_pixels": 96,
+      "pixel_magnitude": 147.4463348388672,
+      "retained_samples": 147,
+      "time_span_s": 5.648782047147306,
+      "nominal_bin_hz": 0.17702931209835054,
+      "search_band_hz": [
+        0.5,
+        4.0
+      ],
+      "best_hz": 2.01,
+      "best_tone_peak_mm": 0.751250359713593,
+      "best_tone_rms_mm": 0.5312142237223146,
+      "tone_fraction_of_detrended_variance": 0.43908606155645435,
+      "at_2hz_fraction": 0.43172769870358796,
+      "at_2hz_peak_mm": 0.745609996872222,
+      "detrended_total_rms_mm": 0.8006763001129513
+    }
+  ],
+  "controls": {
+    "selection": "Eight brightest distinct 33x33 local maxima in same chip, within 139 range and 249 azimuth pixels, excluding the central 64 azimuth pixels to each side. Observed clutter and bright features. Stationarity unmeasured.",
+    "rows": [
+      {
+        "full_image_row_col": [
+          13002,
+          15717
+        ],
+        "half_width_pixels": 64,
+        "pixel_magnitude": 486.3516845703125,
+        "retained_samples": 99,
+        "time_span_s": 5.672777329329948,
+        "nominal_bin_hz": 0.17628049576874844,
+        "search_band_hz": [
+          0.5,
+          4.0
+        ],
+        "best_hz": 0.5,
+        "best_tone_peak_mm": 2.459900887253496,
+        "best_tone_rms_mm": 1.7394125984237518,
+        "tone_fraction_of_detrended_variance": 0.15994112520336845,
+        "at_2hz_fraction": 0.00763500739421763,
+        "at_2hz_peak_mm": 0.5298679753374131,
+        "detrended_total_rms_mm": 4.280888760007783
+      },
+      {
+        "full_image_row_col": [
+          13037,
+          15739
+        ],
+        "half_width_pixels": 64,
+        "pixel_magnitude": 146.2494659423828,
+        "retained_samples": 99,
+        "time_span_s": 5.672777329329948,
+        "nominal_bin_hz": 0.17628049576874844,
+        "search_band_hz": [
+          0.5,
+          4.0
+        ],
+        "best_hz": 0.65,
+        "best_tone_peak_mm": 0.6598406083878757,
+        "best_tone_rms_mm": 0.466577768693324,
+        "tone_fraction_of_detrended_variance": 0.17995910128163028,
+        "at_2hz_fraction": 0.02426815687156514,
+        "at_2hz_peak_mm": 0.2396587808021673,
+        "detrended_total_rms_mm": 1.0873092310069834
+      },
+      {
+        "full_image_row_col": [
+          12868,
+          15749
+        ],
+        "half_width_pixels": 64,
+        "pixel_magnitude": 101.17115783691406,
+        "retained_samples": 99,
+        "time_span_s": 5.672777329329948,
+        "nominal_bin_hz": 0.17628049576874844,
+        "search_band_hz": [
+          0.5,
+          4.0
+        ],
+        "best_hz": 2.86,
+        "best_tone_peak_mm": 0.29691495857058414,
+        "best_tone_rms_mm": 0.20995058064098285,
+        "tone_fraction_of_detrended_variance": 0.1535284689897619,
+        "at_2hz_fraction": 0.0032071742394552682,
+        "at_2hz_peak_mm": 0.043018340976415076,
+        "detrended_total_rms_mm": 0.5362345766106439
+      },
+      {
+        "full_image_row_col": [
+          12933,
+          15708
+        ],
+        "half_width_pixels": 64,
+        "pixel_magnitude": 68.49577331542969,
+        "retained_samples": 99,
+        "time_span_s": 5.672777329329948,
+        "nominal_bin_hz": 0.17628049576874844,
+        "search_band_hz": [
+          0.5,
+          4.0
+        ],
+        "best_hz": 0.52,
+        "best_tone_peak_mm": 2.300090558124636,
+        "best_tone_rms_mm": 1.6264096309930807,
+        "tone_fraction_of_detrended_variance": 0.16028526404573917,
+        "at_2hz_fraction": 0.008723215219195501,
+        "at_2hz_peak_mm": 0.5269763222786604,
+        "detrended_total_rms_mm": 3.9921472100704807
+      },
+      {
+        "full_image_row_col": [
+          12974,
+          15695
+        ],
+        "half_width_pixels": 64,
+        "pixel_magnitude": 37.488525390625,
+        "retained_samples": 99,
+        "time_span_s": 5.672777329329948,
+        "nominal_bin_hz": 0.17628049576874844,
+        "search_band_hz": [
+          0.5,
+          4.0
+        ],
+        "best_hz": 0.91,
+        "best_tone_peak_mm": 2.292640372245581,
+        "best_tone_rms_mm": 1.6211415540369007,
+        "tone_fraction_of_detrended_variance": 0.16874951249704406,
+        "at_2hz_fraction": 0.08273899541625473,
+        "at_2hz_peak_mm": 1.6265331869804862,
+        "detrended_total_rms_mm": 3.9999203947782793
+      },
+      {
+        "full_image_row_col": [
+          12913,
+          15714
+        ],
+        "half_width_pixels": 64,
+        "pixel_magnitude": 37.196434020996094,
+        "retained_samples": 99,
+        "time_span_s": 5.672777329329948,
+        "nominal_bin_hz": 0.17628049576874844,
+        "search_band_hz": [
+          0.5,
+          4.0
+        ],
+        "best_hz": 0.91,
+        "best_tone_peak_mm": 1.280102769254144,
+        "best_tone_rms_mm": 0.9051693487552834,
+        "tone_fraction_of_detrended_variance": 0.16622134862278715,
+        "at_2hz_fraction": 0.005869587937133547,
+        "at_2hz_peak_mm": 0.24109224711040003,
+        "detrended_total_rms_mm": 2.2273857468150724
+      },
+      {
+        "full_image_row_col": [
+          12893,
+          15721
+        ],
+        "half_width_pixels": 64,
+        "pixel_magnitude": 34.91767120361328,
+        "retained_samples": 99,
+        "time_span_s": 5.672777329329948,
+        "nominal_bin_hz": 0.17628049576874844,
+        "search_band_hz": [
+          0.5,
+          4.0
+        ],
+        "best_hz": 0.5,
+        "best_tone_peak_mm": 3.2217408973841426,
+        "best_tone_rms_mm": 2.27811483576636,
+        "tone_fraction_of_detrended_variance": 0.17990097140541905,
+        "at_2hz_fraction": 0.02333681291854517,
+        "at_2hz_peak_mm": 1.1443925661592715,
+        "detrended_total_rms_mm": 5.297472921823395
+      },
+      {
+        "full_image_row_col": [
+          13088,
+          15732
+        ],
+        "half_width_pixels": 64,
+        "pixel_magnitude": 22.548765182495117,
+        "retained_samples": 99,
+        "time_span_s": 5.672777329329948,
+        "nominal_bin_hz": 0.17628049576874844,
+        "search_band_hz": [
+          0.5,
+          4.0
+        ],
+        "best_hz": 0.5,
+        "best_tone_peak_mm": 3.60945794284981,
+        "best_tone_rms_mm": 2.5522721877967465,
+        "tone_fraction_of_detrended_variance": 0.10482336816631976,
+        "at_2hz_fraction": 0.012646108585628424,
+        "at_2hz_peak_mm": 1.2303708881289876,
+        "detrended_total_rms_mm": 7.725946097514266
+      }
+    ]
+  }
+}

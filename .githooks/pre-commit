@@ -1,0 +1,13 @@
+#!/bin/sh
+set -eu
+# Build from the staged snapshot so local drafts cannot enter the public graph.
+work=$(mktemp -d)
+trap 'rm -rf "$work"' EXIT
+git ls-files --cached -z > "$work/paths"
+git checkout-index --all --prefix="$work/checkout/"
+python3 "$work/checkout/tools/build_hub.py" --files-from "$work/paths"
+blob=$(git hash-object -w "$work/checkout/data/ontology.json")
+if git diff --quiet -- data/ontology.json; then
+    cp "$work/checkout/data/ontology.json" data/ontology.json
+fi
+git update-index --add --cacheinfo "100644,$blob,data/ontology.json"

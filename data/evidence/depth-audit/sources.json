@@ -1,0 +1,145 @@
+{
+  "as_of": "2026-11-26 America/Los_Angeles",
+  "sources": {
+    "press": {
+      "url": "https://codigooculto.com/wp-content/uploads/2025/03/project-khafre-2025.pdf",
+      "scope": "Biondi, Mei and Malanga, signed March 2025 press abstract. Page 2 lists providers, page 5 gives the base reference, eight and 648 m, page 6 figures, page 7 separate plateau-wide ~2 km interpretation. The PDF has seven pages and zero embedded files (pdfinfo and pdfdetach -list).",
+      "local": "Author material/Khafre presentation/khafre.pdf",
+      "sha256": "9f886dfcb96a6a7a6317ce8d76447699fd17e5a942cd02808c5748d3fc4d083f"
+    },
+    "conference": {
+      "url": "https://www.youtube.com/watch?v=bM8vzUUZdVM&t=10960s",
+      "scope": "Original Italian conference recording. Inspect 03:02:00 tube diameter assumption, 03:02:40 section drawing and 03:03:10 rescaled version of this section."
+    },
+    "gallery": {
+      "url": "https://opusmagnum.org/khafre-project-gallery/",
+      "scope": "Gallery reproduces the original Italian presentation after a translated selection. The April times in PNG names are capture names. Exact byte fingerprints and links for five preserved slides are in result.json."
+    },
+    "dimension": {
+      "url": "https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-04-19-at-7.39.59-PM.png",
+      "scope": "Projected wireframe superimposed on colored section. 304/152 m horizontal guides and 137/648/785 m vertical guides. A single composite dimension, no eight measured termini."
+    },
+    "author_marks": {
+      "url": "https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-04-19-at-7.37.13-PM.png",
+      "scope": "Leaders 1-8 on the initial horizontal tomogram. Caption explicitly says the traces were identified on revisiting the image after other tomograms."
+    },
+    "cube": {
+      "url": "https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-04-19-at-7.39.51-PM.png",
+      "scope": "~80 m cube side is derived assuming descending tube diameter ~20 m. Neither dimension is an independent control for the other."
+    },
+    "model": {
+      "url": "https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-04-19-at-7.44.14-PM.png",
+      "scope": "Additional overhead CAD rendering. No earth-coordinate or elevation axis on this slide."
+    },
+    "orientation": {
+      "url": "https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-04-19-at-7.35.01-PM.png",
+      "scope": "West described at right on a related view, but this slide calls it a vertical tomogram. The annotated plan does not identify surveyed corner coordinates or geotransform."
+    },
+    "pano": {
+      "url": "https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-04-19-at-7.47.02-PM.png",
+      "scope": "See full gallery for labeled plateau section lines. Page 7 of press PDF has numeric ticks without a vertical unit or time-to-depth transfer; it is a different section."
+    },
+    "petrie": {
+      "url": "https://pdfs.petrieproject.com/cu31924012038927.pdf",
+      "scope": "Petrie, The Pyramids and Temples of Gizeh, chapter VIII section 66, p. 97. Mean of four sides 8474.9 inches. Section 67 reconstructs original apex; do not substitute it for the displayed 137 m.",
+      "local": "Prior studies/recon-calibration/inputs/petrie.pdf",
+      "sha256": "bced464c57b8c34df491368113c076896c1e43d54d1b08ccb5fb7ccb5b3fbfeb"
+    },
+    "khufu_paper": {
+      "url": "https://www.mdpi.com/2072-4292/14/20/5231",
+      "scope": "Earlier Khufu study, section 4 figure 8d/equations 21-24 and numerical example on p.16. Table 2 identifies COSMO-SkyMed observations by date, beam, polarization, orbit, and purpose. Internal results concern Khufu only.",
+      "local": "Archive evidence/Khufu 2022 paper.pdf",
+      "sha256": "29d7be57ed9522e916ca347724f1f427e74a63a8eb349d8016dd384e7977c79d"
+    },
+    "retraction": {
+      "url": "https://www.mdpi.com/2072-4292/18/16/2679",
+      "scope": "The journal retracted the 2022 paper in August 2026; authors disagreed. Separate from March 2025 claim."
+    },
+    "patent": {
+      "url": "https://patents.google.com/patent/WO2024008365A1/en",
+      "scope": "Method description including focusing and geocoding; not a manifest of runs for the March 2025 press release.",
+      "local": "Prior studies/source-audit/patent.pdf",
+      "sha256": "5ca0edc606e5c6bb5e7fc1bbf46bc21e91977584d501a0158160165e368f9a07"
+    },
+    "michels": {
+      "url": "https://www.youtube.com/watch?v=zrmG2jBckgk&t=265s",
+      "scope": "Dec 2025 Jesse Michels interview, 03:53-06:07. Biondi describes structures connected to the Khafre base, more than 1 km depth, then four plus four tubes and two ~80 m chambers. He does not reconcile this description with the 648 m bracket here."
+    },
+    "rogan": {
+      "url": "https://www.youtube.com/watch?v=bhaz6vd4nSI&t=1563s",
+      "scope": "Jan 2026 Joe Rogan interview. 26:03-27:06 discusses collapsed access shafts between Khafre and the Sphinx; Biondi attributes ~600 m to tomography. Different proposed access paths."
+    },
+    "field": {
+      "url": "https://www.youtube.com/watch?v=s84V4rjFZYs",
+      "scope": "Project update reports an August 2026 field application. This is a request for field work, not ground measurements."
+    },
+    "comparison": {
+      "url": "https://archaeologicalrescue.org/biondi-validation/",
+      "scope": "November 2026 ARF report. Khafre east/west companion images have nominal depth range to 50 m. Khufu/Osiris/cemetery outputs and ICEYE X13/X33 references are separate."
+    },
+    "muons": {
+      "url": "https://www2.lns.mit.edu/fisherp/AlvarezPyramids.pdf",
+      "scope": "Alvarez et al., Science 1970, 167, 832-839. Second Pyramid. Detector near the base in the Belzoni chamber, searched in a cone extending upward, half-angle 35 degrees. Deep lower endpoints lie outside the tested volume."
+    },
+    "site_velocity": {
+      "url": "https://gi.copernicus.org/articles/8/29/2019/",
+      "scope": "Site geophysical refraction surveys constrain shallow geological velocities at surveyed locations. They do not establish an effective 648 m path velocity, mode or forcing spectrum under the footprint."
+    },
+    "actual_calibration": {
+      "url": "https://doi.org/10.1038/s41598-025-91115-8",
+      "scope": "An example of local wave speed and known-reflector calibration on a different accessible target, the Khufu North Face Corridor."
+    },
+    "open_capella": {
+      "url": "https://registry.opendata.aws/capella_opendata/",
+      "scope": "Candidate provider dataset. Product URLs below come from the project inventory."
+    },
+    "local_index": "00_Giza Radar Index.html",
+    "local_catalog": "02_Data catalog/catalog.json"
+  },
+  "availability": {
+    "author_public_digital": [
+      "signed PDF with embedded color rasters",
+      "Italian conference video",
+      "numbered plan, two color renderings, dimensioned section, CAD screenshots",
+      "method paper on Khufu and patent application"
+    ],
+    "coordinates": "Platform search center in the local catalog is 31.1308 E, 29.9761 N for Khafre. It is not a list of shaft coordinates. Eight figure-space marks and sketch directions exist, but no per-shaft surveyed WGS84 positions, uncertainty or signed geotransform in the reviewed author evidence.",
+    "elevation": "137 m top above footprint base, base is local zero for the stated 648 m bracket, total 785 m. No published geodetic zero, 8 top/bottom picks, original depth bins, per-bin times, or velocity profile tied to this slice were identified.",
+    "providers": "March press abstract identifies Capella and Umbra. In the reviewed primary materials no collect ID, date/time, or figure-to-acquisition mapping for the 648 m dimension was found. Scope is the listed sources, not a provider archive-wide impossibility claim.",
+    "alternative_candidate_products": [
+      {
+        "id": "CAPELLA_C13_SP_SLC_HH_20240916215711_20240916215743",
+        "source": "https://capella-open-data.s3.us-west-2.amazonaws.com/stac/capella-open-data-by-datetime/capella-open-data-2024/capella-open-data-2024-09/capella-open-data-2024-09-16/CAPELLA_C13_SP_SLC_HH_20240916215711_20240916215743/CAPELLA_C13_SP_SLC_HH_20240916215711_20240916215743.json"
+      },
+      {
+        "id": "CAPELLA_C13_SP_SLC_HH_20241004001939_20241004002012",
+        "source": "https://capella-open-data.s3.us-west-2.amazonaws.com/stac/capella-open-data-by-datetime/capella-open-data-2024/capella-open-data-2024-10/capella-open-data-2024-10-04/CAPELLA_C13_SP_SLC_HH_20241004001939_20241004002012/CAPELLA_C13_SP_SLC_HH_20241004001939_20241004002012.json"
+      },
+      {
+        "id": "2023-02-07-07-58-27_UMBRA-05",
+        "source": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/7e7cd796-3842-4923-8b48-4c0950ece945/2023-02-07-07-58-27_UMBRA-05/2023-02-07-07-58-27_UMBRA-05_METADATA.json"
+      },
+      {
+        "id": "2023-02-08-07-54-55_UMBRA-04",
+        "source": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/44da7805-2129-4105-add8-2403bf671f40/2023-02-08-07-54-55_UMBRA-04/2023-02-08-07-54-55_UMBRA-04_METADATA.json"
+      },
+      {
+        "id": "2023-02-10-07-29-54_UMBRA-04",
+        "source": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/e00923b7-7a71-4c44-bff6-0765c38a8273/2023-02-10-07-29-54_UMBRA-04_METADATA.json"
+      },
+      {
+        "id": "2023-03-08-07-57-53_UMBRA-04",
+        "source": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/5aa49658-ecf9-4504-afee-281f43fb076e/2023-03-08-07-57-53_UMBRA-04/2023-03-08-07-57-53_UMBRA-04_METADATA.json"
+      }
+    ],
+    "time": "Public comparison collects have UTC times, state vectors and radar sampling rates. They time the radar acquisition. The team does not provide a timed acoustic arrival, source onset, per-look complex Y, signed baselines, seismic wavelength or acoustic speed calibration for this section.",
+    "unrecovered": [
+      "author input files identified per figure",
+      "author extraction lines with surveyed endpoints and vertical datum",
+      "original prerecolor numeric volume, shifts, axes, and units",
+      "mesh with metric coordinate metadata and versions",
+      "model configuration and run-to-figure log",
+      "independently measured bottom depth"
+    ]
+  }
+}

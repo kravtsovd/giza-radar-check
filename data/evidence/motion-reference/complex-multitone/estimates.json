@@ -1,0 +1,1434 @@
+{
+  "reference": "Vattulainen et al., IEEE Access (2026), doi:10.1109/ACCESS.2026.3652346, Fig.7b and tests 8 and 9. SAR: Umbra, CC BY 4.0.",
+  "method": "Fixed for both scenes. Highest full-image local magnitude peak within 35 m of the published Glasgow site; five brightest local peaks 50-100 m away, separated by 18 m. Same 129-pixel azimuth Tukey window (.33), PFA k-to-time, 3.5% margin per edge, linear phase detrend, floating-intercept/slope sinusoid fits and 1.75 s local windows. Displacement proxy sign is not calibrated. Programs were known; no tuning or point choice by fit. Controls are comparison returns without independent motion labels.",
+  "results": [
+    {
+      "trial": 8,
+      "point": "site",
+      "image_row": 13518,
+      "image_col": 13736,
+      "distance_from_published_site_m": 20.46,
+      "ground_approx_lat_lon_at_scene_center_height": [
+        55.84380422500788,
+        -4.236666350059208
+      ],
+      "magnitude": 11.014339447021484,
+      "aperture_sample_times_since_SICD_start_s": [
+        2.128283887315802,
+        9.403932912118968
+      ],
+      "aperture_span_s": 7.275649024803166,
+      "fourier_resolution_Hz": 0.1374447828078202,
+      "independent_frequency_bins_used": 95,
+      "phase_displacement_rms_mm": 1.5174413602300143,
+      "strongest_displacement_spectrum_peaks": [
+        {
+          "Hz": 2.0,
+          "partial_R2": 0.29986005077319555
+        },
+        {
+          "Hz": 2.2,
+          "partial_R2": 0.06426749308462953
+        },
+        {
+          "Hz": 1.32,
+          "partial_R2": 0.05519087240150433
+        },
+        {
+          "Hz": 3.6,
+          "partial_R2": 0.053117852005523436
+        },
+        {
+          "Hz": 1.66,
+          "partial_R2": 0.052620198529652495
+        }
+      ],
+      "simultaneous_2_4_Hz_displacement_amplitude_mm": [
+        1.1864395456684933,
+        0.3929876317758573
+      ],
+      "simultaneous_2_4_Hz_partial_R2": 0.3332617097181999,
+      "local_frequency_windows": [
+        {
+          "time_since_SICD_collect_start_s": 3.003,
+          "best_frequency_Hz": 2.08,
+          "local_partial_R2": 0.3
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.353,
+          "best_frequency_Hz": 2.14,
+          "local_partial_R2": 0.4254
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.703,
+          "best_frequency_Hz": 2.06,
+          "local_partial_R2": 0.5748
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.053,
+          "best_frequency_Hz": 2.06,
+          "local_partial_R2": 0.4967
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.403,
+          "best_frequency_Hz": 2.06,
+          "local_partial_R2": 0.5672
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.753,
+          "best_frequency_Hz": 2.0,
+          "local_partial_R2": 0.457
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.103,
+          "best_frequency_Hz": 1.88,
+          "local_partial_R2": 0.4173
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.453,
+          "best_frequency_Hz": 1.8,
+          "local_partial_R2": 0.4619
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.803,
+          "best_frequency_Hz": 1.82,
+          "local_partial_R2": 0.4956
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.153,
+          "best_frequency_Hz": 2.16,
+          "local_partial_R2": 0.4358
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.503,
+          "best_frequency_Hz": 2.06,
+          "local_partial_R2": 0.305
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.853,
+          "best_frequency_Hz": 1.1,
+          "local_partial_R2": 0.3343
+        },
+        {
+          "time_since_SICD_collect_start_s": 7.203,
+          "best_frequency_Hz": 1.84,
+          "local_partial_R2": 0.3327
+        },
+        {
+          "time_since_SICD_collect_start_s": 7.553,
+          "best_frequency_Hz": 1.94,
+          "local_partial_R2": 0.5456
+        },
+        {
+          "time_since_SICD_collect_start_s": 7.903,
+          "best_frequency_Hz": 2.04,
+          "local_partial_R2": 0.4103
+        },
+        {
+          "time_since_SICD_collect_start_s": 8.253,
+          "best_frequency_Hz": 1.9,
+          "local_partial_R2": 0.4021
+        }
+      ]
+    },
+    {
+      "trial": 8,
+      "point": "control-1",
+      "image_row": 13668,
+      "image_col": 13481,
+      "distance_from_published_site_m": 83.81,
+      "ground_approx_lat_lon_at_scene_center_height": [
+        55.84416255999806,
+        -4.23750520721687
+      ],
+      "magnitude": 85.81875610351562,
+      "aperture_sample_times_since_SICD_start_s": [
+        2.128283887315802,
+        9.403932912118968
+      ],
+      "aperture_span_s": 7.275649024803166,
+      "fourier_resolution_Hz": 0.1374447828078202,
+      "independent_frequency_bins_used": 95,
+      "phase_displacement_rms_mm": 0.2803735479512394,
+      "strongest_displacement_spectrum_peaks": [
+        {
+          "Hz": 0.72,
+          "partial_R2": 0.04264573170818953
+        },
+        {
+          "Hz": 1.68,
+          "partial_R2": 0.03787480718528713
+        },
+        {
+          "Hz": 0.86,
+          "partial_R2": 0.0332688530992723
+        },
+        {
+          "Hz": 1.46,
+          "partial_R2": 0.02666271705004175
+        },
+        {
+          "Hz": 3.1,
+          "partial_R2": 0.024614444208330588
+        }
+      ],
+      "simultaneous_2_4_Hz_displacement_amplitude_mm": [
+        0.038006720356339424,
+        0.021796949805643447
+      ],
+      "simultaneous_2_4_Hz_partial_R2": 0.012410670666288426,
+      "local_frequency_windows": [
+        {
+          "time_since_SICD_collect_start_s": 3.003,
+          "best_frequency_Hz": 3.24,
+          "local_partial_R2": 0.4513
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.353,
+          "best_frequency_Hz": 4.02,
+          "local_partial_R2": 0.3577
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.703,
+          "best_frequency_Hz": 1.72,
+          "local_partial_R2": 0.3197
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.053,
+          "best_frequency_Hz": 1.66,
+          "local_partial_R2": 0.3667
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.403,
+          "best_frequency_Hz": 1.32,
+          "local_partial_R2": 0.3294
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.753,
+          "best_frequency_Hz": 1.38,
+          "local_partial_R2": 0.3566
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.103,
+          "best_frequency_Hz": 1.32,
+          "local_partial_R2": 0.3133
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.453,
+          "best_frequency_Hz": 4.94,
+          "local_partial_R2": 0.3357
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.803,
+          "best_frequency_Hz": 0.74,
+          "local_partial_R2": 0.4368
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.153,
+          "best_frequency_Hz": 0.5,
+          "local_partial_R2": 0.5889
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.503,
+          "best_frequency_Hz": 3.08,
+          "local_partial_R2": 0.4608
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.853,
+          "best_frequency_Hz": 3.0,
+          "local_partial_R2": 0.4341
+        },
+        {
+          "time_since_SICD_collect_start_s": 7.203,
+          "best_frequency_Hz": 3.22,
+          "local_partial_R2": 0.3835
+        },
+        {
+          "time_since_SICD_collect_start_s": 7.553,
+          "best_frequency_Hz": 1.7,
+          "local_partial_R2": 0.3277
+        },
+        {
+          "time_since_SICD_collect_start_s": 7.903,
+          "best_frequency_Hz": 1.7,
+          "local_partial_R2": 0.4741
+        },
+        {
+          "time_since_SICD_collect_start_s": 8.253,
+          "best_frequency_Hz": 0.5,
+          "local_partial_R2": 0.4781
+        }
+      ]
+    },
+    {
+      "trial": 8,
+      "point": "control-2",
+      "image_row": 13744,
+      "image_col": 13452,
+      "distance_from_published_site_m": 99.66,
+      "ground_approx_lat_lon_at_scene_center_height": [
+        55.84415561938819,
+        -4.237795456396583
+      ],
+      "magnitude": 24.47032928466797,
+      "aperture_sample_times_since_SICD_start_s": [
+        2.128283887315802,
+        9.403932912118968
+      ],
+      "aperture_span_s": 7.275649024803166,
+      "fourier_resolution_Hz": 0.1374447828078202,
+      "independent_frequency_bins_used": 95,
+      "phase_displacement_rms_mm": 0.5642064204236574,
+      "strongest_displacement_spectrum_peaks": [
+        {
+          "Hz": 2.78,
+          "partial_R2": 0.1141225709575523
+        },
+        {
+          "Hz": 0.86,
+          "partial_R2": 0.10862644407936606
+        },
+        {
+          "Hz": 2.02,
+          "partial_R2": 0.06512025631032414
+        },
+        {
+          "Hz": 2.56,
+          "partial_R2": 0.06426037786337102
+        },
+        {
+          "Hz": 1.54,
+          "partial_R2": 0.04962435636763829
+        }
+      ],
+      "simultaneous_2_4_Hz_displacement_amplitude_mm": [
+        0.20068746976316507,
+        0.0824278365384368
+      ],
+      "simultaneous_2_4_Hz_partial_R2": 0.07423791303758942,
+      "local_frequency_windows": [
+        {
+          "time_since_SICD_collect_start_s": 3.003,
+          "best_frequency_Hz": 1.82,
+          "local_partial_R2": 0.4368
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.353,
+          "best_frequency_Hz": 2.64,
+          "local_partial_R2": 0.4309
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.703,
+          "best_frequency_Hz": 2.42,
+          "local_partial_R2": 0.614
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.053,
+          "best_frequency_Hz": 2.24,
+          "local_partial_R2": 0.5799
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.403,
+          "best_frequency_Hz": 2.04,
+          "local_partial_R2": 0.5801
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.753,
+          "best_frequency_Hz": 1.98,
+          "local_partial_R2": 0.573
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.103,
+          "best_frequency_Hz": 4.44,
+          "local_partial_R2": 0.3073
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.453,
+          "best_frequency_Hz": 2.2,
+          "local_partial_R2": 0.3186
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.803,
+          "best_frequency_Hz": 3.04,
+          "local_partial_R2": 0.4215
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.153,
+          "best_frequency_Hz": 3.16,
+          "local_partial_R2": 0.3706
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.503,
+          "best_frequency_Hz": 3.22,
+          "local_partial_R2": 0.3425
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.853,
+          "best_frequency_Hz": 2.54,
+          "local_partial_R2": 0.5032
+        },
+        {
+          "time_since_SICD_collect_start_s": 7.203,
+          "best_frequency_Hz": 0.5,
+          "local_partial_R2": 0.32
+        },
+        {
+          "time_since_SICD_collect_start_s": 7.553,
+          "best_frequency_Hz": 1.1,
+          "local_partial_R2": 0.4167
+        },
+        {
+          "time_since_SICD_collect_start_s": 7.903,
+          "best_frequency_Hz": 0.94,
+          "local_partial_R2": 0.4543
+        },
+        {
+          "time_since_SICD_collect_start_s": 8.253,
+          "best_frequency_Hz": 0.5,
+          "local_partial_R2": 0.464
+        }
+      ]
+    },
+    {
+      "trial": 8,
+      "point": "control-3",
+      "image_row": 13308,
+      "image_col": 14166,
+      "distance_from_published_site_m": 91.29,
+      "ground_approx_lat_lon_at_scene_center_height": [
+        55.843165300646945,
+        -4.235393716599647
+      ],
+      "magnitude": 23.678543090820312,
+      "aperture_sample_times_since_SICD_start_s": [
+        2.128283887315802,
+        9.403932912118968
+      ],
+      "aperture_span_s": 7.275649024803166,
+      "fourier_resolution_Hz": 0.1374447828078202,
+      "independent_frequency_bins_used": 95,
+      "phase_displacement_rms_mm": 0.7894463318114177,
+      "strongest_displacement_spectrum_peaks": [
+        {
+          "Hz": 2.08,
+          "partial_R2": 0.1683069556345258
+        },
+        {
+          "Hz": 3.16,
+          "partial_R2": 0.07129112280318961
+        },
+        {
+          "Hz": 0.64,
+          "partial_R2": 0.0635857375720984
+        },
+        {
+          "Hz": 1.16,
+          "partial_R2": 0.05548270476298822
+        },
+        {
+          "Hz": 0.82,
+          "partial_R2": 0.05330323869058762
+        }
+      ],
+      "simultaneous_2_4_Hz_displacement_amplitude_mm": [
+        0.284201148193406,
+        0.19677705784640914
+      ],
+      "simultaneous_2_4_Hz_partial_R2": 0.09482370313638744,
+      "local_frequency_windows": [
+        {
+          "time_since_SICD_collect_start_s": 3.003,
+          "best_frequency_Hz": 0.76,
+          "local_partial_R2": 0.3656
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.353,
+          "best_frequency_Hz": 0.72,
+          "local_partial_R2": 0.4247
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.703,
+          "best_frequency_Hz": 1.86,
+          "local_partial_R2": 0.5139
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.053,
+          "best_frequency_Hz": 2.08,
+          "local_partial_R2": 0.2968
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.403,
+          "best_frequency_Hz": 2.18,
+          "local_partial_R2": 0.3572
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.753,
+          "best_frequency_Hz": 2.16,
+          "local_partial_R2": 0.6048
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.103,
+          "best_frequency_Hz": 2.24,
+          "local_partial_R2": 0.5007
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.453,
+          "best_frequency_Hz": 2.08,
+          "local_partial_R2": 0.5315
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.803,
+          "best_frequency_Hz": 2.06,
+          "local_partial_R2": 0.4749
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.153,
+          "best_frequency_Hz": 3.2,
+          "local_partial_R2": 0.2676
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.503,
+          "best_frequency_Hz": 3.36,
+          "local_partial_R2": 0.3273
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.853,
+          "best_frequency_Hz": 2.18,
+          "local_partial_R2": 0.3943
+        },
+        {
+          "time_since_SICD_collect_start_s": 7.203,
+          "best_frequency_Hz": 3.38,
+          "local_partial_R2": 0.2969
+        },
+        {
+          "time_since_SICD_collect_start_s": 7.553,
+          "best_frequency_Hz": 3.16,
+          "local_partial_R2": 0.3347
+        },
+        {
+          "time_since_SICD_collect_start_s": 7.903,
+          "best_frequency_Hz": 2.3,
+          "local_partial_R2": 0.5216
+        },
+        {
+          "time_since_SICD_collect_start_s": 8.253,
+          "best_frequency_Hz": 0.5,
+          "local_partial_R2": 0.3542
+        }
+      ]
+    },
+    {
+      "trial": 8,
+      "point": "control-4",
+      "image_row": 13549,
+      "image_col": 13528,
+      "distance_from_published_site_m": 61.28,
+      "ground_approx_lat_lon_at_scene_center_height": [
+        55.844170435047204,
+        -4.2370485955366
+      ],
+      "magnitude": 15.89040756225586,
+      "aperture_sample_times_since_SICD_start_s": [
+        2.128283887315802,
+        9.403932912118968
+      ],
+      "aperture_span_s": 7.275649024803166,
+      "fourier_resolution_Hz": 0.1374447828078202,
+      "independent_frequency_bins_used": 95,
+      "phase_displacement_rms_mm": 1.0883045831141605,
+      "strongest_displacement_spectrum_peaks": [
+        {
+          "Hz": 0.86,
+          "partial_R2": 0.15342170286082302
+        },
+        {
+          "Hz": 1.6,
+          "partial_R2": 0.08525599442765053
+        },
+        {
+          "Hz": 2.78,
+          "partial_R2": 0.06406037156628297
+        },
+        {
+          "Hz": 0.54,
+          "partial_R2": 0.057730336711353414
+        },
+        {
+          "Hz": 4.44,
+          "partial_R2": 0.05487833818641452
+        }
+      ],
+      "simultaneous_2_4_Hz_displacement_amplitude_mm": [
+        0.21536388255597974,
+        0.10774949688620188
+      ],
+      "simultaneous_2_4_Hz_partial_R2": 0.024459761166580662,
+      "local_frequency_windows": [
+        {
+          "time_since_SICD_collect_start_s": 3.003,
+          "best_frequency_Hz": 1.48,
+          "local_partial_R2": 0.5457
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.353,
+          "best_frequency_Hz": 1.7,
+          "local_partial_R2": 0.5201
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.703,
+          "best_frequency_Hz": 1.7,
+          "local_partial_R2": 0.5519
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.053,
+          "best_frequency_Hz": 1.82,
+          "local_partial_R2": 0.3987
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.403,
+          "best_frequency_Hz": 0.5,
+          "local_partial_R2": 0.4182
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.753,
+          "best_frequency_Hz": 1.68,
+          "local_partial_R2": 0.3801
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.103,
+          "best_frequency_Hz": 2.88,
+          "local_partial_R2": 0.4123
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.453,
+          "best_frequency_Hz": 1.12,
+          "local_partial_R2": 0.3197
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.803,
+          "best_frequency_Hz": 2.78,
+          "local_partial_R2": 0.3725
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.153,
+          "best_frequency_Hz": 2.86,
+          "local_partial_R2": 0.2203
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.503,
+          "best_frequency_Hz": 5.16,
+          "local_partial_R2": 0.333
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.853,
+          "best_frequency_Hz": 4.96,
+          "local_partial_R2": 0.3013
+        },
+        {
+          "time_since_SICD_collect_start_s": 7.203,
+          "best_frequency_Hz": 5.04,
+          "local_partial_R2": 0.2611
+        },
+        {
+          "time_since_SICD_collect_start_s": 7.553,
+          "best_frequency_Hz": 5.26,
+          "local_partial_R2": 0.2536
+        },
+        {
+          "time_since_SICD_collect_start_s": 7.903,
+          "best_frequency_Hz": 0.9,
+          "local_partial_R2": 0.2559
+        },
+        {
+          "time_since_SICD_collect_start_s": 8.253,
+          "best_frequency_Hz": 0.76,
+          "local_partial_R2": 0.4609
+        }
+      ]
+    },
+    {
+      "trial": 8,
+      "point": "control-5",
+      "image_row": 13233,
+      "image_col": 13966,
+      "distance_from_published_site_m": 61.49,
+      "ground_approx_lat_lon_at_scene_center_height": [
+        55.84360221460646,
+        -4.23541482390595
+      ],
+      "magnitude": 5.535524845123291,
+      "aperture_sample_times_since_SICD_start_s": [
+        2.128283887315802,
+        9.403932912118968
+      ],
+      "aperture_span_s": 7.275649024803166,
+      "fourier_resolution_Hz": 0.1374447828078202,
+      "independent_frequency_bins_used": 95,
+      "phase_displacement_rms_mm": 9.555214130120152,
+      "strongest_displacement_spectrum_peaks": [
+        {
+          "Hz": 0.72,
+          "partial_R2": 0.1621316172075603
+        },
+        {
+          "Hz": 0.56,
+          "partial_R2": 0.06706646319646847
+        },
+        {
+          "Hz": 1.28,
+          "partial_R2": 0.04995918261827814
+        },
+        {
+          "Hz": 0.88,
+          "partial_R2": 0.036312290963875116
+        },
+        {
+          "Hz": 1.84,
+          "partial_R2": 0.02534286312598777
+        }
+      ],
+      "simultaneous_2_4_Hz_displacement_amplitude_mm": [
+        1.0255373494557647,
+        0.5615015673114471
+      ],
+      "simultaneous_2_4_Hz_partial_R2": 0.007317270379703977,
+      "local_frequency_windows": [
+        {
+          "time_since_SICD_collect_start_s": 3.003,
+          "best_frequency_Hz": 0.5,
+          "local_partial_R2": 0.6039
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.353,
+          "best_frequency_Hz": 0.5,
+          "local_partial_R2": 0.7662
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.703,
+          "best_frequency_Hz": 0.86,
+          "local_partial_R2": 0.7655
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.053,
+          "best_frequency_Hz": 0.86,
+          "local_partial_R2": 0.7732
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.403,
+          "best_frequency_Hz": 0.66,
+          "local_partial_R2": 0.7526
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.753,
+          "best_frequency_Hz": 1.12,
+          "local_partial_R2": 0.4349
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.103,
+          "best_frequency_Hz": 2.34,
+          "local_partial_R2": 0.4867
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.453,
+          "best_frequency_Hz": 0.72,
+          "local_partial_R2": 0.3777
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.803,
+          "best_frequency_Hz": 0.68,
+          "local_partial_R2": 0.4497
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.153,
+          "best_frequency_Hz": 0.6,
+          "local_partial_R2": 0.6248
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.503,
+          "best_frequency_Hz": 0.5,
+          "local_partial_R2": 0.6058
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.853,
+          "best_frequency_Hz": 0.5,
+          "local_partial_R2": 0.5076
+        },
+        {
+          "time_since_SICD_collect_start_s": 7.203,
+          "best_frequency_Hz": 0.8,
+          "local_partial_R2": 0.5703
+        },
+        {
+          "time_since_SICD_collect_start_s": 7.553,
+          "best_frequency_Hz": 1.18,
+          "local_partial_R2": 0.386
+        },
+        {
+          "time_since_SICD_collect_start_s": 7.903,
+          "best_frequency_Hz": 0.5,
+          "local_partial_R2": 0.6081
+        },
+        {
+          "time_since_SICD_collect_start_s": 8.253,
+          "best_frequency_Hz": 0.64,
+          "local_partial_R2": 0.8713
+        }
+      ]
+    },
+    {
+      "trial": 9,
+      "point": "site",
+      "image_row": 13124,
+      "image_col": 19394,
+      "distance_from_published_site_m": 17.62,
+      "ground_approx_lat_lon_at_scene_center_height": [
+        55.843794970853274,
+        -4.236621769235833
+      ],
+      "magnitude": 216.82489013671875,
+      "aperture_sample_times_since_SICD_start_s": [
+        2.2182038962621977,
+        8.015144296951707
+      ],
+      "aperture_span_s": 5.796940400689509,
+      "fourier_resolution_Hz": 0.1725047923351181,
+      "independent_frequency_bins_used": 95,
+      "phase_displacement_rms_mm": 1.9532557254636354,
+      "strongest_displacement_spectrum_peaks": [
+        {
+          "Hz": 1.5,
+          "partial_R2": 0.3642346819052381
+        },
+        {
+          "Hz": 2.48,
+          "partial_R2": 0.22427334497180618
+        },
+        {
+          "Hz": 1.02,
+          "partial_R2": 0.19566170183198217
+        },
+        {
+          "Hz": 3.02,
+          "partial_R2": 0.10706292038482357
+        },
+        {
+          "Hz": 3.54,
+          "partial_R2": 0.03253219263037943
+        }
+      ],
+      "simultaneous_2_4_Hz_displacement_amplitude_mm": [
+        0.14152115955117786,
+        0.050597326733491474
+      ],
+      "simultaneous_2_4_Hz_partial_R2": 0.0029163948665936745,
+      "local_frequency_windows": [
+        {
+          "time_since_SICD_collect_start_s": 3.093,
+          "best_frequency_Hz": 1.48,
+          "local_partial_R2": 0.5373
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.443,
+          "best_frequency_Hz": 1.12,
+          "local_partial_R2": 0.4918
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.793,
+          "best_frequency_Hz": 1.54,
+          "local_partial_R2": 0.3697
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.143,
+          "best_frequency_Hz": 2.56,
+          "local_partial_R2": 0.517
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.493,
+          "best_frequency_Hz": 1.52,
+          "local_partial_R2": 0.3818
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.843,
+          "best_frequency_Hz": 1.22,
+          "local_partial_R2": 0.4609
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.193,
+          "best_frequency_Hz": 1.32,
+          "local_partial_R2": 0.6332
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.543,
+          "best_frequency_Hz": 1.34,
+          "local_partial_R2": 0.3489
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.893,
+          "best_frequency_Hz": 2.82,
+          "local_partial_R2": 0.3689
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.243,
+          "best_frequency_Hz": 2.6,
+          "local_partial_R2": 0.386
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.593,
+          "best_frequency_Hz": 1.48,
+          "local_partial_R2": 0.3548
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.943,
+          "best_frequency_Hz": 1.2,
+          "local_partial_R2": 0.3918
+        }
+      ]
+    },
+    {
+      "trial": 9,
+      "point": "control-1",
+      "image_row": 13263,
+      "image_col": 19678,
+      "distance_from_published_site_m": 67.47,
+      "ground_approx_lat_lon_at_scene_center_height": [
+        55.844290061520894,
+        -4.236949957335286
+      ],
+      "magnitude": 211.89976501464844,
+      "aperture_sample_times_since_SICD_start_s": [
+        2.2182038962621977,
+        8.015144296951707
+      ],
+      "aperture_span_s": 5.796940400689509,
+      "fourier_resolution_Hz": 0.1725047923351181,
+      "independent_frequency_bins_used": 95,
+      "phase_displacement_rms_mm": 0.5121471644723434,
+      "strongest_displacement_spectrum_peaks": [
+        {
+          "Hz": 1.6,
+          "partial_R2": 0.10099372512832272
+        },
+        {
+          "Hz": 1.0,
+          "partial_R2": 0.061150268786669626
+        },
+        {
+          "Hz": 2.0,
+          "partial_R2": 0.04392812061835527
+        },
+        {
+          "Hz": 0.58,
+          "partial_R2": 0.04029318006321336
+        },
+        {
+          "Hz": 1.4,
+          "partial_R2": 0.03913900712008622
+        }
+      ],
+      "simultaneous_2_4_Hz_displacement_amplitude_mm": [
+        0.15254351305354183,
+        0.015741150362391734
+      ],
+      "simultaneous_2_4_Hz_partial_R2": 0.0444017475303502,
+      "local_frequency_windows": [
+        {
+          "time_since_SICD_collect_start_s": 3.093,
+          "best_frequency_Hz": 1.46,
+          "local_partial_R2": 0.2356
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.443,
+          "best_frequency_Hz": 4.8,
+          "local_partial_R2": 0.3318
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.793,
+          "best_frequency_Hz": 4.66,
+          "local_partial_R2": 0.2863
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.143,
+          "best_frequency_Hz": 4.66,
+          "local_partial_R2": 0.3013
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.493,
+          "best_frequency_Hz": 4.82,
+          "local_partial_R2": 0.3474
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.843,
+          "best_frequency_Hz": 4.72,
+          "local_partial_R2": 0.2828
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.193,
+          "best_frequency_Hz": 1.82,
+          "local_partial_R2": 0.3125
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.543,
+          "best_frequency_Hz": 4.82,
+          "local_partial_R2": 0.2525
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.893,
+          "best_frequency_Hz": 1.18,
+          "local_partial_R2": 0.2377
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.243,
+          "best_frequency_Hz": 1.42,
+          "local_partial_R2": 0.1995
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.593,
+          "best_frequency_Hz": 0.5,
+          "local_partial_R2": 0.3278
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.943,
+          "best_frequency_Hz": 1.74,
+          "local_partial_R2": 0.3034
+        }
+      ]
+    },
+    {
+      "trial": 9,
+      "point": "control-2",
+      "image_row": 13389,
+      "image_col": 19827,
+      "distance_from_published_site_m": 98.15,
+      "ground_approx_lat_lon_at_scene_center_height": [
+        55.844605574791224,
+        -4.236936700520697
+      ],
+      "magnitude": 94.85289001464844,
+      "aperture_sample_times_since_SICD_start_s": [
+        2.2182038962621977,
+        8.015144296951707
+      ],
+      "aperture_span_s": 5.796940400689509,
+      "fourier_resolution_Hz": 0.1725047923351181,
+      "independent_frequency_bins_used": 95,
+      "phase_displacement_rms_mm": 4.415895737091879,
+      "strongest_displacement_spectrum_peaks": [
+        {
+          "Hz": 0.86,
+          "partial_R2": 0.11038017906860242
+        },
+        {
+          "Hz": 2.4,
+          "partial_R2": 0.038883357148145614
+        },
+        {
+          "Hz": 1.82,
+          "partial_R2": 0.032681639781177996
+        },
+        {
+          "Hz": 2.56,
+          "partial_R2": 0.031491848265412625
+        },
+        {
+          "Hz": 0.64,
+          "partial_R2": 0.023767499394113267
+        }
+      ],
+      "simultaneous_2_4_Hz_displacement_amplitude_mm": [
+        0.37674317962655485,
+        0.1460587213759411
+      ],
+      "simultaneous_2_4_Hz_partial_R2": 0.004250442547040101,
+      "local_frequency_windows": [
+        {
+          "time_since_SICD_collect_start_s": 3.093,
+          "best_frequency_Hz": 3.78,
+          "local_partial_R2": 0.1973
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.443,
+          "best_frequency_Hz": 0.5,
+          "local_partial_R2": 0.3703
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.793,
+          "best_frequency_Hz": 0.8,
+          "local_partial_R2": 0.3067
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.143,
+          "best_frequency_Hz": 0.78,
+          "local_partial_R2": 0.4592
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.493,
+          "best_frequency_Hz": 0.82,
+          "local_partial_R2": 0.5906
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.843,
+          "best_frequency_Hz": 1.08,
+          "local_partial_R2": 0.3283
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.193,
+          "best_frequency_Hz": 0.5,
+          "local_partial_R2": 0.3591
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.543,
+          "best_frequency_Hz": 0.78,
+          "local_partial_R2": 0.525
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.893,
+          "best_frequency_Hz": 0.84,
+          "local_partial_R2": 0.4187
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.243,
+          "best_frequency_Hz": 0.92,
+          "local_partial_R2": 0.3082
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.593,
+          "best_frequency_Hz": 1.8,
+          "local_partial_R2": 0.2983
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.943,
+          "best_frequency_Hz": 0.68,
+          "local_partial_R2": 0.4893
+        }
+      ]
+    },
+    {
+      "trial": 9,
+      "point": "control-3",
+      "image_row": 13074,
+      "image_col": 18911,
+      "distance_from_published_site_m": 91.96,
+      "ground_approx_lat_lon_at_scene_center_height": [
+        55.84314875876672,
+        -4.23541248860056
+      ],
+      "magnitude": 60.440940856933594,
+      "aperture_sample_times_since_SICD_start_s": [
+        2.2182038962621977,
+        8.015144296951707
+      ],
+      "aperture_span_s": 5.796940400689509,
+      "fourier_resolution_Hz": 0.1725047923351181,
+      "independent_frequency_bins_used": 95,
+      "phase_displacement_rms_mm": 4.664722492168603,
+      "strongest_displacement_spectrum_peaks": [
+        {
+          "Hz": 0.52,
+          "partial_R2": 0.18839045030699697
+        },
+        {
+          "Hz": 0.9,
+          "partial_R2": 0.11807301351360444
+        },
+        {
+          "Hz": 1.78,
+          "partial_R2": 0.05065665580710743
+        },
+        {
+          "Hz": 1.44,
+          "partial_R2": 0.04949714956715734
+        },
+        {
+          "Hz": 1.24,
+          "partial_R2": 0.040546152006696534
+        }
+      ],
+      "simultaneous_2_4_Hz_displacement_amplitude_mm": [
+        0.6051108388826218,
+        0.3660104574831055
+      ],
+      "simultaneous_2_4_Hz_partial_R2": 0.01111737158678261,
+      "local_frequency_windows": [
+        {
+          "time_since_SICD_collect_start_s": 3.093,
+          "best_frequency_Hz": 0.5,
+          "local_partial_R2": 0.6973
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.443,
+          "best_frequency_Hz": 3.0,
+          "local_partial_R2": 0.2503
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.793,
+          "best_frequency_Hz": 3.22,
+          "local_partial_R2": 0.3436
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.143,
+          "best_frequency_Hz": 0.5,
+          "local_partial_R2": 0.5873
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.493,
+          "best_frequency_Hz": 0.8,
+          "local_partial_R2": 0.6717
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.843,
+          "best_frequency_Hz": 0.8,
+          "local_partial_R2": 0.6985
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.193,
+          "best_frequency_Hz": 0.58,
+          "local_partial_R2": 0.7259
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.543,
+          "best_frequency_Hz": 3.64,
+          "local_partial_R2": 0.2464
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.893,
+          "best_frequency_Hz": 1.26,
+          "local_partial_R2": 0.3574
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.243,
+          "best_frequency_Hz": 1.74,
+          "local_partial_R2": 0.2926
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.593,
+          "best_frequency_Hz": 2.02,
+          "local_partial_R2": 0.2488
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.943,
+          "best_frequency_Hz": 2.18,
+          "local_partial_R2": 0.3004
+        }
+      ]
+    },
+    {
+      "trial": 9,
+      "point": "control-4",
+      "image_row": 13485,
+      "image_col": 19796,
+      "distance_from_published_site_m": 98.37,
+      "ground_approx_lat_lon_at_scene_center_height": [
+        55.844668331332365,
+        -4.23651226238395
+      ],
+      "magnitude": 53.59431076049805,
+      "aperture_sample_times_since_SICD_start_s": [
+        2.2182038962621977,
+        8.015144296951707
+      ],
+      "aperture_span_s": 5.796940400689509,
+      "fourier_resolution_Hz": 0.1725047923351181,
+      "independent_frequency_bins_used": 95,
+      "phase_displacement_rms_mm": 7.3826262628069,
+      "strongest_displacement_spectrum_peaks": [
+        {
+          "Hz": 0.64,
+          "partial_R2": 0.16991391612070417
+        },
+        {
+          "Hz": 0.86,
+          "partial_R2": 0.027906595092310527
+        },
+        {
+          "Hz": 1.52,
+          "partial_R2": 0.025558086527422308
+        },
+        {
+          "Hz": 1.3,
+          "partial_R2": 0.02348569498683828
+        },
+        {
+          "Hz": 2.44,
+          "partial_R2": 0.016928311868862678
+        }
+      ],
+      "simultaneous_2_4_Hz_displacement_amplitude_mm": [
+        0.48287823139008373,
+        0.25287992998241837
+      ],
+      "simultaneous_2_4_Hz_partial_R2": 0.0027855598116696134,
+      "local_frequency_windows": [
+        {
+          "time_since_SICD_collect_start_s": 3.093,
+          "best_frequency_Hz": 0.92,
+          "local_partial_R2": 0.637
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.443,
+          "best_frequency_Hz": 0.78,
+          "local_partial_R2": 0.6556
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.793,
+          "best_frequency_Hz": 0.5,
+          "local_partial_R2": 0.5864
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.143,
+          "best_frequency_Hz": 2.82,
+          "local_partial_R2": 0.3037
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.493,
+          "best_frequency_Hz": 2.56,
+          "local_partial_R2": 0.2035
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.843,
+          "best_frequency_Hz": 4.42,
+          "local_partial_R2": 0.2122
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.193,
+          "best_frequency_Hz": 3.84,
+          "local_partial_R2": 0.233
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.543,
+          "best_frequency_Hz": 4.08,
+          "local_partial_R2": 0.2819
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.893,
+          "best_frequency_Hz": 2.46,
+          "local_partial_R2": 0.2823
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.243,
+          "best_frequency_Hz": 0.5,
+          "local_partial_R2": 0.7966
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.593,
+          "best_frequency_Hz": 0.9,
+          "local_partial_R2": 0.831
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.943,
+          "best_frequency_Hz": 0.6,
+          "local_partial_R2": 0.7325
+        }
+      ]
+    },
+    {
+      "trial": 9,
+      "point": "control-5",
+      "image_row": 13127,
+      "image_col": 19708,
+      "distance_from_published_site_m": 85.35,
+      "ground_approx_lat_lon_at_scene_center_height": [
+        55.84418404712279,
+        -4.2375113821473285
+      ],
+      "magnitude": 43.2682991027832,
+      "aperture_sample_times_since_SICD_start_s": [
+        2.2182038962621977,
+        8.015144296951707
+      ],
+      "aperture_span_s": 5.796940400689509,
+      "fourier_resolution_Hz": 0.1725047923351181,
+      "independent_frequency_bins_used": 95,
+      "phase_displacement_rms_mm": 8.121148294304989,
+      "strongest_displacement_spectrum_peaks": [
+        {
+          "Hz": 0.8,
+          "partial_R2": 0.10334600778516045
+        },
+        {
+          "Hz": 1.02,
+          "partial_R2": 0.04797439399578285
+        },
+        {
+          "Hz": 1.82,
+          "partial_R2": 0.01626168367153058
+        },
+        {
+          "Hz": 1.54,
+          "partial_R2": 0.013421256883492827
+        },
+        {
+          "Hz": 2.2,
+          "partial_R2": 0.008079972200538577
+        }
+      ],
+      "simultaneous_2_4_Hz_displacement_amplitude_mm": [
+        0.6470380900437467,
+        0.829035846877563
+      ],
+      "simultaneous_2_4_Hz_partial_R2": 0.008257218972864577,
+      "local_frequency_windows": [
+        {
+          "time_since_SICD_collect_start_s": 3.093,
+          "best_frequency_Hz": 5.06,
+          "local_partial_R2": 0.1965
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.443,
+          "best_frequency_Hz": 5.12,
+          "local_partial_R2": 0.1976
+        },
+        {
+          "time_since_SICD_collect_start_s": 3.793,
+          "best_frequency_Hz": 5.34,
+          "local_partial_R2": 0.2156
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.143,
+          "best_frequency_Hz": 0.5,
+          "local_partial_R2": 0.5091
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.493,
+          "best_frequency_Hz": 0.7,
+          "local_partial_R2": 0.6599
+        },
+        {
+          "time_since_SICD_collect_start_s": 4.843,
+          "best_frequency_Hz": 0.9,
+          "local_partial_R2": 0.6451
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.193,
+          "best_frequency_Hz": 1.02,
+          "local_partial_R2": 0.6267
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.543,
+          "best_frequency_Hz": 0.82,
+          "local_partial_R2": 0.8639
+        },
+        {
+          "time_since_SICD_collect_start_s": 5.893,
+          "best_frequency_Hz": 0.9,
+          "local_partial_R2": 0.8488
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.243,
+          "best_frequency_Hz": 0.72,
+          "local_partial_R2": 0.811
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.593,
+          "best_frequency_Hz": 0.5,
+          "local_partial_R2": 0.8129
+        },
+        {
+          "time_since_SICD_collect_start_s": 6.943,
+          "best_frequency_Hz": 1.92,
+          "local_partial_R2": 0.477
+        }
+      ]
+    }
+  ]
+}

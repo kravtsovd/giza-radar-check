@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-27",
+  "raw_remeasurement": "Six provider complex products were read again through the public scripts. The locked plan ranks and free height peaks matched the bundled expectations on six scenes. All 324 candidate ranks matched on the three long acquisitions.",
+  "candidate_count": 36,
+  "first_stage_sites": 3,
+  "first_stage_dates": 3,
+  "expected_ranks": 324,
+  "source_files": [
+    {
+      "file": "2023-02-07-umbra-source.json",
+      "sha256": "af4bf7781f2ac3f8c1ecf93671153380bc300c7b1ae3c74bb9e0198c70955963"
+    },
+    {
+      "file": "2023-02-07-umbra.npz",
+      "sha256": "ef1b0606681126308a14c0d40eeec10bc6af2bced5f6728196d60871a047d2b3"
+    },
+    {
+      "file": "2023-02-08-umbra-source.json",
+      "sha256": "a1ccf066dc4f2b3672ae5c12a5eb6b152d07d385a4036a6ca1f4689fb4f4da36"
+    },
+    {
+      "file": "2023-02-08-umbra.npz",
+      "sha256": "c064d44e1b59c2e373c46aabd5f619740afa49994246506164da9ae1421b05cd"
+    },
+    {
+      "file": "2023-03-08-umbra-source.json",
+      "sha256": "f329bba82db0add66573376b9dce9c667e6abe1c3cf8247a8ed9e436c66b24c3"
+    },
+    {
+      "file": "2023-03-08-umbra.npz",
+      "sha256": "5bf2b9b13b0387a1b6a24c45b8a5ca94cb8946cff0f4413f09cb63d3d3cb103e"
+    },
+    {
+      "file": "20240916-source.json",
+      "sha256": "eaeb812e62ae622bebbd8bf9c724d62fa05300a1cdd20c20f30025fd09ec4647"
+    },
+    {
+      "file": "20240916.npz",
+      "sha256": "defd90e6b8283428476e0e609161161357bb877f421a3c05517f2373a7f7d74b"
+    },
+    {
+      "file": "20241004-source.json",
+      "sha256": "53f32b38ec562761a720915163693d3eb1da6ef8dbe550a37b51c2b475788c45"
+    },
+    {
+      "file": "20241004.npz",
+      "sha256": "5744f053e56d729377f9d6f53aa6d81516e53b4b8a69ea4da02ceba40b6c8242"
+    },
+    {
+      "file": "20250602-source.json",
+      "sha256": "0181c66d007639ab5b98091eb26c27e73b112053b698024863a8dd98df35c347"
+    },
+    {
+      "file": "20250602.npz",
+      "sha256": "899c8cca0de0a03d267a9ae165e12fca470bdfe2194d5113ae50d82d0ea12b96"
+    },
+    {
+      "file": "README.md",
+      "sha256": "dfa3a841928773fddc04515d5504b7a6912e2c2efec3b458c35138714aa5ef8c"
+    },
+    {
+      "file": "controls.json",
+      "sha256": "241b42da5c7574bbbb34e33dbad9ab81f5072940bb66fdc80e1f64cf89095393"
+    },
+    {
+      "file": "expected.json",
+      "sha256": "ffb0db17b456271a55293289026b2f1c2a557f1ee9afef16e62946f567373f2b"
+    },
+    {
+      "file": "geography.py",
+      "sha256": "837e287a77f3a45c8ebd0ec237c2c7c85631246c62c26efd18f5383d1f9b0ad7"
+    },
+    {
+      "file": "iceye.py",
+      "sha256": "b4e04406e4078fb30d0842c5ddc1dddc1980899158f19d7335841fbd9e8be55e"
+    },
+    {
+      "file": "inputs.json",
+      "sha256": "97a0a0ec90262230bf450e914ef0d042a7a47b8bb9c6c503d408f238b1a9d67c"
+    },
+    {
+      "file": "measure.py",
+      "sha256": "0ad65033e191e18c1a0f54524ef3561da9a2b9084fa2e6503085c42e9d250ead"
+    },
+    {
+      "file": "protocol.json",
+      "sha256": "e2515a3d6cfb282c160b1cf292ed27cd93a41c868809b822ea5f70dbbd80bc24"
+    },
+    {
+      "file": "run.py",
+      "sha256": "662864579ed384843dbabcb19e683a7a8acca212285ed8dd6dea34d9c823d944"
+    },
+    {
+      "file": "score.py",
+      "sha256": "60aa73d9851c36ab19ce781b198863b4717d85268b66ad59608d88726ff231c4"
+    },
+    {
+      "file": "slc_core.py",
+      "sha256": "59af91569e4ba1d2853a5bbd718d4834439b27e07d15e8e00662053ebc3a3a96"
+    },
+    {
+      "file": "umbra-protocol.json",
+      "sha256": "35c3c08d9e774a8326da8b7b53654df6b42a4d62c95c363db0db024fa9511a8b"
+    },
+    {
+      "file": "umbra.py",
+      "sha256": "1e39ec921c56f6462bbf5f1c72f62b3a183854ddc429507a6df15629a83199fd"
+    }
+  ]
+}

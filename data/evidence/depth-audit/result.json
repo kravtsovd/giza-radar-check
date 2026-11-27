@@ -1,0 +1,642 @@
+{
+  "status": "completed",
+  "audit_date": "2026-11-26 America/Los_Angeles",
+  "conclusion": "Eight retrospective positions and a labelled 648 m model dimension are recoverable. Physical depth and shape remain unverified.",
+  "acquired_images": {
+    "slide61.png": {
+      "url": "https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-04-19-at-7.34.22-PM.png",
+      "sha256": "f9e87ea18a00b7f0cdf5accb3fdb33f0058caf0283a251241cef3cc830523ef1",
+      "size_px": [
+        1371,
+        769
+      ]
+    },
+    "slide76.png": {
+      "url": "https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-04-19-at-7.37.13-PM.png",
+      "sha256": "dbe1bf6879c49457028f30efc88ad9cae2eb41974a39b064467bfba15db1a9e9",
+      "size_px": [
+        1377,
+        771
+      ]
+    },
+    "cube.png": {
+      "url": "https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-04-19-at-7.39.51-PM.png",
+      "sha256": "34a706b8dcaaf4ea56d8d54883b8ec55ccc9f0767617a8313fdc88afdd4f89f6",
+      "size_px": [
+        1371,
+        771
+      ]
+    },
+    "depth.png": {
+      "url": "https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-04-19-at-7.39.59-PM.png",
+      "sha256": "52143098e188e692ef9573dc7a5b7af9720b6dd54cfdac466497f45d848021cf",
+      "size_px": [
+        1370,
+        770
+      ]
+    },
+    "slide91.png": {
+      "url": "https://opusmagnum.org/wp-content/uploads/2025/07/Screen-Shot-2025-04-19-at-7.40.08-PM.png",
+      "sha256": "a72c00fde409c909ea3274edcd5a5d1b02b36945f90666ce844e0310eb891f40",
+      "size_px": [
+        1372,
+        769
+      ]
+    }
+  },
+  "measured_plan": {
+    "corners_xy": [
+      [
+        295,
+        2
+      ],
+      [
+        805,
+        217
+      ],
+      [
+        586,
+        750
+      ],
+      [
+        65,
+        540
+      ]
+    ],
+    "author_marks_xy": [
+      [
+        476,
+        125
+      ],
+      [
+        659,
+        189
+      ],
+      [
+        407,
+        242
+      ],
+      [
+        601,
+        307
+      ],
+      [
+        379,
+        354
+      ],
+      [
+        548,
+        442
+      ],
+      [
+        329,
+        530
+      ],
+      [
+        453,
+        622
+      ]
+    ],
+    "uv": [
+      [
+        0.38407035314283594,
+        0.07499402038250849
+      ],
+      [
+        0.7340397473615969,
+        0.054181229586942874
+      ],
+      [
+        0.3514788355922352,
+        0.308400100501093
+      ],
+      [
+        0.7189768889298536,
+        0.28322419100440466
+      ],
+      [
+        0.3831120487577298,
+        0.5052270419801185
+      ],
+      [
+        0.7241276224100697,
+        0.5344947189645889
+      ],
+      [
+        0.42265983048481826,
+        0.8164632260720187
+      ],
+      [
+        0.6905990008036785,
+        0.8823465672536632
+      ]
+    ],
+    "survey_base_side_m": 215.26245999999998,
+    "survey_diagonal_m": 304.42709040179585,
+    "surveyed_diagonal_minus_slide_304_m": 0.42709040179585145,
+    "across_by_pair_m": [
+      75.33527272424027,
+      79.10853500666693,
+      73.40785128271385,
+      57.67724493319684
+    ],
+    "median_across_m": 74.37156200347705,
+    "euclidean_pair_distances_m": [
+      75.46837497186527,
+      79.29395004056217,
+      73.67771410026624,
+      59.395283198961415
+    ],
+    "maximum_uv_change_1000_jitter_draws": 0.007997968852095194,
+    "contrast": [
+      {
+        "xyxy": [
+          22,
+          32,
+          640,
+          731
+        ],
+        "radius": 1,
+        "channel": "green",
+        "mean": 183.20971500000002,
+        "lower": 973,
+        "tied_alternatives": 0,
+        "alternatives": 975
+      },
+      {
+        "xyxy": [
+          22,
+          32,
+          640,
+          731
+        ],
+        "radius": 1,
+        "channel": "red_minus_blue",
+        "mean": -107.40767499999984,
+        "lower": 401,
+        "tied_alternatives": 0,
+        "alternatives": 975
+      },
+      {
+        "xyxy": [
+          22,
+          32,
+          640,
+          731
+        ],
+        "radius": 3,
+        "channel": "green",
+        "mean": 173.9494482758621,
+        "lower": 680,
+        "tied_alternatives": 0,
+        "alternatives": 683
+      },
+      {
+        "xyxy": [
+          22,
+          32,
+          640,
+          731
+        ],
+        "radius": 3,
+        "channel": "red_minus_blue",
+        "mean": -104.62835431034475,
+        "lower": 285,
+        "tied_alternatives": 0,
+        "alternatives": 683
+      },
+      {
+        "xyxy": [
+          22,
+          32,
+          640,
+          731
+        ],
+        "radius": 5,
+        "channel": "green",
+        "mean": 158.75084567901234,
+        "lower": 421,
+        "tied_alternatives": 0,
+        "alternatives": 423
+      },
+      {
+        "xyxy": [
+          22,
+          32,
+          640,
+          731
+        ],
+        "radius": 5,
+        "channel": "red_minus_blue",
+        "mean": -107.93458549382709,
+        "lower": 137,
+        "tied_alternatives": 0,
+        "alternatives": 423
+      },
+      {
+        "xyxy": [
+          690,
+          32,
+          1359,
+          727
+        ],
+        "radius": 1,
+        "channel": "green",
+        "mean": 140.46339999999975,
+        "lower": 968,
+        "tied_alternatives": 0,
+        "alternatives": 975
+      },
+      {
+        "xyxy": [
+          690,
+          32,
+          1359,
+          727
+        ],
+        "radius": 1,
+        "channel": "red_minus_blue",
+        "mean": -100.09933749999949,
+        "lower": 40,
+        "tied_alternatives": 0,
+        "alternatives": 975
+      },
+      {
+        "xyxy": [
+          690,
+          32,
+          1359,
+          727
+        ],
+        "radius": 3,
+        "channel": "green",
+        "mean": 126.75021982758619,
+        "lower": 679,
+        "tied_alternatives": 0,
+        "alternatives": 683
+      },
+      {
+        "xyxy": [
+          690,
+          32,
+          1359,
+          727
+        ],
+        "radius": 3,
+        "channel": "red_minus_blue",
+        "mean": -95.8691012931033,
+        "lower": 24,
+        "tied_alternatives": 0,
+        "alternatives": 683
+      },
+      {
+        "xyxy": [
+          690,
+          32,
+          1359,
+          727
+        ],
+        "radius": 5,
+        "channel": "green",
+        "mean": 108.10805169753084,
+        "lower": 420,
+        "tied_alternatives": 0,
+        "alternatives": 423
+      },
+      {
+        "xyxy": [
+          690,
+          32,
+          1359,
+          727
+        ],
+        "radius": 5,
+        "channel": "red_minus_blue",
+        "mean": -93.51629475308629,
+        "lower": 5,
+        "tied_alternatives": 0,
+        "alternatives": 423
+      }
+    ]
+  },
+  "measured_elevation_graphic": {
+    "brackets": {
+      "137": {
+        "x": 1139,
+        "tips_y": [
+          86,
+          174
+        ],
+        "span": 88.0
+      },
+      "648": {
+        "x": 1065,
+        "tips_y": [
+          174,
+          620
+        ],
+        "span": 446.0
+      },
+      "785": {
+        "x": 1197,
+        "tips_y": [
+          86,
+          626
+        ],
+        "span": 540.0
+      }
+    },
+    "labelled_total_m": 785,
+    "required_ratio": 4.7299270072992705,
+    "displayed_bracket_ratio": 5.068181818181818,
+    "affine_display_check_m": 694.3409090909091,
+    "error_percent": 7.151374859708204,
+    "per_tip_sensitivity_m": {
+      "1": [
+        675.8666666666667,
+        713.6744186046511
+      ],
+      "2": [
+        658.195652173913,
+        733.9285714285714
+      ],
+      "3": [
+        641.2765957446809,
+        755.170731707317
+      ]
+    },
+    "m_per_display_px_above": 1.5568181818181819,
+    "m_per_display_px_below": 1.452914798206278,
+    "status": "Page-ruler consistency check only; geological depth unknown."
+  },
+  "identifiability": {
+    "individual": [
+      {
+        "product": "CAPELLA_C13_SP_SLC_HH_20240916215711_20240916215743",
+        "collect_uuid": "9635f3b2-555f-4643-9c01-9afa1364138b",
+        "UTC": [
+          "2024-09-16T21:57:11.063460090Z",
+          "2024-09-16T21:57:42.910579579Z"
+        ],
+        "prf_Hz": [
+          9710.497695375214,
+          9796.750091436334
+        ],
+        "source_npz": "Prior studies/recon-formulation/0916.npz",
+        "sha256": "1fc828c763d8eb2b1d91d1850f19bcf2f010af226a0259bc63c9435b21e836b2",
+        "meta_sha256": "1826640092384b7980e03f5fa30fe0d352517b7c655a0907f2e98ec7688d4a37",
+        "site_lat_lon_HAE": [
+          29.979075588171618,
+          31.13441230108084,
+          75.0
+        ],
+        "sample_count": 50,
+        "tracked_complex_norm_m": 0.0008560249578147615,
+        "proxy_real_sign_projection_max_difference": 0.0,
+        "signed_complex_atom_abs_correlation_plus_minus_648": 0.0030480905918834978,
+        "independent_depth_support_fits": [
+          {
+            "support_m": [
+              0,
+              200
+            ],
+            "columns": 201,
+            "rank": 50,
+            "nullity": 151,
+            "condition": 1.5389169134964769,
+            "relative_residual": 2.1153886180855155e-15,
+            "coefficient_to_data_norm": 0.07051820427137322
+          },
+          {
+            "support_m": [
+              520,
+              800
+            ],
+            "columns": 281,
+            "rank": 50,
+            "nullity": 231,
+            "condition": 1.236040012015543,
+            "relative_residual": 2.3828501976639214e-15,
+            "coefficient_to_data_norm": 0.0603192796386048
+          }
+        ]
+      },
+      {
+        "product": "CAPELLA_C13_SP_SLC_HH_20241004001939_20241004002012",
+        "collect_uuid": "18bb0280-8a2a-431e-8de2-b6170b4d5c92",
+        "UTC": [
+          "2024-10-04T00:19:39.678111280Z",
+          "2024-10-04T00:20:12.546729020Z"
+        ],
+        "prf_Hz": [
+          10121.457489878543,
+          10235.274851247339
+        ],
+        "source_npz": "Prior studies/recon-formulation/1004.npz",
+        "sha256": "627b32195b5762258c6add8d52fe22209697e6f47291374c3c7dd0265e86ebe1",
+        "meta_sha256": "a878a0c1a23f6a4148d6fe64c365c8e470487c53b24bfe6023685876568f3598",
+        "site_lat_lon_HAE": [
+          29.979075588171618,
+          31.13441230108084,
+          75.0
+        ],
+        "sample_count": 50,
+        "tracked_complex_norm_m": 0.0010794513018185703,
+        "proxy_real_sign_projection_max_difference": 0.0,
+        "signed_complex_atom_abs_correlation_plus_minus_648": 0.023050077028122375,
+        "independent_depth_support_fits": [
+          {
+            "support_m": [
+              0,
+              200
+            ],
+            "columns": 201,
+            "rank": 50,
+            "nullity": 151,
+            "condition": 1.1958676019683132,
+            "relative_residual": 2.4605671082248935e-15,
+            "coefficient_to_data_norm": 0.06875615050507951
+          },
+          {
+            "support_m": [
+              520,
+              800
+            ],
+            "columns": 281,
+            "rank": 50,
+            "nullity": 231,
+            "condition": 1.1544086739503083,
+            "relative_residual": 2.7541168016618906e-15,
+            "coefficient_to_data_norm": 0.06046092610663415
+          }
+        ]
+      }
+    ],
+    "transfer_minimum_norm": {
+      "september_to_october": [
+        {
+          "support_m": [
+            0,
+            200
+          ],
+          "columns": 201,
+          "rank": 50,
+          "nullity": 151,
+          "condition": 1.5389169134964769,
+          "relative_residual": 2.1153886180855155e-15,
+          "coefficient_to_data_norm": 0.07051820427137322,
+          "other_pass_relative_error": 1.0811263119616867
+        },
+        {
+          "support_m": [
+            520,
+            800
+          ],
+          "columns": 281,
+          "rank": 50,
+          "nullity": 231,
+          "condition": 1.236040012015543,
+          "relative_residual": 2.3828501976639214e-15,
+          "coefficient_to_data_norm": 0.0603192796386048,
+          "other_pass_relative_error": 1.022388358901267
+        }
+      ],
+      "october_to_september": [
+        {
+          "support_m": [
+            0,
+            200
+          ],
+          "columns": 201,
+          "rank": 50,
+          "nullity": 151,
+          "condition": 1.1958676019683132,
+          "relative_residual": 2.4605671082248935e-15,
+          "coefficient_to_data_norm": 0.06875615050507951,
+          "other_pass_relative_error": 1.1821850799815887
+        },
+        {
+          "support_m": [
+            520,
+            800
+          ],
+          "columns": 281,
+          "rank": 50,
+          "nullity": 231,
+          "condition": 1.1544086739503083,
+          "relative_residual": 2.7541168016618906e-15,
+          "coefficient_to_data_norm": 0.06046092610663415,
+          "other_pass_relative_error": 1.1060224998134223
+        }
+      ],
+      "zero_predictor_relative_error": 1.0
+    },
+    "shared_two_date_coefficients": [
+      {
+        "support_m": [
+          0,
+          200
+        ],
+        "columns": 201,
+        "rank": 100,
+        "nullity": 101,
+        "condition": 1069.7964928128838,
+        "relative_residual": 4.304109010110834e-14,
+        "coefficient_to_data_norm": 2.7834569933612596
+      },
+      {
+        "support_m": [
+          520,
+          800
+        ],
+        "columns": 281,
+        "rank": 100,
+        "nullity": 181,
+        "condition": 522.5835450503492,
+        "relative_residual": 2.5847995679445033e-14,
+        "coefficient_to_data_norm": 1.180989293633002
+      }
+    ],
+    "assumed_wavelength_m": 0.24,
+    "combined_rows": 100
+  },
+  "independent_timing_geometry": {
+    "offsets_m": [
+      0.0,
+      76.10677260044896,
+      152.21354520089793
+    ],
+    "case": {
+      "depth_m": 648,
+      "speed_m_s": 6000,
+      "time_s": [
+        0.108,
+        0.10874233572426259,
+        0.11093954351390192
+      ]
+    },
+    "alternative": {
+      "depth_m": 1296.0,
+      "fitted_speed_m_s": 3007.719381976042,
+      "fitted_origin_s": -0.3228912619197011,
+      "time_s": [
+        0.10799999999999998,
+        0.10874233572426256,
+        0.11096172200921828
+      ]
+    },
+    "discrepancy_at_third_ms": 0.022178495316355074,
+    "status": "Analytical prediction for a timed pulse in a homogeneous medium; no arrivals were observed."
+  },
+  "source_audit": {
+    "author_public_digital": [
+      "signed PDF with embedded color rasters",
+      "Italian conference video",
+      "numbered plan, two color renderings, dimensioned section, CAD screenshots",
+      "method paper on Khufu and patent application"
+    ],
+    "coordinates": "Platform search center in the local catalog is 31.1308 E, 29.9761 N for Khafre. It is not a list of shaft coordinates. Eight figure-space marks and sketch directions exist, but no per-shaft surveyed WGS84 positions, uncertainty or signed geotransform in the reviewed author evidence.",
+    "elevation": "137 m top above footprint base, base is local zero for the stated 648 m bracket, total 785 m. No published geodetic zero, 8 top/bottom picks, original depth bins, per-bin times, or velocity profile tied to this slice were identified.",
+    "providers": "March press abstract identifies Capella and Umbra. In the reviewed primary materials no collect ID, date/time, or figure-to-acquisition mapping for the 648 m dimension was found. Scope is the listed sources, not a provider archive-wide impossibility claim.",
+    "alternative_candidate_products": [
+      {
+        "id": "CAPELLA_C13_SP_SLC_HH_20240916215711_20240916215743",
+        "source": "https://capella-open-data.s3.us-west-2.amazonaws.com/stac/capella-open-data-by-datetime/capella-open-data-2024/capella-open-data-2024-09/capella-open-data-2024-09-16/CAPELLA_C13_SP_SLC_HH_20240916215711_20240916215743/CAPELLA_C13_SP_SLC_HH_20240916215711_20240916215743.json"
+      },
+      {
+        "id": "CAPELLA_C13_SP_SLC_HH_20241004001939_20241004002012",
+        "source": "https://capella-open-data.s3.us-west-2.amazonaws.com/stac/capella-open-data-by-datetime/capella-open-data-2024/capella-open-data-2024-10/capella-open-data-2024-10-04/CAPELLA_C13_SP_SLC_HH_20241004001939_20241004002012/CAPELLA_C13_SP_SLC_HH_20241004001939_20241004002012.json"
+      },
+      {
+        "id": "2023-02-07-07-58-27_UMBRA-05",
+        "source": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/7e7cd796-3842-4923-8b48-4c0950ece945/2023-02-07-07-58-27_UMBRA-05/2023-02-07-07-58-27_UMBRA-05_METADATA.json"
+      },
+      {
+        "id": "2023-02-08-07-54-55_UMBRA-04",
+        "source": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/44da7805-2129-4105-add8-2403bf671f40/2023-02-08-07-54-55_UMBRA-04/2023-02-08-07-54-55_UMBRA-04_METADATA.json"
+      },
+      {
+        "id": "2023-02-10-07-29-54_UMBRA-04",
+        "source": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/e00923b7-7a71-4c44-bff6-0765c38a8273/2023-02-10-07-29-54_UMBRA-04_METADATA.json"
+      },
+      {
+        "id": "2023-03-08-07-57-53_UMBRA-04",
+        "source": "https://umbra-open-data-catalog.s3.us-west-2.amazonaws.com/sar-data/tasks/ad%20hoc/Pyramids%20of%20Giza/5aa49658-ecf9-4504-afee-281f43fb076e/2023-03-08-07-57-53_UMBRA-04/2023-03-08-07-57-53_UMBRA-04_METADATA.json"
+      }
+    ],
+    "time": "Public comparison collects have UTC times, state vectors and radar sampling rates. They time the radar acquisition. The team does not provide a timed acoustic arrival, source onset, per-look complex Y, signed baselines, seismic wavelength or acoustic speed calibration for this section.",
+    "unrecovered": [
+      "author input files identified per figure",
+      "author extraction lines with surveyed endpoints and vertical datum",
+      "original prerecolor numeric volume, shifts, axes, and units",
+      "mesh with metric coordinate metadata and versions",
+      "model configuration and run-to-figure log",
+      "independently measured bottom depth"
+    ]
+  },
+  "future_only": [
+    "Freeze surveyed shaft coordinates and eight per-shaft top/bottom predictions.",
+    "Test on a second blind scene and a surveyed, comparable-depth ground target.",
+    "Measure independent elastic travel paths or site-specific wave speeds and modes."
+  ]
+}

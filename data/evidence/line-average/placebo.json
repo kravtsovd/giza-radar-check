@@ -1,0 +1,1002 @@
+{
+  "scope": "Post-hoc specificity diagnostic using previously observed scenes. All 33 location labels get the same search over 36 recipes at the supplied +43 m. Reuse the same comparison set, covariance references and tie rules. The 32 sites are local translations, not certified empty independent geological sites. This count is not a p-value.",
+  "inputs": {
+    "20240916": "defd90e6b8283428476e0e609161161357bb877f421a3c05517f2373a7f7d74b",
+    "20241004": "5744f053e56d729377f9d6f53aa6d81516e53b4b8a69ea4da02ceba40b6c8242",
+    "20250602": "899c8cca0de0a03d267a9ae165e12fca470bdfe2194d5113ae50d82d0ea12b96"
+  },
+  "rank_gate": "at least 31 of the other 32, strictly ahead of both simple baselines on each transfer",
+  "nearby_sites_passing_both": 0,
+  "sites": [
+    {
+      "id": 0,
+      "recipe": [
+        "adjacent",
+        "along",
+        0.48,
+        "whitened"
+      ],
+      "ranks": [
+        {
+          "fit": 31,
+          "rms": 21,
+          "brightness": 29,
+          "passes": true
+        },
+        {
+          "fit": 32,
+          "rms": 24,
+          "brightness": 15,
+          "passes": true
+        },
+        {
+          "fit": 31,
+          "rms": 18,
+          "brightness": 5,
+          "passes": true
+        }
+      ],
+      "both_transfers": true
+    },
+    {
+      "id": 1,
+      "recipe": [
+        "adjacent",
+        "along",
+        0.3,
+        "whitened"
+      ],
+      "ranks": [
+        {
+          "fit": 32,
+          "rms": 25,
+          "brightness": 4,
+          "passes": true
+        },
+        {
+          "fit": 24,
+          "rms": 17,
+          "brightness": 9,
+          "passes": false
+        },
+        {
+          "fit": 32,
+          "rms": 28,
+          "brightness": 20,
+          "passes": true
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 2,
+      "recipe": [
+        "lag8",
+        "elevation",
+        0.3,
+        "ordinary"
+      ],
+      "ranks": [
+        {
+          "fit": 31,
+          "rms": 9,
+          "brightness": 15,
+          "passes": true
+        },
+        {
+          "fit": 20,
+          "rms": 27,
+          "brightness": 5,
+          "passes": false
+        },
+        {
+          "fit": 26,
+          "rms": 6,
+          "brightness": 7,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 3,
+      "recipe": [
+        "adjacent",
+        "elevation",
+        0.48,
+        "whitened"
+      ],
+      "ranks": [
+        {
+          "fit": 31,
+          "rms": 10,
+          "brightness": 24,
+          "passes": true
+        },
+        {
+          "fit": 27,
+          "rms": 10,
+          "brightness": 15,
+          "passes": false
+        },
+        {
+          "fit": 15,
+          "rms": 5,
+          "brightness": 14,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 4,
+      "recipe": [
+        "fixed",
+        "along",
+        0.24,
+        "ordinary"
+      ],
+      "ranks": [
+        {
+          "fit": 31,
+          "rms": 0,
+          "brightness": 30,
+          "passes": true
+        },
+        {
+          "fit": 21,
+          "rms": 31,
+          "brightness": 12,
+          "passes": false
+        },
+        {
+          "fit": 26,
+          "rms": 4,
+          "brightness": 17,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 5,
+      "recipe": [
+        "adjacent",
+        "along",
+        0.24,
+        "ordinary"
+      ],
+      "ranks": [
+        {
+          "fit": 32,
+          "rms": 14,
+          "brightness": 28,
+          "passes": true
+        },
+        {
+          "fit": 18,
+          "rms": 13,
+          "brightness": 31,
+          "passes": false
+        },
+        {
+          "fit": 29,
+          "rms": 6,
+          "brightness": 4,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 6,
+      "recipe": [
+        "fixed",
+        "along",
+        0.3,
+        "ordinary"
+      ],
+      "ranks": [
+        {
+          "fit": 30,
+          "rms": 22,
+          "brightness": 6,
+          "passes": false
+        },
+        {
+          "fit": 10,
+          "rms": 6,
+          "brightness": 27,
+          "passes": false
+        },
+        {
+          "fit": 1,
+          "rms": 20,
+          "brightness": 9,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 7,
+      "recipe": [
+        "lag8",
+        "along",
+        0.24,
+        "ordinary"
+      ],
+      "ranks": [
+        {
+          "fit": 32,
+          "rms": 16,
+          "brightness": 2,
+          "passes": true
+        },
+        {
+          "fit": 12,
+          "rms": 3,
+          "brightness": 25,
+          "passes": false
+        },
+        {
+          "fit": 13,
+          "rms": 19,
+          "brightness": 18,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 8,
+      "recipe": [
+        "fixed",
+        "elevation",
+        0.24,
+        "whitened"
+      ],
+      "ranks": [
+        {
+          "fit": 29,
+          "rms": 20,
+          "brightness": 23,
+          "passes": false
+        },
+        {
+          "fit": 27,
+          "rms": 11,
+          "brightness": 23,
+          "passes": false
+        },
+        {
+          "fit": 32,
+          "rms": 13,
+          "brightness": 2,
+          "passes": true
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 9,
+      "recipe": [
+        "adjacent",
+        "elevation",
+        0.24,
+        "whitened"
+      ],
+      "ranks": [
+        {
+          "fit": 31,
+          "rms": 23,
+          "brightness": 4,
+          "passes": true
+        },
+        {
+          "fit": 2,
+          "rms": 27,
+          "brightness": 13,
+          "passes": false
+        },
+        {
+          "fit": 17,
+          "rms": 30,
+          "brightness": 0,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 10,
+      "recipe": [
+        "fixed",
+        "along",
+        0.3,
+        "whitened"
+      ],
+      "ranks": [
+        {
+          "fit": 29,
+          "rms": 10,
+          "brightness": 10,
+          "passes": false
+        },
+        {
+          "fit": 9,
+          "rms": 20,
+          "brightness": 8,
+          "passes": false
+        },
+        {
+          "fit": 18,
+          "rms": 22,
+          "brightness": 19,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 11,
+      "recipe": [
+        "lag8",
+        "along",
+        0.3,
+        "ordinary"
+      ],
+      "ranks": [
+        {
+          "fit": 29,
+          "rms": 1,
+          "brightness": 9,
+          "passes": false
+        },
+        {
+          "fit": 30,
+          "rms": 20,
+          "brightness": 26,
+          "passes": false
+        },
+        {
+          "fit": 5,
+          "rms": 23,
+          "brightness": 3,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 12,
+      "recipe": [
+        "adjacent",
+        "along",
+        0.48,
+        "ordinary"
+      ],
+      "ranks": [
+        {
+          "fit": 26,
+          "rms": 12,
+          "brightness": 25,
+          "passes": false
+        },
+        {
+          "fit": 29,
+          "rms": 6,
+          "brightness": 28,
+          "passes": false
+        },
+        {
+          "fit": 21,
+          "rms": 1,
+          "brightness": 28,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 13,
+      "recipe": [
+        "adjacent",
+        "along",
+        0.48,
+        "ordinary"
+      ],
+      "ranks": [
+        {
+          "fit": 31,
+          "rms": 26,
+          "brightness": 22,
+          "passes": true
+        },
+        {
+          "fit": 32,
+          "rms": 1,
+          "brightness": 14,
+          "passes": true
+        },
+        {
+          "fit": 18,
+          "rms": 14,
+          "brightness": 12,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 14,
+      "recipe": [
+        "adjacent",
+        "along",
+        0.3,
+        "ordinary"
+      ],
+      "ranks": [
+        {
+          "fit": 28,
+          "rms": 2,
+          "brightness": 3,
+          "passes": false
+        },
+        {
+          "fit": 12,
+          "rms": 19,
+          "brightness": 20,
+          "passes": false
+        },
+        {
+          "fit": 30,
+          "rms": 31,
+          "brightness": 21,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 15,
+      "recipe": [
+        "lag8",
+        "along",
+        0.48,
+        "ordinary"
+      ],
+      "ranks": [
+        {
+          "fit": 32,
+          "rms": 30,
+          "brightness": 14,
+          "passes": true
+        },
+        {
+          "fit": 11,
+          "rms": 2,
+          "brightness": 15,
+          "passes": false
+        },
+        {
+          "fit": 4,
+          "rms": 4,
+          "brightness": 23,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 16,
+      "recipe": [
+        "lag8",
+        "along",
+        0.48,
+        "ordinary"
+      ],
+      "ranks": [
+        {
+          "fit": 31,
+          "rms": 8,
+          "brightness": 8,
+          "passes": true
+        },
+        {
+          "fit": 14,
+          "rms": 10,
+          "brightness": 29,
+          "passes": false
+        },
+        {
+          "fit": 15,
+          "rms": 32,
+          "brightness": 10,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 17,
+      "recipe": [
+        "fixed",
+        "along",
+        0.3,
+        "whitened"
+      ],
+      "ranks": [
+        {
+          "fit": 31,
+          "rms": 16,
+          "brightness": 13,
+          "passes": true
+        },
+        {
+          "fit": 23,
+          "rms": 30,
+          "brightness": 2,
+          "passes": false
+        },
+        {
+          "fit": 17,
+          "rms": 28,
+          "brightness": 24,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 18,
+      "recipe": [
+        "fixed",
+        "along",
+        0.48,
+        "whitened"
+      ],
+      "ranks": [
+        {
+          "fit": 31,
+          "rms": 8,
+          "brightness": 19,
+          "passes": true
+        },
+        {
+          "fit": 16,
+          "rms": 1,
+          "brightness": 3,
+          "passes": false
+        },
+        {
+          "fit": 24,
+          "rms": 8,
+          "brightness": 30,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 19,
+      "recipe": [
+        "fixed",
+        "along",
+        0.24,
+        "whitened"
+      ],
+      "ranks": [
+        {
+          "fit": 32,
+          "rms": 17,
+          "brightness": 20,
+          "passes": true
+        },
+        {
+          "fit": 7,
+          "rms": 24,
+          "brightness": 19,
+          "passes": false
+        },
+        {
+          "fit": 3,
+          "rms": 18,
+          "brightness": 26,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 20,
+      "recipe": [
+        "adjacent",
+        "along",
+        0.48,
+        "whitened"
+      ],
+      "ranks": [
+        {
+          "fit": 32,
+          "rms": 18,
+          "brightness": 25,
+          "passes": true
+        },
+        {
+          "fit": 15,
+          "rms": 25,
+          "brightness": 24,
+          "passes": false
+        },
+        {
+          "fit": 26,
+          "rms": 22,
+          "brightness": 8,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 21,
+      "recipe": [
+        "lag8",
+        "along",
+        0.24,
+        "whitened"
+      ],
+      "ranks": [
+        {
+          "fit": 30,
+          "rms": 3,
+          "brightness": 31,
+          "passes": false
+        },
+        {
+          "fit": 32,
+          "rms": 16,
+          "brightness": 22,
+          "passes": true
+        },
+        {
+          "fit": 14,
+          "rms": 9,
+          "brightness": 22,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 22,
+      "recipe": [
+        "fixed",
+        "along",
+        0.3,
+        "ordinary"
+      ],
+      "ranks": [
+        {
+          "fit": 24,
+          "rms": 27,
+          "brightness": 18,
+          "passes": false
+        },
+        {
+          "fit": 12,
+          "rms": 16,
+          "brightness": 9,
+          "passes": false
+        },
+        {
+          "fit": 12,
+          "rms": 0,
+          "brightness": 25,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 23,
+      "recipe": [
+        "fixed",
+        "along",
+        0.24,
+        "ordinary"
+      ],
+      "ranks": [
+        {
+          "fit": 30,
+          "rms": 21,
+          "brightness": 17,
+          "passes": false
+        },
+        {
+          "fit": 27,
+          "rms": 7,
+          "brightness": 1,
+          "passes": false
+        },
+        {
+          "fit": 27,
+          "rms": 30,
+          "brightness": 6,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 24,
+      "recipe": [
+        "fixed",
+        "along",
+        0.48,
+        "whitened"
+      ],
+      "ranks": [
+        {
+          "fit": 32,
+          "rms": 25,
+          "brightness": 1,
+          "passes": true
+        },
+        {
+          "fit": 30,
+          "rms": 18,
+          "brightness": 7,
+          "passes": false
+        },
+        {
+          "fit": 30,
+          "rms": 17,
+          "brightness": 11,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 25,
+      "recipe": [
+        "fixed",
+        "along",
+        0.3,
+        "ordinary"
+      ],
+      "ranks": [
+        {
+          "fit": 26,
+          "rms": 18,
+          "brightness": 0,
+          "passes": false
+        },
+        {
+          "fit": 28,
+          "rms": 0,
+          "brightness": 0,
+          "passes": false
+        },
+        {
+          "fit": 30,
+          "rms": 7,
+          "brightness": 32,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 26,
+      "recipe": [
+        "lag8",
+        "along",
+        0.3,
+        "ordinary"
+      ],
+      "ranks": [
+        {
+          "fit": 32,
+          "rms": 17,
+          "brightness": 16,
+          "passes": true
+        },
+        {
+          "fit": 3,
+          "rms": 5,
+          "brightness": 3,
+          "passes": false
+        },
+        {
+          "fit": 11,
+          "rms": 17,
+          "brightness": 13,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 27,
+      "recipe": [
+        "fixed",
+        "along",
+        0.3,
+        "ordinary"
+      ],
+      "ranks": [
+        {
+          "fit": 32,
+          "rms": 1,
+          "brightness": 25,
+          "passes": true
+        },
+        {
+          "fit": 29,
+          "rms": 28,
+          "brightness": 18,
+          "passes": false
+        },
+        {
+          "fit": 4,
+          "rms": 15,
+          "brightness": 16,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 28,
+      "recipe": [
+        "adjacent",
+        "along",
+        0.24,
+        "whitened"
+      ],
+      "ranks": [
+        {
+          "fit": 32,
+          "rms": 24,
+          "brightness": 11,
+          "passes": true
+        },
+        {
+          "fit": 13,
+          "rms": 21,
+          "brightness": 32,
+          "passes": false
+        },
+        {
+          "fit": 16,
+          "rms": 3,
+          "brightness": 29,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 29,
+      "recipe": [
+        "fixed",
+        "elevation",
+        0.3,
+        "ordinary"
+      ],
+      "ranks": [
+        {
+          "fit": 32,
+          "rms": 24,
+          "brightness": 32,
+          "passes": false
+        },
+        {
+          "fit": 18,
+          "rms": 15,
+          "brightness": 21,
+          "passes": false
+        },
+        {
+          "fit": 29,
+          "rms": 23,
+          "brightness": 1,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 30,
+      "recipe": [
+        "fixed",
+        "along",
+        0.48,
+        "whitened"
+      ],
+      "ranks": [
+        {
+          "fit": 28,
+          "rms": 26,
+          "brightness": 21,
+          "passes": false
+        },
+        {
+          "fit": 19,
+          "rms": 13,
+          "brightness": 6,
+          "passes": false
+        },
+        {
+          "fit": 2,
+          "rms": 25,
+          "brightness": 15,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 31,
+      "recipe": [
+        "fixed",
+        "elevation",
+        0.24,
+        "whitened"
+      ],
+      "ranks": [
+        {
+          "fit": 32,
+          "rms": 28,
+          "brightness": 12,
+          "passes": true
+        },
+        {
+          "fit": 0,
+          "rms": 5,
+          "brightness": 30,
+          "passes": false
+        },
+        {
+          "fit": 20,
+          "rms": 32,
+          "brightness": 31,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    },
+    {
+      "id": 32,
+      "recipe": [
+        "fixed",
+        "along",
+        0.24,
+        "ordinary"
+      ],
+      "ranks": [
+        {
+          "fit": 32,
+          "rms": 6,
+          "brightness": 7,
+          "passes": true
+        },
+        {
+          "fit": 3,
+          "rms": 32,
+          "brightness": 11,
+          "passes": false
+        },
+        {
+          "fit": 1,
+          "rms": 9,
+          "brightness": 27,
+          "passes": false
+        }
+      ],
+      "both_transfers": false
+    }
+  ]
+}

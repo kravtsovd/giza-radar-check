@@ -1,0 +1,121 @@
+{
+  "sources": {
+    "canini": [
+      "https://www.accadradinuovo.com/Lab/giza_sar/replica_v19/codice_replica_v19.zip",
+      "5ad5a090f1f16a9b3ea6fe96712f90ff390a2734e15eb5e5ed80073155503d06"
+    ],
+    "seyfzadeh": [
+      "https://archaeologicalrescue.org/wp-content/uploads/2026/11/Yoshimura_Y27_Y34_P8_Interactive_3D.html",
+      "59da65f64dd53c56997c6360cc951653e59a6307025a985fb2c0a7b71083eed7"
+    ],
+    "foreman": [
+      "https://raw.githubusercontent.com/Hassanforeman/subsurface-sar-tomo/eef7aa233581ab0abb1e5716bd4d6b8cebd167b4/src/derive_depth_constant.py",
+      "a2c62da3ecc6063bbeb477c7c5f0aa77bb5dcc3e7585769a478c93190efc445c"
+    ]
+  },
+  "canini": {
+    "scope": "Analytic operator test only. The vectors are known functions, with no radar scene.",
+    "K": 295,
+    "W": 175,
+    "grid_cells": 300,
+    "constructed_peak": 42.75,
+    "score": 1.0,
+    "relabelled_peak": 128.25,
+    "max_abs_score_change_scaling": 6.661338147750939e-16,
+    "max_abs_score_change_reversing_sign": 0.0,
+    "rank_one_nonzero_cells": 0
+  },
+  "seyfzadeh": {
+    "scope": "Decoded the eight published score arrays. They are after filtering.",
+    "reported_depth_span_m": [
+      0.1,
+      50.0
+    ],
+    "lines": [
+      {
+        "line": "Y27",
+        "positions": 62,
+        "depth_bins": 999,
+        "positive": 2927,
+        "cells": 61938,
+        "max_R2": 0.0028949505649507046,
+        "positive_cells_in_runs_shorter_than_eight": 0
+      },
+      {
+        "line": "Y28",
+        "positions": 62,
+        "depth_bins": 999,
+        "positive": 4673,
+        "cells": 61938,
+        "max_R2": 0.0037787859328091145,
+        "positive_cells_in_runs_shorter_than_eight": 0
+      },
+      {
+        "line": "Y29",
+        "positions": 62,
+        "depth_bins": 999,
+        "positive": 1667,
+        "cells": 61938,
+        "max_R2": 0.004112017806619406,
+        "positive_cells_in_runs_shorter_than_eight": 0
+      },
+      {
+        "line": "Y30",
+        "positions": 54,
+        "depth_bins": 999,
+        "positive": 1867,
+        "cells": 53946,
+        "max_R2": 0.002680030884221196,
+        "positive_cells_in_runs_shorter_than_eight": 0
+      },
+      {
+        "line": "Y31",
+        "positions": 41,
+        "depth_bins": 999,
+        "positive": 0,
+        "cells": 40959,
+        "max_R2": 0.0,
+        "positive_cells_in_runs_shorter_than_eight": 0
+      },
+      {
+        "line": "Y32",
+        "positions": 28,
+        "depth_bins": 999,
+        "positive": 322,
+        "cells": 27972,
+        "max_R2": 0.001218960271216929,
+        "positive_cells_in_runs_shorter_than_eight": 0
+      },
+      {
+        "line": "Y33",
+        "positions": 15,
+        "depth_bins": 999,
+        "positive": 0,
+        "cells": 14985,
+        "max_R2": 0.0,
+        "positive_cells_in_runs_shorter_than_eight": 0
+      },
+      {
+        "line": "Y34",
+        "positions": 2,
+        "depth_bins": 999,
+        "positive": 0,
+        "cells": 1998,
+        "max_R2": 0.0,
+        "positive_cells_in_runs_shorter_than_eight": 0
+      }
+    ],
+    "total_positive": 11456,
+    "total_cells": 325674
+  },
+  "foreman": {
+    "scope": "Expected power for a detrended random walk. No sensor input. Verified by independent QR and unit-step propagation.",
+    "sample_count": 32,
+    "depth_grid_count": 16001,
+    "peak_in_resolution_cells": {
+      "0": 0.8700000000000001,
+      "2": 1.6830000000000003,
+      "4": 2.484
+    }
+  }
+}
